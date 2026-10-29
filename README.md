@@ -1,8 +1,8 @@
 # F1 Dashboard — Pit Wall
 
-A local, table-first Formula 1 dashboard for **2010 and 2021**. Inspect driver and constructor standings, follow round-by-round progress, compare drivers, and manually refresh season snapshots.
+A Formula 1 dashboard for **2010 and 2021** with comparison verdicts, season evolution graphs and attributed imagery. The local edition supports manual refresh; the shared Site edition reads validated bundled snapshots.
 
-Requires **Node 24 or newer**. This checkout has both seasons verified and cached from Jolpica. Nothing is deployed publicly.
+Requires **Node 24 or newer**. This checkout has both seasons verified and cached from Jolpica. The existing shared Site is https://f1-pit-wall-yannick.navyelf64.chatgpt.site; source changes require a validated publication before they appear there.
 
 ## Run
 
@@ -49,8 +49,32 @@ npm.cmd run test:e2e
 
 Unit tests use deterministic fixtures. Browser tests include synthetic data scenarios and a real cached-data smoke test; run `audit:data` before browser tests on a fresh checkout. The smoke test reads the cache and does not refresh upstream. Browser screenshots are written to `test-results/`.
 
-## First-iteration boundary
+## Comparison and graphs
 
-Local single-process use, responsive semantic tables and original Pit Wall styling. Charts, summary panels, broad historical coverage, cross-season comparison, live timing, accounts and public hosting are deferred. Browser verification currently targets Chromium; no full accessibility conformance certification is claimed.
+Compare uses six fixed categories, with one vote per favorable category. Ties and unavailable categories award no vote; equal scores draw. Best GP qualifying rank uses qualifying classification before grid penalties; it is distinct from qualifying head-to-head. Best finish and DNF counts require authoritative driver records across every scheduled GP, and unmapped retirement statuses leave DNF totals unavailable.
+
+Progress supports multiple drivers or constructors, metric selection and matching graph/table evidence. Inspect rounds using the focusable control with Left/Right and Home/End, or point to the graph. Missing values create gaps. The **All round measures** disclosure retains the detailed metrics. Graph selections and metrics survive URL and browser Back navigation where compatible.
+
+Image credits are available in the dashboard and `public/media/credits.json`. Only explicitly mapped reusable assets appear; other identities have named fallbacks. Portrait dates are recorded separately from the selected season.
+
+## Bundled shared Site
+
+```powershell
+npm.cmd run export:site
+npm.cmd run build:hosted
+npm.cmd exec playwright test -- --config playwright.hosted.config.ts
+```
+
+Export validates the original cache checksums, schema, coverage, snapshot identities and media before atomically promoting a complete immutable release. Missing or invalid inputs fail without downloading data or replacing the previous manifest. The header shows the selected season's source timestamp and timezone; export and deployment times do not describe source freshness.
+
+The hosted build has no API, refresh or verification setup actions and no external image/font/data requests. Its retry loads bundled data only. Hosted browsing requires network access to Sites.
+
+The isolated publication checkout is `.site-source/pit-wall`; its `.openai/hosting.json` retains the returned Site identity. `node scripts/prepare-site-source.mjs` copies an explicit source allowlist plus validated payloads; it excludes the local server, raw cache envelopes, original Git metadata, logs and credentials. Its default `npm run build` validates sanitized payloads and compiles bundled mode. Publish updates through the installed Sites source helper and standard deployment operation, preserving the existing anyone-with-link audience, reusing the identity and resuming pending deployments. Refreshing the local edition updates the Site only after a new export and publication.
+
+Build and publication evidence lives in [_bmad-output/implementation-artifacts/second-iteration-verification.md](_bmad-output/implementation-artifacts/second-iteration-verification.md).
+
+## Retained first iteration
+
+Local single-process use, responsive semantic tables and original Pit Wall styling. Broad historical coverage beyond 2010/2021, cross-season comparison, live timing and accounts are deferred. Browser verification currently targets Chromium; no full accessibility conformance certification is claimed.
 
 The build contract is in [_bmad-output/specs/spec-bmad-playground/SPEC.md](_bmad-output/specs/spec-bmad-playground/SPEC.md); the six dispatch stories live beside it. Implementation evidence is recorded in [_bmad-output/implementation-artifacts/first-iteration-verification.md](_bmad-output/implementation-artifacts/first-iteration-verification.md).

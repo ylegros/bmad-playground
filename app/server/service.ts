@@ -6,35 +6,8 @@ import { buildSnapshot, DataError } from './jolpica.ts';
 
 export const candidateSeasons = [2010, 2021];
 export const snapshotChecksum = (snapshot: unknown): string => createHash('sha256').update(JSON.stringify(snapshot)).digest('hex');
-export function calendarDate(raw: unknown): boolean { return typeof raw === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw) && Number.isFinite(Date.parse(raw)) && new Date(raw).toISOString().slice(0, 10) === raw; }
-function utcTimestamp(raw: unknown): boolean { return typeof raw === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(raw) && Number.isFinite(Date.parse(raw)) && new Date(raw).toISOString() === (raw.includes('.') ? raw : raw.replace('Z', '.000Z')); }
-export function validSnapshot(raw: unknown, season: number): raw is SeasonSnapshot {
-  try {
-  const s = raw as SeasonSnapshot;
-  const metric = (m: unknown) => { const v = m as {kind?: string;value?: number;reason?: string}; return !!v && (v.kind === 'value' ? typeof v.value === 'number' && Number.isFinite(v.value) : v.kind === 'unavailable' && typeof v.reason === 'string'); };
-  if (!(!!s && s.schemaVersion === 1 && s.season === season && typeof s.snapshotId === 'string' && utcTimestamp(s.refreshedAt) && Array.isArray(s.schedule) && s.schedule.length > 0 && !!s.drivers && !!s.constructors && Array.isArray(s.results) && Array.isArray(s.qualifying) && Array.isArray(s.driverStandings) && Array.isArray(s.constructorStandings) && Array.isArray(s.coverage?.checkedRounds) && Array.isArray(s.coverage?.gaps))) return false;
-  const rounds = new Set(s.schedule.map(r => r.round));
-  if (rounds.size !== s.schedule.length || s.schedule.some(r => !Number.isInteger(r.round) || r.round < 1 || typeof r.name !== 'string' || !calendarDate(r.date) || !['complete','unavailable'].includes(r.gp) || !['complete','unavailable'].includes(r.qualifying) || !['complete','unavailable','not-applicable'].includes(r.sprint))) return false;
-  if (s.coverage.checkedRounds.length !== rounds.size || new Set(s.coverage.checkedRounds).size !== rounds.size || s.coverage.checkedRounds.some(r => !rounds.has(r)) || s.coverage.gaps.some(g => typeof g !== 'string')) return false;
-  if (Array.isArray(s.drivers) || Array.isArray(s.constructors) || Object.entries(s.drivers).some(([id, d]) => !d || d.id !== id || typeof d.name !== 'string') || Object.entries(s.constructors).some(([id, c]) => !c || c.id !== id || typeof c.name !== 'string')) return false;
-  const resultKeys = s.results.map(r => `${r.round}/${r.kind}/${r.driverId}`);
-  if (new Set(resultKeys).size !== resultKeys.length) return false;
-  if (s.results.some(r => !rounds.has(r.round) || !['gp','sprint'].includes(r.kind) || !s.drivers[r.driverId] || !s.constructors[r.constructorId] || !metric(r.position) || !metric(r.points) || typeof r.status !== 'string' || typeof r.classification !== 'string')) return false;
-  if (s.qualifying.some(r => !rounds.has(r.round) || !s.drivers[r.driverId] || !s.constructors[r.constructorId] || !metric(r.position))) return false;
-  if (s.driverStandings.some(r => !rounds.has(r.round) || !s.drivers[r.driverId] || !Array.isArray(r.constructorIds) || r.constructorIds.some(id => !s.constructors[id]) || !metric(r.position) || !metric(r.points))) return false;
-  if (s.constructorStandings.some(r => !rounds.has(r.round) || !s.constructors[r.constructorId] || !metric(r.position) || !metric(r.points))) return false;
-  for (const keys of [s.qualifying.map(r => `${r.round}/${r.driverId}`), s.driverStandings.map(r => `${r.round}/${r.driverId}`), s.constructorStandings.map(r => `${r.round}/${r.constructorId}`)]) if (new Set(keys).size !== keys.length) return false;
-  for (const round of s.schedule) {
-    if (round.gp === 'complete' && !s.results.some(r => r.round === round.round && r.kind === 'gp')) return false;
-    if (round.sprint === 'complete' && !s.results.some(r => r.round === round.round && r.kind === 'sprint')) return false;
-    if (round.sprint === 'not-applicable' && s.results.some(r => r.round === round.round && r.kind === 'sprint')) return false;
-    if (round.qualifying === 'complete' && !s.qualifying.some(r => r.round === round.round)) return false;
-    if (!s.driverStandings.some(r => r.round === round.round) || !s.constructorStandings.some(r => r.round === round.round)) return false;
-    if (!s.coverage.gaps.length && (round.gp !== 'complete' || round.qualifying !== 'complete' || round.sprint === 'unavailable')) return false;
-  }
-  return true;
-  } catch { return false; }
-}
+export { calendarDate, validSnapshot } from '../shared/validation.ts';
+import { validSnapshot } from '../shared/validation.ts';
 export class SnapshotService {
   private active = new Map<number, { promise: Promise<SeasonSnapshot>; refresh: boolean }>();
   directory: string;

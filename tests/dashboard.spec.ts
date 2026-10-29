@@ -13,9 +13,11 @@ test('standings, both progress categories, teammate comparison and Back', async 
   await expect(page.getByRole('combobox',{name:'Season',exact:true})).toHaveValue('2021');
   await page.getByRole('button',{name:'View progress for Alex Example',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Season progress',exact:true})).toBeFocused();
-  await expect(page.getByRole('table')).toContainText('GP qualifying');
-  await expect(page.getByRole('table')).toContainText('Not applicable');
-  await expect(page.getByRole('table')).toContainText('Championship adjustment');
+  await page.getByText('All round measures',{exact:true}).click();
+  const detail=page.getByRole('table',{name:/Alex Example.*all round measures/});
+  await expect(detail).toContainText('GP qualifying');
+  await expect(detail).toContainText('Not applicable');
+  await expect(detail).toContainText('Championship adjustment');
   await page.goBack();
   await expect(page.getByRole('heading',{name:'Championship standings'})).toBeVisible();
   await expect(page.getByRole('heading',{name:'Championship standings',exact:true})).toBeFocused();
@@ -26,9 +28,10 @@ test('standings, both progress categories, teammate comparison and Back', async 
   await expect(page.getByText('Initial teammate of Alex Example',{exact:true})).toBeVisible();
   await page.getByRole('button',{name:'Constructors',exact:true}).click();
   await page.getByRole('button',{name:'View progress for First Racing',exact:true}).click();
-  await expect(page.getByRole('table')).toContainText('Championship pos');
+  await page.getByText('All round measures',{exact:true}).click();
+  await expect(page.getByRole('table',{name:/First Racing.*2021.*all round measures/})).toContainText('Championship pos');
   await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2010');
-  await expect(page.getByText('Choose your focus',{exact:true})).toBeVisible();
+  await expect(page.getByRole('table',{name:/matching graph evidence/})).toContainText('2010');
   await expect(page.getByRole('heading',{name:'Season progress'})).toBeVisible();
 });
 
@@ -97,7 +100,7 @@ test('mobile controls stay on page and wide progress table scrolls locally', asy
   await page.goto('/?view=progress&entity=alpha');
   await expect(page.getByRole('table')).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  const region=page.getByRole('region');
+  const region=page.getByRole('region',{name:'Season evolution evidence',exact:true});
   expect(await region.evaluate(element=>element.scrollWidth>element.clientWidth)).toBe(true);
   await page.keyboard.press('Tab');await expect(page.getByRole('link',{name:'Skip to analysis'})).toBeFocused();
   await page.keyboard.press('Enter');
@@ -157,7 +160,8 @@ test('live cached 2021 snapshot renders real standings and sprint points', async
   await expect(page.getByRole('table')).toContainText('395.5');
   await page.screenshot({path:'test-results/first-iteration-desktop.png',fullPage:true});
   await page.getByRole('button',{name:'View progress for Lewis Hamilton',exact:true}).click();
-  const british=page.getByRole('row').filter({hasText:'British Grand Prix'});
+  await page.getByText('All round measures',{exact:true}).click();
+  const british=page.getByRole('table',{name:/Lewis Hamilton.*2021.*all round measures/}).getByRole('row').filter({hasText:'British Grand Prix'});
   await expect(british).toContainText('27');
   await page.setViewportSize({width:390,height:844});
   await page.screenshot({path:'test-results/first-iteration-mobile.png',fullPage:true});

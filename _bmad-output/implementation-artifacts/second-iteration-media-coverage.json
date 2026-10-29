@@ -1,0 +1,842 @@
+[
+  {
+    "kind": "portrait",
+    "identity": "alonso",
+    "name": "Fernando Alonso",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-alonso-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Fernando_Alonso_2010_Malaysia.jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "massa",
+    "name": "Felipe Massa",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-massa-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Felipe_Massa_2010_Malaysia.jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "hamilton",
+    "name": "Lewis Hamilton",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-hamilton-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2014_China.jpg"
+    ],
+    "date": "2014-04-20"
+  },
+  {
+    "kind": "portrait",
+    "identity": "vettel",
+    "name": "Sebastian Vettel",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-vettel-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Sebastian_Vettel_-_Korea_2010_by_LGEPR.jpg"
+    ],
+    "date": "2010-10-22"
+  },
+  {
+    "kind": "portrait",
+    "identity": "rosberg",
+    "name": "Nico Rosberg",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-rosberg-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Nico_Rosberg_2008_2.jpg"
+    ],
+    "date": "2008-09-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "michael_schumacher",
+    "name": "Michael Schumacher",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-michael_schumacher-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "portrait",
+    "identity": "button",
+    "name": "Jenson Button",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-button-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Jenson_Button_2024_WEC_Fuji.jpg"
+    ],
+    "date": "2024-09-14"
+  },
+  {
+    "kind": "portrait",
+    "identity": "webber",
+    "name": "Mark Webber",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-webber-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Mark_Webber_2017_United_States_GP_(cropped).jpg"
+    ],
+    "date": "2017-10-21"
+  },
+  {
+    "kind": "portrait",
+    "identity": "liuzzi",
+    "name": "Vitantonio Liuzzi",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-liuzzi-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Vitantonio_Liuzzi_2011_Malaysia.jpg"
+    ],
+    "date": "2011-04-10"
+  },
+  {
+    "kind": "portrait",
+    "identity": "barrichello",
+    "name": "Rubens Barrichello",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-barrichello-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Rubinho.jpg"
+    ],
+    "date": "2022-03-22"
+  },
+  {
+    "kind": "portrait",
+    "identity": "kubica",
+    "name": "Robert Kubica",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-kubica-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Robert_Kubica_2010_Malaysia.jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "sutil",
+    "name": "Adrian Sutil",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-sutil-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Adrian_Sutil.jpg"
+    ],
+    "date": "2011-09-08"
+  },
+  {
+    "kind": "portrait",
+    "identity": "alguersuari",
+    "name": "Jaime Alguersuari",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-alguersuari-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Jaime_Alguersuari.jpg"
+    ],
+    "date": "2008-12-14"
+  },
+  {
+    "kind": "portrait",
+    "identity": "hulkenberg",
+    "name": "Nico Hülkenberg",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-hulkenberg-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:2019_Formula_One_tests_Barcelona,_Hulkenberg_(40287128313).jpg"
+    ],
+    "date": "2019-03-01"
+  },
+  {
+    "kind": "portrait",
+    "identity": "kovalainen",
+    "name": "Heikki Kovalainen",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-kovalainen-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Effect_20190609_091716.jpg"
+    ],
+    "date": "2019-06-08"
+  },
+  {
+    "kind": "portrait",
+    "identity": "buemi",
+    "name": "Sébastien Buemi",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-buemi-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Ryo_Hirakawa,_Brendon_Hartley_%26_Sebastien_Buemi_take_the_podium_for_2nd_in_Hypercar_at_the_2023_Le_Mans_(53468554280)_(cropped).jpg"
+    ],
+    "date": "2023-06-11"
+  },
+  {
+    "kind": "portrait",
+    "identity": "trulli",
+    "name": "Jarno Trulli",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-trulli-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:12._Internationale_Sportnacht_Davos_2014_(15246044859)_(cropped).jpg"
+    ],
+    "date": "2014-10-03"
+  },
+  {
+    "kind": "portrait",
+    "identity": "rosa",
+    "name": "Pedro de la Rosa",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-rosa-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Pedro_de_la_Rosa_2010_Malaysia.jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "bruno_senna",
+    "name": "Bruno Senna",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-bruno_senna-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Senna_by_United_Autosports_team_04.jpg"
+    ],
+    "date": "2018-01-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "glock",
+    "name": "Timo Glock",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-glock-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:2025-04-26_Motorsport,_DTM,_Oschersleben_STP_2988_(cropped).jpg"
+    ],
+    "date": "2025-04-26"
+  },
+  {
+    "kind": "portrait",
+    "identity": "petrov",
+    "name": "Vitaly Petrov",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-petrov-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Vitaly_Petrov_2010_Malaysia_(cropped).jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "kobayashi",
+    "name": "Kamui Kobayashi",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-kobayashi-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Kamui_Kobayashi_2024_WEC_Fuji_2.jpg"
+    ],
+    "date": "2024-09-14"
+  },
+  {
+    "kind": "portrait",
+    "identity": "grassi",
+    "name": "Lucas di Grassi",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-grassi-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:2023-04-23_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_1765_by_Stepro.jpg"
+    ],
+    "date": "2023-04-23"
+  },
+  {
+    "kind": "portrait",
+    "identity": "chandhok",
+    "name": "Karun Chandhok",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-chandhok-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Karun_Chandhok_Goodwood_Festival_of_Speed_2019_(48242680701).jpg"
+    ],
+    "date": "2019-07-05"
+  },
+  {
+    "kind": "portrait",
+    "identity": "yamamoto",
+    "name": "Sakon Yamamoto",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-yamamoto-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Sakon_Yamamoto_20220818.jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "portrait",
+    "identity": "heidfeld",
+    "name": "Nick Heidfeld",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-heidfeld-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Nick_Heidfeld_Goodwood_Festival_of_Speed_2019_(48242681251).jpg"
+    ],
+    "date": "2019-07-05"
+  },
+  {
+    "kind": "portrait",
+    "identity": "klien",
+    "name": "Christian Klien",
+    "season": 2010,
+    "status": "image",
+    "filename": "portrait-klien-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Christian_Klien_Le_Mans_drivers_parade_2011_crop.jpg"
+    ],
+    "date": "2011-06-10"
+  },
+  {
+    "kind": "constructor",
+    "identity": "ferrari",
+    "name": "Ferrari",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-ferrari-2010-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Scuderia_Ferrari_(4124759041)_(cropped).jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "mclaren",
+    "name": "McLaren",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-mclaren-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Vodafone_mclaren_f1_logo.jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "red_bull",
+    "name": "Red Bull",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-red_bull-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_-_2005_Logo.png"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "mercedes",
+    "name": "Mercedes",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-mercedes-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Logo_Mercedes_GP_Petronas_2011.svg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "force_india",
+    "name": "Force India",
+    "season": 2010,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Force_India.svg",
+      "https://commons.wikimedia.org/wiki/File:Mini_Free_Logo_Force_India.png"
+    ],
+    "blocker": "Available full SVG is Sahara-era branding introduced after 2010; miniature has insufficient reuse rationale."
+  },
+  {
+    "kind": "constructor",
+    "identity": "williams",
+    "name": "Williams",
+    "season": 2010,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Logo_Williams_F1.png",
+      "https://commons.wikimedia.org/wiki/File:Mini_Free_Logo_Williams.png"
+    ],
+    "blocker": "2016 W mark differs from AT&T Williams 2010 identity; tiny file has insufficient reuse rationale."
+  },
+  {
+    "kind": "constructor",
+    "identity": "renault",
+    "name": "Renault",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-renault-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Logo_Renault_F1.png"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "toro_rosso",
+    "name": "Toro Rosso",
+    "season": 2010,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Toro_Rosso_bodywork_2010.jpg",
+      "https://commons.wikimedia.org/wiki/File:Toro_rosso_detail07_1009833929.jpg"
+    ],
+    "blocker": "Sources are photographs of bodywork, not a clear standalone team mark; no verified reusable standalone 2010 logo located."
+  },
+  {
+    "kind": "constructor",
+    "identity": "lotus_racing",
+    "name": "Lotus",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-lotus_racing-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Lotus_F1_Racing_Logo.jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "sauber",
+    "name": "Sauber",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-sauber-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Logo_Sauber_F1.png"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "hrt",
+    "name": "HRT",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-hrt-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Hispania_Racing_F1_Team.svg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "virgin",
+    "name": "Virgin",
+    "season": 2010,
+    "status": "image",
+    "filename": "constructor-virgin-2010.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Virginracing.png"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "portrait",
+    "identity": "hamilton",
+    "name": "Lewis Hamilton",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-hamilton-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2021.jpg"
+    ],
+    "date": "2021-12-07"
+  },
+  {
+    "kind": "portrait",
+    "identity": "max_verstappen",
+    "name": "Max Verstappen",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-max_verstappen-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(medium_crop).jpg"
+    ],
+    "date": "2024-08-25"
+  },
+  {
+    "kind": "portrait",
+    "identity": "bottas",
+    "name": "Valtteri Bottas",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-bottas-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Valtteri_Bottas_2016_Malaysia.jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "portrait",
+    "identity": "norris",
+    "name": "Lando Norris",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-norris-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Formel12021-SchlossGabelhofen(01).jpg"
+    ],
+    "date": "2021-06-26"
+  },
+  {
+    "kind": "portrait",
+    "identity": "perez",
+    "name": "Sergio Pérez",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-perez-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Sergio_P%C3%A9rez_2019_(cropped).jpg"
+    ],
+    "date": "2019-06-27"
+  },
+  {
+    "kind": "portrait",
+    "identity": "leclerc",
+    "name": "Charles Leclerc",
+    "season": 2021,
+    "status": "image",
+    "filename": "leclerc.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Charles-Leclerc.jpg"
+    ],
+    "date": "2020-04-23"
+  },
+  {
+    "kind": "portrait",
+    "identity": "ricciardo",
+    "name": "Daniel Ricciardo",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-ricciardo-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Daniel_Ricciardo_January_2024.jpg"
+    ],
+    "date": "2024-01-19"
+  },
+  {
+    "kind": "portrait",
+    "identity": "sainz",
+    "name": "Carlos Sainz",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-sainz-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Carlos_Sainz_at_the_83rd_Venice_FILM_festival-9_(cropped).jpg"
+    ],
+    "date": "2026-09-02"
+  },
+  {
+    "kind": "portrait",
+    "identity": "tsunoda",
+    "name": "Yuki Tsunoda",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-tsunoda-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Yuki_Tsunoda_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8096).jpg"
+    ],
+    "date": "2026-03-06"
+  },
+  {
+    "kind": "portrait",
+    "identity": "stroll",
+    "name": "Lance Stroll",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-stroll-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_Fanzone_Stage_(cropped).jpg"
+    ],
+    "date": "2025-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "raikkonen",
+    "name": "Kimi Räikkönen",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-raikkonen-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:F12019_Schloss_Gabelhofen_(22)_(cropped).jpg"
+    ],
+    "date": "2019-06-29"
+  },
+  {
+    "kind": "portrait",
+    "identity": "giovinazzi",
+    "name": "Antonio Giovinazzi",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-giovinazzi-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Antonio_Giovinazzi_-_Ferrari_499P_-_Hybrid_during_the_pitwalk_at_the_2023_Le_Mans_(53468237574).jpg"
+    ],
+    "date": "2023-06-06"
+  },
+  {
+    "kind": "portrait",
+    "identity": "ocon",
+    "name": "Esteban Ocon",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-ocon-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Esteban_Ocon_2024_Suzuka_(cropped).jpg"
+    ],
+    "date": "2024-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "russell",
+    "name": "George Russell",
+    "season": 2021,
+    "status": "image",
+    "filename": "russell.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:George_Russell,_Silverstone_2021_(51348564487).jpg"
+    ],
+    "date": "2021-07-15"
+  },
+  {
+    "kind": "portrait",
+    "identity": "vettel",
+    "name": "Sebastian Vettel",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-vettel-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Sebastian_Vettel_-_Korea_2010_by_LGEPR.jpg"
+    ],
+    "date": "2010-10-22"
+  },
+  {
+    "kind": "portrait",
+    "identity": "mick_schumacher",
+    "name": "Mick Schumacher",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-mick_schumacher-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Mick_Schumacher_2024_WEC_Fuji.jpg"
+    ],
+    "date": "2024-09-14"
+  },
+  {
+    "kind": "portrait",
+    "identity": "gasly",
+    "name": "Pierre Gasly",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-gasly-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Pierre_Gasly_2017_Malaysia.jpg"
+    ],
+    "date": "2017-10-01"
+  },
+  {
+    "kind": "portrait",
+    "identity": "latifi",
+    "name": "Nicholas Latifi",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-latifi-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Nicholas_Latifi_at_Singapore_in_2022_(cropped).jpg"
+    ],
+    "date": "2022-09-28"
+  },
+  {
+    "kind": "portrait",
+    "identity": "alonso",
+    "name": "Fernando Alonso",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-alonso-2010.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Fernando_Alonso_2010_Malaysia.jpg"
+    ],
+    "date": "2010-04-04"
+  },
+  {
+    "kind": "portrait",
+    "identity": "mazepin",
+    "name": "Nikita Mazepin",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-mazepin-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0_%D0%9C%D0%B0%D0%B7%D0%B5%D0%BF%D0%B8%D0%BD_-_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E_-_2019,_02.jpg"
+    ],
+    "date": "2019-04-26"
+  },
+  {
+    "kind": "portrait",
+    "identity": "kubica",
+    "name": "Robert Kubica",
+    "season": 2021,
+    "status": "image",
+    "filename": "portrait-kubica-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Formel12021-SchlossGabelhofen(11).jpg"
+    ],
+    "date": "2021-06-26"
+  },
+  {
+    "kind": "constructor",
+    "identity": "mercedes",
+    "name": "Mercedes",
+    "season": 2021,
+    "status": "image",
+    "filename": "constructor-mercedes-2021.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_F1_Logo.svg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "red_bull",
+    "name": "Red Bull",
+    "season": 2021,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_-_2005_Logo.png",
+      "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_logo_ita.png"
+    ],
+    "blocker": "Both reusable candidates explicitly identify 2005–2012 branding, not the 2021 Red Bull Racing Honda identity."
+  },
+  {
+    "kind": "constructor",
+    "identity": "mclaren",
+    "name": "McLaren",
+    "season": 2021,
+    "status": "image",
+    "filename": "constructor-mclaren-2021.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:McLaren_Speedmark.svg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "ferrari",
+    "name": "Ferrari",
+    "season": 2021,
+    "status": "image",
+    "filename": "constructor-ferrari-2010-2021.jpg",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Scuderia_Ferrari_(4124759041)_(cropped).jpg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "alphatauri",
+    "name": "AlphaTauri",
+    "season": 2021,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Alpha_Tauri_F1_Team_Garage,_British_GP,_Silverstone_2021_(51349514318).jpg",
+      "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=%22AlphaTauri%22%20logo&srnamespace=6&format=json"
+    ],
+    "blocker": "Found a licensed garage photograph, but no verified reusable standalone 2021 team logo; garage image is not counted as a logo."
+  },
+  {
+    "kind": "constructor",
+    "identity": "aston_martin",
+    "name": "Aston Martin",
+    "season": 2021,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Aston_Martin_F1_Team_logo_2024.jpg",
+      "https://commons.wikimedia.org/wiki/File:Aston_Martin_Cognizant_F1_Team_logo.svg"
+    ],
+    "blocker": "2024 candidate has later branding; exact 2021 Cognizant candidate is absent. No verified reusable 2021 team mark located."
+  },
+  {
+    "kind": "constructor",
+    "identity": "alfa",
+    "name": "Alfa Romeo",
+    "season": 2021,
+    "status": "exception",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:AlfaRomeoF1Stake.svg",
+      "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Racing_logo.svg"
+    ],
+    "blocker": "Stake candidate belongs to later identity; exact Racing candidate is absent. No verified reusable 2021 team mark located."
+  },
+  {
+    "kind": "constructor",
+    "identity": "alpine",
+    "name": "Alpine F1 Team",
+    "season": 2021,
+    "status": "image",
+    "filename": "constructor-alpine-2021.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Alpine_F1_Team_Logo.svg"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "williams",
+    "name": "Williams",
+    "season": 2021,
+    "status": "image",
+    "filename": "williams-2020.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Williams_Racing_2020_logo.png"
+    ],
+    "date": "unknown"
+  },
+  {
+    "kind": "constructor",
+    "identity": "haas",
+    "name": "Haas F1 Team",
+    "season": 2021,
+    "status": "image",
+    "filename": "constructor-haas-2021.png",
+    "sourceUrls": [
+      "https://commons.wikimedia.org/wiki/File:Uralkali_Haas_F1_Team_Logo.svg"
+    ],
+    "date": "unknown"
+  }
+]

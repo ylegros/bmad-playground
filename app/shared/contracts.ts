@@ -20,3 +20,8 @@ export type ApiSuccess<T> = { data: T };
 export type ApiFailure = { error: { code: string; message: string; retryAfterSeconds?: number } };
 export const value = (n: number): Metric => ({ kind: 'value', value: n });
 export const unavailable = (reason = 'Unavailable'): Metric => ({ kind: 'unavailable', reason });
+
+export interface BundledSeason extends SupportedSeason { snapshotId: string; schemaVersion: 1; refreshedAt: string; assetPath: string }
+export interface BundledManifest { bundleVersion: 1; exportedAt: string; seasons: BundledSeason[] }
+interface DataReader { loadManifest(): Promise<SupportManifest>; loadSeason(year: number): Promise<SeasonSnapshot>; mediaPath(filename: string): string }
+export type DataSource = (DataReader & { mode: 'local'; refreshSeason(year: number): Promise<SeasonSnapshot> }) | (DataReader & { mode: 'bundled' });

@@ -1,0 +1,55 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 10-29-2026 15:48
+last_updated: 10-29-2026 18:17
+project: bmad-playground
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+development_status:
+  epic-1: done
+  1-1-identify-better-values-in-round-by-round-comparison: done
+  1-2-see-the-overall-comparison-verdict-and-evidence: done
+  1-3-recognize-drivers-and-historical-teams: done
+  epic-1-retrospective: optional
+
+  epic-2: done
+  2-1-choose-entities-and-compare-their-season-metrics: done
+  2-2-read-season-evolution-as-a-labeled-graph: done
+  2-3-inspect-any-round-by-keyboard-or-pointer: done
+  epic-2-retrospective: optional
+
+  epic-3: done
+  3-1-export-a-verified-season-bundle-for-publication: done
+  3-2-analyze-bundled-data-while-retaining-local-refresh: done
+  3-3-prepare-the-complete-dashboard-as-private-site-source: done
+  3-4-verify-and-publish-the-complete-private-dashboard: done
+  epic-3-retrospective: optional

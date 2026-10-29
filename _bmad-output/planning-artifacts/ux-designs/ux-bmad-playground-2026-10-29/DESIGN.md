@@ -4,6 +4,11 @@ description: Personal season analysis with a restrained racing-inspired visual l
 status: final
 updated: 2026-10-29
 sources:
+  - ../../../specs/spec-iteration-two-feedback/SPEC.md
+  - ../../../specs/spec-iteration-two-feedback/acceptance-corrections.md
+  - ../../../implementation-artifacts/spec-second-iteration.md
+  - ../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md
+  - ../../epics.md
   - ../../prds/prd-bmad-playground-2026-10-29/prd.md
 colors:
   canvas: '#0D0F13'
@@ -78,6 +83,10 @@ components:
 
 ## Brand & Style
 
+Current authority: the [accepted correction spec](../../../specs/spec-iteration-two-feedback/SPEC.md) and [acceptance companion](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) supersede conflicting earlier requirements. The [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md) AD-10 through AD-12 and [revised stories](../../epics.md) carry the aligned handoff. Original release checks remain historical; correction implementation and runtime acceptance remain pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+
+Iteration two: [summary, graphs, highlights and imagery handoff](iteration-two-design.md) adds proposed component details within this identity. Its [responsive layout reference](mockups/iteration-two.html) uses fictional fixtures. The approved second-iteration spec supersedes the first-iteration deferrals for its explicit scope; new layout details remain draft proposals.
+
 User selected **Pit Wall (option 2)**: dark compact desktop sidebar, grouped data panels, restrained red accents and monospaced numeric emphasis. The Formula 1 reference supplies color/racing feel, not copied branding. Tokens define original implementation values. Use system fonts and the product name F1 Dashboard. Selected composition: [Standings — Pit Wall](mockups/standings-pit-wall.html), illustrating the header, sidebar, summary strip and grouped panels. Fixture values and schematic charts are not production data.
 
 `EXPERIENCE.md` owns behavior. These spines win on conflict with later visual artifacts.
@@ -112,12 +121,16 @@ Component names match `EXPERIENCE.md`.
 |---|---|
 | App header | Dark `{components.app-header.background}` frame; light `{colors.ink}` text; selected season and timestamp remain legible and wrap on narrow screens. |
 | Selector | Visible label above bordered dark field; 44px minimum height; selected value never replaced by placeholder alone. |
-| Action | Red filled primary refresh action with black text; secondary actions use ink text and bordered dark surface; explicit disabled styling. |
+| Action | Local refresh uses a red filled primary action with black text; bundled mode has load retry only. Secondary actions use ink text and bordered dark surface; explicit disabled styling. |
 | Navigation | Text links with active underline and weight change; active state does not rely on red alone. |
 | Standings table | Drivers/Constructors toggle, clear header, aligned monospaced numeric columns, full names and text constructor affiliations; initial-teammate annotation sits alongside the driver name when relevant. |
 | Progress panel | Heading with entity and season; metric selector above chart; visible round axis, units and legend; accessible data table follows. |
 | Comparison panel | Two labeled driver selectors; named light-blue solid/lilac dashed series; aligned same-round values; season always in heading. |
 | Data table | Caption identifies entity, season and measure; row/column headers; GP and Sprint columns explicitly labeled; unavailable text remains distinct from numeric 0. |
+| Comparison summary | Portrait / six-row scorecard / portrait; stable A/B identities. Best GP qualifying rank replaces starting grid. Favorable values show tick, bold number and subtle series-colored highlight without visible Better labels; ties/unavailable retain ordinary styling. |
+| Comparison highlight | Same summary/detail tick and highlight; tick supplies a non-color cue and is decorative for assistive technology. |
+| Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Full names and all affiliations remain readable; A stays left/B right on mobile. |
+| Image credits | Readable local provenance disclosure with photo date/unknown and selected season; fallback names retain reserved frames without counting as acquired images. |
 | Status message | Text with outlined container; loading uses a static placeholder or restrained progress indicator; failures include a retry action and retained-snapshot time when present. |
 
 Focus uses a visible 2px `{colors.focus}` outline with 2px offset; reserve room to avoid clipping it. Hover and selected treatments preserve text contrast. Result statuses such as DNF appear as text, never fabricated positions.

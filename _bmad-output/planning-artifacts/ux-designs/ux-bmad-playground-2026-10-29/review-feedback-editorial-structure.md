@@ -1,0 +1,7 @@
+These documents exist to help human implementers apply the accepted F1 Dashboard UX corrections while distinguishing current contracts, proposed details and historical scope. Structure model: Reference/Database for the design and experience spines; Explanation (Conceptual) for the iteration-two supplement. Microsoft Writing Style Guide applies; preserve content, tokens and canonical section order.
+
+| Pass | Original Text | Revised Text | Changes |
+|---|---|---|---|
+| structure | EXPERIENCE.md: flows 5–7 are level-three headings after the level-two “Approved first iteration — 2026-10-29” heading. Their section bodies total 288 words (90 + 112 + 86). | MOVE flows 5–7 immediately after Flow 4 and its mock-coverage note, before the historical first-iteration section. Retain every flow's text and order. | The heading hierarchy currently places the accepted correction flows inside the historical first-iteration section, separating them from Key Flows and making their applicability harder to recognize. Moving the existing blocks restores their Key Flows parent without changing the canonical level-two section order. Word impact: 0 words removed. |
+
+Counts from word_metrics.py: DESIGN.md 1,265 words; EXPERIENCE.md 2,730 words; iteration-two-design.md 1,841 words; combined 5,836 words. One recommendation; estimated reduction 0 words (0%). No length target provided. No comprehension or engagement trade-off; the recommendation preserves all content. No further substantive structural findings.

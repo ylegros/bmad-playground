@@ -1,0 +1,128 @@
+[
+  {
+    "lens": "adversarial",
+    "location": "epics.md:45-46,73,252-262 ? FR-10/11, AR-3, Story 1.2",
+    "trigger_condition": "The fixed category remains starting grid, explicitly unavailable under schema v1.",
+    "guard_snippet": "Replace it throughout with best GP qualifying rank from authoritative GP qualifying classification; lower wins one vote.",
+    "potential_consequence": "Faithful implementation retains the rejected category and omits available qualifying data."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:247-262 ? Story 1.2",
+    "trigger_condition": "No criterion distinguishes qualifying rank from penalized grid or checks incomplete qualifying coverage.",
+    "guard_snippet": "Add qualifying 2 / grid 7 => qualifying 2; conservative qualifying coverage, sample sizes, precise unavailable reasons and GP/sprint separation.",
+    "potential_consequence": "A renamed row may still compute the wrong value or display the missing-grid explanation."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:88,91,194-197 ? UX-DR2/5, Story 1.1",
+    "trigger_condition": "Current requirements explicitly demand visible Better text.",
+    "guard_snippet": "Require tick and highlight without visible Better text in summary and detailed comparison.",
+    "potential_consequence": "The rebuilt dashboard repeats the rejected labels."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:194-202,233-235 ? Stories 1.1/1.2",
+    "trigger_condition": "Acceptance does not explicitly retain highlight and accessible favorable direction when labels are removed.",
+    "guard_snippet": "Require tick/highlight and screen-reader text naming driver, measure and direction; decorative tick; no favorable styling for ties/unavailable.",
+    "potential_consequence": "Label removal can leave ambiguous accessible markers or remove the requested highlight."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:278-281 ? Story 1.3 logos",
+    "trigger_condition": "Any documented fallback reason satisfies logo acceptance without acquisition investigation.",
+    "guard_snippet": "Target every constructor/season with an appropriate historical logo; record attempted sources and a specific blocker for each exception.",
+    "potential_consequence": "Generic fallback records can close the story while most logos remain missing."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:267-281,302 ? Story 1.3 photographs",
+    "trigger_condition": "Portrait/reusable-asset wording does not explicitly require verified photographs across the represented driver inventory.",
+    "guard_snippet": "Require verified local photographs for every represented driver, honest photo-date disclosure, permitted cross-season reuse and individually investigated exceptions.",
+    "potential_consequence": "Initials or substitutes can satisfy a story intended to maximize actual driver photographs."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:276-302 ? Story 1.3",
+    "trigger_condition": "No measurable imagery coverage deliverable is assigned.",
+    "guard_snippet": "Require snapshot-derived inventory and per-season mapped-image counts versus total identities, separately for logos/photos; count fallbacks separately with no invented reduced target.",
+    "potential_consequence": "Reviewers cannot measure improvement or distinguish real-image coverage from fallbacks."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:293-300,547-555 ? Stories 1.3/3.4",
+    "trigger_condition": "Verification covers frames/fallbacks/network blocking without inspecting actual faces/logos.",
+    "guard_snippet": "Record visual identity and legibility checks on desktop/narrow layouts, including historical suitability, face crop and logo containment.",
+    "potential_consequence": "Wrong identities or unreadable/unsuitable images can pass acceptance."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:55,66,160-166,516-519,557-575 ? Stories 3.3/3.4",
+    "trigger_condition": "Publication requires owner-private access despite current anyone-with-link authorization.",
+    "guard_snippet": "Reuse the existing Site identity, preserve anyone-with-link audience and verify link/visibility evidence.",
+    "potential_consequence": "Following stale acceptance can revoke authorized sharing."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:11-19,26 ? Inputs and authority",
+    "trigger_condition": "Accepted correction spec and companion are missing from the input hierarchy.",
+    "guard_snippet": "Reference both correction documents and state their precedence over conflicting grid/label/fallback/audience wording.",
+    "potential_consequence": "Story extraction may regenerate superseded requirements."
+  },
+  {
+    "lens": "adversarial",
+    "location": "epics.md:2-9,28,577,581,628-640 ? State and approvals",
+    "trigger_condition": "Original approval/final-validation statements do not distinguish pending correction alignment and rebuild authorization.",
+    "guard_snippet": "Preserve original approvals as history; mark corrections pending alignment/acceptance, record implementation hold and revalidate revised stories.",
+    "potential_consequence": "A downstream agent can mistake old completion for permission to start correction implementation."
+  },
+  {
+    "lens": "edge-case-hunter",
+    "location": "epics.md:278-300 ? Story 1.3",
+    "trigger_condition": "Supported identities receive fallback reasons without investigated acquisition or actual coverage.",
+    "guard_snippet": "Require per-season image/identity and fallback counts, attempted sources, specific blockers and visual checks.",
+    "potential_consequence": "Fallback-only imagery still passes the story."
+  },
+  {
+    "lens": "edge-case-hunter",
+    "location": "epics.md:252-262 ? Story 1.2",
+    "trigger_condition": "Qualifying rank exists, including qualifying 2 followed by penalized grid 7.",
+    "guard_snippet": "Replace grid with best GP qualifying rank; require conservative qualifying coverage and penalty-independence fixtures.",
+    "potential_consequence": "Supported qualifying votes remain omitted and obsolete grid-unavailability persists."
+  },
+  {
+    "lens": "edge-case-hunter",
+    "location": "epics.md:194-197 ? Story 1.1 and summary integration",
+    "trigger_condition": "Favorable values render in detailed comparison or summary.",
+    "guard_snippet": "Require tick/highlight without visible Better text on both surfaces and accessible driver/metric/direction descriptions.",
+    "potential_consequence": "Visible labels persist or accessible descriptions omit favorable direction."
+  },
+  {
+    "lens": "edge-case-hunter",
+    "location": "epics.md:557-565 ? Story 3.4",
+    "trigger_condition": "A corrected release updates the existing anyone-with-link Site.",
+    "guard_snippet": "Reuse the Site and preserve anyone-with-link access; verify returned visibility/link access.",
+    "potential_consequence": "Owner-private acceptance removes the currently authorized sharing audience."
+  },
+  {
+    "lens": "structure",
+    "Pass": "structure",
+    "Original Text": "Opening metadata/Overview show a final original plan; current correction links and supersession are absent.",
+    "Revised Text": "MOVE correction links and supersession into a Current handoff block before the historical baseline.",
+    "Changes": "Preserve historical facts and orient readers before the old acceptance criteria. Estimated addition: 60?90 words."
+  },
+  {
+    "lens": "structure",
+    "Pass": "structure",
+    "Original Text": "Requirements inventories and coverage maps precede the epic index and stories.",
+    "Revised Text": "MOVE the Epic List after current handoff context; move detailed inventories/maps after stories as reference.",
+    "Changes": "Expose the work breakdown early while preserving traceability. Word impact: 0."
+  },
+  {
+    "lens": "structure",
+    "Pass": "structure",
+    "Original Text": "Original approvals repeat in per-story metadata, Overview, Batch Review and Final Planning Validation.",
+    "Revised Text": "MERGE approval history into one historical record; retain story-specific exceptions and links.",
+    "Changes": "Distinguish old approval from current correction state. Estimated reduction: 100?140 words."
+  }
+]

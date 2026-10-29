@@ -1,21 +1,28 @@
 {
   "name": "f1-pit-wall",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=24.0.0" },
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "dev:client": "vite --host 127.0.0.1",
     "dev:server": "node --watch app/server/index.ts",
     "build": "tsc --noEmit && vite build",
+    "export:site": "node scripts/export-site.mjs",
+    "build:hosted": "node scripts/export-site.mjs && tsc --noEmit && vite build --mode bundled",
     "start": "node app/server/index.ts",
     "audit:data": "node app/server/audit.ts",
-    "test": "node --test app/server/*.test.ts app/shared/*.test.ts && vitest run",
+    "test": "node --test app/server/*.test.ts app/shared/*.test.ts scripts/*.test.mjs && vitest run",
     "test:e2e": "playwright test",
     "check": "tsc --noEmit"
   },
-  "dependencies": { "react": "19.3.1", "react-dom": "19.3.1" },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
   "devDependencies": {
     "@playwright/test": "1.64.1",
     "@types/node": "26.6.5",

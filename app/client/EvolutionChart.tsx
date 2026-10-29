@@ -1,0 +1,24 @@
+import { useRef, useState } from 'react';
+import { chartGeometry, type EvolutionSeries } from '../shared/progress-model';
+const colors=['#78b7ff','#d6a0ea','#80d5a7','#ffc77b','#ff9caa','#bed17a'];
+const dashFor=(index:number)=>index===0?'':index===1?'9 5':`${3+index*2} 4 ${2+index} 5`;
+export default function EvolutionChart({series,rank,label}:{series:EvolutionSeries;rank:boolean;label:string}) {
+  const styles=useRef(new Map<string,number>());
+  const identity=(id:string)=>{if(!styles.current.has(id))styles.current.set(id,styles.current.size);return styles.current.get(id)!;};
+  series.forEach(item=>identity(item.id));
+  const [inspected,setInspected]=useState(0);
+  const [announcement,setAnnouncement]=useState('');
+  const count=series[0]?.rows.length||0, index=Math.min(inspected,Math.max(0,count-1));
+  const width=Math.max(900,count*36), height=300;
+  const geometry=chartGeometry(series,rank,width,height);
+  function inspect(next:number,announce=false) {
+    const bounded=Math.max(0,Math.min(count-1,next));setInspected(bounded);
+    if(announce&&bounded!==index) setAnnouncement(`Round ${series[0].rows[bounded].round}, ${series[0].rows[bounded].name}. ${series.map(item=>`${item.name}: ${item.rows[bounded].text}`).join('; ')}.`);
+  }
+  if(!count) return <p className="table-help">No scheduled rounds are available.</p>;
+  return <div className="evolution-chart"><h2>{label}</h2><ul className="series-legend">{series.map((item,i)=><li key={item.id}><svg width="44" height="18" aria-hidden="true"><path d="M2 9 H42" stroke={colors[identity(item.id)%colors.length]} strokeWidth="3" strokeDasharray={dashFor(identity(item.id))}/><text x="18" y="13" fill={colors[identity(item.id)%colors.length]} fontSize="12">{identity(item.id)+1}</text></svg>{item.name}</li>)}</ul><p id="inspection-help" className="table-help">Inspect rounds with Left/Right and Home/End, or point to a round. Missing values create gaps.</p><div className="chart-scroll"><svg viewBox={`0 0 ${width} ${height}`} style={{width,minWidth:width}} height={height} aria-label={label} role="img" onPointerMove={event=>{const bounds=event.currentTarget.getBoundingClientRect();const x=(event.clientX-bounds.left)*width/bounds.width;inspect(count===1?0:Math.round((x-60)*(count-1)/(width-90)));}} onClick={event=>{const bounds=event.currentTarget.getBoundingClientRect();inspect(count===1?0:Math.round(((event.clientX-bounds.left)*width/bounds.width-60)*(count-1)/(width-90)));}}>
+  {[0,.25,.5,.75,1].map(fraction=>{const value=geometry.minimum+(geometry.maximum-geometry.minimum)*fraction;return <g key={fraction}><line x1="60" x2={width-30} y1={geometry.y(value)} y2={geometry.y(value)} stroke="#68717f" strokeDasharray="2 5"/><text x="50" y={geometry.y(value)+4} textAnchor="end" fill="#c9cdd5" fontSize="12">{Number(value.toFixed(2))}</text></g>;})}
+  {series[0].rows.map((row,i)=><text key={row.round} x={geometry.x(i)} y={height-24} textAnchor="middle" fill="#c9cdd5" fontSize="12">{row.round}</text>)}<text x={width/2} y={height-3} textAnchor="middle" fill="#c9cdd5" fontSize="12">Round (chronological)</text>
+  {series.map((item,i)=><g key={item.id} data-series={item.id}><path data-testid={`series-${item.id}`} d={geometry.paths[i]} fill="none" stroke={colors[identity(item.id)%colors.length]} strokeWidth="3" strokeDasharray={dashFor(identity(item.id))}/>{item.rows.map((row,j)=>row.value===null?null:<g key={row.round}><circle cx={geometry.x(j)} cy={geometry.y(row.value)} r={10} fill="#20242c" stroke={colors[identity(item.id)%colors.length]} strokeWidth="2"/><text x={geometry.x(j)} y={geometry.y(row.value)+3} textAnchor="middle" fill={colors[identity(item.id)%colors.length]} fontSize="9">{identity(item.id)+1}</text><title>{`${item.name}, round ${row.round}: ${row.text}`}</title></g>)}</g>)}<line x1={geometry.x(index)} x2={geometry.x(index)} y1="20" y2={height-50} stroke="#f5f6f8" strokeDasharray="4 4"/>
+  </svg></div><div className="round-control" role="slider" aria-label="Inspect round" aria-describedby="inspection-help" aria-valuemin={1} aria-valuemax={count} aria-valuenow={index+1} aria-valuetext={`Round ${series[0].rows[index].round}, ${series[0].rows[index].name}`} tabIndex={0} onKeyDown={event=>{const next=event.key==='ArrowLeft'?index-1:event.key==='ArrowRight'?index+1:event.key==='Home'?0:event.key==='End'?count-1:undefined;if(next!==undefined){event.preventDefault();inspect(next,true);}}}>Inspect round {series[0].rows[index].round} · {series[0].rows[index].name}</div><div className="round-details" aria-label="Round details"><h3>Round {series[0].rows[index].round} · {series[0].rows[index].name}</h3><dl>{series.map(item=><div key={item.id}><dt>{item.name}</dt><dd>{item.rows[index].text}</dd></div>)}</dl></div><p className="sr-only" aria-live="polite" aria-atomic="true">{announcement}</p></div>;
+}

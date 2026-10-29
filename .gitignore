@@ -6,3 +6,7 @@ playwright-report/
 *.log
 .env
 .env.local
+.worktrees/
+.site-source/
+.site-artifacts/
+public/bundled/
