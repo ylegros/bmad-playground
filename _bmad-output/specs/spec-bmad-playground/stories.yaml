@@ -1,0 +1,32 @@
+- id: "1"
+  title: Season data foundation
+  description: Establish CAP-1 through CAP-9 contracts, paginated Jolpica reads, verified 2010/2021 manifest, validated atomic cache and API.
+  spec_checkpoint: false
+  done_checkpoint: false
+  invoke_dev_with: Run an automated foundation contract check before parallel integration; no intermediate human pause.
+- id: "2"
+  title: Season selection and standings
+  description: Deliver CAP-1 through CAP-3 and CAP-9 with Pit Wall navigation, coherent season, both official standings and data states.
+  spec_checkpoint: false
+  done_checkpoint: false
+- id: "3"
+  title: Manual refresh and recovery
+  description: Deliver CAP-8 and CAP-9 atomic refresh, successful timestamps, retained data on failure, retry and obsolete-response protection.
+  spec_checkpoint: false
+  done_checkpoint: false
+- id: "4"
+  title: Driver season progress
+  description: Deliver CAP-4 accessible chronological tables for GP qualifying, GP/sprint classification and status, round points and official cumulative points.
+  spec_checkpoint: false
+  done_checkpoint: false
+- id: "5"
+  title: Constructor season progress
+  description: Deliver CAP-5 accessible tables for sprint-inclusive round points, official cumulative points and rank, preserving adjustments.
+  spec_checkpoint: false
+  done_checkpoint: false
+- id: "6"
+  title: Driver comparison and first-iteration verification
+  description: Deliver CAP-6 and CAP-7 latest-teammate default, initial-teammate annotation, arbitrary distinct drivers and aligned tables; verify the full first iteration.
+  spec_checkpoint: false
+  done_checkpoint: true
+  invoke_dev_with: Verify both supported seasons and refresh recovery, then present final human review after integration.
