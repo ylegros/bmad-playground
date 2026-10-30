@@ -29,7 +29,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 # - Retrospective appends its action items to action_items; the status view surfaces open ones
 generated: 10-29-2026 15:48
-last_updated: 10-29-2026 18:17
+last_updated: 10-30-2026 13:34
 project: bmad-playground
 project_key: NOKEY
 tracking_system: file-system
@@ -50,6 +50,60 @@ development_status:
   epic-3: done
   3-1-export-a-verified-season-bundle-for-publication: done
   3-2-analyze-bundled-data-while-retaining-local-refresh: done
-  3-3-prepare-the-complete-dashboard-as-private-site-source: done
-  3-4-verify-and-publish-the-complete-private-dashboard: done
+  3-3-prepare-the-corrected-dashboard-as-existing-site-source: done
+  3-4-verify-and-share-the-corrected-dashboard: done
   epic-3-retrospective: optional
+
+  epic-4: in-progress
+  4-1-keep-one-constructor-name-when-its-logo-is-unavailable: review
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-validate-versioned-season-evidence-consistently: backlog
+  5-2-load-audited-historical-and-ongoing-seasons-safely: backlog
+  5-3-compare-drivers-over-the-same-completed-gp-evidence: backlog
+  5-4-read-audit-status-and-season-to-date-evidence-on-every-surfa: backlog
+  5-5-inventory-credited-imagery-against-canonical-season-identiti: backlog
+  5-6-audit-2010-season-data-and-analysis: backlog
+  5-7-audit-2011-season-data-and-analysis: backlog
+  5-8-audit-2012-season-data-and-analysis: backlog
+  5-9-audit-2013-season-data-and-analysis: backlog
+  5-10-audit-2014-season-data-and-analysis: backlog
+  5-11-audit-2015-season-data-and-analysis: backlog
+  5-12-audit-2016-season-data-and-analysis: backlog
+  5-13-audit-2017-season-data-and-analysis: backlog
+  5-14-audit-2018-season-data-and-analysis: backlog
+  5-15-audit-2019-season-data-and-analysis: backlog
+  5-16-audit-2020-season-data-and-analysis: backlog
+  5-17-audit-2021-season-data-and-analysis: backlog
+  5-18-audit-2022-season-data-and-analysis: backlog
+  5-19-audit-2023-season-data-and-analysis: backlog
+  5-20-audit-2024-season-data-and-analysis: backlog
+  5-21-audit-2025-season-data-and-analysis: backlog
+  5-22-audit-2026-season-data-and-analysis: backlog
+  5-23-complete-2010-driver-and-constructor-imagery-inventory: backlog
+  5-24-complete-2011-driver-and-constructor-imagery-inventory: backlog
+  5-25-complete-2012-driver-and-constructor-imagery-inventory: backlog
+  5-26-complete-2013-driver-and-constructor-imagery-inventory: backlog
+  5-27-complete-2014-driver-and-constructor-imagery-inventory: backlog
+  5-28-complete-2015-driver-and-constructor-imagery-inventory: backlog
+  5-29-complete-2016-driver-and-constructor-imagery-inventory: backlog
+  5-30-complete-2017-driver-and-constructor-imagery-inventory: backlog
+  5-31-complete-2018-driver-and-constructor-imagery-inventory: backlog
+  5-32-complete-2019-driver-and-constructor-imagery-inventory: backlog
+  5-33-complete-2020-driver-and-constructor-imagery-inventory: backlog
+  5-34-complete-2021-driver-and-constructor-imagery-inventory: backlog
+  5-35-complete-2022-driver-and-constructor-imagery-inventory: backlog
+  5-36-complete-2023-driver-and-constructor-imagery-inventory: backlog
+  5-37-complete-2024-driver-and-constructor-imagery-inventory: backlog
+  5-38-complete-2025-driver-and-constructor-imagery-inventory: backlog
+  5-39-complete-2026-driver-and-constructor-imagery-inventory: backlog
+  5-40-prepare-one-complete-immutable-all-season-bundle: backlog
+  5-41-verify-the-complete-all-season-exploration-handoff: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-add-all-current-search-matches-to-progress: backlog
+  6-2-restore-matching-selections-through-url-and-navigation: backlog
+  6-3-inspect-every-selected-series-accessibly: backlog
+  epic-6-retrospective: optional

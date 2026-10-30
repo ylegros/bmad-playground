@@ -1,5 +1,9 @@
 ﻿import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { checkConstructorIdentity } from './identity-checks';
+test('constructor fallback keeps one name and recovers locally', async ({ page }) => {
+  await checkConstructorIdentity(page, 'local');
+});
 for (const season of [2010, 2021]) test(`every ${season} driver portrait and mapped team mark loads locally`,async({page})=>{
   test.setTimeout(90_000);
   const snapshot=JSON.parse(readFileSync(`.cache/seasons/${season}.json`,'utf8')).snapshot;

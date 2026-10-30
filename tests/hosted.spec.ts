@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { checkConstructorIdentity } from './identity-checks';
+test('constructor fallback keeps one name and recovers bundled', async ({ page }) => {
+  await checkConstructorIdentity(page, 'bundled');
+});
 const manifest=JSON.parse(readFileSync('public/bundled/manifest.json','utf8'));
 
 
