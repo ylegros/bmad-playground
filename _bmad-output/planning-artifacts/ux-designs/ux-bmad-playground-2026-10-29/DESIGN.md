@@ -2,8 +2,10 @@
 name: F1 Dashboard
 description: Personal season analysis with a restrained racing-inspired visual language.
 status: final
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
+  - ../../../specs/spec-iteration-three/SPEC.md
+  - ../../../specs/spec-iteration-three/season-coverage-and-acceptance.md
   - ../../../specs/spec-iteration-two-feedback/SPEC.md
   - ../../../specs/spec-iteration-two-feedback/acceptance-corrections.md
   - ../../../implementation-artifacts/spec-second-iteration.md
@@ -83,9 +85,9 @@ components:
 
 ## Brand & Style
 
-Current authority: the [accepted correction spec](../../../specs/spec-iteration-two-feedback/SPEC.md) and [acceptance companion](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) supersede conflicting earlier requirements. The [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md) AD-10 through AD-12 and [revised stories](../../epics.md) carry the aligned handoff. Original release checks remain historical; correction implementation and runtime acceptance remain pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+Current authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier release checks and stories remain historical; iteration-three implementation and evidence are pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
 
-Iteration two: [summary, graphs, highlights and imagery handoff](iteration-two-design.md) adds proposed component details within this identity. Its [responsive layout reference](mockups/iteration-two.html) uses fictional fixtures. The approved second-iteration spec supersedes the first-iteration deferrals for its explicit scope; new layout details remain draft proposals.
+Iteration two: the historical [summary, graphs, highlights and imagery handoff](iteration-two-design.md) records component details within this identity. Its [responsive layout reference](mockups/iteration-two.html) uses fictional fixtures. This spine governs iteration-three scope and fallback rules when that historical supplement conflicts. The user's earlier optional UX-validation skip and Progress/Compare spine-only preference persist.
 
 User selected **Pit Wall (option 2)**: dark compact desktop sidebar, grouped data panels, restrained red accents and monospaced numeric emphasis. The Formula 1 reference supplies color/racing feel, not copied branding. Tokens define original implementation values. Use system fonts and the product name F1 Dashboard. Selected composition: [Standings — Pit Wall](mockups/standings-pit-wall.html), illustrating the header, sidebar, summary strip and grouped panels. Fixture values and schematic charts are not production data.
 
@@ -124,16 +126,27 @@ Component names match `EXPERIENCE.md`.
 | Action | Local refresh uses a red filled primary action with black text; bundled mode has load retry only. Secondary actions use ink text and bordered dark surface; explicit disabled styling. |
 | Navigation | Text links with active underline and weight change; active state does not rely on red alone. |
 | Standings table | Drivers/Constructors toggle, clear header, aligned monospaced numeric columns, full names and text constructor affiliations; initial-teammate annotation sits alongside the driver name when relevant. |
-| Progress panel | Heading with entity and season; metric selector above chart; visible round axis, units and legend; accessible data table follows. |
+| Progress panel | Heading with selected entities and season; labeled search and category controls, Select all and Clear selection above chart; visible round axis, units and complete named legend; accessible data table follows. Selected controls wrap without dropping names or series. |
 | Comparison panel | Two labeled driver selectors; named light-blue solid/lilac dashed series; aligned same-round values; season always in heading. |
 | Data table | Caption identifies entity, season and measure; row/column headers; GP and Sprint columns explicitly labeled; unavailable text remains distinct from numeric 0. |
 | Comparison summary | Portrait / six-row scorecard / portrait; stable A/B identities. Best GP qualifying rank replaces starting grid. Favorable values show tick, bold number and subtle series-colored highlight without visible Better labels; ties/unavailable retain ordinary styling. |
 | Comparison highlight | Same summary/detail tick and highlight; tick supplies a non-color cue and is decorative for assistive technology. |
-| Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Full names and all affiliations remain readable; A stays left/B right on mobile. |
-| Image credits | Readable local provenance disclosure with photo date/unknown and selected season; fallback names retain reserved frames without counting as acquired images. |
+| Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Missing or failed constructor logos remove the logo badge entirely, leaving one readable team-name label; no text-filled badge, duplicate name or empty logo decoration. Full names and all affiliations remain readable; A stays left/B right on mobile. |
+| Image credits | Readable local provenance disclosure with photo date/unknown and selected season. Driver portrait fallbacks may retain reserved frames; constructor fallback follows Identity media. Fallbacks never count as acquired images. |
 | Status message | Text with outlined container; loading uses a static placeholder or restrained progress indicator; failures include a retry action and retained-snapshot time when present. |
 
 Focus uses a visible 2px `{colors.focus}` outline with 2px offset; reserve room to avoid clipping it. Hover and selected treatments preserve text contrast. Result statuses such as DNF appear as text, never fabricated positions.
+
+### Iteration-three presentation
+
+| Existing component | Visual delta |
+|---|---|
+| App header / Selector | Show every candidate year 2010–2026 with its individual audit status; distinguish unverified/unavailable years from verified analysis. Keep selected season, snapshot time/timezone and Ongoing or Complete visible. |
+| Status message / Standings table | Use plain text for Current standings, source round and any lag behind the analysis window. Reserve Final for independently verified season completion. Display analyzed rounds and Season to date on ongoing-season analysis; never imply future completeness. |
+| Progress panel / Data table / Comparison summary | Keep the full calendar visible with distinct Not held, Cancelled, Unavailable and Not applicable text. Season-to-date summaries identify the completed-GP window and coverage counts. Missing values remain gaps, and pre-GP qualifying/sprint results are identified as outside completed-GP comparisons. |
+| Action / Selector | Select all and Clear selection use existing secondary-action styling and visible focus. Show match and selected counts without implying a display limit. No-results and empty-selection guidance remain readable beside the controls. |
+
+Many-series inspection retains every selected name, distinguishable line style/label and matching table evidence. Use intended panel/table scrolling and wrapping at narrow widths and 200% zoom; never hide selected series to fit. No additional fixed palette or arbitrary series cap is introduced. The existing mockups illustrate historical composition; iteration-three states are spine-only under the user's existing preference.
 
 ## Do's and Don'ts
 
@@ -149,6 +162,8 @@ Contrast implementation: use {colors.control-border} for essential control bound
 
 
 ## Approved first iteration — 2026-10-29
+
+Historical scope only: the iteration-three authority above supersedes its two-season limit and deferred features.
 
 The user approved a reduced first iteration targeting eight hours: only fully verified 2010 and 2021 initially; all required metrics in accessible tables; charts, summary strip, metric previews and broad historical coverage audit deferred. These omissions supersede broader requirements elsewhere in this document for this iteration only. Keep sprint handling, official championship authority, missing-versus-zero, teammate semantics, atomic refresh and failure retention. React/TypeScript/Vite with local Node is accepted. Parallel unattended implementation uses an automated foundation check and final human review, with no intermediate human pause. The canonical contract is _bmad-output/specs/spec-bmad-playground/SPEC.md. Eight hours is a target, not a guarantee; full-MVP direction remains follow-up.
 
