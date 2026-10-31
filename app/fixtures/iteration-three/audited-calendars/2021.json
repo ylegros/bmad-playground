@@ -1,0 +1,933 @@
+{
+  "season": 2021,
+  "lifecycle": "complete",
+  "provenance": [
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2021/races",
+      "observedAt": "2026-10-30T09:36:59.015Z",
+      "note": "Official per-event positive session evidence independently reconciled to every canonical provider event by reviewed event-name alias and exact date; 22 distinct rounds. No held lifecycle inferred from dates or empty responses."
+    },
+    {
+      "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021.json?limit=100&offset=0",
+      "observedAt": "2026-10-30T05:46:35.179Z",
+      "note": "Saved canonical provider calendar; all event identities/dates independently reconciled. Source observation retained."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-that-turkey-will-replace-canada-on-2021-race-calendar.5oXc8g8NfkRUrlydMahSVF",
+      "observedAt": "2026-10-30T09:36:59.015Z",
+      "note": "Canadian event replaced; initial Turkey replacement June11–13 is superseded by final held Turkey October10."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-confirms-2021-Saudi-grand-prix-has-been-cancelled.2Cn8r5e6lIm00IW984WnfW",
+      "observedAt": "2026-10-30T09:36:59.015Z",
+      "note": "Article title/body explicitly identify Japan; URL slug must not establish canonical event identity."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/australian-grand-prix-off-in-2021.395AJGygKsmWueNXHiZRUU",
+      "observedAt": "2026-10-30T09:36:59.015Z",
+      "note": "Official announcement confirms Australia off in2021."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/singapore-grand-prix-called-off-for-2021.3bFXuXAA1PQOF5M1bwREF4",
+      "observedAt": "2026-10-30T09:37:59.258Z",
+      "note": "F1 and organisers explicitly confirm Singapore will not take place in2021."
+    },
+    {
+      "sourceUrl": "https://www.fia.com/news/formula-1-update-2021-calendar",
+      "observedAt": "2026-10-30T09:37:59.258Z",
+      "note": "China and Turkey requested later rescheduling; Turkey June11-13 impossible. France advanced toJune20; Styria addedJune27; Austria retainedJuly4."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-revised-22-race-calendar-for-2021.6OaQqLr4jrU5Ia2va3sjkv",
+      "observedAt": "2026-10-30T09:37:59.258Z",
+      "note": "Official22-event revision explicitly places TurkeyOct10, MexicoNov7, BrazilNov14, finalAbuDhabiDec12; Japanese event not staged. Final results fill November21Qatar slot. No vanished China round assigned an invented canonical ID."
+    }
+  ],
+  "completion": [
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/brilliant-verstappen-claims-maiden-title-after-victory-in-abu-dhabi-season.22Arui4l6BKK2PUsJgKqpZ",
+      "observedAt": "2026-10-30T05:43:02.847Z",
+      "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2021/races/1107/abu-dhabi/race-result",
+      "observedAt": "2026-10-30T05:43:02.847Z",
+      "note": "Official result table of the independently identified season-ending event."
+    }
+  ],
+  "schedule": [
+    {
+      "round": 1,
+      "date": "2021-03-28",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1064/bahrain/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1064/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "date": "2021-04-18",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1065/emilia-romagna/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1065/emilia-romagna/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 3,
+      "date": "2021-05-02",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1066/portugal/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1066/portugal/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 4,
+      "date": "2021-05-09",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1086/spain/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1086/spain/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 5,
+      "date": "2021-05-23",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1067/monaco/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1067/monaco/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 6,
+      "date": "2021-06-06",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1068/azerbaijan/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1068/azerbaijan/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 7,
+      "date": "2021-06-20",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1070/france/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1070/france/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 8,
+      "date": "2021-06-27",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1092/styria/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1092/styria/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 9,
+      "date": "2021-07-04",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1071/austria/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1071/austria/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 10,
+      "date": "2021-07-18",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1072/great-britain/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1072/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1072/great-britain/sprint-results",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 11,
+      "date": "2021-08-01",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1073/hungary/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1073/hungary/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 12,
+      "date": "2021-08-29",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1074/belgium/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1074/belgium/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 13,
+      "date": "2021-09-05",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1075/netherlands/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1075/netherlands/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 14,
+      "date": "2021-09-12",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1076/italy/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1076/italy/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1076/italy/sprint-results",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 15,
+      "date": "2021-09-26",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1077/russia/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1077/russia/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 16,
+      "date": "2021-10-10",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1078/turkey/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1078/turkey/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 17,
+      "date": "2021-10-24",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1102/united-states/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1102/united-states/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 18,
+      "date": "2021-11-07",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1103/mexico/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1103/mexico/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 19,
+      "date": "2021-11-14",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1104/brazil/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1104/brazil/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1104/brazil/sprint-results",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 20,
+      "date": "2021-11-21",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1105/qatar/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1105/qatar/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 21,
+      "date": "2021-12-05",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1106/saudi-arabia/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1106/saudi-arabia/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 22,
+      "date": "2021-12-12",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1107/abu-dhabi/race-result",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2021/races/1107/abu-dhabi/qualifying",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:43:02.847Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

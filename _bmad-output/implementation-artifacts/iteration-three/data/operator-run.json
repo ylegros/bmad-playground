@@ -1,0 +1,73 @@
+{
+  "updatedAt": "2026-10-30T11:43:13.192Z",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "results": [
+    {
+      "year": 2015,
+      "status": "audited",
+      "snapshotId": "06b2ebfb-51af-4e4c-8d57-c091622cb622"
+    },
+    {
+      "year": 2016,
+      "status": "audited",
+      "snapshotId": "8c05bf3e-27e7-4ced-80c1-8b4d649cc007"
+    },
+    {
+      "year": 2017,
+      "status": "audited",
+      "snapshotId": "bcc6f8b3-74d2-4dc1-8155-2530f26dac37"
+    },
+    {
+      "year": 2018,
+      "status": "audited",
+      "snapshotId": "6673e34f-9e1f-4190-8631-b75327d17418"
+    },
+    {
+      "year": 2019,
+      "status": "audited",
+      "snapshotId": "f20bd85e-3609-4689-8ff2-535ee00feace"
+    },
+    {
+      "year": 2020,
+      "status": "audited",
+      "snapshotId": "24d4d288-f2c5-4c8d-98bf-c929953200e9"
+    },
+    {
+      "year": 2022,
+      "status": "audited",
+      "snapshotId": "83155e97-72fc-4605-92c2-eebbadf0b217"
+    },
+    {
+      "year": 2023,
+      "status": "audited",
+      "snapshotId": "5a0536a5-187c-4f9c-9cae-08d8cef61243"
+    },
+    {
+      "year": 2024,
+      "status": "audited",
+      "snapshotId": "174a5f86-1ad3-4791-89c3-9ae6a4be13b1"
+    },
+    {
+      "year": 2025,
+      "status": "audited",
+      "snapshotId": "186f3a9d-237f-4e90-ac2e-6c91b95f54b8"
+    },
+    {
+      "year": 2026,
+      "status": "audited",
+      "snapshotId": "c8a5e8e9-c266-4dfe-a881-b7c943969fd7"
+    }
+  ]
+}

@@ -1,0 +1,1091 @@
+{
+  "researchVersion": 1,
+  "season": 2023,
+  "observedAt": "2026-10-30T05:45:06.033Z",
+  "sourceUrl": "https://www.formula1.com/en/results/2023/races",
+  "status": "research-only-not-a-verified-audit",
+  "roundAssignment": "chronological official result-table order; cross-check provider calendar before use",
+  "seasonLifecycle": "complete",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Bahrain",
+      "dateLabel": "05 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1141/bahrain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1141/bahrain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1141/bahrain/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1141/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-03-05"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabia",
+      "dateLabel": "19 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1142/saudi-arabia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1142/saudi-arabia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1142/saudi-arabia/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1142/saudi-arabia/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-03-19"
+    },
+    {
+      "round": 3,
+      "name": "Australia",
+      "dateLabel": "02 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1143/australia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1143/australia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1143/australia/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1143/australia/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-04-02"
+    },
+    {
+      "round": 4,
+      "name": "Azerbaijan",
+      "dateLabel": "30 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1207/azerbaijan/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-04-30"
+    },
+    {
+      "round": 5,
+      "name": "Miami",
+      "dateLabel": "07 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1208/miami/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1208/miami/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1208/miami/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1208/miami/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-05-07"
+    },
+    {
+      "round": 6,
+      "name": "Monaco",
+      "dateLabel": "28 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1210/monaco/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1210/monaco/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1210/monaco/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1210/monaco/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-05-28"
+    },
+    {
+      "round": 7,
+      "name": "Spain",
+      "dateLabel": "04 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1211/spain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1211/spain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1211/spain/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1211/spain/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-06-04"
+    },
+    {
+      "round": 8,
+      "name": "Canada",
+      "dateLabel": "18 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1212/canada/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1212/canada/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1212/canada/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1212/canada/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-06-18"
+    },
+    {
+      "round": 9,
+      "name": "Austria",
+      "dateLabel": "02 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1213/austria/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-07-02"
+    },
+    {
+      "round": 10,
+      "name": "Great Britain",
+      "dateLabel": "09 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1214/great-britain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1214/great-britain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1214/great-britain/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1214/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-07-09"
+    },
+    {
+      "round": 11,
+      "name": "Hungary",
+      "dateLabel": "23 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1215/hungary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1215/hungary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1215/hungary/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1215/hungary/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-07-23"
+    },
+    {
+      "round": 12,
+      "name": "Belgium",
+      "dateLabel": "30 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1216/belgium/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-07-30"
+    },
+    {
+      "round": 13,
+      "name": "Netherlands",
+      "dateLabel": "27 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1217/netherlands/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1217/netherlands/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1217/netherlands/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1217/netherlands/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-08-27"
+    },
+    {
+      "round": 14,
+      "name": "Italy",
+      "dateLabel": "03 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1218/italy/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1218/italy/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1218/italy/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1218/italy/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-09-03"
+    },
+    {
+      "round": 15,
+      "name": "Singapore",
+      "dateLabel": "17 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1219/singapore/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1219/singapore/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1219/singapore/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1219/singapore/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-09-17"
+    },
+    {
+      "round": 16,
+      "name": "Japan",
+      "dateLabel": "24 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1220/japan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1220/japan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1220/japan/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1220/japan/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-09-24"
+    },
+    {
+      "round": 17,
+      "name": "Qatar",
+      "dateLabel": "08 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1221/qatar/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-10-08"
+    },
+    {
+      "round": 18,
+      "name": "United States",
+      "dateLabel": "22 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1222/united-states/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-10-22"
+    },
+    {
+      "round": 19,
+      "name": "Mexico",
+      "dateLabel": "29 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1223/mexico/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1223/mexico/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1223/mexico/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1223/mexico/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-10-29"
+    },
+    {
+      "round": 20,
+      "name": "Brazil",
+      "dateLabel": "05 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1224/brazil/sprint-results",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2023-11-05"
+    },
+    {
+      "round": 21,
+      "name": "Las Vegas",
+      "dateLabel": "18 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1225/las-vegas/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1225/las-vegas/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1225/las-vegas/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1225/las-vegas/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-11-18"
+    },
+    {
+      "round": 22,
+      "name": "Abu Dhabi",
+      "dateLabel": "26 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/race-result",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/qualifying",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-venues-for-six-f1-sprint-events-across-2023.4tvAAXFGdkoHKE8Onjh8Ya",
+              "observedAt": "2026-10-30T05:45:06.033Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2023-11-26"
+    }
+  ],
+  "unresolved": [
+    "Cancellation/rescheduling inventory and independent completion evidence require reconciliation.",
+    "Canonical provider calendar identities and endpoint/page audits remain required."
+  ],
+  "completion": [
+    {
+      "sourceUrl": "https://corp.formula1.com/wp-content/uploads/2024/04/Formula-1-2023-Impact-Report.pdf",
+      "observedAt": "2026-10-30T05:45:06.033Z",
+      "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/race-result",
+      "observedAt": "2026-10-30T05:45:06.033Z",
+      "note": "Official result table of the independently identified season-ending event."
+    }
+  ]
+}

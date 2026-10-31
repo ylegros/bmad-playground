@@ -34,3 +34,20 @@ test('retained results do not override unavailable session metadata',()=>{
  for(const metric of ['qualifying','gp','sprint'] as const) assert.deepEqual(metricCell(row,metric),{value:null,text:'Unavailable'});
  row.sprint='not-applicable';assert.deepEqual(metricCell(row,'sprint'),{value:null,text:'Not applicable'});
 });
+import { canonicalSelection, matchingEntities, changeSelection } from './progress-model.ts';
+test('full-list name matching and additive selection are deterministic and idempotent',()=>{
+ const snapshot=seasonFixture();
+ assert.deepEqual(matchingEntities(snapshot,'drivers','ALEX').map(item=>item.id),['alpha']);
+ assert.equal(matchingEntities(snapshot,'drivers','').length,Object.keys(snapshot.drivers).length);
+ assert.deepEqual(matchingEntities(snapshot,'drivers','no such identity'),[]);
+ const union=changeSelection(['beta'],{type:'add',ids:matchingEntities(snapshot,'drivers','alex').map(item=>item.id)});
+ assert.deepEqual(union,{ids:['alpha','beta'],changed:true});
+ assert.deepEqual(changeSelection(union.ids,{type:'add',ids:['alpha','alpha']}),{ids:['alpha','beta'],changed:false});
+ assert.deepEqual(changeSelection(union.ids,{type:'add',ids:[]}),{ids:['alpha','beta'],changed:false});
+ assert.deepEqual(changeSelection(union.ids,{type:'remove',id:'alpha'}),{ids:['beta'],changed:true});
+ assert.deepEqual(changeSelection(union.ids,{type:'clear'}),{ids:[],changed:true});
+ assert.deepEqual(changeSelection([],{type:'clear'}),{ids:[],changed:false});
+ assert.deepEqual(canonicalSelection(['beta','alpha','beta']),['alpha','beta']);
+ assert.deepEqual(selectedEntities(snapshot,'drivers',null),[]);
+ assert.deepEqual(matchingEntities(snapshot,'constructors','FIRST').map(item=>item.id),['first']);
+});

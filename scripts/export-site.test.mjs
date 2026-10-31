@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { exportSite } from './export-site.mjs';
+import { inventoryMedia } from './media-inventory.mjs';
 import { seasonFixture } from '../tests/fixtures.ts';
 
 test('validated cache and sanitized payload exports preserve source identity and reject invalid releases atomically', async () => {
@@ -15,16 +16,25 @@ test('validated cache and sanitized payload exports preserve source identity and
     const options={cacheDirectory,mediaDirectory,outputDirectory};
     const writeCache=async (year,snapshot,checksum) => writeFile(join(cacheDirectory,`${year}.json`),JSON.stringify({snapshot,checksum:checksum??createHash('sha256').update(JSON.stringify(snapshot)).digest('hex')}));
     for (const year of [2010,2021]) { await writeCache(year,seasonFixture(year)); await writeFile(join(payloadDirectory,`${year}.json`),JSON.stringify(seasonFixture(year))); }
-    const credits={assets:[{kind:'portrait',identity:'alpha',seasons:[2010,2021],filename:'portrait.svg',sourceUrl:'https://example.com/source',creator:'Test creator',license:'CC0',licenseUrl:'https://example.com/license',attribution:'Test asset',portraitDate:'unknown',cropNotes:'Unmodified test asset'}],fallbacks:[{kind:'portrait',identity:'beta',season:2010,reason:'No vetted image'}]};
+    const credits={assets:[{kind:'portrait',identity:'alpha',seasons:[2010,2021],filename:'portrait.png',sourceUrl:'https://example.com/source',creator:'Test creator',license:'CC0',licenseUrl:'https://example.com/license',attribution:'Test asset',portraitDate:'unknown',cropNotes:'Unmodified test asset'}],fallbacks:[{kind:'portrait',identity:'beta',season:2010,reason:'No vetted image'}]};
     credits.fallbacks = [2010,2021].flatMap(season => {
       const snapshot = seasonFixture(season);
       return [...Object.keys(snapshot.drivers).filter(id => id !== 'alpha').map(identity => ({kind:'portrait',identity,season,reason:'Synthetic test identity; no image supplied.'})),
         ...Object.keys(snapshot.constructors).map(identity => ({kind:'constructor',identity,season,reason:'Synthetic test identity; no image supplied.'}))];
     });
     await writeFile(join(mediaDirectory,'credits.json'),JSON.stringify(credits));
-    await writeFile(join(mediaDirectory,'portrait.svg'),'<svg xmlns="http://www.w3.org/2000/svg"/>');
+    const png=await readFile(resolve('tests/fixtures/media/one-pixel.png'));
+    await writeFile(join(mediaDirectory,'portrait.png'),png);
+    await writeFile(join(mediaDirectory,'investigations.json'),'[]');
+    const inventory=await inventoryMedia({snapshots:[seasonFixture(2010),seasonFixture(2021)],credits,mediaDirectory,checkedAt:'2026-10-30T00:00:00Z'});
+    await writeFile(join(mediaDirectory,'inventory.json'),JSON.stringify(inventory));
     const manifest=await exportSite(options);
     assert.deepEqual(manifest.seasons.map(s=>s.season),[2010,2021]);
+    const expanded={...credits,assets:credits.assets.map(asset=>({...asset,seasons:[2010,2011,2021]})),fallbacks:[...credits.fallbacks,{kind:'constructor',identity:'future-team',season:2011,reason:'Synthetic future-season identity.'}]};
+    await writeFile(join(mediaDirectory,'credits.json'),JSON.stringify(expanded));
+    const filtered=await exportSite(options);
+    assert.equal(filtered.seasons[0].assetPath,manifest.seasons[0].assetPath,'unoffered valid applicability must not change legacy generation');
+    await writeFile(join(mediaDirectory,'credits.json'),JSON.stringify(credits));
     const before=await readFile(join(outputDirectory,'manifest.json'),'utf8');
     for (const entry of manifest.seasons) {
       const exported=JSON.parse(await readFile(resolve(outputDirectory,'..',entry.assetPath),'utf8'));
@@ -33,10 +43,14 @@ test('validated cache and sanitized payload exports preserve source identity and
       assert.equal(exported.checksum,undefined);
     }
     const releaseDirectory=join(outputDirectory,'releases',manifest.seasons[0].assetPath.split('/')[2]);
+    const exportedInventory=JSON.parse(await readFile(join(releaseDirectory,'media/inventory.json'),'utf8'));
+    assert.equal(exportedInventory.checkedAt,'2026-10-30T00:00:00Z');
+    assert.deepEqual(exportedInventory.slots.filter(row=>row.status==='mapped').map(row=>row.applicableSeasons),[[2010,2021],[2010,2021]]);
+    assert.ok(exportedInventory.slots.filter(row=>row.status==='mapped').every(row=>row.width===1&&row.height===1&&row.bytes===png.length));
     assert.deepEqual((await readdir(releaseDirectory)).sort(),['2010.json','2021.json','media']);
     await exportSite(options); // Exact existing content can be reused.
     const stable=await readFile(join(outputDirectory,'manifest.json'),'utf8');
-    for (const file of ['2010.json','media/portrait.svg','media/credits.json']) {
+    for (const file of ['2010.json','media/portrait.png','media/credits.json','media/inventory.json','media/investigations.json']) {
       const path=join(releaseDirectory,file), original=await readFile(path);
       for (const action of [()=>writeFile(path,'corrupt'),()=>rm(path)]) {
         await action();
@@ -59,7 +73,7 @@ test('validated cache and sanitized payload exports preserve source identity and
       {...credits,fallbacks:credits.fallbacks.slice(1)},
       {...credits,fallbacks:[...credits.fallbacks,credits.fallbacks[0]]},
       {...credits,fallbacks:[...credits.fallbacks,{kind:'portrait',identity:'alpha',season:2010,reason:'Conflicts with image'}]},
-      {...credits,assets:[...credits.assets,{...credits.assets[0],filename:'second.svg'}]}
+      {...credits,assets:[...credits.assets,{...credits.assets[0],filename:'second.png'}]}
     ]) {
       await writeFile(join(mediaDirectory,'credits.json'),JSON.stringify(invalid));
       await assert.rejects(exportSite(options),/credits or provenance/);
@@ -80,8 +94,11 @@ test('validated cache and sanitized payload exports preserve source identity and
     for (const patch of [{season:2021},{schemaVersion:2},{snapshotId:''},{refreshedAt:'bad'},{coverage:{checkedRounds:[1,2],gaps:['not verified']}}]) await rejects(()=>writeCache(2010,{...seasonFixture(2010),...patch}));
     await rejects(()=>rm(join(cacheDirectory,'2010.json')));
     await writeCache(2010,seasonFixture(2010));
-    await rejects(()=>rm(join(mediaDirectory,'portrait.svg')));
-    await writeFile(join(mediaDirectory,'portrait.svg'),'<svg/>');
+    for(const name of ['inventory.json','investigations.json']) {
+      const original=await readFile(join(mediaDirectory,name));await rejects(()=>rm(join(mediaDirectory,name)));await writeFile(join(mediaDirectory,name),original);
+    }
+    await rejects(()=>rm(join(mediaDirectory,'portrait.png')));
+    await writeFile(join(mediaDirectory,'portrait.png'),Buffer.concat([png,Buffer.from('changed valid PNG bytes')]));
     const sanitized=await exportSite({payloadDirectory,mediaDirectory,outputDirectory});
     assert.equal(sanitized.seasons[0].snapshotId,'fixture-2010');
     assert.notEqual(sanitized.seasons[0].assetPath,manifest.seasons[0].assetPath,'changed media receives a new release path');

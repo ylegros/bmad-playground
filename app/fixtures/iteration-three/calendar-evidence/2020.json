@@ -1,0 +1,826 @@
+{
+  "researchVersion": 1,
+  "season": 2020,
+  "observedAt": "2026-10-30T05:44:47.330Z",
+  "sourceUrl": "https://www.formula1.com/en/results/2020/races",
+  "status": "research-only-not-a-verified-audit",
+  "roundAssignment": "chronological official result-table order; cross-check provider calendar before use",
+  "seasonLifecycle": "complete",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Austria",
+      "dateLabel": "05 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1045/austria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1045/austria/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1045/austria/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1045/austria/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-07-05"
+    },
+    {
+      "round": 2,
+      "name": "Styria",
+      "dateLabel": "12 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1046/styria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1046/styria/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1046/styria/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1046/styria/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-07-12"
+    },
+    {
+      "round": 3,
+      "name": "Hungary",
+      "dateLabel": "19 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1047/hungary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1047/hungary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1047/hungary/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1047/hungary/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-07-19"
+    },
+    {
+      "round": 4,
+      "name": "Great Britain",
+      "dateLabel": "02 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1048/great-britain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1048/great-britain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1048/great-britain/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1048/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-08-02"
+    },
+    {
+      "round": 5,
+      "name": "70th Anniversary",
+      "dateLabel": "09 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1049/70th-anniversary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1049/70th-anniversary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1049/70th-anniversary/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1049/70th-anniversary/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-08-09"
+    },
+    {
+      "round": 6,
+      "name": "Spain",
+      "dateLabel": "16 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1050/spain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1050/spain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1050/spain/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1050/spain/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-08-16"
+    },
+    {
+      "round": 7,
+      "name": "Belgium",
+      "dateLabel": "30 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1051/belgium/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1051/belgium/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1051/belgium/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1051/belgium/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-08-30"
+    },
+    {
+      "round": 8,
+      "name": "Italy",
+      "dateLabel": "06 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1052/italy/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1052/italy/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1052/italy/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1052/italy/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-09-06"
+    },
+    {
+      "round": 9,
+      "name": "Tuscany",
+      "dateLabel": "13 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1053/tuscany/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1053/tuscany/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1053/tuscany/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1053/tuscany/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-09-13"
+    },
+    {
+      "round": 10,
+      "name": "Russia",
+      "dateLabel": "27 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1054/russia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1054/russia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1054/russia/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1054/russia/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-09-27"
+    },
+    {
+      "round": 11,
+      "name": "Eifel",
+      "dateLabel": "11 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1055/eifel/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1055/eifel/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1055/eifel/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1055/eifel/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-10-11"
+    },
+    {
+      "round": 12,
+      "name": "Portugal",
+      "dateLabel": "25 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1056/portugal/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1056/portugal/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1056/portugal/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1056/portugal/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-10-25"
+    },
+    {
+      "round": 13,
+      "name": "Emilia-Romagna",
+      "dateLabel": "01 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1057/emilia-romagna/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1057/emilia-romagna/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1057/emilia-romagna/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1057/emilia-romagna/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-11-01"
+    },
+    {
+      "round": 14,
+      "name": "Turkey",
+      "dateLabel": "15 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1058/turkey/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1058/turkey/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1058/turkey/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1058/turkey/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-11-15"
+    },
+    {
+      "round": 15,
+      "name": "Bahrain",
+      "dateLabel": "29 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1059/bahrain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1059/bahrain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1059/bahrain/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1059/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-11-29"
+    },
+    {
+      "round": 16,
+      "name": "Sakhir",
+      "dateLabel": "06 Dec",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1060/sakhir/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1060/sakhir/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1060/sakhir/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1060/sakhir/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-12-06"
+    },
+    {
+      "round": 17,
+      "name": "Abu Dhabi",
+      "dateLabel": "13 Dec",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1061/abu-dhabi/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2020/races/1061/abu-dhabi/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1061/abu-dhabi/race-result",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2020/races/1061/abu-dhabi/qualifying",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-f1-sprint-format-as-it-returns-this.6UbqdBk5NcJ2maGFiTSQv8",
+              "observedAt": "2026-10-30T05:44:47.330Z",
+              "note": "F1 explicitly dates debut of Sprint to Silverstone July 2021; pre-2021 events do not have this session."
+            }
+          ]
+        }
+      },
+      "date": "2020-12-13"
+    }
+  ],
+  "unresolved": [
+    "Cancellation/rescheduling inventory and independent completion evidence require reconciliation.",
+    "Canonical provider calendar identities and endpoint/page audits remain required."
+  ],
+  "completion": [
+    {
+      "sourceUrl": "https://www.fia.com/news/f1-verstappen-takes-dominant-abu-dhabi-win-close-out-2020-season",
+      "observedAt": "2026-10-30T05:44:47.330Z",
+      "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2020/races/1061/abu-dhabi/race-result",
+      "observedAt": "2026-10-30T05:44:47.330Z",
+      "note": "Official result table of the independently identified season-ending event."
+    }
+  ]
+}

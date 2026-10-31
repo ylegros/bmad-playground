@@ -1,10 +1,17 @@
 ﻿import { test, expect, type Page } from '@playwright/test';
 import { seasonFixture } from './fixtures';
-import type { SeasonSnapshot } from '../app/shared/contracts';
+import type { SeasonSnapshot, SeasonSnapshotV2 } from '../app/shared/contracts';
+import { evidenceFixture } from '../app/shared/evidence.fixtures';
+import { supportForSnapshot } from '../app/shared/versioned';
 
 async function mock(page:Page, snapshot=seasonFixture()) {
-  await page.route('**/api/v1/seasons',route=>route.fulfill({json:{data:{seasons:[{season:snapshot.season,verified:true,lastCheckedRound:2,knownGaps:[]}]}}}));
+  await page.route('**/api/v1/seasons',route=>route.fulfill({json:{data:{seasons:[supportForSnapshot(snapshot)]}}}));
   await page.route(`**/api/v1/seasons/${snapshot.season}`,route=>route.fulfill({json:{data:snapshot}}));
+}
+function auditedComparisonFixture():SeasonSnapshotV2 {
+  const base=seasonFixture(), evidence=evidenceFixture(base.season);
+  const held={...evidence.schedule[0].sessions.gp};
+  return {...base,schemaVersion:2,lifecycle:'ongoing',analysisRounds:[1,2],audit:{...evidence.audit,endpoints:[...evidence.audit.endpoints,...['driverStandings','constructorStandings'].map(kind=>({sourceUrl:`https://example.org/ergast/f1/${base.season}/2/${kind}.json?limit=100`,expectedPages:1,fetchedPages:1}))]},schedule:base.schedule.map(round=>({...round,sessions:{gp:{...held},qualifying:{...held},sprint:round.sprint==='not-applicable'?{...held,lifecycle:'unheld',applicable:false}:{...held}}}))};
 }
 function portraitFixture():SeasonSnapshot {
   const s=seasonFixture(); const ids:Record<string,string>={alpha:'leclerc',beta:'russell',gamma:'gamma'};
@@ -36,9 +43,9 @@ test('six-category verdict exposes complete evidence and pair-relative highlight
   await expect(summary).toHaveCount(0);await expect(page.getByRole('table')).toHaveCount(0);
 });
 test('no comparable categories says insufficient data; ties receive no markers',async({page})=>{
-  const data=seasonFixture();data.results=[];data.qualifying=[];
-  data.schedule=data.schedule.map(round=>({...round,gp:'unavailable',qualifying:'unavailable',sprint:'unavailable'}));
-  data.coverage.gaps=['Source results and qualifying unavailable'];
+  const data=auditedComparisonFixture();data.results=[];data.qualifying=[];
+  data.schedule=data.schedule.map(round=>({...round,gp:'unavailable',qualifying:'unavailable',sprint:round.sprint==='not-applicable'?'not-applicable':'unavailable'}));
+  data.coverage.gaps=data.schedule.flatMap(round=>['gp','qualifying',...(round.sprint==='not-applicable'?[]:['sprint'])].map(kind=>`Round ${round.round}: ${kind} authoritative records unavailable`));
   data.driverStandings=data.driverStandings.map(row=>({...row,points:{kind:'unavailable',reason:'Official points unavailable'}}));
   await mock(page,data);await page.goto('/?view=compare&a=alpha&b=beta');
   await expect(page.getByRole('heading',{name:'Insufficient data',exact:true})).toBeVisible();
@@ -75,7 +82,7 @@ test('comparison reflows at mobile and 200 percent zoom without page overflow',a
 });
 
 test('qualifying summary ranks, ties and missing coverage keep markers consistent',async({page})=>{
-  const data=seasonFixture();
+  const data=auditedComparisonFixture();
   data.qualifying.push({round:1,driverId:'beta',constructorId:'first',position:{kind:'value',value:3}});
   data.qualifying.forEach(row=>{row.position={kind:'value',value:row.driverId==='alpha'?2:3};});
   Object.assign(data.results[0],{grid:7});
@@ -85,12 +92,13 @@ test('qualifying summary ranks, ties and missing coverage keep markers consisten
   await expect(best.locator('.is-better')).toHaveCount(1);
   await expect(best.locator('.sr-only')).toHaveText('Alex Example, Best GP qualifying rank, lower is better');
   await best.locator('summary').click();
-  await expect(best).toContainText('Sample sizes: Alex Example 2; Blair Example 2. Scheduled GPs: 2.');
+  await expect(best).toContainText('Sample sizes: Alex Example 2; Blair Example 2. Analysis-window GPs: 2.');
   data.qualifying.forEach(row=>{row.position={kind:'value',value:2};});
   await page.goto('/?view=compare&a=alpha&b=beta&metric=qualifying', {waitUntil:'domcontentloaded'});await expect(best).toContainText('Tied');
   await expect(best.locator('.better-label')).toHaveCount(0);await expect(best.locator('.is-better')).toHaveCount(0);
   await expect(page.locator('.comparison-better')).toHaveCount(0);
-  data.schedule[0].qualifying='unavailable';data.coverage.gaps=['Round 1 GP qualifying unavailable'];
-  await page.goto('/?view=compare&a=alpha&b=beta&metric=qualifying', {waitUntil:'domcontentloaded'});await expect(best).toContainText('cover 1 of 2 scheduled GPs');
+  data.schedule[0].qualifying='unavailable';data.coverage.gaps=['Round 1: qualifying authoritative records unavailable'];
+  data.qualifying=data.qualifying.filter(row=>row.round!==1);
+  await page.goto('/?view=compare&a=alpha&b=beta&metric=qualifying', {waitUntil:'domcontentloaded'});await expect(best).toContainText('cover 1 of 2 analysis-window GPs');
   await expect(best.locator('.better-label')).toHaveCount(0);
 });

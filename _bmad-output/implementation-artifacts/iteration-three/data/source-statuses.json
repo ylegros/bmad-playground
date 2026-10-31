@@ -1,0 +1,3122 @@
+[
+  {
+    "season": 2010,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 68,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "+10 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 31,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 13,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "+4 Laps",
+    "retirement": false,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "+5 Laps",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "+6 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:17.783Z"
+  },
+  {
+    "season": 2010,
+    "status": "+9 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:17.783Z"
+  },
+  {
+    "season": 2010,
+    "status": "Accident",
+    "retirement": true,
+    "records": 17,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Clutch",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Collision",
+    "retirement": true,
+    "records": 25,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Driveshaft",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Engine",
+    "retirement": true,
+    "records": 13,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Finished",
+    "retirement": false,
+    "records": 212,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Front wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Fuel pump",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 9,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 19,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:17.133Z"
+  },
+  {
+    "season": 2010,
+    "status": "Overheating",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Rear wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:17.783Z"
+  },
+  {
+    "season": 2010,
+    "status": "Retired",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2010,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Steering",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Technical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Throttle",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:15.032Z"
+  },
+  {
+    "season": 2010,
+    "status": "Track rod",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:15.674Z"
+  },
+  {
+    "season": 2010,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2010/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:16.391Z"
+  },
+  {
+    "season": 2011,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 121,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+10 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+14 Laps",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:25.129Z"
+  },
+  {
+    "season": 2011,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 46,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 17,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+4 Laps",
+    "retirement": false,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+42 Laps",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+5 Laps",
+    "retirement": false,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "+9 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Accident",
+    "retirement": true,
+    "records": 14,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:26.070Z"
+  },
+  {
+    "season": 2011,
+    "status": "Clutch",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Collision",
+    "retirement": true,
+    "records": 16,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:24.858Z"
+  },
+  {
+    "season": 2011,
+    "status": "Engine",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:26.070Z"
+  },
+  {
+    "season": 2011,
+    "status": "Engine misfire",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Finished",
+    "retirement": false,
+    "records": 173,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Heat shield fire",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:24.858Z"
+  },
+  {
+    "season": 2011,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:25.129Z"
+  },
+  {
+    "season": 2011,
+    "status": "Injury",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:24.186Z"
+  },
+  {
+    "season": 2011,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:26.070Z"
+  },
+  {
+    "season": 2011,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:24.858Z"
+  },
+  {
+    "season": 2011,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:26.070Z"
+  },
+  {
+    "season": 2011,
+    "status": "Rear wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:24.858Z"
+  },
+  {
+    "season": 2011,
+    "status": "Retired",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:26.070Z"
+  },
+  {
+    "season": 2011,
+    "status": "Transmission",
+    "retirement": "unmapped-unavailable",
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Water leak",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:23.493Z"
+  },
+  {
+    "season": 2011,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2011/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:24.858Z"
+  },
+  {
+    "season": 2012,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 79,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "+11 Laps",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:32.213Z"
+  },
+  {
+    "season": 2012,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 27,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:32.213Z"
+  },
+  {
+    "season": 2012,
+    "status": "+5 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:31.276Z"
+  },
+  {
+    "season": 2012,
+    "status": "Accident",
+    "retirement": true,
+    "records": 10,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Alternator",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Collision",
+    "retirement": true,
+    "records": 33,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Electronics",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:31.950Z"
+  },
+  {
+    "season": 2012,
+    "status": "Engine",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:32.213Z"
+  },
+  {
+    "season": 2012,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:31.276Z"
+  },
+  {
+    "season": 2012,
+    "status": "Finished",
+    "retirement": false,
+    "records": 273,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:31.950Z"
+  },
+  {
+    "season": 2012,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:32.213Z"
+  },
+  {
+    "season": 2012,
+    "status": "Rear wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:31.950Z"
+  },
+  {
+    "season": 2012,
+    "status": "Retired",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:32.213Z"
+  },
+  {
+    "season": 2012,
+    "status": "Steering",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:31.276Z"
+  },
+  {
+    "season": 2012,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:33.684Z"
+  },
+  {
+    "season": 2012,
+    "status": "Throttle",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Vibrations",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:32.739Z"
+  },
+  {
+    "season": 2012,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:31.276Z"
+  },
+  {
+    "season": 2012,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2012/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:31.950Z"
+  },
+  {
+    "season": 2013,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 83,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 22,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Accident",
+    "retirement": true,
+    "records": 11,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Alternator",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:40.014Z"
+  },
+  {
+    "season": 2013,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Collision",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Engine",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Finished",
+    "retirement": false,
+    "records": 244,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Fuel system",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:38.822Z"
+  },
+  {
+    "season": 2013,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:43:40.524Z"
+  },
+  {
+    "season": 2013,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Pneumatics",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Retired",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Transmission",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Tyre",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:38.822Z"
+  },
+  {
+    "season": 2013,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:39.746Z"
+  },
+  {
+    "season": 2013,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2013,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2013/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:38.309Z"
+  },
+  {
+    "season": 2014,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 95,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 22,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "+8 Laps",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Accident",
+    "retirement": true,
+    "records": 9,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:46.875Z"
+  },
+  {
+    "season": 2014,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Clutch",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Collision",
+    "retirement": true,
+    "records": 14,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:46.875Z"
+  },
+  {
+    "season": 2014,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Drivetrain",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Electronics",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:46.875Z"
+  },
+  {
+    "season": 2014,
+    "status": "Engine",
+    "retirement": true,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "ERS",
+    "retirement": "unmapped-unavailable",
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "Finished",
+    "retirement": false,
+    "records": 200,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:46.607Z"
+  },
+  {
+    "season": 2014,
+    "status": "Oil pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Rear wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "Retired",
+    "retirement": true,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:46.875Z"
+  },
+  {
+    "season": 2014,
+    "status": "Technical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2014,
+    "status": "Turbo",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:45.924Z"
+  },
+  {
+    "season": 2014,
+    "status": "Water leak",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:46.607Z"
+  },
+  {
+    "season": 2014,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:46.875Z"
+  },
+  {
+    "season": 2014,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2014/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:45.007Z"
+  },
+  {
+    "season": 2015,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 90,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 21,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 9,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "+4 Laps",
+    "retirement": false,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "+6 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:52.836Z"
+  },
+  {
+    "season": 2015,
+    "status": "Accident",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Brake duct",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:53.359Z"
+  },
+  {
+    "season": 2015,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Collision",
+    "retirement": true,
+    "records": 11,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:53.359Z"
+  },
+  {
+    "season": 2015,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:52.836Z"
+  },
+  {
+    "season": 2015,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Engine",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "ERS",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Excluded",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:43:53.359Z"
+  },
+  {
+    "season": 2015,
+    "status": "Finished",
+    "retirement": false,
+    "records": 171,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Front wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:52.303Z"
+  },
+  {
+    "season": 2015,
+    "status": "Fuel system",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:52.303Z"
+  },
+  {
+    "season": 2015,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Retired",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:52.836Z"
+  },
+  {
+    "season": 2015,
+    "status": "Throttle",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:52.836Z"
+  },
+  {
+    "season": 2015,
+    "status": "Transmission",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Turbo",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Tyre",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:52.836Z"
+  },
+  {
+    "season": 2015,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2015,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2015/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:51.786Z"
+  },
+  {
+    "season": 2016,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 152,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 23,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "+4 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Accident",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Battery",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Collision",
+    "retirement": true,
+    "records": 15,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:57.985Z"
+  },
+  {
+    "season": 2016,
+    "status": "Engine",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Finished",
+    "retirement": false,
+    "records": 202,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:56.951Z"
+  },
+  {
+    "season": 2016,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:43:56.951Z"
+  },
+  {
+    "season": 2016,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:57.985Z"
+  },
+  {
+    "season": 2016,
+    "status": "Overheating",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:08.571Z"
+  },
+  {
+    "season": 2016,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:08.571Z"
+  },
+  {
+    "season": 2016,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:57.985Z"
+  },
+  {
+    "season": 2016,
+    "status": "Retired",
+    "retirement": true,
+    "records": 10,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:43:57.985Z"
+  },
+  {
+    "season": 2016,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Tyre",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:43:57.483Z"
+  },
+  {
+    "season": 2016,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:08.571Z"
+  },
+  {
+    "season": 2016,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:08.571Z"
+  },
+  {
+    "season": 2016,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2016/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:44:09.082Z"
+  },
+  {
+    "season": 2017,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 118,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 21,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Accident",
+    "retirement": true,
+    "records": 14,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Battery",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Collision",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Driveshaft",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Engine",
+    "retirement": true,
+    "records": 16,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Finished",
+    "retirement": false,
+    "records": 165,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Front wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:32.243Z"
+  },
+  {
+    "season": 2017,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:44:31.732Z"
+  },
+  {
+    "season": 2017,
+    "status": "Oil pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 9,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Seat",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Spark plugs",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:32.243Z"
+  },
+  {
+    "season": 2017,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Vibrations",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Water leak",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:25.682Z"
+  },
+  {
+    "season": 2017,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:26.219Z"
+  },
+  {
+    "season": 2017,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:44:32.243Z"
+  },
+  {
+    "season": 2017,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2017/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:44:31.732Z"
+  },
+  {
+    "season": 2018,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 109,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 33,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Accident",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Battery",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Collision",
+    "retirement": true,
+    "records": 19,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:56.568Z"
+  },
+  {
+    "season": 2018,
+    "status": "Engine",
+    "retirement": true,
+    "records": 13,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Finished",
+    "retirement": false,
+    "records": 191,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:56.568Z"
+  },
+  {
+    "season": 2018,
+    "status": "Overheating",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:45:05.696Z"
+  },
+  {
+    "season": 2018,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Retired",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:01.011Z"
+  },
+  {
+    "season": 2018,
+    "status": "Steering",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:56.568Z"
+  },
+  {
+    "season": 2018,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:03.508Z"
+  },
+  {
+    "season": 2018,
+    "status": "Turbo",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:44:56.568Z"
+  },
+  {
+    "season": 2018,
+    "status": "Tyre",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2018,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2018/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:44:57.564Z"
+  },
+  {
+    "season": 2019,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 133,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 27,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Accident",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:36.244Z"
+  },
+  {
+    "season": 2019,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:45:44.297Z"
+  },
+  {
+    "season": 2019,
+    "status": "Collision",
+    "retirement": true,
+    "records": 16,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Damage",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:38.903Z"
+  },
+  {
+    "season": 2019,
+    "status": "Engine",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:36.244Z"
+  },
+  {
+    "season": 2019,
+    "status": "Finished",
+    "retirement": false,
+    "records": 196,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:36.244Z"
+  },
+  {
+    "season": 2019,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:38.903Z"
+  },
+  {
+    "season": 2019,
+    "status": "Out of fuel",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Overheating",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:38.903Z"
+  },
+  {
+    "season": 2019,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:36.244Z"
+  },
+  {
+    "season": 2019,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Retired",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:45:33.563Z"
+  },
+  {
+    "season": 2019,
+    "status": "Transmission",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:45:36.244Z"
+  },
+  {
+    "season": 2019,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:45:30.826Z"
+  },
+  {
+    "season": 2019,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2019/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:45:38.903Z"
+  },
+  {
+    "season": 2020,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 84,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "+5 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Accident",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Collision",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Debris",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:46:11.762Z"
+  },
+  {
+    "season": 2020,
+    "status": "Electronics",
+    "retirement": "unmapped-unavailable",
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Engine",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Exhaust",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:46:11.762Z"
+  },
+  {
+    "season": 2020,
+    "status": "Finished",
+    "retirement": false,
+    "records": 191,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2020,
+    "status": "Illness",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2020,
+    "status": "Overheating",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2020,
+    "status": "Radiator",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2020,
+    "status": "Retired",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Transmission",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:15.318Z"
+  },
+  {
+    "season": 2020,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2020,
+    "status": "Wheel",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:05.751Z"
+  },
+  {
+    "season": 2020,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2020/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:12.363Z"
+  },
+  {
+    "season": 2021,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 130,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 28,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "+3 Laps",
+    "retirement": false,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Accident",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Brakes",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Collision",
+    "retirement": true,
+    "records": 20,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:46:48.300Z"
+  },
+  {
+    "season": 2021,
+    "status": "Damage",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:45.707Z"
+  },
+  {
+    "season": 2021,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Driveshaft",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:36.329Z"
+  },
+  {
+    "season": 2021,
+    "status": "Electrical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:36.329Z"
+  },
+  {
+    "season": 2021,
+    "status": "Engine",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:46:39.052Z"
+  },
+  {
+    "season": 2021,
+    "status": "Finished",
+    "retirement": false,
+    "records": 217,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 5,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Illness",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:46:48.300Z"
+  },
+  {
+    "season": 2021,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:45.707Z"
+  },
+  {
+    "season": 2021,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:45.707Z"
+  },
+  {
+    "season": 2021,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Puncture",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:45.707Z"
+  },
+  {
+    "season": 2021,
+    "status": "Rear wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:46:45.707Z"
+  },
+  {
+    "season": 2021,
+    "status": "Retired",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:46:39.052Z"
+  },
+  {
+    "season": 2021,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:46:44.577Z"
+  },
+  {
+    "season": 2021,
+    "status": "Turbo",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:46:39.052Z"
+  },
+  {
+    "season": 2021,
+    "status": "Wheel nut",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2021/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:46:36.329Z"
+  },
+  {
+    "season": 2022,
+    "status": "+1 Lap",
+    "retirement": false,
+    "records": 80,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "+2 Laps",
+    "retirement": false,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "+6 Laps",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:47:20.234Z"
+  },
+  {
+    "season": 2022,
+    "status": "Accident",
+    "retirement": true,
+    "records": 8,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Collision",
+    "retirement": true,
+    "records": 10,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 12,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Cooling system",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Differential",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:47:20.234Z"
+  },
+  {
+    "season": 2022,
+    "status": "Engine",
+    "retirement": true,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Finished",
+    "retirement": false,
+    "records": 279,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Front wing",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Fuel leak",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Fuel pressure",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Fuel pump",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Gearbox",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Hydraulics",
+    "retirement": true,
+    "records": 4,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Mechanical",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Oil leak",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Power loss",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Power Unit",
+    "retirement": true,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Spun off",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Suspension",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Turbo",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Undertray",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:47:20.234Z"
+  },
+  {
+    "season": 2022,
+    "status": "Vibrations",
+    "retirement": true,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=100",
+    "observedAt": "2026-10-30T05:47:14.737Z"
+  },
+  {
+    "season": 2022,
+    "status": "Water leak",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=400",
+    "observedAt": "2026-10-30T05:47:26.678Z"
+  },
+  {
+    "season": 2022,
+    "status": "Water pressure",
+    "retirement": "unmapped-unavailable",
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:20.758Z"
+  },
+  {
+    "season": 2022,
+    "status": "Water pump",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2022,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2022/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:47:14.221Z"
+  },
+  {
+    "season": 2023,
+    "status": "Accident",
+    "retirement": true,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Collision damage",
+    "retirement": true,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Did not start",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Finished",
+    "retirement": false,
+    "records": 304,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Lapped",
+    "retirement": false,
+    "records": 70,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Retired",
+    "retirement": true,
+    "records": 53,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2023,
+    "status": "Undertray",
+    "retirement": "unmapped-unavailable",
+    "records": 1,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:47:54.105Z"
+  },
+  {
+    "season": 2023,
+    "status": "Withdrew",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2023/results.json?limit=100&offset=300",
+    "observedAt": "2026-10-30T05:47:59.634Z"
+  },
+  {
+    "season": 2024,
+    "status": "Did not start",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:48:33.637Z"
+  },
+  {
+    "season": 2024,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 2,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:48:33.637Z"
+  },
+  {
+    "season": 2024,
+    "status": "Finished",
+    "retirement": false,
+    "records": 287,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:48:26.818Z"
+  },
+  {
+    "season": 2024,
+    "status": "Lapped",
+    "retirement": false,
+    "records": 138,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:48:26.818Z"
+  },
+  {
+    "season": 2024,
+    "status": "Retired",
+    "retirement": true,
+    "records": 49,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:48:26.818Z"
+  },
+  {
+    "season": 2025,
+    "status": "Did not start",
+    "retirement": false,
+    "records": 3,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2025/results.json?limit=100&offset=200",
+    "observedAt": "2026-10-30T05:49:11.822Z"
+  },
+  {
+    "season": 2025,
+    "status": "Disqualified",
+    "retirement": false,
+    "records": 6,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2025/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:08.465Z"
+  },
+  {
+    "season": 2025,
+    "status": "Finished",
+    "retirement": false,
+    "records": 330,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2025/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:08.465Z"
+  },
+  {
+    "season": 2025,
+    "status": "Lapped",
+    "retirement": false,
+    "records": 89,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2025/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:08.465Z"
+  },
+  {
+    "season": 2025,
+    "status": "Retired",
+    "retirement": true,
+    "records": 51,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2025/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:08.465Z"
+  },
+  {
+    "season": 2026,
+    "status": "Did not start",
+    "retirement": false,
+    "records": 7,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2026/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:45.130Z"
+  },
+  {
+    "season": 2026,
+    "status": "Finished",
+    "retirement": false,
+    "records": 198,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2026/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:45.130Z"
+  },
+  {
+    "season": 2026,
+    "status": "Lapped",
+    "retirement": false,
+    "records": 117,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2026/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:45.130Z"
+  },
+  {
+    "season": 2026,
+    "status": "Retired",
+    "retirement": true,
+    "records": 74,
+    "sourceUrl": "https://api.jolpi.ca/ergast/f1/2026/results.json?limit=100&offset=0",
+    "observedAt": "2026-10-30T05:49:45.130Z"
+  }
+]

@@ -18,3 +18,16 @@ Review: independent blind review found three verification gaps; missing-mapping 
 ## Sprint tracking
 
 Generated and validated six epics / 55 stories: 10 historical completed stories and 45 iteration-three stories. Historical Stories 3.3/3.4 were renamed in the current epics; their prior done statuses were transplanted to the current keys. Parser warnings referred only to overview/index/revision headings, with all story headings parsed. Existing user planning edits were preserved with explicit authorization.
+
+## Resumed verification — 2026-10-31
+
+Progress is an unweighted count of the 45 iteration-three stories ready for review, not release acceptance or elapsed effort. **45/45 (100%) are implemented and ready for human review.** All17 years passed source/local/static verification; the user explicitly accepted the 44 researched logo exceptions. Sprint stories remain `review`, with no deployment performed.
+
+- All seventeen 2010–2026 real source audits passed; all seventeen local real-snapshot browser tests passed (1.8 minutes). Snapshot-linked evidence and exact source observation times are retained in [data coverage](iteration-three-data-coverage.md).
+- Full unit regression: 66 Node tests and 19 Vitest tests passed. TypeScript checking passed.
+- Integrated fixture browser regression: all 28 passed, including credits keyboard/focus behavior. Invalid legacy gap fixtures were replaced with audited v2 evidence; analysis-window wording expectations were updated.
+- Three independent core reviews produced thirteen accepted findings; all were patched. Their dispositions are recorded in [integration review triage](spec-iteration-three-core-integration.md).
+- All seventeen canonical-media browser checks passed (1.4 minutes). The user explicitly accepted the 44 documented logo exceptions on 2026-10-31; these remain exceptions, never counted as acquired images. Accepted metadata and credits UI are included in the final isolated source/archive. Post-change credits keyboard, both baseline portrait/mapped-logo checks and the focused image-failure/recovery check passed. The latter now aborts image files specifically so required runtime metadata remains readable.
+- Final accepted release `4cf203e522dd724d20d6b384`: isolated production build passed; dedicated all17-season static browser test passed (25.5 seconds), including exact accepted metadata/UI and zero external/API attempts. [Handoff report](story-5-41-handoff.md) records source/archive paths, manifest/archive hashes and unchanged hosting identity. No publication was performed.
+
+The user requested updates at least every five minutes; updates also accompany material verification results or blockers.

@@ -1,0 +1,1095 @@
+{
+  "researchVersion": 1,
+  "season": 2026,
+  "observedAt": "2026-10-30T05:45:42.889Z",
+  "sourceUrl": "https://www.formula1.com/en/results/2026/races",
+  "status": "research-only-not-a-verified-audit",
+  "roundAssignment": "chronological official result-table order; cross-check provider calendar before use",
+  "seasonLifecycle": "ongoing",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Australia",
+      "dateLabel": "08 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1279/australia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1279/australia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1279/australia/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1279/australia/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-03-08"
+    },
+    {
+      "round": 2,
+      "name": "China",
+      "dateLabel": "15 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1280/china/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-03-15"
+    },
+    {
+      "round": 3,
+      "name": "Japan",
+      "dateLabel": "29 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1281/japan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1281/japan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1281/japan/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1281/japan/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-03-29"
+    },
+    {
+      "round": 4,
+      "name": "Miami",
+      "dateLabel": "03 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1284/miami/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-05-03"
+    },
+    {
+      "round": 5,
+      "name": "Canada",
+      "dateLabel": "24 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1285/canada/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-05-24"
+    },
+    {
+      "round": 6,
+      "name": "Monaco",
+      "dateLabel": "07 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1286/monaco/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1286/monaco/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1286/monaco/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1286/monaco/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-06-07"
+    },
+    {
+      "round": 7,
+      "name": "Barcelona-Catalunya",
+      "dateLabel": "14 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1287/barcelona-catalunya/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1287/barcelona-catalunya/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1287/barcelona-catalunya/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1287/barcelona-catalunya/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-06-14"
+    },
+    {
+      "round": 8,
+      "name": "Austria",
+      "dateLabel": "28 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1288/austria/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-06-28"
+    },
+    {
+      "round": 9,
+      "name": "Great Britain",
+      "dateLabel": "05 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1289/great-britain/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-07-05"
+    },
+    {
+      "round": 10,
+      "name": "Belgium",
+      "dateLabel": "19 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1290/belgium/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-07-19"
+    },
+    {
+      "round": 11,
+      "name": "Hungary",
+      "dateLabel": "26 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1291/hungary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1291/hungary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1291/hungary/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1291/hungary/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-07-26"
+    },
+    {
+      "round": 12,
+      "name": "Netherlands",
+      "dateLabel": "23 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1292/netherlands/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-08-23"
+    },
+    {
+      "round": 13,
+      "name": "Italy",
+      "dateLabel": "06 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1293/italy/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1293/italy/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1293/italy/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1293/italy/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-09-06"
+    },
+    {
+      "round": 14,
+      "name": "Spain",
+      "dateLabel": "13 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1294/spain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1294/spain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1294/spain/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1294/spain/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-09-13"
+    },
+    {
+      "round": 15,
+      "name": "Azerbaijan",
+      "dateLabel": "26 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1295/azerbaijan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1295/azerbaijan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1295/azerbaijan/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1295/azerbaijan/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-09-26"
+    },
+    {
+      "round": 16,
+      "name": "Bahrain",
+      "dateLabel": "04 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1308/bahrain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1308/bahrain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1308/bahrain/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1308/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-10-04"
+    },
+    {
+      "round": 17,
+      "name": "Singapore",
+      "dateLabel": "11 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/sprint-results",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2026-10-11"
+    },
+    {
+      "round": 18,
+      "name": "United States",
+      "dateLabel": "25 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1297/united-states/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2026/races/1297/united-states/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1297/united-states/race-result",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1297/united-states/qualifying",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2026-10-25"
+    }
+  ],
+  "unresolved": [
+    "Cancellation/rescheduling inventory and independent completion evidence require reconciliation.",
+    "Canonical provider calendar identities and endpoint/page audits remain required."
+  ],
+  "completion": [],
+  "calendarSourceUrl": "https://www.formula1.com/en/racing/2026",
+  "upcomingRounds": [
+    {
+      "round": 19,
+      "name": "Mexico",
+      "date": "2026-11-01",
+      "sessions": {
+        "gp": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Complete six-venue official Sprint calendar excludes this event."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 20,
+      "name": "Brazil",
+      "date": "2026-11-08",
+      "sessions": {
+        "gp": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Complete six-venue official Sprint calendar excludes this event."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 21,
+      "name": "Las Vegas",
+      "date": "2026-11-21",
+      "sessions": {
+        "gp": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Complete six-venue official Sprint calendar excludes this event."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 22,
+      "name": "Qatar",
+      "date": "2026-11-29",
+      "sessions": {
+        "gp": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Complete six-venue official Sprint calendar excludes this event."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "round": 23,
+      "name": "Abu Dhabi",
+      "date": "2026-12-06",
+      "sessions": {
+        "gp": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "unheld",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/racing/2026",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+              "observedAt": "2026-10-30T05:45:42.889Z",
+              "note": "Complete six-venue official Sprint calendar excludes this event."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

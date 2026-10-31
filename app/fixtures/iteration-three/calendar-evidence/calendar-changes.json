@@ -1,0 +1,117 @@
+{
+  "researchVersion": 1,
+  "observedOn": "2026-10-30",
+  "status": "partial-change-inventory-not-a-complete-calendar-audit",
+  "events": [
+    {
+      "season": 2011,
+      "event": "Bahrain",
+      "status": "cancelled",
+      "sourceUrl": "https://www.fia.com/file/39752/download",
+      "note": "FIA historical event facts explicitly say scheduled 2011 Bahrain race was cancelled."
+    },
+    {
+      "season": 2015,
+      "event": "Germany",
+      "status": "cancelled",
+      "sourceUrl": "https://www.fia.com/news/world-motor-sport-council-2015-geneva",
+      "note": "FIA states German GP withdrawn following failure to reach promoter agreement."
+    },
+    {
+      "season": 2020,
+      "event": "Season calendar",
+      "status": "revised",
+      "sourceUrl": "https://www.fia.com/news/formula-1-announces-additional-races-2020-calendar",
+      "note": "Revised championship has17 events; detailed original-event cancellation inventory remains unresolved."
+    },
+    {
+      "season": 2021,
+      "event": "Canada",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-that-turkey-will-replace-canada-on-2021-race-calendar.5oXc8g8NfkRUrlydMahSVF",
+      "note": "Canadian event replaced; initial Turkey replacement June11–13 is superseded by final held Turkey October10."
+    },
+    {
+      "season": 2021,
+      "event": "Japan",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-confirms-2021-Saudi-grand-prix-has-been-cancelled.2Cn8r5e6lIm00IW984WnfW",
+      "note": "Article title/body explicitly identify Japan; URL slug must not establish canonical event identity."
+    },
+    {
+      "season": 2021,
+      "event": "Australia",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/australian-grand-prix-off-in-2021.395AJGygKsmWueNXHiZRUU",
+      "note": "Official announcement confirms Australia off in2021."
+    },
+    {
+      "season": 2022,
+      "event": "Russia",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-terminates-contract-with-russian-grand-prix-promoter.5geFNbONEePwRCSQj25Xg3",
+      "note": "Official statement says impossible to hold2022 event and promoter contract terminated."
+    },
+    {
+      "season": 2023,
+      "event": "China",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-confirms-2023-chinese-%20grand-prix-will-not-take-place.186HJrsCh027R2rl0eJnWG",
+      "note": "Official announcement confirms2023 event will not take place."
+    },
+    {
+      "season": 2023,
+      "event": "Emilia-Romagna",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-update-on-the-emilia-romagna-grand-prix-at-imola.14xk8GLh2Lr8wBGdJqhxnO",
+      "note": "Entire Grand Prix weekend called off. Archived F1 calendar retains placeholder round6; result-table order/Jolpica IDs must be reconciled."
+    },
+    {
+      "season": 2026,
+      "event": "Bahrain / Saudi Arabia April events",
+      "status": "called-off-original-dates",
+      "sourceUrl": "https://www.fia.com/news/bahrain-and-saudi-arabian-grands-prix-will-not-take-place-april",
+      "note": "No April substitutions. This source does not by itself establish permanent cancellation."
+    },
+    {
+      "season": 2026,
+      "event": "Bahrain",
+      "status": "rescheduled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-and-fia-confirm-that-malaysia-will-join-the-2026-calendar-as-host-venue-for-the-bahrain-grand-prix.6lL7vjFEM2VVynRHvg1TCf",
+      "note": "Bahrain relocated to Sepang Malaysia October2–4; official current calendar/results show held round16."
+    },
+    {
+      "season": 2020,
+      "event": "Australia, Netherlands, Monaco, Azerbaijan, Canada, France, Singapore, Japan, United States, Brazil",
+      "status": "cancelled",
+      "sourceUrl": "https://www.fia.com/events/fia-formula-one-world-championship/season-2020/2020-fia-formula-one-world-championship",
+      "note": "FIA archived event inventory explicitly marks these events cancelled. Bahrain original date, Vietnam and Mexico are marked postponed in that archive; do not silently call them permanently cancelled from this page."
+    },
+    {
+      "season": 2021,
+      "event": "Singapore",
+      "status": "cancelled",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/singapore-grand-prix-called-off-for-2021.3bFXuXAA1PQOF5M1bwREF4",
+      "note": "F1 and organisers explicitly confirm Singapore will not take place in2021."
+    },
+    {
+      "season": 2021,
+      "event": "China and initial Turkey date; France/Styria changes",
+      "status": "postponed-and-revised",
+      "sourceUrl": "https://www.fia.com/news/formula-1-update-2021-calendar",
+      "note": "China and Turkey requested later rescheduling; Turkey June11-13 impossible. France advanced toJune20; Styria addedJune27; Austria retainedJuly4."
+    },
+    {
+      "season": 2021,
+      "event": "Final22-event revised calendar",
+      "status": "revised",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/breaking-formula-1-announces-revised-22-race-calendar-for-2021.6OaQqLr4jrU5Ia2va3sjkv",
+      "note": "Official22-event revision explicitly places TurkeyOct10, MexicoNov7, BrazilNov14, finalAbuDhabiDec12; Japanese event not staged. Final results fill November21Qatar slot. No vanished China round assigned an invented canonical ID."
+    }
+  ],
+  "unresolved": [
+    "Full original-proposal/revision history remains a separate partial research inventory, not a claim all provisional proposals were audited.",
+    "2020Vietnam/China and Mexico archive statuses include postponement; no permanent cancellation is inferred from omission. Final revised17-event canonical calendar positively reconciles all heldGP dates.",
+    "2026Saudi Arabia final disposition beyond called-offApril dates remains unknown off the final23-round canonical calendar; no invented cancelled round is inserted."
+  ]
+}

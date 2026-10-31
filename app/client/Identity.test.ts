@@ -29,7 +29,7 @@ describe('constructor identity', () => {
 
   it('does not substitute the mapped logo from a different season', () => {
     const html = renderToStaticMarkup(createElement(ConstructorIdentity, {
-      snapshot: snapshot(2011, 'ferrari', 'Ferrari'), id: 'ferrari',
+      snapshot: snapshot(2009, 'ferrari', 'Ferrari'), id: 'ferrari',
     }));
     expect(html).not.toContain('<img');
     expect(html).not.toContain('constructor-frame');

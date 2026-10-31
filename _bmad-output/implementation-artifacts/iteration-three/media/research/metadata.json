@@ -1,0 +1,978 @@
+{
+  "observedAt": "2026-10-30T09:38:24.216Z",
+  "records": [
+    {
+      "title": "File:Force India.svg",
+      "filename": "candidate-0.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Force_India.svg/960px-Force_India.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 182,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Force_India.svg/1280px-Force_India.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Force_India.svg/960px-Force_India.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 182,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Force_India.svg/1280px-Force_India.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Force_India.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Force_India.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177612008",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2025-10-30 23:08:57",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Force India",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Force India|Self-published work|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo da equipe Sahara Force India",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2025-10-30",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Robertay2536&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Robertay2536 (page does not exist)\">Robertay2536</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Logo Williams F1.png",
+      "filename": "candidate-1.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_Williams_F1.png/960px-Logo_Williams_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 485,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_Williams_F1.png/1280px-Logo_Williams_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_Williams_F1.png/960px-Logo_Williams_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 485,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_Williams_F1.png/1280px-Logo_Williams_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo_Williams_F1.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53433257",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-01-02 15:05:35",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Logo Williams F1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Files allowed to be overwritten by everyone|Cyan logos|W in logos|Blue logos with transparent background|Williams Racing logos|Stencil logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Williams F1 team logo.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-11-23",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Juanchocarbonero\" title=\"User:Juanchocarbonero\">Juanchocarbonero</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Toro Rosso bodywork 2010.jpg",
+      "filename": "candidate-2.jpg",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Toro_Rosso_bodywork_2010.jpg/960px-Toro_Rosso_bodywork_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 425,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Toro_Rosso_bodywork_2010.jpg/1280px-Toro_Rosso_bodywork_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Toro_Rosso_bodywork_2010.jpg/960px-Toro_Rosso_bodywork_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 425,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Toro_Rosso_bodywork_2010.jpg/1280px-Toro_Rosso_bodywork_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Toro_Rosso_bodywork_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Toro_Rosso_bodywork_2010.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23587666",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2013-01-04 18:52:02",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Toro Rosso bodywork 2010",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Nikon D300|2010 Canadian Grand Prix|Toro Rosso STR5|Flickr images reviewed by FlickreviewR|Formula One constructor logos|Red Bull logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "45.502083",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-73.523125",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The Toro Rosso STR5's bodywork at the 2010 Canadian Grand Prix.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-06-10 12:12:49",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/gregory-moine/4713872492/\">https://www.flickr.com/photos/gregory-moine/4713872492/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/gregory-moine/\">https://www.flickr.com/photos/gregory-moine/</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Red Bull Racing - 2005 Logo.png",
+      "filename": "candidate-3.png",
+      "info": {
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Red_Bull_Racing_-_2005_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 159,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Red_Bull_Racing_-_2005_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 159
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Red_Bull_Racing_-_2005_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_-_2005_Logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182612775",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-01-28 15:07:36",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Red Bull Racing - 2005 Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "PD ineligible|Template Unknown (author)|Red Bull Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Red Bull Racing - Formula One Team 2005-2012 logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2026-01-28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.redbullracing.com/cs/Satellite/en_INT/Red-Bull-Racing/001242807156063\">http://www.redbullracing.com/cs/Satellite/en_INT/Red-Bull-Racing/001242807156063</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Alpha Tauri F1 Team Garage, British GP, Silverstone 2021 (51349514318).jpg",
+      "filename": "candidate-4.jpg",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg/960px-Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 427,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg/1280px-Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg/960px-Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 427,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg/1280px-Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Alpha_Tauri_F1_Team_Garage%2C_British_GP%2C_Silverstone_2021_%2851349514318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alpha_Tauri_F1_Team_Garage,_British_GP,_Silverstone_2021_(51349514318).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108280214",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-08-09 00:33:42",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Alpha Tauri F1 Team Garage, British GP, Silverstone 2021 (51349514318)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Scuderia AlphaTauri|2021 British Grand Prix|Images with extracted images|Flickr images reviewed by FlickreviewR 2|AlphaTauri AT02 of Pierre Gasly",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Alpha Tauri F1 Team Garage, British GP, Silverstone 2021",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2021-07-15 17:03",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/69527563@N05/51349514318/\">Alpha Tauri F1 Team Garage, British GP, Silverstone 2021</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/69527563@N05\">Jen Ross</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Aston Martin F1 Team logo 2024.jpg",
+      "filename": "candidate-5.jpg",
+      "info": {
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aston_Martin_F1_Team_logo_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 268,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aston_Martin_F1_Team_logo_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 268
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aston_Martin_F1_Team_logo_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aston_Martin_F1_Team_logo_2024.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172763049",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2025-08-16 15:05:49",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Aston Martin F1 Team logo 2024",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Template Unknown (author)|Aston Martin logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Aston Martin F1 Team logo 2024",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-01-01",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://yougov.co.uk/topics/sport/explore/sports_team/Aston_Martin_F1_Team\">https://yougov.co.uk/topics/sport/explore/sports_team/Aston_Martin_F1_Team</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:Alfa Romeo F1 Team Stake Logo.svg",
+      "filename": "candidate-6.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfa_Romeo_F1_Team_Stake_Logo.svg/960px-Alfa_Romeo_F1_Team_Stake_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 134,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfa_Romeo_F1_Team_Stake_Logo.svg/1280px-Alfa_Romeo_F1_Team_Stake_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfa_Romeo_F1_Team_Stake_Logo.svg/960px-Alfa_Romeo_F1_Team_Stake_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 134,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfa_Romeo_F1_Team_Stake_Logo.svg/1280px-Alfa_Romeo_F1_Team_Stake_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Alfa_Romeo_F1_Team_Stake_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_F1_Team_Stake_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128145430",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-01-27 10:50:14",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Alfa Romeo F1 Team Stake Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Alfa Romeo in Formula One|PD textlogo|SVG text logos|Alfa Romeo logos|Stake (online casino)|Sauber logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "The official logo of Alfa Romeo F1 Team Stake.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-01-27",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.sauber-group.com/motorsport/formula-1/alfa-romeo/\">https://www.sauber-group.com/motorsport/formula-1/alfa-romeo/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Alfa Romeo - Sauber Group",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:F1 Team Icon - Force India(2009).svg",
+      "filename": "candidate-7.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/F1_Team_Icon_-_Force_India%282009%29.svg/960px-F1_Team_Icon_-_Force_India%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 267,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/F1_Team_Icon_-_Force_India%282009%29.svg/1280px-F1_Team_Icon_-_Force_India%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/F1_Team_Icon_-_Force_India%282009%29.svg/960px-F1_Team_Icon_-_Force_India%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 267,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/F1_Team_Icon_-_Force_India%282009%29.svg/1280px-F1_Team_Icon_-_Force_India%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/F1_Team_Icon_-_Force_India%282009%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Force_India(2009).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7411406",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-07-28 18:04:25",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "F1 Team Icon - Force India(2009)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|Force India F1 cars|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Formula One icons",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Icon representing the Force India Formula1 team.  Based on <a href=\"//commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Blank.svg\" title=\"File:F1 Team Icon - Blank.svg\">File:F1_Team_Icon_-_Blank.svg</a>.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-07-28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Original work",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:DoktorMandrake\" class=\"mw-redirect\" title=\"User:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #CC6600;\"><b>Doktor</b></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:DoktorMandrake\" class=\"mw-redirect\" title=\"User talk:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #003300;\"><i><b>Mandrake</b></i></span></a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:F1 Team Icon - Williams(2009).svg",
+      "filename": "candidate-8.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/F1_Team_Icon_-_Williams%282009%29.svg/960px-F1_Team_Icon_-_Williams%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 267,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/F1_Team_Icon_-_Williams%282009%29.svg/1280px-F1_Team_Icon_-_Williams%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/F1_Team_Icon_-_Williams%282009%29.svg/960px-F1_Team_Icon_-_Williams%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 267,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/F1_Team_Icon_-_Williams%282009%29.svg/1280px-F1_Team_Icon_-_Williams%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/F1_Team_Icon_-_Williams%282009%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Williams(2009).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7411441",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-07-31 15:14:03",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "F1 Team Icon - Williams(2009)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|Williams F1 cars|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Formula One icons",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Icon representing the Williams Formula1 team.  Based on <a href=\"//commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Blank.svg\" title=\"File:F1 Team Icon - Blank.svg\">File:F1_Team_Icon_-_Blank.svg</a>.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-07-28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Original work",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:DoktorMandrake\" class=\"mw-redirect\" title=\"User:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #CC6600;\"><b>Doktor</b></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:DoktorMandrake\" class=\"mw-redirect\" title=\"User talk:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #003300;\"><i><b>Mandrake</b></i></span></a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    },
+    {
+      "title": "File:F1 Team Icon - Toro Rosso(2009).svg",
+      "filename": "candidate-9.png",
+      "info": {
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/F1_Team_Icon_-_Toro_Rosso%282009%29.svg/960px-F1_Team_Icon_-_Toro_Rosso%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 267,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/F1_Team_Icon_-_Toro_Rosso%282009%29.svg/1280px-F1_Team_Icon_-_Toro_Rosso%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/F1_Team_Icon_-_Toro_Rosso%282009%29.svg/960px-F1_Team_Icon_-_Toro_Rosso%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 267,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/F1_Team_Icon_-_Toro_Rosso%282009%29.svg/1280px-F1_Team_Icon_-_Toro_Rosso%282009%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/F1_Team_Icon_-_Toro_Rosso%282009%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Toro_Rosso(2009).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7411430",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2009-07-28 18:06:58",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "F1 Team Icon - Toro Rosso(2009)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|Toro Rosso F1 cars|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Formula One icons",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Icon representing the Toro Rosso Formula1 team.  Based on <a href=\"//commons.wikimedia.org/wiki/File:F1_Team_Icon_-_Blank.svg\" title=\"File:F1 Team Icon - Blank.svg\">File:F1_Team_Icon_-_Blank.svg</a>.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2009-07-28",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Original work",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:DoktorMandrake\" class=\"mw-redirect\" title=\"User:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #CC6600;\"><b>Doktor</b></span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:DoktorMandrake\" class=\"mw-redirect\" title=\"User talk:DoktorMandrake\"><span style=\"font-variant: small-caps; color: #003300;\"><i><b>Mandrake</b></i></span></a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    }
+  ]
+}

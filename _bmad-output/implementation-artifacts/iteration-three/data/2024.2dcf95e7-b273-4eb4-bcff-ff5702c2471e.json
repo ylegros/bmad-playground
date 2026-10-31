@@ -1,0 +1,607 @@
+{
+  "season": 2024,
+  "attemptId": "2dcf95e7-b273-4eb4-bcff-ff5702c2471e",
+  "status": "verified",
+  "startedAt": "2026-10-30T11:39:00.754Z",
+  "finishedAt": "2026-10-30T11:39:00.848Z",
+  "snapshotId": "174a5f86-1ad3-4791-89c3-9ae6a4be13b1",
+  "refreshedAt": "2026-10-30T05:48:24.808Z",
+  "gaps": [],
+  "audit": {
+    "auditId": "f73708e3-d5b7-4a6d-9c36-41b0367b631d",
+    "auditedAt": "2026-10-30T11:39:00.830Z",
+    "status": "verified",
+    "provenance": [
+      {
+        "sourceUrl": "https://www.formula1.com/en/results/2024/races",
+        "observedAt": "2026-10-30T09:36:59.089Z",
+        "note": "Official per-event positive session evidence independently reconciled to every canonical provider event by reviewed event-name alias and exact date; 24 distinct rounds. No held lifecycle inferred from dates or empty responses."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T05:48:24.808Z",
+        "note": "Saved canonical provider calendar; all event identities/dates independently reconciled. Source observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T05:48:24.808Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T05:48:26.818Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=100",
+        "observedAt": "2026-10-30T05:48:32.683Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=200",
+        "observedAt": "2026-10-30T05:48:33.637Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=300",
+        "observedAt": "2026-10-30T05:48:36.035Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100&offset=400",
+        "observedAt": "2026-10-30T05:48:38.688Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/sprint.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T05:49:00.170Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/sprint.json?limit=100&offset=100",
+        "observedAt": "2026-10-30T05:49:00.995Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T05:48:44.593Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100&offset=100",
+        "observedAt": "2026-10-30T05:48:45.242Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100&offset=200",
+        "observedAt": "2026-10-30T05:48:47.995Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100&offset=300",
+        "observedAt": "2026-10-30T05:48:53.597Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100&offset=400",
+        "observedAt": "2026-10-30T05:48:54.575Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/1/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:13.823Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/1/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:14.158Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/2/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:14.738Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/2/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:15.220Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/3/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:15.770Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/3/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:16.238Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/4/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:17.262Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/4/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:17.581Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/5/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:18.608Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/5/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:18.953Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/6/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:20.158Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/6/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:20.503Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/7/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:21.093Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/7/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:21.980Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/8/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:22.363Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/8/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:22.815Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/9/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:23.395Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/9/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:23.855Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/10/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:24.446Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/10/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:24.901Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/11/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:25.952Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/11/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:26.459Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/12/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:27.297Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/12/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:27.632Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/13/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:28.211Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/13/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:28.659Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/14/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:29.269Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/14/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:30.133Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/15/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:30.532Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/15/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:30.991Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/16/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:31.563Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/16/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:32.029Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/17/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:32.592Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/17/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:33.076Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/18/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:33.652Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/18/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:34.125Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/19/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:34.691Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/19/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:35.139Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/20/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:35.742Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/20/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:36.231Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/21/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:36.773Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/21/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:42.297Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/22/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:42.884Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/22/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:48.377Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/23/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:48.977Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/23/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:54.482Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/24/driverStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:38:55.046Z",
+        "note": "Validated saved provider page; original observation retained."
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/24/constructorStandings.json?limit=100&offset=0",
+        "observedAt": "2026-10-30T11:39:00.582Z",
+        "note": "Validated saved provider page; original observation retained."
+      }
+    ],
+    "endpoints": [
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/results.json?limit=100",
+        "expectedPages": 5,
+        "fetchedPages": 5
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/sprint.json?limit=100",
+        "expectedPages": 2,
+        "fetchedPages": 2
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/qualifying.json?limit=100",
+        "expectedPages": 5,
+        "fetchedPages": 5
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/1/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/1/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/2/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/2/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/3/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/3/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/4/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/4/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/5/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/5/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/6/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/6/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/7/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/7/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/8/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/8/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/9/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/9/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/10/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/10/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/11/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/11/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/12/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/12/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/13/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/13/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/14/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/14/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/15/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/15/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/16/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/16/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/17/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/17/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/18/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/18/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/19/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/19/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/20/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/20/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/21/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/21/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/22/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/22/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/23/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/23/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/24/driverStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      },
+      {
+        "sourceUrl": "https://api.jolpi.ca/ergast/f1/2024/24/constructorStandings.json?limit=100",
+        "expectedPages": 1,
+        "fetchedPages": 1
+      }
+    ],
+    "failures": [],
+    "completion": [
+      {
+        "sourceUrl": "https://www.formula1.com/en/latest/article/norris-so-proud-of-mclaren-as-abu-dhabi-win-ensures-team-take-first.3zORGryvho6xIdXJxlYPiY",
+        "observedAt": "2026-10-30T05:45:17.118Z",
+        "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+      },
+      {
+        "sourceUrl": "https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result",
+        "observedAt": "2026-10-30T05:45:17.118Z",
+        "note": "Official result table of the independently identified season-ending event."
+      }
+    ]
+  }
+}

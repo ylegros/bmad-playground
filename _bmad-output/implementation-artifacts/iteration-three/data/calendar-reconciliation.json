@@ -1,0 +1,181 @@
+{
+  "observedAt": "2026-10-30T09:36:59.105Z",
+  "status": "canonical-calendars-reconciled-endpoint-audits-separate",
+  "identityAliases": {
+    "70th Anniversary": "70th Anniversary",
+    "Abu Dhabi": "Abu Dhabi",
+    "Australian": "Australia",
+    "Austrian": "Austria",
+    "Azerbaijan": "Azerbaijan",
+    "Bahrain in Malaysia": "Bahrain",
+    "Bahrain": "Bahrain",
+    "Barcelona": "Barcelona-Catalunya",
+    "Belgian": "Belgium",
+    "Brazilian": "Brazil",
+    "British": "Great Britain",
+    "Canadian": "Canada",
+    "Chinese": "China",
+    "Dutch": "Netherlands",
+    "Eifel": "Eifel",
+    "Emilia Romagna": "Emilia-Romagna",
+    "European": "Europe",
+    "French": "France",
+    "German": "Germany",
+    "Hungarian": "Hungary",
+    "Indian": "India",
+    "Italian": "Italy",
+    "Japanese": "Japan",
+    "Korean": "South Korea",
+    "Las Vegas": "Las Vegas",
+    "Malaysian": "Malaysia",
+    "Mexican": "Mexico",
+    "Mexico City": "Mexico",
+    "Miami": "Miami",
+    "Monaco": "Monaco",
+    "Portuguese": "Portugal",
+    "Qatar": "Qatar",
+    "Russian": "Russia",
+    "Sakhir": "Sakhir",
+    "Saudi Arabian": "Saudi Arabia",
+    "Singapore": "Singapore",
+    "Spanish": "Spain",
+    "Styrian": "Styria",
+    "Sao Paulo": "Brazil",
+    "Turkish": "Turkey",
+    "Tuscan": "Tuscany",
+    "United States": "United States"
+  },
+  "years": [
+    {
+      "season": 2010,
+      "canonicalRounds": 19,
+      "heldGP": 19,
+      "adjustments": []
+    },
+    {
+      "season": 2021,
+      "canonicalRounds": 22,
+      "heldGP": 22,
+      "adjustments": []
+    },
+    {
+      "season": 2011,
+      "canonicalRounds": 19,
+      "heldGP": 19,
+      "adjustments": []
+    },
+    {
+      "season": 2012,
+      "canonicalRounds": 20,
+      "heldGP": 20,
+      "adjustments": []
+    },
+    {
+      "season": 2013,
+      "canonicalRounds": 19,
+      "heldGP": 19,
+      "adjustments": []
+    },
+    {
+      "season": 2014,
+      "canonicalRounds": 19,
+      "heldGP": 19,
+      "adjustments": [
+        {
+          "name": "Russia",
+          "officialSummaryDate": "2014-10-21",
+          "canonicalDate": "2014-10-12",
+          "sourceUrl": "https://www.fia.com/news/hamilton-wins-sochi-hand-mercedes-constructors-title"
+        }
+      ]
+    },
+    {
+      "season": 2015,
+      "canonicalRounds": 19,
+      "heldGP": 19,
+      "adjustments": []
+    },
+    {
+      "season": 2016,
+      "canonicalRounds": 21,
+      "heldGP": 21,
+      "adjustments": []
+    },
+    {
+      "season": 2017,
+      "canonicalRounds": 20,
+      "heldGP": 20,
+      "adjustments": []
+    },
+    {
+      "season": 2018,
+      "canonicalRounds": 21,
+      "heldGP": 21,
+      "adjustments": []
+    },
+    {
+      "season": 2019,
+      "canonicalRounds": 21,
+      "heldGP": 21,
+      "adjustments": []
+    },
+    {
+      "season": 2020,
+      "canonicalRounds": 17,
+      "heldGP": 17,
+      "adjustments": []
+    },
+    {
+      "season": 2022,
+      "canonicalRounds": 22,
+      "heldGP": 22,
+      "adjustments": []
+    },
+    {
+      "season": 2023,
+      "canonicalRounds": 22,
+      "heldGP": 22,
+      "adjustments": [
+        {
+          "name": "Las Vegas",
+          "officialSummaryDate": "2023-11-18",
+          "canonicalDate": "2023-11-19",
+          "sourceUrl": "https://www.formula1.com/en/racing/2023/las-vegas"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "canonicalRounds": 24,
+      "heldGP": 24,
+      "adjustments": []
+    },
+    {
+      "season": 2025,
+      "canonicalRounds": 24,
+      "heldGP": 24,
+      "adjustments": [
+        {
+          "name": "Las Vegas",
+          "officialSummaryDate": "2025-11-22",
+          "canonicalDate": "2025-11-23",
+          "sourceUrl": "https://www.formula1.com/en/racing/2025/las-vegas"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "canonicalRounds": 23,
+      "heldGP": 18,
+      "adjustments": [
+        {
+          "name": "Las Vegas",
+          "officialSummaryDate": "2026-11-21",
+          "canonicalDate": "2026-11-22",
+          "sourceUrl": "https://www.formula1.com/en/racing/2026/las-vegas"
+        }
+      ]
+    }
+  ],
+  "changeInventoryScope": "Known removed/rescheduled proposals remain in separate calendar-changes.json; no fabricated numbered round is assigned. Partial historical proposal inventory explicitly retained, never claimed complete."
+}

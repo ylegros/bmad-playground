@@ -7,7 +7,7 @@ function SummaryValue({metric,better,name,label,direction}:{metric:Metric;better
   return <div className={`summary-value ${better?'is-better':''}`}><span className="summary-driver">{name}</span><strong>{displayMetric(metric)}</strong>{better&&<span className="better-label"><span aria-hidden="true">&#10003;</span><span className="sr-only">{name}, {label}, {direction} is better</span></span>}{metric.kind==='unavailable'&&<small>{metric.reason}</small>}</div>;
 }
 function Evidence({row,names}:{row:SummaryCategory;names:[string,string]}) {
-  return <details className="summary-evidence"><summary>Evidence and availability · {row.label}</summary><p>{row.explanation}</p><p>Sample sizes: {names[0]} {row.samples.a}; {names[1]} {row.samples.b}. Scheduled GPs: {row.samples.scheduled}.</p>
+  return <details className="summary-evidence"><summary>Evidence and availability · {row.label}</summary><p>{row.explanation}</p><p>Sample sizes: {names[0]} {row.samples.a}; {names[1]} {row.samples.b}. Analysis-window GPs: {row.samples.scheduled}.</p>
     {(row.id==='gp'||row.id==='qualifying')&&<><p>Eligible rounds ({row.eligible.length}): {row.eligible.map(round=>`${round.round} ${round.name}`).join('; ')||'None'}.</p><p>Tied rounds ({row.ties.length}): {row.ties.map(round=>`${round.round} ${round.name}`).join('; ')||'None'}.</p><p>Excluded rounds ({row.excluded.length}): {row.excluded.map(round=>`${round.round} ${round.name}: ${round.reason}`).join('; ')||'None'}.</p></>}{row.details.length>0&&<ul>{row.details.map(detail=><li key={detail}>{detail}</li>)}</ul>}</details>;
 }
 export default function ComparisonSummary({snapshot,a,b}:{snapshot:SeasonSnapshot;a:string;b:string}) {

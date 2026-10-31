@@ -17,7 +17,9 @@
     "audit:data": "node app/server/audit.ts",
     "test": "node --test app/server/*.test.ts app/shared/*.test.ts scripts/*.test.mjs && vitest run",
     "test:e2e": "playwright test",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "export:iteration-three": "node scripts/export-site.mjs --iteration-three --cache-dir .cache/seasons-v2",
+    "build:iteration-three": "npm run export:iteration-three && tsc --noEmit && vite build --mode bundled"
   },
   "dependencies": {
     "react": "19.3.1",

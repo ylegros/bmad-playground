@@ -2,7 +2,8 @@ import { readFile, writeFile, mkdir, rename, rm, cp, stat, readdir } from 'node:
 import { resolve, join, dirname, relative } from 'node:path';
 import { createHash, randomUUID } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
-import { validSnapshot, validBundledManifest, validBundledSnapshot, supportedSeasons, validAssetPath, calendarDate } from '../app/shared/validation.ts';
+import { validSnapshot, validBundledManifest, validBundledSnapshot, supportedSeasons, validAssetPath, calendarDate, utcTimestamp } from '../app/shared/validation.ts';
+import { candidateSeasons, validSnapshotV2, supportEntryV2, validBundledManifestV2, validBundledSnapshotV2 } from '../app/shared/evidence.ts';
 
 const checksum = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const readJson = async path => JSON.parse(await readFile(path, 'utf8'));
@@ -21,10 +22,25 @@ export function publicSnapshot(snapshot) {
     driverStandings: rows('driverStandings', ['round','driverId','constructorIds'], ['position','points']),
     constructorStandings: rows('constructorStandings', ['round','constructorId'], ['position','points'])};
 }
+const publicProvenance = rows => rows.map(row => pick(row,['sourceUrl','observedAt','note']));
+const publicSlot = row => pick(row,row.status === 'exception' ? ['kind','identity','season','status','attemptedSources','blocker','visualCheck','visualEvidence','reviewedAt','acceptance'] : ['kind','identity','season','status','filename','sourceUrl','creator','license','licenseUrl','attribution','applicableSeasons','photographDate','cropNotes','visualCheck','sha256','bytes','width','height']);
+export function publicSnapshotV2(snapshot) {
+  const clean = publicSnapshot(snapshot);
+  const audit = pick(snapshot.audit,['auditId','auditedAt','status','failures']);
+  audit.provenance = publicProvenance(snapshot.audit.provenance);
+  audit.completion = publicProvenance(snapshot.audit.completion);
+  audit.endpoints = snapshot.audit.endpoints.map(row => pick(row,['sourceUrl','expectedPages','fetchedPages']));
+  if (snapshot.audit.migration) audit.migration = pick(snapshot.audit.migration,['fromSchemaVersion','snapshotId','migratedAt']);
+  return {...clean,lifecycle:snapshot.lifecycle,analysisRounds:[...snapshot.analysisRounds],audit,
+    schedule:clean.schedule.map((row,i) => ({...row,sessions:Object.fromEntries(['gp','qualifying','sprint'].map(kind => {
+      const session=snapshot.schedule[i].sessions[kind];
+      return [kind,{...pick(session,['applicable','lifecycle']),provenance:publicProvenance(session.provenance)}];
+    }))}))};
+}
 function validCredits(credits, snapshots) {
   const text = value => typeof value === 'string' && !!value.trim();
   const url = value => { try { return text(value) && ['http:','https:'].includes(new URL(value).protocol); } catch { return false; } };
-  const identity = (entry, season) => supportedSeasons.includes(season) && ['portrait','constructor'].includes(entry.kind) && text(entry.identity) &&
+  const identity = (entry, season) => snapshots.some(snapshot=>snapshot.season===season) && ['portrait','constructor'].includes(entry.kind) && text(entry.identity) &&
     !!snapshots.find(snapshot => snapshot.season === season)?.[entry.kind === 'portrait' ? 'drivers' : 'constructors'][entry.identity];
   const valid = !!credits && Array.isArray(credits.assets) && Array.isArray(credits.fallbacks) &&
     new Set(credits.assets.map(asset => asset?.filename)).size === credits.assets.length &&
@@ -40,6 +56,22 @@ function validCredits(credits, snapshots) {
   const unique = new Set(slots);
   return unique.size === slots.length && slots.length === expected.length && expected.every(slot => unique.has(slot));
 }
+function legacyCredits(raw) {
+  const text=v=>typeof v==='string' && !!v.trim();
+  const url=v=>{try{return text(v)&&['http:','https:'].includes(new URL(v).protocol);}catch{return false;}};
+  const identity=row=>row && ['portrait','constructor'].includes(row.kind) && text(row.identity);
+  if (!raw || !Array.isArray(raw.assets) || !Array.isArray(raw.fallbacks) ||
+    raw.assets.some(a=>!identity(a)||!Array.isArray(a.seasons)||!a.seasons.length||new Set(a.seasons).size!==a.seasons.length||a.seasons.some(y=>!candidateSeasons.includes(y))||!validAssetPath(`media/${a.filename}`)||a.filename.startsWith('media/')||![a.creator,a.license,a.attribution,a.cropNotes].every(text)||!url(a.sourceUrl)||!url(a.licenseUrl)||!(a.portraitDate==='unknown'||calendarDate(a.portraitDate))) ||
+    raw.fallbacks.some(row=>!identity(row)||!candidateSeasons.includes(row.season)||!text(row.reason)) || new Set(raw.assets.map(a=>a.filename)).size!==raw.assets.length) throw new Error('Invalid media credits or provenance.');
+  const slots=[...raw.assets.flatMap(a=>a.seasons.map(y=>`${y}/${a.kind}/${a.identity}`)),...raw.fallbacks.map(a=>`${a.season}/${a.kind}/${a.identity}`)];
+  if(new Set(slots).size!==slots.length)throw new Error('Invalid media credits or provenance: duplicate slot.');
+  return {assets:raw.assets.map(a=>({...a,seasons:a.seasons.filter(y=>supportedSeasons.includes(y))})).filter(a=>a.seasons.length),fallbacks:raw.fallbacks.filter(a=>supportedSeasons.includes(a.season))};
+}
+function validInvestigations(rows) {
+  const text=v=>typeof v==='string' && !!v.trim();
+  const url=v=>{try{return text(v)&&['http:','https:'].includes(new URL(v).protocol);}catch{return false;}};
+  return Array.isArray(rows) && new Set(rows.map(row=>`${row?.season}/${row?.kind}/${row?.identity}`)).size===rows.length && rows.every(row=>row && candidateSeasons.includes(row.season) && ['portrait','constructor'].includes(row.kind) && text(row.identity) && row.status==='exception' && Array.isArray(row.attemptedSources) && row.attemptedSources.length && row.attemptedSources.every(url) && text(row.blocker) && row.blocker.trim().length>=32 && !/^(not vetted|unavailable|missing|no image|fallback)[.! ]*$/i.test(row.blocker.trim()) && text(row.visualCheck) && validAssetPath(row.visualEvidence) && utcTimestamp(row.reviewedAt) && (row.acceptance===undefined || text(row.acceptance)));
+}
 async function matchingRelease(staged, existing) {
   const expected = await readdir(staged, {withFileTypes:true});
   const actual = await readdir(existing, {withFileTypes:true});
@@ -51,19 +83,45 @@ async function matchingRelease(staged, existing) {
   }
   return true;
 }
-export async function exportSite({ cacheDirectory = resolve('.cache/seasons'), payloadDirectory, mediaDirectory = resolve('public/media'), outputDirectory = resolve('public/bundled'), exportedAt = new Date().toISOString() } = {}) {
+export async function exportSite({ cacheDirectory, payloadDirectory, mediaDirectory = resolve('public/media'), outputDirectory = resolve('public/bundled'), exportedAt = new Date().toISOString(), iterationThree = false, evidenceDirectory = resolve('.') } = {}) {
+  cacheDirectory ??= resolve(iterationThree ? '.cache/seasons-v2' : '.cache/seasons');
   const snapshots = [];
-  for (const year of supportedSeasons) {
-    const raw = await readJson(join(payloadDirectory ?? cacheDirectory, `${year}.json`));
+  for (const year of iterationThree ? candidateSeasons : supportedSeasons) {
+    const raw = await readJson(join(payloadDirectory ?? cacheDirectory, `${year}.json`)).catch(error => { throw new Error(`Missing or unreadable snapshot for ${year}: ${error.message}`); });
     const snapshot = payloadDirectory ? raw : raw?.snapshot;
     if (!payloadDirectory && (typeof raw?.checksum !== 'string' || raw.checksum !== checksum(snapshot))) throw new Error(`Cache checksum mismatch for ${year}.`);
-    if (!validSnapshot(snapshot, year) || !snapshot.snapshotId.trim() || snapshot.coverage.gaps.length) throw new Error(`Unverified or invalid snapshot for ${year}.`);
-    snapshots.push(publicSnapshot(snapshot));
+    if (iterationThree ? (!validSnapshotV2(snapshot,year) || snapshot.audit.status !== 'verified') : (!validSnapshot(snapshot, year) || !snapshot.snapshotId.trim() || snapshot.coverage.gaps.length)) throw new Error(`Unverified or invalid snapshot for ${year}.`);
+    snapshots.push(iterationThree ? publicSnapshotV2(snapshot) : publicSnapshot(snapshot));
   }
-  const rawCredits = await readJson(join(mediaDirectory, 'credits.json'));
+  const sourceCredits = await readJson(join(mediaDirectory, 'credits.json'));
+  const rawCredits = iterationThree ? sourceCredits : legacyCredits(sourceCredits);
   if (!validCredits(rawCredits, snapshots)) throw new Error('Invalid media credits or provenance.');
   const credits = {assets:rawCredits.assets.map(asset => pick(asset,['kind','identity','seasons','filename','sourceUrl','creator','license','licenseUrl','attribution','portraitDate','cropNotes'])),fallbacks:rawCredits.fallbacks.map(entry => pick(entry,['kind','identity','season','reason']))};
   const mediaFiles = [];
+  {
+    const { inventoryMedia } = await import('./media-inventory.mjs');
+    const sourceInvestigations = await readJson(join(mediaDirectory,'investigations.json'));
+    if(!validInvestigations(sourceInvestigations)) throw new Error('Invalid media investigations.');
+    if(sourceInvestigations.some(row=>sourceCredits.assets.some(asset=>asset.kind===row.kind && asset.identity===row.identity && asset.seasons.includes(row.season)))) throw new Error('Invalid media investigations: duplicate mapped slot.');
+    const investigations = sourceInvestigations.filter(row=>iterationThree || supportedSeasons.includes(row.season)).map(publicSlot);
+    const rawInventory = await readJson(join(mediaDirectory,'inventory.json'));
+    if(rawInventory.inventoryVersion!==2 || !utcTimestamp(rawInventory.checkedAt) || !Array.isArray(rawInventory.coverage) || !Array.isArray(rawInventory.slots)) throw new Error('Invalid declared media inventory.');
+    const savedInventory = {...pick(rawInventory,['inventoryVersion','checkedAt']),coverage:rawInventory.coverage.map(row=>pick(row,['season','kind','total','actual','exceptions','unresolved'])),slots:rawInventory.slots.map(publicSlot)};
+    const checked = await inventoryMedia({snapshots,credits,investigations,mediaDirectory,evidenceDirectory,strict:iterationThree,checkedAt:rawInventory.checkedAt});
+    if (iterationThree && (JSON.stringify(savedInventory.coverage) !== JSON.stringify(checked.coverage) || JSON.stringify(savedInventory.slots) !== JSON.stringify(checked.slots.map(publicSlot)))) throw new Error('Saved media inventory does not match validated slots, provenance or file bytes.');
+    const inventory=iterationThree?{...savedInventory,scope:checked.scope}:checked;
+    for (const [path,value] of [['inventory.json',inventory],['investigations.json',investigations]]) mediaFiles.push({path,bytes:Buffer.from(JSON.stringify(value,null,2))});
+    for (const item of investigations) {
+      if (!validAssetPath(item.visualEvidence)) throw new Error(`Invalid visual evidence for ${item.season}/${item.identity}`);
+      mediaFiles.push({path:`evidence/${item.visualEvidence}`,bytes:await readFile(resolve(evidenceDirectory,item.visualEvidence))});
+      const metadata=join(dirname(item.visualEvidence),'metadata.json');
+      try {
+        const raw=await readJson(resolve(evidenceDirectory,metadata));
+        const clean={observedAt:raw.observedAt,records:raw.records.map(row=>({...pick(row,['title','filename']),info:{...pick(row.info,['url','thumburl','descriptionurl','descriptionshorturl']),extmetadata:Object.fromEntries(['Artist','LicenseShortName','LicenseUrl','Credit','AttributionRequired','Copyrighted','UsageTerms'].filter(key=>row.info.extmetadata?.[key]).map(key=>[key,pick(row.info.extmetadata[key],['value'])]))}}))};
+        mediaFiles.push({path:`evidence/${metadata}`,bytes:Buffer.from(JSON.stringify(clean,null,2))});
+      } catch(error) { if(error.code !== 'ENOENT') throw error; }
+    }
+  }
   for (const asset of credits.assets) {
     const filename = asset.filename;
     const path = typeof filename === 'string' ? filename.replace(/^\/?media\//, '') : '';
@@ -76,8 +134,8 @@ export async function exportSite({ cacheDirectory = resolve('.cache/seasons'), p
   const identity = createHash('sha256').update(JSON.stringify(snapshots)).update(JSON.stringify(credits));
   for (const file of mediaFiles) identity.update(file.bytes);
   const releaseId = identity.digest('hex').slice(0, 24);
-  const manifest = { bundleVersion: 1, exportedAt, seasons: snapshots.map(snapshot => ({ season: snapshot.season, verified: true, lastCheckedRound: Math.max(...snapshot.coverage.checkedRounds), knownGaps: [], snapshotId: snapshot.snapshotId, schemaVersion: snapshot.schemaVersion, refreshedAt: snapshot.refreshedAt, assetPath: `bundled/releases/${releaseId}/${snapshot.season}.json` })) };
-  if (!validBundledManifest(manifest) || !snapshots.every((snapshot, index) => validBundledSnapshot(snapshot, manifest.seasons[index]))) throw new Error('Invalid bundle identity or metadata.');
+  const manifest = iterationThree ? {bundleVersion:2,exportedAt,seasons:snapshots.map(snapshot => ({...supportEntryV2(snapshot),assetPath:`bundled/releases/${releaseId}/${snapshot.season}.json`}))} : { bundleVersion: 1, exportedAt, seasons: snapshots.map(snapshot => ({ season: snapshot.season, verified: true, lastCheckedRound: Math.max(...snapshot.coverage.checkedRounds), knownGaps: [], snapshotId: snapshot.snapshotId, schemaVersion: snapshot.schemaVersion, refreshedAt: snapshot.refreshedAt, assetPath: `bundled/releases/${releaseId}/${snapshot.season}.json` })) };
+  if (!(iterationThree ? validBundledManifestV2(manifest) : validBundledManifest(manifest)) || !snapshots.every((snapshot, index) => (iterationThree ? validBundledSnapshotV2 : validBundledSnapshot)(snapshot, manifest.seasons[index]))) throw new Error('Invalid bundle identity or metadata.');
   const output = resolve(outputDirectory);
   const staging = join(dirname(output), `.bundle-stage-${randomUUID()}`);
   const manifestTemp = join(output, `.manifest-${randomUUID()}.tmp`);
@@ -104,8 +162,9 @@ export async function exportSite({ cacheDirectory = resolve('.cache/seasons'), p
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
   const args = process.argv.slice(2); const options = {};
-  const names = { '--cache-dir': 'cacheDirectory', '--payload-dir': 'payloadDirectory', '--media-dir': 'mediaDirectory', '--output-dir': 'outputDirectory' };
+  const names = { '--cache-dir': 'cacheDirectory', '--payload-dir': 'payloadDirectory', '--media-dir': 'mediaDirectory', '--output-dir': 'outputDirectory', '--evidence-dir':'evidenceDirectory' };
   for (let index = 0; index < args.length; index += 2) {
+    if (args[index] === '--iteration-three') { options.iterationThree=true; index--; continue; }
     const key = names[args[index]];
     if (!key || !args[index + 1]) throw new Error(`Invalid exporter argument: ${args[index]}`);
     options[key] = resolve(args[index + 1]);

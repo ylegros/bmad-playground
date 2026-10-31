@@ -1,0 +1,1185 @@
+{
+  "researchVersion": 1,
+  "season": 2025,
+  "observedAt": "2026-10-30T05:45:31.493Z",
+  "sourceUrl": "https://www.formula1.com/en/results/2025/races",
+  "status": "research-only-not-a-verified-audit",
+  "roundAssignment": "chronological official result-table order; cross-check provider calendar before use",
+  "seasonLifecycle": "complete",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Australia",
+      "dateLabel": "16 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1254/australia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1254/australia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1254/australia/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1254/australia/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-03-16"
+    },
+    {
+      "round": 2,
+      "name": "China",
+      "dateLabel": "23 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1255/china/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-03-23"
+    },
+    {
+      "round": 3,
+      "name": "Japan",
+      "dateLabel": "06 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1256/japan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1256/japan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1256/japan/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1256/japan/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-04-06"
+    },
+    {
+      "round": 4,
+      "name": "Bahrain",
+      "dateLabel": "13 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1257/bahrain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1257/bahrain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1257/bahrain/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1257/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-04-13"
+    },
+    {
+      "round": 5,
+      "name": "Saudi Arabia",
+      "dateLabel": "20 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1258/saudi-arabia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1258/saudi-arabia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1258/saudi-arabia/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1258/saudi-arabia/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-04-20"
+    },
+    {
+      "round": 6,
+      "name": "Miami",
+      "dateLabel": "04 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1259/miami/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-05-04"
+    },
+    {
+      "round": 7,
+      "name": "Emilia-Romagna",
+      "dateLabel": "18 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1260/emilia-romagna/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1260/emilia-romagna/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1260/emilia-romagna/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1260/emilia-romagna/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-05-18"
+    },
+    {
+      "round": 8,
+      "name": "Monaco",
+      "dateLabel": "25 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1261/monaco/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1261/monaco/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1261/monaco/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1261/monaco/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-05-25"
+    },
+    {
+      "round": 9,
+      "name": "Spain",
+      "dateLabel": "01 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1262/spain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1262/spain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1262/spain/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1262/spain/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-06-01"
+    },
+    {
+      "round": 10,
+      "name": "Canada",
+      "dateLabel": "15 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1263/canada/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1263/canada/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1263/canada/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1263/canada/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-06-15"
+    },
+    {
+      "round": 11,
+      "name": "Austria",
+      "dateLabel": "29 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1264/austria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1264/austria/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1264/austria/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1264/austria/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-06-29"
+    },
+    {
+      "round": 12,
+      "name": "Great Britain",
+      "dateLabel": "06 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1277/great-britain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1277/great-britain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1277/great-britain/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1277/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-07-06"
+    },
+    {
+      "round": 13,
+      "name": "Belgium",
+      "dateLabel": "27 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1265/belgium/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-07-27"
+    },
+    {
+      "round": 14,
+      "name": "Hungary",
+      "dateLabel": "03 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1266/hungary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1266/hungary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1266/hungary/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1266/hungary/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-08-03"
+    },
+    {
+      "round": 15,
+      "name": "Netherlands",
+      "dateLabel": "31 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1267/netherlands/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1267/netherlands/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1267/netherlands/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1267/netherlands/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-08-31"
+    },
+    {
+      "round": 16,
+      "name": "Italy",
+      "dateLabel": "07 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1268/italy/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1268/italy/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1268/italy/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1268/italy/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-09-07"
+    },
+    {
+      "round": 17,
+      "name": "Azerbaijan",
+      "dateLabel": "21 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1269/azerbaijan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1269/azerbaijan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1269/azerbaijan/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1269/azerbaijan/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-09-21"
+    },
+    {
+      "round": 18,
+      "name": "Singapore",
+      "dateLabel": "05 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1270/singapore/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1270/singapore/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1270/singapore/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1270/singapore/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-10-05"
+    },
+    {
+      "round": 19,
+      "name": "United States",
+      "dateLabel": "19 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1271/united-states/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-10-19"
+    },
+    {
+      "round": 20,
+      "name": "Mexico",
+      "dateLabel": "26 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1272/mexico/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1272/mexico/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1272/mexico/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1272/mexico/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-10-26"
+    },
+    {
+      "round": 21,
+      "name": "Brazil",
+      "dateLabel": "09 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1273/brazil/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-11-09"
+    },
+    {
+      "round": 22,
+      "name": "Las Vegas",
+      "dateLabel": "22 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1274/las-vegas/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1274/las-vegas/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1274/las-vegas/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1274/las-vegas/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-11-22"
+    },
+    {
+      "round": 23,
+      "name": "Qatar",
+      "dateLabel": "30 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1275/qatar/sprint-results",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2025-11-30"
+    },
+    {
+      "round": 24,
+      "name": "Abu Dhabi",
+      "dateLabel": "07 Dec",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/race-result",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/qualifying",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-announces-2024-sprint-calendar.3fjONI6I9cAyThBj73oQRX",
+              "observedAt": "2026-10-30T05:45:31.493Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2025-12-07"
+    }
+  ],
+  "unresolved": [
+    "Cancellation/rescheduling inventory and independent completion evidence require reconciliation.",
+    "Canonical provider calendar identities and endpoint/page audits remain required."
+  ],
+  "completion": [
+    {
+      "sourceUrl": "https://www.formula1.com/en/latest/article/abu-dhabi-lowdown-all-the-key-moments-as-norris-seals-his-debut-title-and.6WLoFRGsfe4fbq1TZeoVIa",
+      "observedAt": "2026-10-30T05:45:31.493Z",
+      "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2025/races/1276/abu-dhabi/race-result",
+      "observedAt": "2026-10-30T05:45:31.493Z",
+      "note": "Official result table of the independently identified season-ending event."
+    }
+  ]
+}

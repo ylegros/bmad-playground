@@ -1,7 +1,7 @@
-import type { SeasonSnapshot, SupportManifest, BundledManifest, BundledSeason } from './contracts.ts';
+import type { SeasonSnapshotV1, SeasonSnapshot, SupportManifest, BundledManifest, BundledSeason } from './contracts.ts';
 export function calendarDate(raw: unknown): boolean { return typeof raw === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw) && Number.isFinite(Date.parse(raw)) && new Date(raw).toISOString().slice(0, 10) === raw; }
 export function utcTimestamp(raw: unknown): boolean { return typeof raw === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(raw) && Number.isFinite(Date.parse(raw)) && new Date(raw).toISOString() === (raw.includes('.') ? raw : raw.replace('Z', '.000Z')); }
-export function validSnapshot(raw: unknown, season: number): raw is SeasonSnapshot {
+export function validSnapshot(raw: unknown, season: number, structureOnly = false): raw is SeasonSnapshotV1 {
   try {
   const s = raw as SeasonSnapshot;
   const metric = (m: unknown) => { const v = m as {kind?: string;value?: number;reason?: string}; return !!v && (v.kind === 'value' ? typeof v.value === 'number' && Number.isFinite(v.value) : v.kind === 'unavailable' && typeof v.reason === 'string'); };
@@ -23,8 +23,8 @@ export function validSnapshot(raw: unknown, season: number): raw is SeasonSnapsh
     if (round.sprint === 'complete' && !s.results.some(r => r.round === round.round && r.kind === 'sprint')) return false;
     if (round.sprint === 'not-applicable' && s.results.some(r => r.round === round.round && r.kind === 'sprint')) return false;
     if (round.qualifying === 'complete' && !s.qualifying.some(r => r.round === round.round)) return false;
-    if (!s.driverStandings.some(r => r.round === round.round) || !s.constructorStandings.some(r => r.round === round.round)) return false;
-    if (!s.coverage.gaps.length && (round.gp !== 'complete' || round.qualifying !== 'complete' || round.sprint === 'unavailable')) return false;
+    if (!structureOnly && (!s.driverStandings.some(r => r.round === round.round) || !s.constructorStandings.some(r => r.round === round.round))) return false;
+    if (!structureOnly && !s.coverage.gaps.length && (round.gp !== 'complete' || round.qualifying !== 'complete' || round.sprint === 'unavailable')) return false;
   }
   return true;
   } catch { return false; }

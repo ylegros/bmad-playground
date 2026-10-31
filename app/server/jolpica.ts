@@ -1,20 +1,17 @@
 import { randomUUID } from 'node:crypto';
 import { value, unavailable } from '../shared/contracts.ts';
 import type { SeasonSnapshot, Metric, RaceRound } from '../shared/contracts.ts';
+import { reserveProviderRequest, ProviderBudgetError } from './provider-budget.ts';
 
 export class DataError extends Error { code: string; status: number; constructor(code: string, message: string, status = 502) { super(message); this.code = code; this.status = status; } }
 type Row = Record<string, any>;
 let queue: Promise<unknown> = Promise.resolve();
-let lastRequest = 0;
-const requestTimes: number[] = [];
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-async function queuedFetch(url: string): Promise<Row> {
+export async function queuedFetch(url: string): Promise<Row> {
   const task = queue.then(async () => {
     for (let attempt = 0; attempt < 3; attempt++) {
-      while (requestTimes.length && requestTimes[0] < Date.now() - 3_600_000) requestTimes.shift();
-      if (requestTimes.length >= 450) throw new DataError('RATE_BUDGET', 'Hourly upstream request budget reached. Retry later.', 503);
-      await sleep(Math.max(0, 510 - (Date.now() - lastRequest)));
-      lastRequest = Date.now(); requestTimes.push(lastRequest);
+      try { await reserveProviderRequest(); }
+      catch (error) { if (error instanceof ProviderBudgetError) throw new DataError(error.code, error.message, error.status); throw error; }
       let response: Response;
       try { response = await fetch(url, { headers: { 'User-Agent': 'PitWall/0.1 personal-dashboard' }, signal: AbortSignal.timeout(25_000) }); }
       catch (error) { if (attempt < 2) { await sleep(1000 * (attempt + 1)); continue; } throw new DataError('UPSTREAM_NETWORK', `Could not reach Jolpica: ${String(error)}`); }
@@ -60,7 +57,7 @@ const metric = (raw: unknown): Metric => {
   if ((typeof raw !== 'string' && typeof raw !== 'number') || !/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(String(raw)) || !Number.isFinite(Number(raw))) throw new DataError('UPSTREAM_FORMAT', 'Malformed numeric metric.');
   return value(Number(raw));
 };
-export async function buildSnapshot(season: number, fetcher = queuedFetch): Promise<SeasonSnapshot> {
+export async function buildSnapshot(season: number, fetcher = queuedFetch, auditedCalendar?: { rounds: number; sprints: number[]; heldRounds?: number[] }): Promise<SeasonSnapshot> {
   const collect = (path: string, table: string, field: string) => fetchCollection(path, table, field, fetcher);
   const snapshot: SeasonSnapshot = { schemaVersion: 1, snapshotId: randomUUID(), season, refreshedAt: '', coverage: { checkedRounds: [], gaps: [] }, schedule: [], drivers: {}, constructors: {}, results: [], qualifying: [], driverStandings: [], constructorStandings: [] };
   const addDriver = (d: Row) => { if (!d || typeof d.driverId !== 'string' || !d.driverId || typeof d.givenName !== 'string' || !d.givenName || typeof d.familyName !== 'string' || !d.familyName) throw new DataError('UPSTREAM_FORMAT', 'Invalid driver identity.'); snapshot.drivers[d.driverId] = { id: d.driverId, name: `${d.givenName} ${d.familyName}`, code: d.code ?? '', nationality: d.nationality ?? '' }; };
@@ -68,7 +65,7 @@ export async function buildSnapshot(season: number, fetcher = queuedFetch): Prom
   const schedule = await collect(`${season}`, 'RaceTable', 'Races');
   if (!schedule.length) throw new DataError('NO_SCHEDULE', 'No schedule returned for this season.');
   const calendars: Record<number, { rounds: number; sprints: number[] }> = { 2010: { rounds: 19, sprints: [] }, 2021: { rounds: 22, sprints: [10,14,19] } };
-  const calendar = calendars[season];
+  const calendar = auditedCalendar ?? calendars[season];
   if (!calendar || schedule.length !== calendar.rounds || new Set(schedule.map(r => Number(r.round))).size !== calendar.rounds || schedule.some(r => !/^\d+$/.test(String(r.round)) || Number(r.round) < 1 || Number(r.round) > calendar.rounds || typeof r.raceName !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(r.date) || !Number.isFinite(Date.parse(r.date)) || new Date(r.date).toISOString().slice(0,10) !== r.date)) throw new DataError('UPSTREAM_CALENDAR', 'Historical season schedule does not match the verified calendar.');
   snapshot.schedule = schedule.map((r): RaceRound => ({ round: Number(r.round), name: r.raceName, date: r.date, gp: 'unavailable', sprint: calendar.sprints.includes(Number(r.round)) ? 'unavailable' : 'not-applicable', qualifying: 'unavailable' })).sort((a,b) => a.round-b.round);
   for (const [endpoint, key, kind] of [['results', 'Results', 'gp'], ['sprint', 'SprintResults', 'sprint'], ['qualifying', 'QualifyingResults', 'qualifying']] as const) {
@@ -89,6 +86,10 @@ export async function buildSnapshot(season: number, fetcher = queuedFetch): Prom
     }
   }
   for (const round of snapshot.schedule) {
+    if (auditedCalendar?.heldRounds && !auditedCalendar.heldRounds.includes(round.round)) {
+      snapshot.coverage.checkedRounds.push(round.round);
+      continue;
+    }
     for (const [endpoint, key] of [['driverStandings', 'DriverStandings'], ['constructorStandings', 'ConstructorStandings']] as const) {
       const lists = await collect(`${season}/${round.round}/${endpoint}`, 'StandingsTable', 'StandingsLists');
       // Standings pagination totals count entries, not containing StandingsLists.

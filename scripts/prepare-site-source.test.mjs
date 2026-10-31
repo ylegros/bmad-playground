@@ -7,13 +7,14 @@ import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { prepareSiteSource } from './prepare-site-source.mjs';
 import { seasonFixture } from '../tests/fixtures.ts';
+import { inventoryMedia } from './media-inventory.mjs';
 
 test('isolated Site source preserves identity, excludes unrelated inputs and builds without server/cache', async () => {
   const root = await mkdtemp(join(tmpdir(),'pitwall-source-'));
   const source = join(root,'input'), destination = join(root,'site');
   try {
     await mkdir(source,{recursive:true});
-    for (const file of ['app/client','app/shared','public/media','scripts/export-site.mjs','package.json','package-lock.json','tsconfig.json','vite.config.ts','index.html']) {
+    for (const file of ['app/client','app/shared','public/media','scripts/export-site.mjs','scripts/media-inventory.mjs','package.json','package-lock.json','tsconfig.json','vite.config.ts','index.html']) {
       await mkdir(resolve(source,file,'..'),{recursive:true});
       await cp(resolve(file),join(source,file),{recursive:true});
     }
@@ -31,6 +32,10 @@ test('isolated Site source preserves identity, excludes unrelated inputs and bui
       ...Object.keys(snapshot.constructors).map(identity=>({kind:'constructor',identity,season,reason:'Synthetic fixture identity.'})),
       ...(season===2010?[{kind:'portrait',identity:'leclerc',season,reason:'Only 2021 test portrait supplied.'}]:[])];});
     await writeFile(join(source,'public/media/credits.json'),JSON.stringify(credits));
+    await writeFile(join(source,'public/media/investigations.json'),'[]');
+    const snapshots=await Promise.all([2010,2021].map(async year=>JSON.parse(await readFile(join(source,'.cache/seasons',`${year}.json`),'utf8')).snapshot));
+    const inventory=await inventoryMedia({snapshots,credits,mediaDirectory:join(source,'public/media'),checkedAt:'2026-10-30T00:00:00Z'});
+    await writeFile(join(source,'public/media/inventory.json'),JSON.stringify(inventory));
     await writeFile(join(source,'public/unrelated.txt'),'must not publish');
     await mkdir(join(destination,'.openai'),{recursive:true});
     const identity={project_id:'test-only-source-identity',static:{directory:'dist'},custom:'preserved'};

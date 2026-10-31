@@ -38,7 +38,7 @@ export async function checkConstructorIdentity(page: Page, mode: 'local' | 'bund
   await expect.poll(() => recovered.locator('img').evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
 
   // Abort every logo request to exercise real load failures across shared surfaces.
-  await page.route('**/media/*', route => route.abort());
+  await page.route(/\/media\/[^/]+\.(?:png|jpe?g|svg|webp)(?:\?.*)?$/, route => route.abort());
   for (const view of ['standings', 'progress', 'compare']) {
     await page.goto(`/?season=2021&view=${view}&category=constructors&a=hamilton&b=max_verstappen`);
     if (view === 'progress') {

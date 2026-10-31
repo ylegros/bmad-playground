@@ -1,0 +1,75 @@
+{
+    "records":  [
+                    {
+                        "season":  2010,
+                        "snapshotId":  "2a54eddb-fd85-4cd2-9e0f-ec8521b26344"
+                    },
+                    {
+                        "season":  2011,
+                        "snapshotId":  "1cd41d9a-2009-49d2-8647-010e89c97323"
+                    },
+                    {
+                        "season":  2012,
+                        "snapshotId":  "9aa3112f-fc53-49b6-8e6c-48f49cee23a3"
+                    },
+                    {
+                        "season":  2013,
+                        "snapshotId":  "8459d234-6dbc-4c81-9972-d921e632e0b7"
+                    },
+                    {
+                        "season":  2014,
+                        "snapshotId":  "aff5b739-14be-44d6-b045-ef2c5bc523d2"
+                    },
+                    {
+                        "season":  2015,
+                        "snapshotId":  "06b2ebfb-51af-4e4c-8d57-c091622cb622"
+                    },
+                    {
+                        "season":  2016,
+                        "snapshotId":  "8c05bf3e-27e7-4ced-80c1-8b4d649cc007"
+                    },
+                    {
+                        "season":  2017,
+                        "snapshotId":  "bcc6f8b3-74d2-4dc1-8155-2530f26dac37"
+                    },
+                    {
+                        "season":  2018,
+                        "snapshotId":  "6673e34f-9e1f-4190-8631-b75327d17418"
+                    },
+                    {
+                        "season":  2019,
+                        "snapshotId":  "f20bd85e-3609-4689-8ff2-535ee00feace"
+                    },
+                    {
+                        "season":  2020,
+                        "snapshotId":  "24d4d288-f2c5-4c8d-98bf-c929953200e9"
+                    },
+                    {
+                        "season":  2021,
+                        "snapshotId":  "0c927243-2a48-4ee6-ae2a-0aec39cfa9d0"
+                    },
+                    {
+                        "season":  2022,
+                        "snapshotId":  "83155e97-72fc-4605-92c2-eebbadf0b217"
+                    },
+                    {
+                        "season":  2023,
+                        "snapshotId":  "5a0536a5-187c-4f9c-9cae-08d8cef61243"
+                    },
+                    {
+                        "season":  2024,
+                        "snapshotId":  "174a5f86-1ad3-4791-89c3-9ae6a4be13b1"
+                    },
+                    {
+                        "season":  2025,
+                        "snapshotId":  "186f3a9d-237f-4e90-ac2e-6c91b95f54b8"
+                    },
+                    {
+                        "season":  2026,
+                        "snapshotId":  "c8a5e8e9-c266-4dfe-a881-b7c943969fd7"
+                    }
+                ],
+    "command":  "AUDIT_YEARS=2010 through 2026; npx.cmd playwright test --config playwright.audit.config.ts",
+    "result":  "17 passed (1.8m)",
+    "completedAt":  "2026-10-31T03:15:23.5485282Z"
+}

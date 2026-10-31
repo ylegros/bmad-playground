@@ -1,0 +1,1076 @@
+{
+  "researchVersion": 1,
+  "season": 2022,
+  "observedAt": "2026-10-30T05:44:54.910Z",
+  "sourceUrl": "https://www.formula1.com/en/results/2022/races",
+  "status": "research-only-not-a-verified-audit",
+  "roundAssignment": "chronological official result-table order; cross-check provider calendar before use",
+  "seasonLifecycle": "complete",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Bahrain",
+      "dateLabel": "20 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1124/bahrain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1124/bahrain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1124/bahrain/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1124/bahrain/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-03-20"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabia",
+      "dateLabel": "27 Mar",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1125/saudi-arabia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1125/saudi-arabia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1125/saudi-arabia/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1125/saudi-arabia/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-03-27"
+    },
+    {
+      "round": 3,
+      "name": "Australia",
+      "dateLabel": "10 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1108/australia/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1108/australia/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1108/australia/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1108/australia/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-04-10"
+    },
+    {
+      "round": 4,
+      "name": "Emilia-Romagna",
+      "dateLabel": "24 Apr",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/sprint-results",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2022-04-24"
+    },
+    {
+      "round": 5,
+      "name": "Miami",
+      "dateLabel": "08 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1110/miami/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1110/miami/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1110/miami/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1110/miami/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-05-08"
+    },
+    {
+      "round": 6,
+      "name": "Spain",
+      "dateLabel": "22 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1111/spain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1111/spain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1111/spain/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1111/spain/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-05-22"
+    },
+    {
+      "round": 7,
+      "name": "Monaco",
+      "dateLabel": "29 May",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1112/monaco/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1112/monaco/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1112/monaco/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1112/monaco/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-05-29"
+    },
+    {
+      "round": 8,
+      "name": "Azerbaijan",
+      "dateLabel": "12 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1126/azerbaijan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1126/azerbaijan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1126/azerbaijan/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1126/azerbaijan/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-06-12"
+    },
+    {
+      "round": 9,
+      "name": "Canada",
+      "dateLabel": "19 Jun",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1113/canada/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1113/canada/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1113/canada/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1113/canada/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-06-19"
+    },
+    {
+      "round": 10,
+      "name": "Great Britain",
+      "dateLabel": "03 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1114/great-britain/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1114/great-britain/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1114/great-britain/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1114/great-britain/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-07-03"
+    },
+    {
+      "round": 11,
+      "name": "Austria",
+      "dateLabel": "10 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1115/austria/sprint-results",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2022-07-10"
+    },
+    {
+      "round": 12,
+      "name": "France",
+      "dateLabel": "24 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1116/france/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1116/france/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1116/france/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1116/france/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-07-24"
+    },
+    {
+      "round": 13,
+      "name": "Hungary",
+      "dateLabel": "31 Jul",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1117/hungary/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1117/hungary/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1117/hungary/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1117/hungary/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-07-31"
+    },
+    {
+      "round": 14,
+      "name": "Belgium",
+      "dateLabel": "28 Aug",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1118/belgium/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1118/belgium/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1118/belgium/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1118/belgium/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-08-28"
+    },
+    {
+      "round": 15,
+      "name": "Netherlands",
+      "dateLabel": "04 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1119/netherlands/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1119/netherlands/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1119/netherlands/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1119/netherlands/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-09-04"
+    },
+    {
+      "round": 16,
+      "name": "Italy",
+      "dateLabel": "11 Sep",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1120/italy/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1120/italy/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1120/italy/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1120/italy/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-09-11"
+    },
+    {
+      "round": 17,
+      "name": "Singapore",
+      "dateLabel": "02 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1133/singapore/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1133/singapore/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1133/singapore/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1133/singapore/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-10-02"
+    },
+    {
+      "round": 18,
+      "name": "Japan",
+      "dateLabel": "09 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1134/japan/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1134/japan/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1134/japan/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1134/japan/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-10-09"
+    },
+    {
+      "round": 19,
+      "name": "United States",
+      "dateLabel": "23 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1135/united-states/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1135/united-states/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1135/united-states/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1135/united-states/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-10-23"
+    },
+    {
+      "round": 20,
+      "name": "Mexico",
+      "dateLabel": "30 Oct",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1136/mexico/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1136/mexico/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1136/mexico/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1136/mexico/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-10-30"
+    },
+    {
+      "round": 21,
+      "name": "Brazil",
+      "dateLabel": "13 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "held",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/qualifying",
+      "sprintSourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/sprint-results",
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            },
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1137/brazil/sprint-results",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official Sprint result table contains classified result rows."
+            }
+          ]
+        }
+      },
+      "date": "2022-11-13"
+    },
+    {
+      "round": 22,
+      "name": "Abu Dhabi",
+      "dateLabel": "20 Nov",
+      "gp": "held",
+      "qualifying": "held",
+      "sprint": "unknown",
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1138/abu-dhabi/race-result",
+      "qualifyingSourceUrl": "https://www.formula1.com/en/results/2022/races/1138/abu-dhabi/qualifying",
+      "sprintSourceUrl": null,
+      "sessions": {
+        "gp": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1138/abu-dhabi/race-result",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP result table contains classified result rows."
+            }
+          ]
+        },
+        "qualifying": {
+          "lifecycle": "held",
+          "applicable": true,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/results/2022/races/1138/abu-dhabi/qualifying",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official GP qualifying result table contains classified result rows."
+            }
+          ]
+        },
+        "sprint": {
+          "lifecycle": "unheld",
+          "applicable": false,
+          "provenance": [
+            {
+              "sourceUrl": "https://www.formula1.com/en/latest/article/how-does-the-f1-sprint-work-the-format-explained-ahead-of-imola.4ep6uU8VYFMgftvTYxkZdI",
+              "observedAt": "2026-10-30T05:44:54.910Z",
+              "note": "Official complete Sprint venue list establishes session applicability."
+            }
+          ]
+        }
+      },
+      "date": "2022-11-20"
+    }
+  ],
+  "unresolved": [
+    "Cancellation/rescheduling inventory and independent completion evidence require reconciliation.",
+    "Canonical provider calendar identities and endpoint/page audits remain required."
+  ],
+  "completion": [
+    {
+      "sourceUrl": "https://adsc.gov.ae/media-center/press-releases/khaled-bin-mohamed-bin-zayed-presents-2022-formula-1-abu-dhabi-grand-prix-champion-max-verstappen-with-winner-s-trophy/",
+      "observedAt": "2026-10-30T05:44:54.910Z",
+      "note": "Official report explicitly identifies the season finale/final round and its completed championship outcome."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/results/2022/races/1138/abu-dhabi/race-result",
+      "observedAt": "2026-10-30T05:44:54.910Z",
+      "note": "Official result table of the independently identified season-ending event."
+    }
+  ]
+}

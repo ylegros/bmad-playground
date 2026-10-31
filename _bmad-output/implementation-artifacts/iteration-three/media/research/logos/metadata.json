@@ -1,0 +1,3711 @@
+{
+  "observedAt": "2026-10-31T03:17:07.780Z",
+  "records": [
+    {
+      "id": "mclaren",
+      "qid": "Q172030",
+      "title": "File:McLaren Racing logo.png",
+      "filename": "logo-candidate-00.png",
+      "info": {
+        "size": 18367,
+        "width": 1280,
+        "height": 384,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/McLaren_Racing_logo.png/960px-McLaren_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 192,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/2/20/McLaren_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/McLaren_Racing_logo.png/960px-McLaren_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 192,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/20/McLaren_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/McLaren_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:McLaren_Racing_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114643033",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-12-31 09:06:04",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "McLaren Racing logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Black and orange logos with transparent background|SVG logos of the United Kingdom|Formula One constructor logos|7 letter logos|McLaren Racing logos|2022 logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.mclaren.com/\">https://www.mclaren.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-01-25",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.mclaren.com/\">https://www.mclaren.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.mclaren.com/\">https://www.mclaren.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:03.292Z"
+    },
+    {
+      "id": "sauber",
+      "qid": "Q171335",
+      "title": "File:Logo Sauber F1.png",
+      "filename": "logo-candidate-01.png",
+      "info": {
+        "size": 67231,
+        "width": 1817,
+        "height": 1817,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_Sauber_F1.png/960px-Logo_Sauber_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 640,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_Sauber_F1.png/1280px-Logo_Sauber_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_Sauber_F1.png/960px-Logo_Sauber_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 640,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_Sauber_F1.png/1280px-Logo_Sauber_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_Sauber_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo_Sauber_F1.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53433253",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2016-11-23 05:06:13",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Logo Sauber F1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Sauber logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo of the team exported in Illustrator.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-11-23",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Juanchocarbonero\" title=\"User:Juanchocarbonero\">Juanchocarbonero</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:04.570Z"
+    },
+    {
+      "id": "williams",
+      "qid": "Q171337",
+      "title": "File:Atlassian Williams F1 Team logo.svg",
+      "filename": "logo-candidate-02.png",
+      "info": {
+        "size": 6814,
+        "width": 500,
+        "height": 257,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Atlassian_Williams_F1_Team_logo.svg/960px-Atlassian_Williams_F1_Team_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 329,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Atlassian_Williams_F1_Team_logo.svg/1280px-Atlassian_Williams_F1_Team_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Atlassian_Williams_F1_Team_logo.svg/960px-Atlassian_Williams_F1_Team_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 329,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Atlassian_Williams_F1_Team_logo.svg/1280px-Atlassian_Williams_F1_Team_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Atlassian_Williams_F1_Team_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Atlassian_Williams_F1_Team_logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185556777",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-03-06 01:23:58",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Atlassian Williams F1 Team logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|PD textlogo|SVG text logos|Black and blue logos with transparent background|Williams Racing logos|2026 SVG logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Atlassian Williams F1 Team logo.",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.williamsf1.com/\">williamsf1.com</a></span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Atlassian Williams F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:05.152Z"
+    },
+    {
+      "id": "haas",
+      "qid": "Q16300222",
+      "title": "File:Haas F1 Team Logo.svg",
+      "qualifiers": {
+        "P580": [
+          {
+            "snaktype": "value",
+            "property": "P580",
+            "hash": "ed438b46be5611a815cca53283ad10d96ab202b5",
+            "datavalue": {
+              "value": {
+                "time": "+2016-00-00T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 9,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ]
+      },
+      "filename": "logo-candidate-03.png",
+      "info": {
+        "size": 6039,
+        "width": 546,
+        "height": 181,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Haas_F1_Team_Logo.svg/960px-Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 212,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Haas_F1_Team_Logo.svg/1280px-Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Haas_F1_Team_Logo.svg/960px-Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 212,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Haas_F1_Team_Logo.svg/1280px-Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Haas_F1_Team_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Haas_F1_Team_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126124453",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-11-30 05:33:33",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Haas F1 Team Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|PD textlogo|SVG text logos|Haas logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Haas F1 Team Logo",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:06.239Z"
+    },
+    {
+      "id": "haas",
+      "qid": "Q16300222",
+      "title": "File:Rich Energy Haas F1 Team Logo.svg",
+      "qualifiers": {
+        "P580": [
+          {
+            "snaktype": "value",
+            "property": "P580",
+            "hash": "2296e06ed934d87c227932ad6bdbc65c08719d66",
+            "datavalue": {
+              "value": {
+                "time": "+2019-03-00T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 10,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ],
+        "P582": [
+          {
+            "snaktype": "value",
+            "property": "P582",
+            "hash": "460c3458ed3203c66381093f68444a4b898fbc3e",
+            "datavalue": {
+              "value": {
+                "time": "+2019-09-09T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 11,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ]
+      },
+      "filename": "logo-candidate-04.png",
+      "info": {
+        "size": 14791,
+        "width": 484,
+        "height": 207,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rich_Energy_Haas_F1_Team_Logo.svg/960px-Rich_Energy_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 274,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rich_Energy_Haas_F1_Team_Logo.svg/1280px-Rich_Energy_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rich_Energy_Haas_F1_Team_Logo.svg/960px-Rich_Energy_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 274,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Rich_Energy_Haas_F1_Team_Logo.svg/1280px-Rich_Energy_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Rich_Energy_Haas_F1_Team_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rich_Energy_Haas_F1_Team_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126124633",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-11-30 05:43:20",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Rich Energy Haas F1 Team Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|PD textlogo|SVG text logos|Haas logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Rich Energy Haas F1 Team Logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:07.542Z"
+    },
+    {
+      "id": "haas",
+      "qid": "Q16300222",
+      "title": "File:Uralkali Haas F1 Team Logo.svg",
+      "qualifiers": {
+        "P580": [
+          {
+            "snaktype": "value",
+            "property": "P580",
+            "hash": "04a68a447b5915b375e013e5ab60d7e24b679001",
+            "datavalue": {
+              "value": {
+                "time": "+2021-03-04T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 11,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ],
+        "P582": [
+          {
+            "snaktype": "value",
+            "property": "P582",
+            "hash": "0666229f5c6b35a9eee5e2d91cbb7b9b840f864b",
+            "datavalue": {
+              "value": {
+                "time": "+2022-03-05T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 11,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ]
+      },
+      "filename": "logo-candidate-05.png",
+      "info": {
+        "size": 6263,
+        "width": 405,
+        "height": 110,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Uralkali_Haas_F1_Team_Logo.svg/960px-Uralkali_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 174,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Uralkali_Haas_F1_Team_Logo.svg/1280px-Uralkali_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Uralkali_Haas_F1_Team_Logo.svg/960px-Uralkali_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 174,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Uralkali_Haas_F1_Team_Logo.svg/1280px-Uralkali_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Uralkali_Haas_F1_Team_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Uralkali_Haas_F1_Team_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=103120970",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-04-05 12:28:31",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Uralkali Haas F1 Team Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Uralkali|With trademark|PD textlogo|SVG text logos|Haas logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Uralkali Haas F1 Team Logo",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Haas F1 Team - extracted from haasf1team.com",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:08.600Z"
+    },
+    {
+      "id": "haas",
+      "qid": "Q16300222",
+      "title": "File:MoneyGram Haas F1 Team Logo.svg",
+      "qualifiers": {
+        "P580": [
+          {
+            "snaktype": "value",
+            "property": "P580",
+            "hash": "f7b615dfa7f7b8f3bd552bb3109ac70b89940bea",
+            "datavalue": {
+              "value": {
+                "time": "+2023-01-04T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 11,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ]
+      },
+      "filename": "logo-candidate-06.png",
+      "info": {
+        "size": 7140,
+        "width": 633,
+        "height": 158,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MoneyGram_Haas_F1_Team_Logo.svg/960px-MoneyGram_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 160,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MoneyGram_Haas_F1_Team_Logo.svg/1280px-MoneyGram_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MoneyGram_Haas_F1_Team_Logo.svg/960px-MoneyGram_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 160,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/MoneyGram_Haas_F1_Team_Logo.svg/1280px-MoneyGram_Haas_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/MoneyGram_Haas_F1_Team_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:MoneyGram_Haas_F1_Team_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127377401",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-01-04 14:53:14",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "MoneyGram Haas F1 Team Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "MoneyGram|With trademark|PD textlogo|SVG text logos|Haas logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "MoneyGram Haas F1 Team Logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-01-04",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Haas F1 Team - extracted from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.haasf1team.com/\">haasf1team.com</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:09.414Z"
+    },
+    {
+      "id": "haas",
+      "qid": "Q16300222",
+      "title": "File:TGR Haas F1 Team Logo (2026).svg",
+      "qualifiers": {
+        "P580": [
+          {
+            "snaktype": "value",
+            "property": "P580",
+            "hash": "25d25c27eb315fed7e5fb87b49cd10fe328c757f",
+            "datavalue": {
+              "value": {
+                "time": "+2026-00-00T00:00:00Z",
+                "timezone": 0,
+                "before": 0,
+                "after": 0,
+                "precision": 9,
+                "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+              },
+              "type": "time"
+            },
+            "datatype": "time"
+          }
+        ]
+      },
+      "filename": "logo-candidate-07.png",
+      "info": {
+        "size": 10855,
+        "width": 512,
+        "height": 469,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/TGR_Haas_F1_Team_Logo_%282026%29.svg/960px-TGR_Haas_F1_Team_Logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 586,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/TGR_Haas_F1_Team_Logo_%282026%29.svg/1280px-TGR_Haas_F1_Team_Logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/TGR_Haas_F1_Team_Logo_%282026%29.svg/960px-TGR_Haas_F1_Team_Logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 586,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/TGR_Haas_F1_Team_Logo_%282026%29.svg/1280px-TGR_Haas_F1_Team_Logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/TGR_Haas_F1_Team_Logo_%282026%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:TGR_Haas_F1_Team_Logo_(2026).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181057875",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-01-01 15:22:48",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "TGR Haas F1 Team Logo (2026)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|PD textlogo|SVG text logos|Haas logos|Toyota Gazoo Racing logos|2026 SVG logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo of TGR Haas F1 Team (from Jan 2026)",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2026-01-01",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.haasf1team.com/\">https://www.haasf1team.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Haas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:10.454Z"
+    },
+    {
+      "id": "racing_point",
+      "qid": "Q56245286",
+      "title": "File:BWT Racing Point Logo.svg",
+      "filename": "logo-candidate-08.png",
+      "info": {
+        "size": 7022,
+        "width": 504,
+        "height": 307,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BWT_Racing_Point_Logo.svg/960px-BWT_Racing_Point_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 390,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BWT_Racing_Point_Logo.svg/1280px-BWT_Racing_Point_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BWT_Racing_Point_Logo.svg/960px-BWT_Racing_Point_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 390,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/BWT_Racing_Point_Logo.svg/1280px-BWT_Racing_Point_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/BWT_Racing_Point_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:BWT_Racing_Point_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93993656",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-09-10 07:42:22",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "BWT Racing Point Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Racing Point|PD textlogo|SVG text logos|Formula One constructor logos|BWT advertisements in automobile racing",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "BWT Racing Point Logo",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Racing Point UK Limited - extracted from <a rel=\"nofollow\" class=\"external text\" href=\"https://assets-global.website-files.com/5e0dd76cb1dab36497252af6/5f4fcf0b8b91d2e8fb86700d_Gender%20Pay%20Report%202019.pdf\">PDF</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Racing Point UK Limited",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:11.035Z"
+    },
+    {
+      "id": "alpine",
+      "qid": "Q98930155",
+      "title": "File:Alpine F1 Team Logo.svg",
+      "filename": "logo-candidate-09.png",
+      "info": {
+        "size": 2821,
+        "width": 482,
+        "height": 442,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Alpine_F1_Team_Logo.svg/960px-Alpine_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 587,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Alpine_F1_Team_Logo.svg/1280px-Alpine_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Alpine_F1_Team_Logo.svg/960px-Alpine_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 587,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Alpine_F1_Team_Logo.svg/1280px-Alpine_F1_Team_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Alpine_F1_Team_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alpine_F1_Team_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=103123666",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2021-04-05 13:10:21",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Alpine F1 Team Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Alpine F1 Team|With trademark|PD textlogo|SVG text logos|Unknown date|Formula One constructor logos|Alpine logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Alpine F1 Team Logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "Unknown date",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Alpine F1 Team Presskit - <a rel=\"nofollow\" class=\"external text\" href=\"https://media.renault.ch/__/137158.478dde41.dl\">PDF</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Alpine F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:12.077Z"
+    },
+    {
+      "id": "lotus_f1",
+      "qid": "Q173018",
+      "title": "File:Lotus F1 Team logo.jpg",
+      "filename": "logo-candidate-10.jpg",
+      "info": {
+        "size": 199375,
+        "width": 1054,
+        "height": 462,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lotus_F1_Team_logo.jpg/960px-Lotus_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 281,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lotus_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lotus_F1_Team_logo.jpg/960px-Lotus_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 281,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lotus_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Lotus_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lotus_F1_Team_logo.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86540652",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-02-02 21:51:41",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Lotus F1 Team logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "GFDL|Enstone|License migration redundant|Lotus F1 Team|Self-published work|Extracted images|Formula One constructor logos|Lotus logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Lotus F1 Team: Factory in Enstone, Oxfordshire, UK",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2015-08-10",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Matthias_v.d._Elbe\" title=\"User:Matthias v.d. Elbe\">Matthias v.d. Elbe</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 3.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 3.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/3.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-3.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:12.885Z"
+    },
+    {
+      "id": "caterham",
+      "qid": "Q174008",
+      "title": "File:Caterham F1 Team logo (2014).svg",
+      "filename": "logo-candidate-11.png",
+      "info": {
+        "size": 4153,
+        "width": 500,
+        "height": 88,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caterham_F1_Team_logo_%282014%29.svg/960px-Caterham_F1_Team_logo_%282014%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 113,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caterham_F1_Team_logo_%282014%29.svg/1280px-Caterham_F1_Team_logo_%282014%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caterham_F1_Team_logo_%282014%29.svg/960px-Caterham_F1_Team_logo_%282014%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 113,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caterham_F1_Team_logo_%282014%29.svg/1280px-Caterham_F1_Team_logo_%282014%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Caterham_F1_Team_logo_%282014%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo_(2014).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=189377955",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-04-16 00:44:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Caterham F1 Team logo (2014)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Caterham F1 Team|PD textlogo|SVG text logos|Caterham logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Caterham F1 Team logo (2014).",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20140417171447/http://caterhamf1.com/media/959403/cf1_press%20pack_2014.pdf\">Press pack - January 2014</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Caterham F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:13.688Z"
+    },
+    {
+      "id": "audi",
+      "qid": "Q113640151",
+      "title": "File:Audif1.com logo17 (cropped).svg",
+      "filename": "logo-candidate-12.png",
+      "info": {
+        "size": 7823,
+        "width": 616,
+        "height": 569,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Audif1.com_logo17_%28cropped%29.svg/960px-Audif1.com_logo17_%28cropped%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 591,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Audif1.com_logo17_%28cropped%29.svg/1280px-Audif1.com_logo17_%28cropped%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Audif1.com_logo17_%28cropped%29.svg/960px-Audif1.com_logo17_%28cropped%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 591,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Audif1.com_logo17_%28cropped%29.svg/1280px-Audif1.com_logo17_%28cropped%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Audif1.com_logo17_%28cropped%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Audif1.com_logo17_(cropped).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181552234",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-01-10 06:54:17",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Audif1.com logo17 (cropped)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Revolut|With trademark|PD textlogo|Extracted images|SVG simple text logos|Formula One constructor logos|Red logos with transparent background|SVG logos of Audi|Audi F1 Team",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo for the Revolut Audi F1 Team.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2025-12-15",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "audif1.com",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Audi Revolut F1 Team / Sauber Motorsports AG",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:14.521Z"
+    },
+    {
+      "title": "File:Caterham F1 Team 2014 logo.png",
+      "filename": "logo-candidate-13.png",
+      "info": {
+        "size": 4049,
+        "width": 240,
+        "height": 25,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Caterham_F1_Team_2014_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 67,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Caterham_F1_Team_2014_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 67
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Caterham_F1_Team_2014_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_2014_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40421802",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-05-24 17:13:57",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Caterham F1 Team 2014 logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|Caterham F1 Team|PD textlogo|Template Unknown (author)|Media needing category review as of 24 May 2015|Formula One constructor logos|Caterham logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo des Caterham F1 Teams in der Saison 2014.",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "www.Caterhamf1.com",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:15.418Z"
+    },
+    {
+      "title": "File:Caterham F1 Team logo.jpg",
+      "filename": "logo-candidate-14.jpg",
+      "info": {
+        "size": 49760,
+        "width": 1024,
+        "height": 724,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caterham_F1_Team_logo.jpg/960px-Caterham_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 453,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/1/15/Caterham_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caterham_F1_Team_logo.jpg/960px-Caterham_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 453,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/15/Caterham_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Caterham_F1_Team_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17725781",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2011-12-19 09:19:51",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Caterham F1 Team logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "PD ineligible|With trademark|Caterham F1 Team|Formula One constructor logos|Caterham logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Caterham F1 Team logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2011",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/caterhamf1/6509970073/sizes/l/in/set-72157628414209329/\">https://www.flickr.com/photos/caterhamf1/6509970073/sizes/l/in/set-72157628414209329/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Caterham F1 Team",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This work is <b>ineligible for <a href=\"https://en.wikipedia.org/wiki/copyrights\" class=\"extiw\" title=\"w:copyrights\">copyright</a></b> and therefore in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> because it consists entirely of information that is <a href=\"//commons.wikimedia.org/wiki/Commons:Threshold_of_originality\" title=\"Commons:Threshold of originality\">common property and contains no original authorship</a>.</i>\n</td></tr></tbody></table>\n<table style=\"width:100%; clear:both; margin:0.5em auto; border-spacing:8px; background-color:var(--background-color-neutral-subtle,#f7f8ff); border:2px solid #8888aa;color: inherit;\" lang=\"en\" dir=\"ltr\" class=\"layouttemplate restrictiontemplate restriction-trademarked\">\n<tbody><tr>\n<td style=\"border:none; width:64px;\"><figure class=\"mw-halign-center\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/Commons:Non-copyright_restrictions\" title=\"Trademarked\"><img alt=\"Trademarked\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Trademark_Warning_Symbol.svg/120px-Trademark_Warning_Symbol.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Trademark_Warning_Symbol.svg/250px-Trademark_Warning_Symbol.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></a><figcaption>Trademarked</figcaption></figure>\n</td>\n<td style=\"border:none;\">This work includes material that may be <b>protected as a <a href=\"https://en.wikipedia.org/wiki/en:trademark\" class=\"extiw\" title=\"w:en:trademark\">trademark</a></b> in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See our <a href=\"//commons.wikimedia.org/wiki/Commons:General_disclaimer\" title=\"Commons:General disclaimer\">general disclaimer</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>\n</td></tr></tbody></table>",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:16.448Z"
+    },
+    {
+      "title": "File:Manor F1 Team logo.png",
+      "filename": "logo-candidate-15.png",
+      "info": {
+        "size": 9526,
+        "width": 608,
+        "height": 99,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Manor_F1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 104,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Manor_F1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 104
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Manor_F1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Manor_F1_Team_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40425775",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-05-24 20:34:48",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Manor F1 Team logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|Marussia F1 Team|Manor Racing|Manor Motorsport|PD textlogo|Template Unknown (author)|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo des Manor Marussia F1 Teams",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://manorf1team.com/\">http://manorf1team.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:17.252Z"
+    },
+    {
+      "title": "File:Logo Manor F1.png",
+      "filename": "logo-candidate-16.png",
+      "info": {
+        "size": 24414,
+        "width": 1247,
+        "height": 663,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_Manor_F1.png/960px-Logo_Manor_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 340,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/9/99/Logo_Manor_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_Manor_F1.png/960px-Logo_Manor_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 340,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/99/Logo_Manor_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Logo_Manor_F1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo_Manor_F1.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53433248",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2016-11-23 05:06:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Logo Manor F1",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|Manor Racing|PD textlogo|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo del equipo exportado en Illustrator.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2016-11-23",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Juanchocarbonero\" title=\"User:Juanchocarbonero\">Juanchocarbonero</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:18.804Z"
+    },
+    {
+      "title": "File:Mercedes-AMG Petronas F1 Team logo (2026).svg",
+      "filename": "logo-candidate-22.png",
+      "info": {
+        "size": 10764,
+        "width": 500,
+        "height": 552,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg/960px-Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 707,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg/1280px-Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg/960px-Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 707,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg/1280px-Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mercedes-AMG_Petronas_F1_Team_logo_%282026%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_Petronas_F1_Team_logo_(2026).svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185703120",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-03-08 03:47:21",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Mercedes-AMG Petronas F1 Team logo (2026)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Mercedes (racing team)|PD textlogo|SVG text logos|Black and teal logos|Formula One constructor logos|2026 SVG logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Mercedes-AMG Petronas F1 Team logo (2026).",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://shop.mercedesamgf1.com/cdn/shop/files/updated_mf1_logo.svg\">shop.mercedesamgf1.com</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Mercedes-AMG Petronas F1 Team",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T09:49:22.175Z"
+    },
+    {
+      "title": "File:Logo Team Lotus T128.jpg",
+      "filename": "logo-candidate-17.jpg",
+      "info": {
+        "size": 309042,
+        "width": 643,
+        "height": 643,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo_Team_Lotus_T128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 640,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo_Team_Lotus_T128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 640
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo_Team_Lotus_T128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo_Team_Lotus_T128.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44947386",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-11-11 20:36:30",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Logo Team Lotus T128",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "2011 Malaysian Grand Prix|Lotus T128 (Formula One car)|Self-published work|Team Lotus (2010-2011)|Formula One constructor logos|Lotus logos|Photos taken by Morio/Formula One/2011 Malaysian Grand Prix",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Imagen del logo del equipo Team Lotus, presente en el monoplaza T128 correspondiente a la temporada 2011 de Fórmula 1.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2011-04-07",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Morio\" title=\"User:Morio\">Morio</a>: <a href=\"//commons.wikimedia.org/wiki/File:Lotus_T128_nose_logo_2011_Malaysia.jpg\" title=\"File:Lotus T128 nose logo 2011 Malaysia.jpg\">File:Lotus T128 nose logo 2011 Malaysia.jpg</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:04:19.252Z"
+    },
+    {
+      "title": "File:Mclaren Honda 2015.png",
+      "filename": "logo-candidate-18.png",
+      "info": {
+        "size": 7643,
+        "width": 493,
+        "height": 45,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mclaren_Honda_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 58,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mclaren_Honda_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 58
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mclaren_Honda_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mclaren_Honda_2015.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40181735",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-05-13 15:13:59",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Mclaren Honda 2015",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Copyrighted free use|Formula One constructor logos|McLaren Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "McLaren Honda 2015 logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2014-12-21",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.formula1.com/content/fom-website/en/championship/teams/McLaren.html\">https://www.formula1.com/content/fom-website/en/championship/teams/McLaren.html</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Mclaren",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Copyrighted free use",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Copyrighted free use",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:04:20.062Z"
+    },
+    {
+      "title": "File:BWT Racing Point logo 2020.png",
+      "filename": "logo-candidate-20.png",
+      "info": {
+        "size": 9937,
+        "width": 500,
+        "height": 75,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/BWT_Racing_Point_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 96,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/BWT_Racing_Point_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 96
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/BWT_Racing_Point_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:BWT_Racing_Point_logo_2020.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=87503396",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-02-27 13:59:58",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "BWT Racing Point logo 2020",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|Racing Point|PD textlogo|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo of Formula One team Racing Point in 2020",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2020-02-27",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.racingpointf1.com/\">https://www.racingpointf1.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "RACING POINT F1 TEAM",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:04:25.598Z"
+    },
+    {
+      "title": "File:Marussia logo on one of their F1 cars (7448443504).jpg",
+      "filename": "logo-candidate-29.jpg",
+      "info": {
+        "size": 806389,
+        "width": 3456,
+        "height": 2304,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg/960px-Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 427,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg/1280px-Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg/960px-Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 427,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg/1280px-Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Marussia_logo_on_one_of_their_F1_cars_%287448443504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Marussia_logo_on_one_of_their_F1_cars_(7448443504).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90737301",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-05-28 18:16:54",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Marussia logo on one of their F1 cars (7448443504)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Marussia F1 cars|Flickr images reviewed by FlickreviewR 2",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Marussia logo on one of their F1 cars",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-06-26 12:38",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bigpresh/7448443504/\">Marussia logo on one of their F1 cars</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/62806367@N00\">David Precious</a> from Stevenage, Herts, England",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:04:30.788Z"
+    },
+    {
+      "title": "File:AT&T Williams F1 Team.jpg",
+      "filename": "logo-candidate-30.jpg",
+      "info": {
+        "size": 293623,
+        "width": 2048,
+        "height": 1314,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/AT%26T_Williams_F1_Team.jpg/960px-AT%26T_Williams_F1_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 411,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/AT%26T_Williams_F1_Team.jpg/1280px-AT%26T_Williams_F1_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/AT%26T_Williams_F1_Team.jpg/960px-AT%26T_Williams_F1_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 411,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/AT%26T_Williams_F1_Team.jpg/1280px-AT%26T_Williams_F1_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/AT%26T_Williams_F1_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:AT%26T_Williams_F1_Team.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4225127",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2008-06-16 00:19:50",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "AT&T Williams F1 Team",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Taken with Canon EOS 400D|Nico Rosberg in 2008|Flickr images reviewed by FlickreviewR|Flickr images missing SDC source of file|Formula One Catalonia test, 12-14 June 2008|Williams FW30 of Nico Rosberg",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "BMW Sauber F1 Team, taken in Montmelo, Catalogna, Spain",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2008-06-13",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/rgarcia/2579738941/in/set-72157605617176907/\">https://www.flickr.com/photos/rgarcia/2579738941/in/set-72157605617176907/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Roberto Garcia",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:04:32.042Z"
+    },
+    {
+      "title": "File:McLaren Honda Logo.png",
+      "filename": "logo-candidate-19.png",
+      "info": {
+        "size": 2762,
+        "width": 158,
+        "height": 15,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/McLaren_Honda_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 61,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/McLaren_Honda_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 61
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/McLaren_Honda_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:McLaren_Honda_Logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45178226",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2016-12-11 01:41:24",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "McLaren Honda Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|Files with no machine-readable author|Media lacking a description|PD textlogo|Media lacking author information|Formula One constructor logos|McLaren Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://img3.auto-motor-und-sport.de/McLaren-Honda-Logo-articleTitle-ea986387-837469.jpg\">http://img3.auto-motor-und-sport.de/McLaren-Honda-Logo-articleTitle-ea986387-837469.jpg</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:09:52.595Z"
+    },
+    {
+      "title": "File:Mercedes AMG Petronas logo.png",
+      "filename": "logo-candidate-21.png",
+      "info": {
+        "size": 64637,
+        "width": 579,
+        "height": 111,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mercedes_AMG_Petronas_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 123,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mercedes_AMG_Petronas_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 123
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mercedes_AMG_Petronas_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25246986",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2013-03-23 18:40:12",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Mercedes AMG Petronas logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Mercedes-AMG logos|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo for Mercedes AMG Petronas Formula One Team",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2013-03-23 12:36:50",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.mercedes-amg-f1.com/en/\">http://www.mercedes-amg-f1.com/en/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Mercedes AMG Petronas",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-30T10:09:53.676Z"
+    },
+    {
+      "title": "File:Cadillac Formula 1 Team logo.png",
+      "filename": "logo-candidate-35.png",
+      "info": {
+        "size": 50376,
+        "width": 1920,
+        "height": 987,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cadillac_Formula_1_Team_logo.png/960px-Cadillac_Formula_1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 329,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cadillac_Formula_1_Team_logo.png/1280px-Cadillac_Formula_1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cadillac_Formula_1_Team_logo.png/960px-Cadillac_Formula_1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 329,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cadillac_Formula_1_Team_logo.png/1280px-Cadillac_Formula_1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cadillac_Formula_1_Team_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cadillac_Formula_1_Team_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170228230",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2025-07-17 14:54:41",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Cadillac Formula 1 Team logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Self-published work|Cadillac graphic design logos|Cadillac Formula 1 Team",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Cadillac Formula 1 Team logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2025-05-03",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TedNauru&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TedNauru (page does not exist)\">TedNauru</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:10.703Z"
+    },
+    {
+      "title": "File:20150130002217!Williams Martini Racing logo.png",
+      "filename": "logo-candidate-36.png",
+      "info": {
+        "size": 201354,
+        "width": 1080,
+        "height": 86,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/20150130002217%21Williams_Martini_Racing_logo.png/960px-20150130002217%21Williams_Martini_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 51,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20150130002217%21Williams_Martini_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/20150130002217%21Williams_Martini_Racing_logo.png/960px-20150130002217%21Williams_Martini_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 51,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20150130002217%21Williams_Martini_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/20150130002217%21Williams_Martini_Racing_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:20150130002217!Williams_Martini_Racing_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40417039",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2015-05-24 14:04:34",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "20150130002217!Williams Martini Racing logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Template Unknown (author)|Media needing category review as of 24 May 2015|Williams Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo des Williams Martini Racing",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://williamsf1.com/\">http://williamsf1.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:11.983Z"
+    },
+    {
+      "title": "File:Williams F1 Team 2014 logo.jpg",
+      "filename": "logo-candidate-37.jpg",
+      "info": {
+        "size": 2782,
+        "width": 180,
+        "height": 180,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Williams_F1_Team_2014_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 640,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Williams_F1_Team_2014_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 640
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Williams_F1_Team_2014_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Williams_F1_Team_2014_logo.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=31341448",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2014-02-25 19:10:37",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Williams F1 Team 2014 logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|Images with inappropriate JPEG compression|PD textlogo|Williams Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Das Logo von Williams seit 2014",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2014-02-25 20:07:00",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/WilliamsF1Team\">https://www.facebook.com/WilliamsF1Team</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Williams",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:12.948Z"
+    },
+    {
+      "title": "File:Williams Racing 2022 logo.svg",
+      "filename": "logo-candidate-38.png",
+      "info": {
+        "size": 5913,
+        "width": 300,
+        "height": 25,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Williams_Racing_2022_logo.svg/960px-Williams_Racing_2022_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 53,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Williams_Racing_2022_logo.svg/1280px-Williams_Racing_2022_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Williams_Racing_2022_logo.svg/960px-Williams_Racing_2022_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 53,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Williams_Racing_2022_logo.svg/1280px-Williams_Racing_2022_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Williams_Racing_2022_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Williams_Racing_2022_logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127447002",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-01-06 10:27:08",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Williams Racing 2022 logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Williams Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Williams Racing 2022 Logo",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2022-01-25",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Williams Racing - extracted from <a rel=\"nofollow\" class=\"external free\" href=\"https://www.williamsf1.com/\">https://www.williamsf1.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Williams Racing",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:14.048Z"
+    },
+    {
+      "title": "File:HRT F1 TEAM 2012.svg",
+      "filename": "logo-candidate-42.png",
+      "info": {
+        "size": 17152,
+        "width": 1774,
+        "height": 1180,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HRT_F1_TEAM_2012.svg/960px-HRT_F1_TEAM_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 426,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HRT_F1_TEAM_2012.svg/1280px-HRT_F1_TEAM_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HRT_F1_TEAM_2012.svg/960px-HRT_F1_TEAM_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 426,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HRT_F1_TEAM_2012.svg/1280px-HRT_F1_TEAM_2012.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/HRT_F1_TEAM_2012.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:HRT_F1_TEAM_2012.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66509022",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2018-02-17 02:30:07",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "HRT F1 TEAM 2012",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Hispania Racing|PD textlogo|SVG text logos|Template Unknown (author)",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo des <a href=\"https://de.wikipedia.org/wiki/HRT_F1_Team\" class=\"extiw\" title=\"de:HRT F1 Team\">HRT F1 Teams</a> in der Saison 2012",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "Erstellt von <a href=\"https://de.wikipedia.org/wiki/Benutzer:Liebschwager1995\" class=\"extiw\" title=\"de:Benutzer:Liebschwager1995\">Liebschwager1995</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:52.195Z"
+    },
+    {
+      "title": "File:HRT new logo.jpg",
+      "filename": "logo-candidate-43.jpg",
+      "info": {
+        "size": 5464,
+        "width": 204,
+        "height": 136,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/HRT_new_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 427,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/HRT_new_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 427
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/HRT_new_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:HRT_new_logo.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15885460",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2011-07-24 09:33:18",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "HRT new logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|Hispania Racing|PD textlogo",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo HRT",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2011-07-24",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bigos95&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bigos95 (page does not exist)\">Bigos95</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:10:53.084Z"
+    },
+    {
+      "id": "mercedes",
+      "title": "File:Mercedes AMG Petronas F1 Logo.svg (2014 revision)",
+      "filename": "logo-mercedes-2014-revision.png",
+      "info": {
+        "timestamp": "2014-07-28T20:07:10Z",
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/archive/f/fb/20200910075828%21Mercedes_AMG_Petronas_F1_Logo.svg/960px-Mercedes_AMG_Petronas_F1_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 93,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/archive/f/fb/20200910075828%21Mercedes_AMG_Petronas_F1_Logo.svg/1280px-Mercedes_AMG_Petronas_F1_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/archive/f/fb/20200910075828%21Mercedes_AMG_Petronas_F1_Logo.svg/960px-Mercedes_AMG_Petronas_F1_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 93,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/archive/f/fb/20200910075828%21Mercedes_AMG_Petronas_F1_Logo.svg/1280px-Mercedes_AMG_Petronas_F1_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/archive/f/fb/20200910075828%21Mercedes_AMG_Petronas_F1_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_F1_Logo.svg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34255822",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2014-07-28 20:07:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Mercedes AMG Petronas F1 Logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "With trademark|Mercedes (racing team)|PD textlogo|SVG text logos|Template Unknown (author)|Formula One constructor logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo des <a href=\"https://de.wikipedia.org/wiki/Mercedes_AMG_Petronas_F1_Team\" class=\"extiw\" title=\"de:Mercedes AMG Petronas F1 Team\">Mercedes AMG Petronas F1 Teams</a>",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://vectorise.net/vectorworks/logos/Motor%20&amp;%20Vehicle/Formula%201/Logo%20Mercedes%20AMG%20Petronas%20F1%20Team.ai\">vectorize.net</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:11:14.506Z"
+    },
+    {
+      "title": "File:McLaren Mercedes logo.png",
+      "filename": "logo-candidate-44.png",
+      "info": {
+        "size": 2255,
+        "width": 253,
+        "height": 16,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/81/McLaren_Mercedes_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 40,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/McLaren_Mercedes_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 40
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/McLaren_Mercedes_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:McLaren_Mercedes_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30920172",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2014-02-01 16:05:00",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "McLaren Mercedes logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|Files with no machine-readable author|With trademark|PD textlogo|Media lacking author information|McLaren Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "McLaren Mercedes logo",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.mclaren.com/\">http://www.mclaren.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:11:28.446Z"
+    },
+    {
+      "title": "File:Logo of Stake F1 Team Kick Sauber.png",
+      "filename": "logo-candidate-45.png",
+      "info": {
+        "size": 131144,
+        "width": 800,
+        "height": 700,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Logo_of_Stake_F1_Team_Kick_Sauber.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 560,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Logo_of_Stake_F1_Team_Kick_Sauber.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 560
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Logo_of_Stake_F1_Team_Kick_Sauber.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logo_of_Stake_F1_Team_Kick_Sauber.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145951338",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-02-29 14:38:02",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Logo of Stake F1 Team Kick Sauber",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Kick (service)|Self-published work|Stake (online casino)|Sauber logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo of the Stake f1 team Kick Sauber",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-01-25",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:KarlMarx1889&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:KarlMarx1889 (page does not exist)\">KarlMarx1889</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:12:30.607Z"
+    },
+    {
+      "title": "File:2023 Stake F1 Team Kick Sauber logo.png",
+      "filename": "logo-candidate-46.png",
+      "info": {
+        "size": 106829,
+        "width": 800,
+        "height": 700,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/de/2023_Stake_F1_Team_Kick_Sauber_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 560,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/2023_Stake_F1_Team_Kick_Sauber_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 560
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/2023_Stake_F1_Team_Kick_Sauber_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023_Stake_F1_Team_Kick_Sauber_logo.png",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155864756",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-11-27 04:43:24",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "2023 Stake F1 Team Kick Sauber logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|With trademark|PD textlogo|Kick (service)|Unknown date|Template Unknown (author)|Stake (online casino)|Sauber logos|PNG black text logos with transparent background",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo of Stake F1 Team Kick Sauber 2023",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "Unknown date",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.sauber-group.com/\">https://www.sauber-group.com/</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "trademarked",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:12:31.185Z"
+    },
+    {
+      "title": "File:SportPesa-Racing-Point-logo-2019.jpg",
+      "filename": "logo-candidate-47.jpg",
+      "info": {
+        "size": 31682,
+        "width": 660,
+        "height": 315,
+        "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/SportPesa-Racing-Point-logo-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "thumbwidth": 640,
+        "thumbheight": 305,
+        "thumbattribs": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/SportPesa-Racing-Point-logo-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 305
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/SportPesa-Racing-Point-logo-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:SportPesa-Racing-Point-logo-2019.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=76603929",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2019-02-15 22:06:33",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "SportPesa-Racing-Point-logo-2019",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|Racing Point|PD textlogo",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo de SportPesa Racing Point",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2019-02-13",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://aurupteur.com/wp-content/uploads/2019/02/SportPesa-Racing-Point-logo-2019.jpg\">https://aurupteur.com/wp-content/uploads/2019/02/SportPesa-Racing-Point-logo-2019.jpg</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Au rupteur",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:12:31.996Z"
+    },
+    {
+      "title": "File:Williams racing2025logo.jpg",
+      "filename": "logo-candidate-48.jpg",
+      "info": {
+        "size": 165303,
+        "width": 1339,
+        "height": 283,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Williams_racing2025logo.jpg/960px-Williams_racing2025logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 640,
+        "thumbheight": 135,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Williams_racing2025logo.jpg/1280px-Williams_racing2025logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Williams_racing2025logo.jpg/960px-Williams_racing2025logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 640,
+          "height": 135,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Williams_racing2025logo.jpg/1280px-Williams_racing2025logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Williams_racing2025logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Williams_racing2025logo.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161219836",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2025-03-05 19:10:43",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Williams racing2025logo",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Text logos|PD textlogo|Williams Racing logos",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Logo for 2025 entry",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2025-03-05",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "williamsf1.com",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "Williams racing",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "Public domain",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Public domain",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Copyrighted": {
+            "value": "False",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "pd",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      },
+      "downloadedAt": "2026-10-31T03:16:59.051Z"
+    }
+  ]
+}

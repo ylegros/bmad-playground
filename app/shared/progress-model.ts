@@ -1,5 +1,5 @@
 import type { Metric, SeasonSnapshot } from './contracts.ts';
-import { displayMetric, progress, resultText } from './selectors.ts';
+import { displayMetric, progress, resultText, sessionUnavailable } from './selectors.ts';
 export type ProgressCategory = 'drivers' | 'constructors';
 export const graphMetrics = [
   {id:'cumulative',label:'Championship points',unit:'points',rank:false},
@@ -17,14 +17,31 @@ export const metricOptions = (category:ProgressCategory) => graphMetrics.filter(
 export const validMetric = (category:ProgressCategory, id:string|null):GraphMetric => metricOptions(category).find(metric=>metric.id===id)?.id || 'cumulative';
 export function selectedEntities(snapshot:SeasonSnapshot, category:ProgressCategory, raw:string|null):string[] {
   const available = snapshot[category];
-  return [...new Set((raw||'').split(',').filter(id=>Object.hasOwn(available,id)))];
+  return canonicalSelection((raw||'').split(',').filter(id=>Object.hasOwn(available,id)));
+}
+export const canonicalSelection = (ids:readonly string[]) => [...new Set(ids)].sort();
+export function matchingEntities(snapshot:SeasonSnapshot,category:ProgressCategory,search:string) {
+  return Object.values(snapshot[category]).filter(entity=>entity.name.toLowerCase().includes(search.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
+}
+export type SelectionAction = {type:'add';ids:readonly string[]}|{type:'remove';id:string}|{type:'clear'};
+export function changeSelection(ids:readonly string[],action:SelectionAction) {
+  const next=canonicalSelection(action.type==='clear'?[]:action.type==='remove'?ids.filter(id=>id!==action.id):[...ids,...action.ids]);
+  return {ids:next,changed:next.join(',')!==canonicalSelection(ids).join(',')};
 }
 export type ProgressRow = ReturnType<typeof progress>[number];
 export function metricCell(row:ProgressRow, metric:GraphMetric):{value:number|null;text:string} {
+  if ('sessions' in row) {
+    const kind = metric === 'qualifying' ? 'qualifying' : metric === 'sprint' || metric === 'sprintPoints' ? 'sprint' : 'gp';
+    const missing = sessionUnavailable(row, kind);
+    const heldOfficial = (metric === 'cumulative' || metric === 'rank') && row.sessions.gp.lifecycle === 'held';
+    if (missing?.kind === 'unavailable' && !heldOfficial) return { value:null, text:missing.reason };
+  }
   if((metric==='sprint'||metric==='sprintPoints')&&row.sprint==='not-applicable') return {value:null,text:'Not applicable'};
   if((metric==='qualifying'&&row.qualifying!=='complete')||(metric==='gp'&&row.gp!=='complete')||(metric==='sprint'&&row.sprint!=='complete')) return {value:null,text:'Unavailable'};
   const result = metric==='gp'?row.gpResult:metric==='sprint'?row.sprintResult:undefined;
   const source:Metric|undefined = metric==='qualifying'?row.qualifyingPosition:metric==='gp'||metric==='sprint'?result?.position:row[metric];
+  if (result) return {value:source?.kind==='value'?source.value:null,text:resultText(result)};
+  if ('sessions' in row && source?.kind !== 'value') return {value:null,text:source?.kind === 'unavailable' ? source.reason : 'Unavailable: authoritative driver or standings record missing'};
   return {value:source?.kind==='value'?source.value:null,text:metric==='gp'||metric==='sprint'?resultText(result):displayMetric(source)};
 }
 export function evolutionSeries(snapshot:SeasonSnapshot,category:ProgressCategory,ids:string[],metric:GraphMetric) {

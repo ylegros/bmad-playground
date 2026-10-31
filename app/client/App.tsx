@@ -6,6 +6,11 @@ import { dataSource } from './data-source';
 import Comparison from './Comparison';
 import { DriverIdentity, ConstructorIdentity, ImageCredits } from './Identity';
 import Progress from './Progress';
+import { selectedEntities } from '../shared/progress-model';
+import { candidateSeasons } from '../shared/evidence';
+import { mergeCommittedSupport, supportForSnapshot } from '../shared/versioned';
+import SeasonEvidence, { standingsCaption } from './SeasonEvidence';
+import { loadMediaMetadata } from './media';
 
 type View = 'standings' | 'progress' | 'compare';
 type Category = 'drivers' | 'constructors';
@@ -17,9 +22,18 @@ function Field({label, value, options, onChange, empty}: {label:string; value:st
   return <label className="field"><span>{label}</span><select value={value} onChange={event=>onChange(event.target.value)}>{empty && <option value="">{empty}</option>}{options.map(option=><option key={option.value} value={option.value}>{option.label}</option>)}</select></label>;
 }
 export default function App() {
+  const [selectionNotice,setSelectionNotice]=useState('');
+  const selectionNoticeSeason=useRef<number|undefined>(undefined);
   const [query, setQuery] = useState(() => new URLSearchParams(location.search));
   const [manifest, setManifest] = useState<SupportManifest>();
   const [snapshots,setSnapshots] = useState<Record<number,SeasonSnapshot>>({});
+  const committedSnapshots = useRef<Record<number,SeasonSnapshot>>({});
+  function commitSnapshot(data: SeasonSnapshot) {
+    if (!supportForSnapshot(data).verified) throw new Error('Season audit is not verified.');
+    committedSnapshots.current = {...committedSnapshots.current,[data.season]:data};
+    setSnapshots(committedSnapshots.current);
+    setManifest(previous=>mergeCommittedSupport(previous??{seasons:[]},committedSnapshots.current));
+  }
   const [pending,setPending] = useState<Record<number,string>>({});
   const [errors,setErrors] = useState<Record<number,string>>({});
   const [manifestError,setManifestError] = useState('');
@@ -44,18 +58,38 @@ export default function App() {
     previousView.current=view;
   },[view]);
   const category: Category = query.get('category')==='constructors' ? 'constructors' : 'drivers';
+  const selectionContext=useRef({snapshot,category,season});
+  selectionContext.current={snapshot,category,season};
   const entity = query.get('entity') || '';
   const a = query.get('a') || '';
   const b = query.get('b') || '';
   function navigate(values:Record<string,string|number|undefined>, replace=false) {
+    if(!replace&&['season','category','graphDrivers','graphConstructors'].some(key=>Object.hasOwn(values,key)))setSelectionNotice('');
     const next = new URLSearchParams(location.search);
     for (const [key,value] of Object.entries(values)) if (value===undefined || value==='') next.delete(key); else next.set(key,String(value));
+    if(next.toString()===new URLSearchParams(location.search).toString()) return;
     const url = `${location.pathname}?${next}`;
     if (replace) history.replaceState(null,'',url); else history.pushState(null,'',url);
     setQuery(next);
   }
-  useEffect(()=>{const back=()=>setQuery(new URLSearchParams(location.search));addEventListener('popstate',back);return()=>removeEventListener('popstate',back);},[]);
-  useEffect(()=>{let active=true;setManifestError('');dataSource.loadManifest().then(data=>{if(active)setManifest(data);}).catch(error=>{if(active)setManifestError(error.message);});return()=>{active=false;};},[manifestAttempt]);
+  useEffect(()=>{
+    if(!snapshot) return;
+    if(selectionNoticeSeason.current!==snapshot.season)setSelectionNotice('');
+    const updates:Record<string,string|undefined>={};
+    const removed:string[]=[];
+    for(const kind of ['drivers','constructors'] as const) {
+      const key=kind==='drivers'?'graphDrivers':'graphConstructors';
+      if(!query.has(key)) continue;
+      const raw=query.get(key)||'';
+      const valid=selectedEntities(snapshot,kind,raw);
+      removed.push(...raw.split(',').filter(id=>id&&!valid.includes(id)));
+      if(raw!==valid.join(',')) {updates[key]=valid.join(',');if(kind===category)updates.entity=undefined;}
+    }
+    if(removed.length) {selectionNoticeSeason.current=snapshot.season;setSelectionNotice('Some previous graph selections are unavailable in '+snapshot.season+': '+[...new Set(removed)].join(', ')+'. Available selections are retained. Choose another entry to continue.');}
+    if(Object.keys(updates).length) navigate(updates,true);
+  },[snapshot,query]);
+  useEffect(()=>{const back=()=>{setSelectionNotice('');setQuery(new URLSearchParams(location.search));};addEventListener('popstate',back);return()=>removeEventListener('popstate',back);},[]);
+  useEffect(()=>{let active=true;setManifestError('');dataSource.loadManifest().then(async data=>{if(!active)return;await loadMediaMetadata();if(active)setManifest(mergeCommittedSupport(data,committedSnapshots.current));}).catch(error=>{if(active)setManifestError(error.message);});return()=>{active=false;};},[manifestAttempt]);
   async function load(year:number,refresh=false) {
     const op = operations.current.begin(year);
     setPending(previous=>({...previous,[year]:refresh?'Refreshing':'Loading'}));
@@ -65,14 +99,14 @@ export default function App() {
       const data = await (refresh && dataSource.mode==='local' ? dataSource.refreshSeason(year) : dataSource.loadSeason(year));
       if (!operations.current.isCurrent(year,op)) return;
       if(data.season!==year) throw new Error('The service returned a different season. Please retry.');
-      setSnapshots(previous=>({...previous,[year]:data}));
+      commitSnapshot(data);
       setSuccess(previous=>({...previous,[year]:`${year} ${refresh?'refreshed':'loaded'} successfully. Snapshot ${timestamp(data.refreshedAt)}.`}));
     } catch(error) {if(operations.current.isCurrent(year,op))setErrors(previous=>({...previous,[year]:error instanceof Error?error.message:'Could not load data.'}));}
     finally {if(operations.current.isCurrent(year,op))setPending(previous=>({...previous,[year]:''}));}
   }
   async function syncManifest() {
     setManifestSyncPending(true);setManifestSyncError('');
-    try { setManifest(await dataSource.loadManifest()); }
+    try { const data=await dataSource.loadManifest();await loadMediaMetadata();setManifest(mergeCommittedSupport(data,committedSnapshots.current)); }
     catch(error) {setManifestSyncError(error instanceof Error?error.message:'Could not update the season list.');}
     finally {setManifestSyncPending(false);}
   }
@@ -80,11 +114,12 @@ export default function App() {
     if (setupPending || dataSource.mode!=='local') return;
     if (season && !query.has('season')) navigate({season},true);
     setSetupPending(year);setSetupError('');setSetupSuccess('');
+    const op=operations.current.begin(year);
     try {
       const data = await dataSource.refreshSeason(year);
+      if(!operations.current.isCurrent(year,op))return;
       if(data.season!==year) throw new Error('The service returned a different season. Please retry.');
-      setSnapshots(previous=>({...previous,[year]:data}));
-      setManifest(previous=>({seasons:[...(previous?.seasons.filter(item=>item.season!==year)||[]),{season:year,verified:true,lastCheckedRound:Math.max(0,...data.coverage.checkedRounds),knownGaps:data.coverage.gaps}]}));
+      commitSnapshot(data);
       if (!season) navigate({season:year});
       setSuccess(previous=>({...previous,[year]:`${year} verified and loaded successfully.`}));
       setSetupSuccess(`${year} verified and available in the season selector.`);
@@ -104,16 +139,18 @@ export default function App() {
   const showProgress = (id:string,kind:Category) => navigate({view:'progress',category:kind,entity:id,[kind==='drivers'?'graphDrivers':'graphConstructors']:id});
   const showCompare = (id:string) => navigate({view:'compare',a:id,b:snapshot?teammate(snapshot,id,'latest'):undefined});
   const busy = season ? pending[season] : '';
-  const unverifiedSeasons = [2010,2021].filter(year=>!manifest?.seasons.some(item=>item.season===year&&item.verified));
+  const unverifiedSeasons = (manifest?.seasons.map(entry=>entry.season)??candidateSeasons).filter(year=>!manifest?.seasons.some(item=>item.season===year&&item.verified));
   const removedSelection = snapshot && ((view==='progress' && entity && !validEntity) || (view==='compare' && ((a && !validA) || (b && !validB))));
-  return <><a className="skip" href="#main">Skip to analysis</a><header className="app-header"><div className="brand"><span className="brand-mark" aria-hidden="true">//</span><div>F1 Dashboard<small>YOUR SEASON. EVERY ROUND.</small></div></div><div className="header-actions"><Field label="Season" value={String(season||'')} options={manifest?.seasons.filter(item=>item.verified).map(item=>({value:String(item.season),label:String(item.season)}))||[]} onChange={year=>navigate({season:year,entity:undefined,a:undefined,b:undefined})}/>{dataSource.mode==='local'&&<button className="primary" disabled={!season||!!busy} onClick={()=>season&&void load(season,true)}>{busy==='Refreshing'?'Refreshing…':'↻ Refresh data'}</button>}</div></header><div className="workspace"><aside className="sidebar"><p className="eyebrow">THE PIT WALL</p><nav aria-label="Main navigation">{(['standings','progress','compare'] as View[]).map((item,index)=><a key={item} href={`?${new URLSearchParams({...Object.fromEntries(query),view:item})}`} aria-current={view===item?'page':undefined} onClick={event=>{event.preventDefault();navigate({view:item});}}><span className="nav-number">0{index+1}</span>{item==='standings'?'Standings':item==='progress'?'Progress':'Compare'}</a>)}</nav><div className="sidebar-note"><span className="status-dot"/> Historical analysis<p>Official results.<br/>Round by round.</p><small>Source: Jolpica F1</small></div></aside><main id="main"><div className="page-heading"><div><p className="eyebrow">SEASON {season||'—'} / {view==='standings'?'CHAMPIONSHIP':view==='progress'?'ROUND BY ROUND':'HEAD TO HEAD'}</p><h1 ref={heading} tabIndex={-1}>{view==='standings'?'Championship standings':view==='progress'?'Season progress':'Driver comparison'}</h1><p className="intro">{view==='standings'?'The championship order, with every point accounted for.':view==='progress'?'Follow the results behind the championship.':'Two drivers. The same rounds. All the detail.'}</p></div><span className="season-stamp" aria-hidden="true">{season||'F1'}</span></div><div className="snapshot-meta">{snapshot?<><span>{dataSource.mode==='bundled'?'Bundled season data / Source snapshot':'Snapshot'} / {timestamp(snapshot.refreshedAt)}</span><span>{snapshot.coverage.checkedRounds.length} rounds checked</span></>:<span>{dataSource.mode==='bundled'?'Bundled season data':'Local season workspace'}</span>}</div><div aria-live="polite" aria-atomic="true">{busy&&<p className="notice">{busy} {season}… {snapshot?'Your current snapshot remains available.':'Initial season loading may take a few minutes.'}</p>}</div>{manifestError&&<div className="notice error" role="alert">Could not load supported seasons. {manifestError} <button onClick={()=>setManifestAttempt(value=>value+1)}>{dataSource.mode==='bundled'?'Retry loading bundled data':'Try again'}</button></div>}{season&&errors[season]&&<div className="notice error" role="alert">{dataSource.mode==='bundled'?'Could not load bundled season data.':snapshot?`Could not refresh. Showing data last refreshed ${timestamp(snapshot.refreshedAt)}.`:'Could not load this season. Try again or choose another season.'} <span>{errors[season]}</span> <button disabled={!!busy} onClick={()=>void load(season,dataSource.mode==='local'&&!!snapshot)}>{dataSource.mode==='bundled'?'Retry loading bundled data':'Try again'}</button></div>}{snapshot?.coverage.gaps.length ? <details className="notice"><summary>Coverage notes ({snapshot.coverage.gaps.length})</summary><ul>{snapshot.coverage.gaps.map(gap=><li key={gap}>{gap}</li>)}</ul></details>:null}
+  return <><a className="skip" href="#main">Skip to analysis</a><header className="app-header"><div className="brand"><span className="brand-mark" aria-hidden="true">//</span><div>F1 Dashboard<small>YOUR SEASON. EVERY ROUND.</small></div></div><div className="header-actions"><Field label="Season" value={String(season||'')} options={manifest?.seasons.filter(item=>item.verified).map(item=>({value:String(item.season),label:String(item.season)}))||[]} onChange={year=>navigate({season:year,entity:undefined,a:undefined,b:undefined})}/>{dataSource.mode==='local'&&<button className="primary" disabled={!season||!!busy} onClick={()=>season&&void load(season,true)}>{busy==='Refreshing'?'Refreshing…':'? Refresh data'}</button>}</div></header><div className="workspace"><aside className="sidebar"><p className="eyebrow">THE PIT WALL</p><nav aria-label="Main navigation">{(['standings','progress','compare'] as View[]).map((item,index)=><a key={item} href={`?${new URLSearchParams({...Object.fromEntries(query),view:item})}`} aria-current={view===item?'page':undefined} onClick={event=>{event.preventDefault();navigate({view:item});}}><span className="nav-number">0{index+1}</span>{item==='standings'?'Standings':item==='progress'?'Progress':'Compare'}</a>)}</nav><div className="sidebar-note"><span className="status-dot"/> Historical analysis<p>Official results.<br/>Round by round.</p><small>Source: Jolpica F1</small></div></aside><main id="main"><div className="page-heading"><div><p className="eyebrow">SEASON {season||'—'} / {view==='standings'?'CHAMPIONSHIP':view==='progress'?'ROUND BY ROUND':'HEAD TO HEAD'}</p><h1 ref={heading} tabIndex={-1}>{view==='standings'?'Championship standings':view==='progress'?'Season progress':'Driver comparison'}</h1><p className="intro">{view==='standings'?'The championship order, with every point accounted for.':view==='progress'?'Follow the results behind the championship.':'Two drivers. The same rounds. All the detail.'}</p></div><span className="season-stamp" aria-hidden="true">{season||'F1'}</span></div><div className="snapshot-meta">{snapshot?<><span>{dataSource.mode==='bundled'?'Bundled season data / Source snapshot':'Snapshot'} / {timestamp(snapshot.refreshedAt)}</span><span>{snapshot.coverage.checkedRounds.length} rounds checked</span></>:<span>{dataSource.mode==='bundled'?'Bundled season data':'Local season workspace'}</span>}</div><div aria-live="polite" aria-atomic="true">{busy&&<p className="notice">{busy} {season}… {snapshot?'Your current snapshot remains available.':'Initial season loading may take a few minutes.'}</p>}</div>{manifestError&&<div className="notice error" role="alert">Could not load supported seasons. {manifestError} <button onClick={()=>setManifestAttempt(value=>value+1)}>{dataSource.mode==='bundled'?'Retry loading bundled data':'Try again'}</button></div>}{season&&errors[season]&&<div className="notice error" role="alert">{dataSource.mode==='bundled'?'Could not load bundled season data.':snapshot?`Could not refresh. Showing data last refreshed ${timestamp(snapshot.refreshedAt)}.`:'Could not load this season. Try again or choose another season.'} <span>{errors[season]}</span> <button disabled={!!busy} onClick={()=>void load(season,dataSource.mode==='local'&&!!snapshot)}>{dataSource.mode==='bundled'?'Retry loading bundled data':'Try again'}</button></div>}{snapshot?.coverage.gaps.length ? <details className="notice"><summary>Coverage notes ({snapshot.coverage.gaps.length})</summary><ul>{snapshot.coverage.gaps.map(gap=><li key={gap}>{gap}</li>)}</ul></details>:null}
   <div className="sr-only" aria-live="polite" aria-atomic="true">{season&&!busy&&success[season]}</div>
+  <SeasonEvidence snapshot={snapshot} manifest={manifest}/>
   <div className="sr-only" aria-live="polite" aria-atomic="true">{setupSuccess}</div>
   {manifestSyncError&&<div className="notice" role="status">Season verification succeeded and its snapshot is available. Could not update the season list: {manifestSyncError} <button disabled={manifestSyncPending} onClick={()=>void syncManifest()}>{manifestSyncPending?'Updating season list…':'Retry season list'}</button></div>}
   {dataSource.mode==='local'&&manifest&&unverifiedSeasons.length>0&&<section className={`panel setup-panel ${latestSeason?'setup-compact':''}`}><h2>{latestSeason?'Add another season':'Set up your first season'}</h2><p>{latestSeason?'Verify another season while continuing to explore the loaded snapshot.':'Verify and download an official season snapshot before opening the pit wall.'} This checks results, qualifying and standings and may take a few minutes.</p><div className="setup-actions">{unverifiedSeasons.map(year=><button className="primary" key={year} disabled={!!setupPending} onClick={()=>void verifySeason(year)}>{setupPending===year?`Verifying ${year}…`:`Verify season data · ${year}`}</button>)}</div><p role="status">{setupPending?`Verifying ${setupPending}. Keep this application running while the source data is checked.`:''}</p>{setupError&&<p className="notice error" role="alert">Could not verify season data. {setupError} Try again when the source is available.</p>}</section>}
   {removedSelection&&<p className="notice" role="status">A previous selection is not available in this snapshot. Choose another entry to continue.</p>}
-  {snapshot&&view==='standings'&&<section className="panel"><div className="panel-header"><h2>Season classification</h2><div className="segmented" aria-label="Standings category">{(['drivers','constructors'] as Category[]).map(kind=><button key={kind} aria-pressed={category===kind} onClick={()=>navigate({category:kind})}>{kind==='drivers'?'Drivers':'Constructors'}</button>)}</div></div>{category==='drivers'?<Table caption={`Driver standings · ${season} · official round ${Math.max(0,...snapshot.driverStandings.map(row=>row.round))}`} headers={['Pos','Driver','Constructor','Points','Explore']}>{finalStandings(snapshot.driverStandings).map(row=><tr key={row.driverId}><td className="number rank">{displayMetric(row.position)}</td><th scope="row"><DriverIdentity snapshot={snapshot} id={row.driverId}/>{initial!==latest&&initial===row.driverId&&<small className="annotation">Initial teammate of {snapshot.drivers[validA]?.name}</small>}</th><td>{row.constructorIds.length?row.constructorIds.map(id=><ConstructorIdentity key={id} snapshot={snapshot} id={id}/>):'Unavailable'}</td><td className="number strong">{displayMetric(row.points)}</td><td className="row-actions"><button aria-label={`View progress for ${snapshot.drivers[row.driverId]?.name}`} onClick={()=>showProgress(row.driverId,'drivers')}>Progress <span aria-hidden="true">↗</span></button><button aria-label={`Compare ${snapshot.drivers[row.driverId]?.name}`} onClick={()=>showCompare(row.driverId)}>Compare</button></td></tr>)}</Table>:<Table caption={`Constructor standings · ${season} · official round ${Math.max(0,...snapshot.constructorStandings.map(row=>row.round))}`} headers={['Pos','Constructor','Points','Explore']}>{finalStandings(snapshot.constructorStandings).map(row=><tr key={row.constructorId}><td className="number rank">{displayMetric(row.position)}</td><th scope="row"><ConstructorIdentity snapshot={snapshot} id={row.constructorId}/></th><td className="number strong">{displayMetric(row.points)}</td><td className="row-actions"><button aria-label={`View progress for ${snapshot.constructors[row.constructorId]?.name}`} onClick={()=>showProgress(row.constructorId,'constructors')}>Progress <span aria-hidden="true">↗</span></button></td></tr>)}</Table>}{!(category==='drivers'?snapshot.driverStandings:snapshot.constructorStandings).length&&<p className="empty">No official standings available for this season.</p>}</section>}
-  {snapshot&&view==='progress'&&<Progress snapshot={snapshot} category={category} query={query} navigate={navigate}/>}
-  {snapshot&&view==='compare'&&<section className="panel"><div className="panel-header controls"><Field label="Driver A" value={validA} options={driverOptions} empty="Choose driver A" onChange={changeA}/><span className="versus" aria-hidden="true">VS</span><Field label="Driver B" value={validB} options={driverOptions} empty="Choose driver B" onChange={id=>navigate({b:id})}/></div>{validA&&<p className="table-help">{latest?`Latest teammate: ${snapshot.drivers[latest]?.name}.`:'No teammate available for this season. Choose another driver.'}{initial&&initial!==latest?` Initial teammate: ${snapshot.drivers[initial]?.name}.`:''} You can choose any two season drivers.</p>}{!validA||!validB?<div className="empty"><span className="empty-symbol" aria-hidden="true">⇄</span><h2>Choose two drivers from {season}</h2><p>Start with a driver to select their latest teammate automatically.</p></div>:validA===validB?<p className="notice">Choose a different driver for the second selection.</p>:<Comparison snapshot={snapshot} a={validA} b={validB} metric={query.get('metric')||'cumulative'} setMetric={metric=>navigate({metric})}/>}</section>}
-  {!snapshot&&!busy&&!manifestError&&!manifest&&!errors[season||0]&&<p className="notice">Preparing the season workspace…</p>}{manifest&&<ImageCredits/>}<footer>F1 Dashboard <span>Independent personal analysis · Data provided by Jolpica F1</span></footer></main></div></>;
+  {snapshot&&view==='standings'&&<section className="panel"><div className="panel-header"><h2>Season classification</h2><div className="segmented" aria-label="Standings category">{(['drivers','constructors'] as Category[]).map(kind=><button key={kind} aria-pressed={category===kind} onClick={()=>navigate({category:kind})}>{kind==='drivers'?'Drivers':'Constructors'}</button>)}</div></div>{category==='drivers'?<Table caption={standingsCaption(snapshot,'drivers')} headers={['Pos','Driver','Constructor','Points','Explore']}>{finalStandings(snapshot.driverStandings,snapshot).map(row=><tr key={row.driverId}><td className="number rank">{displayMetric(row.position)}</td><th scope="row"><DriverIdentity snapshot={snapshot} id={row.driverId}/>{initial!==latest&&initial===row.driverId&&<small className="annotation">Initial teammate of {snapshot.drivers[validA]?.name}</small>}</th><td>{row.constructorIds.length?row.constructorIds.map(id=><ConstructorIdentity key={id} snapshot={snapshot} id={id}/>):'Unavailable'}</td><td className="number strong">{displayMetric(row.points)}</td><td className="row-actions"><button aria-label={`View progress for ${snapshot.drivers[row.driverId]?.name}`} onClick={()=>showProgress(row.driverId,'drivers')}>Progress <span aria-hidden="true">?</span></button><button aria-label={`Compare ${snapshot.drivers[row.driverId]?.name}`} onClick={()=>showCompare(row.driverId)}>Compare</button></td></tr>)}</Table>:<Table caption={standingsCaption(snapshot,'constructors')} headers={['Pos','Constructor','Points','Explore']}>{finalStandings(snapshot.constructorStandings,snapshot).map(row=><tr key={row.constructorId}><td className="number rank">{displayMetric(row.position)}</td><th scope="row"><ConstructorIdentity snapshot={snapshot} id={row.constructorId}/></th><td className="number strong">{displayMetric(row.points)}</td><td className="row-actions"><button aria-label={`View progress for ${snapshot.constructors[row.constructorId]?.name}`} onClick={()=>showProgress(row.constructorId,'constructors')}>Progress <span aria-hidden="true">?</span></button></td></tr>)}</Table>}{!(category==='drivers'?snapshot.driverStandings:snapshot.constructorStandings).length&&<p className="empty">No official standings available for this season.</p>}</section>}
+  {view==='progress'&&selectionNotice&&<p className="notice" role="status">{selectionNotice}</p>}
+  {snapshot&&view==='progress'&&<Progress snapshot={snapshot} category={category} query={query} navigate={values=>{const current=selectionContext.current;if(current.snapshot===snapshot&&current.category===category&&current.season===season)navigate(values);}}/>}
+  {snapshot&&view==='compare'&&<section className="panel"><div className="panel-header controls"><Field label="Driver A" value={validA} options={driverOptions} empty="Choose driver A" onChange={changeA}/><span className="versus" aria-hidden="true">VS</span><Field label="Driver B" value={validB} options={driverOptions} empty="Choose driver B" onChange={id=>navigate({b:id})}/></div>{validA&&<p className="table-help">{latest?`Latest teammate: ${snapshot.drivers[latest]?.name}.`:'No teammate available for this season. Choose another driver.'}{initial&&initial!==latest?` Initial teammate: ${snapshot.drivers[initial]?.name}.`:''} You can choose any two season drivers.</p>}{!validA||!validB?<div className="empty"><span className="empty-symbol" aria-hidden="true">?</span><h2>Choose two drivers from {season}</h2><p>Start with a driver to select their latest teammate automatically.</p></div>:validA===validB?<p className="notice">Choose a different driver for the second selection.</p>:<Comparison snapshot={snapshot} a={validA} b={validB} metric={query.get('metric')||'cumulative'} setMetric={metric=>navigate({metric})}/>}</section>}
+  {!snapshot&&!busy&&!manifestError&&!manifest&&!errors[season||0]&&<p className="notice">Preparing the season workspace…</p>}{manifest&&<ImageCredits snapshot={snapshot}/>}<footer>F1 Dashboard <span>Independent personal analysis · Data provided by Jolpica F1</span></footer></main></div></>;
 }

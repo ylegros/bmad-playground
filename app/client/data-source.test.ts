@@ -42,10 +42,21 @@ describe('data adapters', () => {
     await source.loadSeason(2021);
     if (source.mode === 'local') await source.refreshSeason(2021);
     expect(calls).toEqual([['/api/v1/seasons','GET'],['/api/v1/seasons/2021','GET'],['/api/v1/seasons/2021/refresh','POST']]);
-    await expect(source.loadSeason(2000)).rejects.toThrow('2010 and 2021');
+    await expect(source.loadSeason(2000)).rejects.toThrow('2010 through 2026');
   });
   it('rejects invalid build configuration', () => {
     expect(()=>createDataSource('auto')).toThrow('Invalid data mode');
     expect(()=>createDataSource('bundled','https://example.com/')).toThrow('build base');
+  });
+  it('pins a loaded immutable release when a later deployment changes the manifest',async()=>{
+    let changed=false;
+    const source=createDataSource('bundled','/',async path=>{
+      const manifest=bundle();if(changed)for(const entry of manifest.seasons)entry.assetPath=entry.assetPath.replace('/test/','/next/');
+      return Response.json(String(path).endsWith('manifest.json')?manifest:seasonFixture());
+    });
+    await source.loadManifest();changed=true;
+    await expect(source.loadManifest()).rejects.toThrow('release changed');
+    expect(source.mediaPath('credits.json')).toBe('/bundled/releases/test/media/credits.json');
+    expect((await source.loadSeason(2021)).snapshotId).toBe('fixture-2021');
   });
 });

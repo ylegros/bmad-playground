@@ -4,7 +4,15 @@
       "kind": "portrait",
       "identity": "leclerc",
       "seasons": [
-        2021
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "leclerc.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles-Leclerc.jpg",
@@ -19,7 +27,14 @@
       "kind": "portrait",
       "identity": "russell",
       "seasons": [
-        2021
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "russell.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Russell,_Silverstone_2021_(51348564487).jpg",
@@ -34,6 +49,7 @@
       "kind": "constructor",
       "identity": "williams",
       "seasons": [
+        2020,
         2021
       ],
       "filename": "williams-2020.png",
@@ -50,7 +66,20 @@
       "identity": "alonso",
       "seasons": [
         2010,
-        2021
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-alonso-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Alonso_2010_Malaysia.jpg",
@@ -65,7 +94,14 @@
       "kind": "portrait",
       "identity": "massa",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
       ],
       "filename": "portrait-massa-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felipe_Massa_2010_Malaysia.jpg",
@@ -80,7 +116,22 @@
       "kind": "portrait",
       "identity": "hamilton",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-hamilton-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2014_China.jpg",
@@ -96,7 +147,18 @@
       "identity": "vettel",
       "seasons": [
         2010,
-        2021
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
       ],
       "filename": "portrait-vettel-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sebastian_Vettel_-_Korea_2010_by_LGEPR.jpg",
@@ -111,7 +173,13 @@
       "kind": "portrait",
       "identity": "rosberg",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
       ],
       "filename": "portrait-rosberg-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nico_Rosberg_2008_2.jpg",
@@ -126,7 +194,9 @@
       "kind": "portrait",
       "identity": "michael_schumacher",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "portrait-michael_schumacher-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg",
@@ -141,7 +211,14 @@
       "kind": "portrait",
       "identity": "button",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
       ],
       "filename": "portrait-button-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jenson_Button_2024_WEC_Fuji.jpg",
@@ -156,7 +233,8 @@
       "kind": "portrait",
       "identity": "liuzzi",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-liuzzi-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitantonio_Liuzzi_2011_Malaysia.jpg",
@@ -171,7 +249,8 @@
       "kind": "portrait",
       "identity": "barrichello",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-barrichello-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubinho.jpg",
@@ -186,7 +265,8 @@
       "kind": "portrait",
       "identity": "kubica",
       "seasons": [
-        2010
+        2010,
+        2019
       ],
       "filename": "portrait-kubica-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Kubica_2010_Malaysia.jpg",
@@ -201,7 +281,10 @@
       "kind": "portrait",
       "identity": "sutil",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2013,
+        2014
       ],
       "filename": "portrait-sutil-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adrian_Sutil.jpg",
@@ -216,7 +299,8 @@
       "kind": "portrait",
       "identity": "alguersuari",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-alguersuari-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaime_Alguersuari.jpg",
@@ -231,7 +315,21 @@
       "kind": "portrait",
       "identity": "hulkenberg",
       "seasons": [
-        2010
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-hulkenberg-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Formula_One_tests_Barcelona,_Hulkenberg_(40287128313).jpg",
@@ -246,7 +344,10 @@
       "kind": "portrait",
       "identity": "kovalainen",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013
       ],
       "filename": "portrait-kovalainen-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Effect_20190609_091716.jpg",
@@ -261,7 +362,8 @@
       "kind": "portrait",
       "identity": "buemi",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-buemi-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryo_Hirakawa,_Brendon_Hartley_%26_Sebastien_Buemi_take_the_podium_for_2nd_in_Hypercar_at_the_2023_Le_Mans_(53468554280)_(cropped).jpg",
@@ -276,7 +378,8 @@
       "kind": "portrait",
       "identity": "trulli",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-trulli-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:12._Internationale_Sportnacht_Davos_2014_(15246044859)_(cropped).jpg",
@@ -291,7 +394,9 @@
       "kind": "portrait",
       "identity": "rosa",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "portrait-rosa-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_de_la_Rosa_2010_Malaysia.jpg",
@@ -306,7 +411,9 @@
       "kind": "portrait",
       "identity": "bruno_senna",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "portrait-bruno_senna-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senna_by_United_Autosports_team_04.jpg",
@@ -321,7 +428,9 @@
       "kind": "portrait",
       "identity": "glock",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "portrait-glock-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-04-26_Motorsport,_DTM,_Oschersleben_STP_2988_(cropped).jpg",
@@ -336,7 +445,9 @@
       "kind": "portrait",
       "identity": "petrov",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "portrait-petrov-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitaly_Petrov_2010_Malaysia_(cropped).jpg",
@@ -351,7 +462,10 @@
       "kind": "portrait",
       "identity": "kobayashi",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2014
       ],
       "filename": "portrait-kobayashi-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamui_Kobayashi_2024_WEC_Fuji_2.jpg",
@@ -381,7 +495,8 @@
       "kind": "portrait",
       "identity": "chandhok",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-chandhok-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karun_Chandhok_Goodwood_Festival_of_Speed_2019_(48242680701).jpg",
@@ -411,7 +526,8 @@
       "kind": "portrait",
       "identity": "heidfeld",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "portrait-heidfeld-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nick_Heidfeld_Goodwood_Festival_of_Speed_2019_(48242681251).jpg",
@@ -441,7 +557,18 @@
       "kind": "portrait",
       "identity": "max_verstappen",
       "seasons": [
-        2021
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-max_verstappen-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(medium_crop).jpg",
@@ -456,7 +583,14 @@
       "kind": "portrait",
       "identity": "norris",
       "seasons": [
-        2021
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-norris-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Formel12021-SchlossGabelhofen(01).jpg",
@@ -471,7 +605,21 @@
       "kind": "portrait",
       "identity": "perez",
       "seasons": [
-        2021
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
       ],
       "filename": "portrait-perez-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sergio_P%C3%A9rez_2019_(cropped).jpg",
@@ -486,7 +634,20 @@
       "kind": "portrait",
       "identity": "ricciardo",
       "seasons": [
-        2021
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
       ],
       "filename": "portrait-ricciardo-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Ricciardo_January_2024.jpg",
@@ -501,7 +662,18 @@
       "kind": "portrait",
       "identity": "sainz",
       "seasons": [
-        2021
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-sainz-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carlos_Sainz_at_the_83rd_Venice_FILM_festival-9_(cropped).jpg",
@@ -516,7 +688,12 @@
       "kind": "portrait",
       "identity": "tsunoda",
       "seasons": [
-        2021
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-tsunoda-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuki_Tsunoda_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8096).jpg",
@@ -531,7 +708,16 @@
       "kind": "portrait",
       "identity": "stroll",
       "seasons": [
-        2021
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-stroll-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_Fanzone_Stage_(cropped).jpg",
@@ -546,6 +732,15 @@
       "kind": "portrait",
       "identity": "raikkonen",
       "seasons": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
         2021
       ],
       "filename": "portrait-raikkonen-2021.jpg",
@@ -561,6 +756,9 @@
       "kind": "portrait",
       "identity": "giovinazzi",
       "seasons": [
+        2017,
+        2019,
+        2020,
         2021
       ],
       "filename": "portrait-giovinazzi-2021.jpg",
@@ -576,7 +774,16 @@
       "kind": "portrait",
       "identity": "ocon",
       "seasons": [
-        2021
+        2016,
+        2017,
+        2018,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-ocon-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esteban_Ocon_2024_Suzuka_(cropped).jpg",
@@ -591,7 +798,8 @@
       "kind": "portrait",
       "identity": "mick_schumacher",
       "seasons": [
-        2021
+        2021,
+        2022
       ],
       "filename": "portrait-mick_schumacher-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mick_Schumacher_2024_WEC_Fuji.jpg",
@@ -606,7 +814,16 @@
       "kind": "portrait",
       "identity": "gasly",
       "seasons": [
-        2021
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "portrait-gasly-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Gasly_2017_Malaysia.jpg",
@@ -621,7 +838,9 @@
       "kind": "portrait",
       "identity": "latifi",
       "seasons": [
-        2021
+        2020,
+        2021,
+        2022
       ],
       "filename": "portrait-latifi-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicholas_Latifi_at_Singapore_in_2022_(cropped).jpg",
@@ -666,7 +885,10 @@
       "kind": "portrait",
       "identity": "webber",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013
       ],
       "filename": "portrait-webber-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mark_Webber_2017_United_States_GP_(cropped).jpg",
@@ -696,7 +918,19 @@
       "kind": "portrait",
       "identity": "bottas",
       "seasons": [
-        2021
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
       ],
       "filename": "portrait-bottas-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valtteri_Bottas_2016_Malaysia.jpg",
@@ -711,7 +945,10 @@
       "kind": "constructor",
       "identity": "mclaren",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013
       ],
       "filename": "constructor-mclaren-2010.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vodafone_mclaren_f1_logo.jpg",
@@ -726,6 +963,10 @@
       "kind": "constructor",
       "identity": "mclaren",
       "seasons": [
+        2017,
+        2018,
+        2019,
+        2020,
         2021
       ],
       "filename": "constructor-mclaren-2021.png",
@@ -741,7 +982,8 @@
       "kind": "constructor",
       "identity": "mercedes",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "constructor-mercedes-2010.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Mercedes_GP_Petronas_2011.svg",
@@ -756,7 +998,12 @@
       "kind": "constructor",
       "identity": "mercedes",
       "seasons": [
-        2021
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
       ],
       "filename": "constructor-mercedes-2021.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_F1_Logo.svg",
@@ -771,7 +1018,9 @@
       "kind": "constructor",
       "identity": "red_bull",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012
       ],
       "filename": "constructor-red_bull-2010.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_-_2005_Logo.png",
@@ -786,7 +1035,13 @@
       "kind": "constructor",
       "identity": "renault",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
       ],
       "filename": "constructor-renault-2010.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Renault_F1.png",
@@ -816,7 +1071,15 @@
       "kind": "constructor",
       "identity": "sauber",
       "seasons": [
-        2010
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
       ],
       "filename": "constructor-sauber-2010.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Sauber_F1.png",
@@ -846,7 +1109,8 @@
       "kind": "constructor",
       "identity": "virgin",
       "seasons": [
-        2010
+        2010,
+        2011
       ],
       "filename": "constructor-virgin-2010.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginracing.png",
@@ -861,7 +1125,12 @@
       "kind": "constructor",
       "identity": "alpine",
       "seasons": [
-        2021
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "constructor-alpine-2021.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpine_F1_Team_Logo.svg",
@@ -892,7 +1161,22 @@
       "identity": "ferrari",
       "seasons": [
         2010,
-        2021
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
       ],
       "filename": "constructor-ferrari-2010-2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scuderia_Ferrari_(4124759041)_(cropped).jpg",
@@ -902,6 +1186,1197 @@
       "attribution": "Scuderia Ferrari (4124759041) (cropped).jpg by Håkan Dahlström from Malmö, Sweden, CC BY 2.0. Source and license linked in image credits. Team trademarks retained; independent historical analysis, no endorsement.",
       "portraitDate": "unknown",
       "cropNotes": "Wikimedia file/thumbnail; mark contained without cropping. Historical identity verified against source description. Historical identity/season review recorded in second-iteration-media-coverage.md."
+    },
+    {
+      "kind": "portrait",
+      "identity": "resta",
+      "seasons": [
+        2011,
+        2012,
+        2013,
+        2017
+      ],
+      "filename": "portrait-resta-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_DTM_HockenheimringII_Paul_di_Resta_by_2eight_8SC5384_(cropped2).jpg",
+      "creator": "Stefan Brending (2eight)",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "attribution": "Foto: Stefan Brending, Lizenz: Creative Commons by-sa-3.0 de",
+      "portraitDate": "2014-10-19",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "ambrosio",
+      "seasons": [
+        2011,
+        2012
+      ],
+      "filename": "portrait-ambrosio-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DAmbrosio_marussia_monaco_2011_cropped_version.jpg",
+      "creator": "Nick Webb",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "File:DAmbrosio marussia monaco 2011 cropped version.jpg by Nick Webb, CC BY 2.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2011-05-26",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "maldonado",
+      "seasons": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "filename": "portrait-maldonado-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastor_Maldonado_2015_Malaysia.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Pastor Maldonado 2015 Malaysia.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2015-03-28",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "karthikeyan",
+      "seasons": [
+        2011,
+        2012
+      ],
+      "filename": "portrait-karthikeyan-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narain_Karthikeyan_2011_Malaysia.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "File:Narain Karthikeyan 2011 Malaysia.jpg by Morio, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "vergne",
+      "seasons": [
+        2012,
+        2013,
+        2014
+      ],
+      "filename": "portrait-vergne-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Festival_automobile_international_2012_-_Photocall_-_Jean-%C3%89ric_Vergne_-_004.jpg",
+      "creator": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Festival automobile international 2012 - Photocall - Jean-Éric Vergne - 004.jpg by Thesupermat, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2012-01-25",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "pic",
+      "seasons": [
+        2012,
+        2013
+      ],
+      "filename": "portrait-pic-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Pic_Moscow_2013_(cropped).jpg",
+      "creator": "Antigorky",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Charles Pic Moscow 2013 (cropped).jpg by Antigorky, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2013-02-23",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "grosjean",
+      "seasons": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "filename": "portrait-grosjean-canonical.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Romain_Grosjean_at_Road_America_in_2021.png",
+      "creator": "Nick Jacuby Photography",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Romain Grosjean at Road America in 2021.png by Nick Jacuby Photography, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2021-06-20",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "gutierrez",
+      "seasons": [
+        2013,
+        2014,
+        2016
+      ],
+      "filename": "portrait-gutierrez-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gutierrez_Esteban.JPG",
+      "creator": "Lutz H",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gutierrez_Esteban.JPG#Licensing",
+      "attribution": "File:Gutierrez Esteban.JPG by Lutz H, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2009-10-25",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "jules_bianchi",
+      "seasons": [
+        2013,
+        2014
+      ],
+      "filename": "portrait-jules_bianchi-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jules_Bianchi_2012-3.JPG",
+      "creator": "Henry Mineur",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Jules Bianchi 2012-3.JPG by Henry Mineur, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2012-06-30",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "chilton",
+      "seasons": [
+        2013,
+        2014
+      ],
+      "filename": "portrait-chilton-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Max_Chilton_2.jpg",
+      "creator": "Tambeau212",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Max Chilton 2.jpg by Tambeau212, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2013-05-24",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "garde",
+      "seasons": [
+        2013
+      ],
+      "filename": "portrait-garde-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giedo_van_der_Garde.jpg",
+      "creator": "Tambeau212",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Giedo van der Garde.jpg by Tambeau212, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2013-05-24",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "kevin_magnussen",
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ],
+      "filename": "portrait-kevin_magnussen-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Magnussen,_2019_Formula_One_Tests_Barcelona_(cropped).jpg",
+      "creator": "Marc Alvarado",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "File:Kevin Magnussen, 2019 Formula One Tests Barcelona (cropped).jpg by Marc Alvarado, CC BY-SA 2.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2019-03-01",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "kvyat",
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2020
+      ],
+      "filename": "portrait-kvyat-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daniil_Kvyat_2015_Malaysia.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Daniil Kvyat 2015 Malaysia.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2015-03-28",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "ericsson",
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "filename": "portrait-ericsson-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marcus_Ericsson_in_2023.jpg",
+      "creator": "Frankie Fouganthin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Marcus Ericsson in 2023.jpg by Frankie Fouganthin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2023-01-16",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "lotterer",
+      "seasons": [
+        2014
+      ],
+      "filename": "portrait-lotterer-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andre_Lotterer_2024_WEC_Fuji_2.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Andre Lotterer 2024 WEC Fuji 2.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2024-09-14",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "stevens",
+      "seasons": [
+        2014,
+        2015
+      ],
+      "filename": "portrait-stevens-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Will_Stevens_2017.jpg",
+      "creator": "ThumperGT",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Will Stevens 2017.jpg by ThumperGT, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2017-09-26",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "constructor",
+      "identity": "lotus_f1",
+      "seasons": [
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "filename": "constructor-lotus_f1-logo-candidate-10.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lotus_F1_Team_logo.jpg",
+      "creator": "Matthias v.d. Elbe",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Lotus F1 Team logo.jpg by Matthias v.d. Elbe, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Photograph of the Enstone Lotus F1 Team badge; distinct from2010/2011 Lotus Racing/Team Lotus canonical identity. Whole badge contained. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "caterham",
+      "seasons": [
+        2012,
+        2013
+      ],
+      "filename": "constructor-caterham-logo-candidate-14.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo.jpg",
+      "creator": "Caterham F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo.jpg#Licensing",
+      "attribution": "File:Caterham F1 Team logo.jpg by Caterham F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Caterham F1 Team historical green/gold wordmark, source dated2011 before the2012 team-name change. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "caterham",
+      "seasons": [
+        2014
+      ],
+      "filename": "constructor-caterham-logo-candidate-11.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo_(2014).svg",
+      "creator": "Caterham F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Caterham_F1_Team_logo_(2014).svg#Licensing",
+      "attribution": "File:Caterham F1 Team logo (2014).svg by Caterham F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Source explicitly identifies2014 Caterham F1 Team logo; not used for earlier Caterham seasons. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "lotus_racing",
+      "seasons": [
+        2011
+      ],
+      "filename": "constructor-lotus_racing-logo-candidate-17.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Team_Lotus_T128.jpg",
+      "creator": "Morio: File:Lotus T128 nose logo 2011 Malaysia.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Logo Team Lotus T128.jpg by Morio: File:Lotus T128 nose logo 2011 Malaysia.jpg, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Photograph of the real Team Lotus T1282011 badge; not the Enstone Lotus successor or a generated drawing. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "marussia",
+      "seasons": [
+        2012,
+        2013,
+        2014
+      ],
+      "filename": "constructor-marussia-logo-candidate-29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marussia_logo_on_one_of_their_F1_cars_(7448443504).jpg",
+      "creator": "David Precious from Stevenage, Herts, England",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "File:Marussia logo on one of their F1 cars (7448443504).jpg by David Precious from Stevenage, Herts, England, CC BY 2.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Licensed close photograph of actual Marussia team wordmark/emblem on its car,2012 source. Brand occupies the central panel; whole real mark retained, no generated recreation. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "force_india",
+      "seasons": [
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "filename": "constructor-force_india-reviewed-0.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Force_India.svg",
+      "creator": "Robertay2536",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Force India.svg by Robertay2536, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Sahara Force India wordmark; mapped only within Sahara-era seasons.2018 use denotes that season initial team identity, not a current successor. Source content unchanged; real mark contained."
+    },
+    {
+      "kind": "portrait",
+      "identity": "nasr",
+      "seasons": [
+        2015,
+        2016
+      ],
+      "filename": "portrait-nasr-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piloto_Felipe_Nasr_fala_%C3%A0_imprensa_ap%C3%B3s_encontro_com_Temer_(28412246304)_(cropped).jpg",
+      "creator": "Agência Brasil Fotografias",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "File:Piloto Felipe Nasr fala à imprensa após encontro com Temer (28412246304) (cropped).jpg by Agência Brasil Fotografias, CC BY 2.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2016-08-16",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "merhi",
+      "seasons": [
+        2015
+      ],
+      "filename": "portrait-merhi-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Merhi_2015_Malaysia.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Roberto Merhi 2015 Malaysia.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2015-03-27",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "rossi",
+      "seasons": [
+        2015
+      ],
+      "filename": "portrait-rossi-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andretti_Autosport_Visit_180405-F-KS667-0012_(cropped).jpg",
+      "creator": "Senior Airman Ridge Shan",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Andretti_Autosport_Visit_180405-F-KS667-0012_(cropped).jpg#Licensing",
+      "attribution": "File:Andretti Autosport Visit 180405-F-KS667-0012 (cropped).jpg by Senior Airman Ridge Shan, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2018-04-05",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "jolyon_palmer",
+      "seasons": [
+        2016,
+        2017
+      ],
+      "filename": "portrait-jolyon_palmer-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jolyon_Palmer_2016_Malaysia.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Jolyon Palmer 2016 Malaysia.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "wehrlein",
+      "seasons": [
+        2016,
+        2017
+      ],
+      "filename": "portrait-wehrlein-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-04-21_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_0600_by_Stepro.jpg",
+      "creator": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Steffen Prößdorf",
+      "portraitDate": "2023-04-21",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "haryanto",
+      "seasons": [
+        2016
+      ],
+      "filename": "portrait-haryanto-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Haryanto_Jakarta_2011.jpg",
+      "creator": "F1fans",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "File:Rio Haryanto Jakarta 2011.jpg by F1fans, CC BY-SA 3.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "vandoorne",
+      "seasons": [
+        2016,
+        2017,
+        2018
+      ],
+      "filename": "portrait-vandoorne-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-04-23_Motorsport,_ABB_FIA_Formula_E_World_Championship,_Berlin_E-Prix_2023_1DX_1774_by_Stepro.jpg",
+      "creator": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Steffen Prößdorf",
+      "portraitDate": "2023-04-23",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "brendon_hartley",
+      "seasons": [
+        2017,
+        2018
+      ],
+      "filename": "portrait-brendon_hartley-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brendon_Hartley_at_the_2025_Adelaide_Grand_Final_-_01.jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Brendon Hartley at the 2025 Adelaide Grand Final - 01.jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2025-11-30",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "sirotkin",
+      "seasons": [
+        2018
+      ],
+      "filename": "portrait-sirotkin-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sergey_Sirotkin_Moscow_asv2018-01.jpg",
+      "creator": "A.Savin",
+      "license": "FAL",
+      "licenseUrl": "http://artlibre.org/licence/lal/en",
+      "attribution": "File:Sergey Sirotkin Moscow asv2018-01.jpg by A.Savin, FAL. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2018-01-19",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "albon",
+      "seasons": [
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "portrait-albon-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alex_Albon_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8626)_(cropped).jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Alex Albon at the Melbourne Walk during the 2026 Australian Grand Prix (028A8626) (cropped).jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-08",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "aitken",
+      "seasons": [
+        2020
+      ],
+      "filename": "portrait-aitken-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-04-27_Motorsport,_DTM,_Oschersleben_STP_2025_(cropped).jpg",
+      "creator": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Steffen Prößdorf",
+      "portraitDate": "2024-04-27",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "pietro_fittipaldi",
+      "seasons": [
+        2020
+      ],
+      "filename": "portrait-pietro_fittipaldi-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pietro_and_Enzo_Fittipaldi_(cropped)_(1).jpg",
+      "creator": "Zach Catanzareti Photo",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "File:Pietro and Enzo Fittipaldi (cropped) (1).jpg by Zach Catanzareti Photo, CC BY-SA 2.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2018-08-21",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "zhou",
+      "seasons": [
+        2022,
+        2023,
+        2024
+      ],
+      "filename": "portrait-zhou-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhou_Guanyu_at_the_2022_Austrian_Grand_Prix.jpg",
+      "creator": "Dorian Schuster (XaviYuahanda)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Zhou Guanyu at the 2022 Austrian Grand Prix.jpg by Dorian Schuster (XaviYuahanda), CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2022-07-07",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "de_vries",
+      "seasons": [
+        2022,
+        2023
+      ],
+      "filename": "portrait-de_vries-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nyck_de_Vries_2024_WEC_Fuji.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Nyck de Vries 2024 WEC Fuji.jpg by Morio, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2024-09-14",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "sargeant",
+      "seasons": [
+        2023,
+        2024
+      ],
+      "filename": "portrait-sargeant-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logan_Sargeant_NYC_(cropped).jpg",
+      "creator": "JazzyJoeyD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Logan Sargeant NYC (cropped).jpg by JazzyJoeyD, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2024-02-05",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "piastri",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "portrait-piastri-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oscar_Piastri_Spa_(cropped).jpg",
+      "creator": "JJHowlett",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Oscar Piastri Spa (cropped).jpg by JJHowlett, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2019-07-26",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "lawson",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "portrait-lawson-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liam_Lawson_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk,_Melbourne_(028A7795).jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Liam Lawson at the Red Bull Fan Zone – Crown Riverwalk, Melbourne (028A7795).jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-05",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "bearman",
+      "seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "portrait-bearman-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_Thursday_(cropped02).jpg",
+      "creator": "Liauzh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:2025 Japan GP - Haas - Oliver Bearman - Thursday (cropped02).jpg by Liauzh, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2025-04-03",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "colapinto",
+      "seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "portrait-colapinto-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franco_Colapinto_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8689).jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Franco Colapinto at the Melbourne Walk during the 2026 Australian Grand Prix (028A8689).jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-08",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "doohan",
+      "seasons": [
+        2024,
+        2025
+      ],
+      "filename": "portrait-doohan-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Doohan_Austria_2022.jpg",
+      "creator": "KVYTICAL",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Jack Doohan Austria 2022.jpg by KVYTICAL, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2022-07-09",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "antonelli",
+      "seasons": [
+        2025,
+        2026
+      ],
+      "filename": "portrait-antonelli-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kimi_Antonelli_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A7923)_cropped.jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Kimi Antonelli at the Melbourne Walk during the 2026 Australian Grand Prix (028A7923) cropped.jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-06",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "bortoleto",
+      "seasons": [
+        2025,
+        2026
+      ],
+      "filename": "portrait-bortoleto-canonical.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G._Bortoleto_17_Sep_2024.png",
+      "creator": "Lito Cavalcanti",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Lito Cavalcanti",
+      "portraitDate": "2024-09-17",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "hadjar",
+      "seasons": [
+        2025,
+        2026
+      ],
+      "filename": "portrait-hadjar-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8753)_cropped.jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Isack Hadjar at the Melbourne Walk during the 2026 Australian Grand Prix (028A8753) cropped.jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-08",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "portrait",
+      "identity": "arvid_lindblad",
+      "seasons": [
+        2026
+      ],
+      "filename": "portrait-arvid_lindblad-canonical.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk,_Melbourne_(028A7869).jpg",
+      "creator": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Arvid Lindblad at the Red Bull Fan Zone – Crown Riverwalk, Melbourne (028A7869).jpg by Yu Chu Chin, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "2026-03-05",
+      "cropNotes": "Real driver photograph selected through canonical provider URL / Wikipedia redirect / Wikidata P18 identity binding. Source thumbnail unmodified; CSS 4:5 crop; source photograph date disclosed independently of season. Visually reviewed in new-portraits contact sheets."
+    },
+    {
+      "kind": "constructor",
+      "identity": "cadillac",
+      "seasons": [
+        2026
+      ],
+      "filename": "constructor-cadillac-logo-candidate-35.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cadillac_Formula_1_Team_logo.png",
+      "creator": "TedNauru",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "File:Cadillac Formula 1 Team logo.png by TedNauru, CC0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Cadillac Formula1 Team debut mark, source datedMay2025 and canonical team category explicitly identifies2026 inauguration. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018
+      ],
+      "filename": "constructor-williams-logo-candidate-36.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20150130002217!Williams_Martini_Racing_logo.png",
+      "creator": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:20150130002217!Williams_Martini_Racing_logo.png#Licensing",
+      "attribution": "File:20150130002217!Williams Martini Racing logo.png by Unknown authorUnknown author, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Williams Martini Racing partnership-era wordmark; official Williams history places Martini at the2014 hybrid-era transition. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "seasons": [
+        2022,
+        2023,
+        2024
+      ],
+      "filename": "constructor-williams-logo-candidate-38.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williams_Racing_2022_logo.svg",
+      "creator": "Williams Racing",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "File:Williams Racing 2022 logo.svg by Williams Racing, CC BY-SA 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Williams Racing2022 wordmark, predates the2025 Atlassian identity and does not substitute the2010 AT&T brand. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mclaren",
+      "seasons": [
+        2014
+      ],
+      "filename": "constructor-mclaren-logo-candidate-44.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLaren_Mercedes_logo.png",
+      "creator": "Unknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:McLaren_Mercedes_logo.png#Licensing",
+      "attribution": "File:McLaren Mercedes logo.png by Unknown author, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Exact McLaren Mercedes2014 official-source wordmark; Commons upload1February2014. No Vodafone or Honda period substituted. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mercedes",
+      "seasons": [
+        2012,
+        2013
+      ],
+      "filename": "constructor-mercedes-logo-candidate-21.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_logo.png",
+      "creator": "Mercedes AMG Petronas",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_logo.png#Licensing",
+      "attribution": "File:Mercedes AMG Petronas logo.png by Mercedes AMG Petronas, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Mercedes AMG Petronas2013 historical metallic wordmark from the official team site; AMG-era identity, not GP2010 or2020 version. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mercedes",
+      "seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "filename": "constructor-mercedes-logo-mercedes-2014-revision.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_F1_Logo.svg",
+      "creator": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mercedes_AMG_Petronas_F1_Logo.svg#Licensing",
+      "attribution": "File:Mercedes AMG Petronas F1 Logo.svg (2014 revision) by Unknown authorUnknown author, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Archived July2014 Mercedes AMG Petronas wordmark revision, explicitly retrieved before theSeptember2020 replacement; modern2020 mark is not substituted. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "hrt",
+      "seasons": [
+        2011
+      ],
+      "filename": "constructor-hrt-logo-candidate-43.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HRT_new_logo.jpg",
+      "creator": "Bigos95",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:HRT_new_logo.jpg#Licensing",
+      "attribution": "File:HRT new logo.jpg by Bigos95, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "HRT Formula One Team mark, source dated24July2011; exact historical identity distinct from2010 Hispania text and2012 gold variant. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "hrt",
+      "seasons": [
+        2012
+      ],
+      "filename": "constructor-hrt-logo-candidate-42.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HRT_F1_TEAM_2012.svg",
+      "creator": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:HRT_F1_TEAM_2012.svg#Licensing",
+      "attribution": "File:HRT F1 TEAM 2012.svg by Unknown authorUnknown author, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Source explicitly labels gold HRT Formula1 Team logo for2012 season. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "sauber",
+      "seasons": [
+        2024,
+        2025
+      ],
+      "filename": "constructor-sauber-logo-candidate-45.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_Stake_F1_Team_Kick_Sauber.png",
+      "creator": "KarlMarx1889",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "File:Logo of Stake F1 Team Kick Sauber.png by KarlMarx1889, CC0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Stake F1 Team Kick Sauber mark, explicitly datedJanuary2024; not reused for older Sauber or2026 Audi. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "racing_point",
+      "seasons": [
+        2019
+      ],
+      "filename": "constructor-racing_point-logo-candidate-47.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SportPesa-Racing-Point-logo-2019.jpg",
+      "creator": "Au rupteur",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:SportPesa-Racing-Point-logo-2019.jpg#Licensing",
+      "attribution": "File:SportPesa-Racing-Point-logo-2019.jpg by Au rupteur, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Exact SportPesa Racing Point2019 mark, source dated13February2019; not BWT2020 or Force India predecessor. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mclaren",
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "constructor-mclaren-logo-candidate-00.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLaren_Racing_logo.png",
+      "creator": "https://www.mclaren.com/",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:McLaren_Racing_logo.png#Licensing",
+      "attribution": "File:McLaren Racing logo.png by https://www.mclaren.com/, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Papaya speedmark-era McLaren Racing mark, source dated2022; official McLaren logo history distinguishes this from earlier mono-black era. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mclaren",
+      "seasons": [
+        2015,
+        2016
+      ],
+      "filename": "constructor-mclaren-logo-candidate-18.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mclaren_Honda_2015.png",
+      "creator": "Mclaren",
+      "license": "Copyrighted free use",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mclaren_Honda_2015.png#Licensing",
+      "attribution": "File:Mclaren Honda 2015.png by Mclaren, Copyrighted free use. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "McLaren Honda partnership-era team wordmark, exact source identifies2015; no unrelated contemporary McLaren brand substituted. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "seasons": [
+        2026
+      ],
+      "filename": "constructor-williams-logo-candidate-02.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlassian_Williams_F1_Team_logo.svg",
+      "creator": "Atlassian Williams F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atlassian_Williams_F1_Team_logo.svg#Licensing",
+      "attribution": "File:Atlassian Williams F1 Team logo.svg by Atlassian Williams F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Atlassian Williams F1 Team partnership-era mark; used only for2025/2026 canonical Williams slots. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "haas",
+      "seasons": [
+        2016,
+        2017,
+        2018,
+        2020,
+        2022
+      ],
+      "filename": "constructor-haas-logo-candidate-03.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haas_F1_Team_Logo.svg",
+      "creator": "Haas F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Haas_F1_Team_Logo.svg#Licensing",
+      "attribution": "File:Haas F1 Team Logo.svg by Haas F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Sponsor-free Haas F1 Team mark; does not insert Rich Energy, Uralkali or MoneyGram into a different era. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "haas",
+      "seasons": [
+        2019
+      ],
+      "filename": "constructor-haas-logo-candidate-04.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rich_Energy_Haas_F1_Team_Logo.svg",
+      "creator": "Haas F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rich_Energy_Haas_F1_Team_Logo.svg#Licensing",
+      "attribution": "File:Rich Energy Haas F1 Team Logo.svg by Haas F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Rich Energy Haas mark for its2019 sponsorship period; does not imply this sponsor covered the entire season. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "haas",
+      "seasons": [
+        2023,
+        2024,
+        2025
+      ],
+      "filename": "constructor-haas-logo-candidate-06.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MoneyGram_Haas_F1_Team_Logo.svg",
+      "creator": "Haas F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:MoneyGram_Haas_F1_Team_Logo.svg#Licensing",
+      "attribution": "File:MoneyGram Haas F1 Team Logo.svg by Haas F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "MoneyGram Haas partnership-era mark; Wikidata logo qualifiers record start2023. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "haas",
+      "seasons": [
+        2026
+      ],
+      "filename": "constructor-haas-logo-candidate-07.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TGR_Haas_F1_Team_Logo_(2026).svg",
+      "creator": "Haas F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:TGR_Haas_F1_Team_Logo_(2026).svg#Licensing",
+      "attribution": "File:TGR Haas F1 Team Logo (2026).svg by Haas F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "TGR Haas F1 Team2026 mark, explicitly dated2026 by source. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "racing_point",
+      "seasons": [
+        2020
+      ],
+      "filename": "constructor-racing_point-logo-candidate-08.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BWT_Racing_Point_Logo.svg",
+      "creator": "Racing Point UK Limited",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:BWT_Racing_Point_Logo.svg#Licensing",
+      "attribution": "File:BWT Racing Point Logo.svg by Racing Point UK Limited, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "BWT Racing Point2020 team branding, not reused for the2019 SportPesa period or Force India predecessor. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "manor",
+      "seasons": [
+        2015
+      ],
+      "filename": "constructor-manor-logo-candidate-15.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manor_F1_Team_logo.png",
+      "creator": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Manor_F1_Team_logo.png#Licensing",
+      "attribution": "File:Manor F1 Team logo.png by Unknown authorUnknown author, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Historical Manor Marussia red wordmark for2015 identity; distinct from2016 Manor Racing emblem. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "manor",
+      "seasons": [
+        2016
+      ],
+      "filename": "constructor-manor-logo-candidate-16.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Manor_F1.png",
+      "creator": "Juanchocarbonero",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_Manor_F1.png#Licensing",
+      "attribution": "File:Logo Manor F1.png by Juanchocarbonero, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Manor Racing blue/orange emblem, source dated2016; distinct from2015 Manor Marussia wordmark. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "audi",
+      "seasons": [
+        2026
+      ],
+      "filename": "constructor-audi-logo-candidate-12.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audif1.com_logo17_(cropped).svg",
+      "creator": "Audi Revolut F1 Team / Sauber Motorsports AG",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Audif1.com_logo17_(cropped).svg#Licensing",
+      "attribution": "File:Audif1.com logo17 (cropped).svg by Audi Revolut F1 Team / Sauber Motorsports AG, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Source is Revolut Audi F1 Team mark published for2026 debut; no Sauber predecessor substitution. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "mercedes",
+      "seasons": [
+        2026
+      ],
+      "filename": "constructor-mercedes-logo-candidate-22.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_Petronas_F1_Team_logo_(2026).svg",
+      "creator": "Mercedes-AMG Petronas F1 Team",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_Petronas_F1_Team_logo_(2026).svg#Licensing",
+      "attribution": "File:Mercedes-AMG Petronas F1 Team logo (2026).svg by Mercedes-AMG Petronas F1 Team, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Source explicitly identifies2026 Mercedes-AMG Petronas F1 Team logo. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "seasons": [
+        2019
+      ],
+      "filename": "constructor-williams-reviewed-1.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Williams_F1.png",
+      "creator": "Juanchocarbonero",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_Williams_F1.png#Licensing",
+      "attribution": "File:Logo Williams F1.png by Juanchocarbonero, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Williams W as documented in its2016 source; not inferred into2010 AT&T era. Source content unchanged; real mark contained."
+    },
+    {
+      "kind": "constructor",
+      "identity": "aston_martin",
+      "seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "filename": "constructor-aston_martin-reviewed-5.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aston_Martin_F1_Team_logo_2024.jpg",
+      "creator": "Unknown authorUnknown author",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "File:Aston Martin F1 Team logo 2024.jpg by Unknown authorUnknown author, CC BY 4.0. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Aston Martin Aramco2024-era logo, no2021 Cognizant substitution. Source content unchanged; real mark contained."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alfa",
+      "seasons": [
+        2023
+      ],
+      "filename": "constructor-alfa-reviewed-6.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_F1_Team_Stake_Logo.svg",
+      "creator": "Alfa Romeo - Sauber Group",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_F1_Team_Stake_Logo.svg#Licensing",
+      "attribution": "File:Alfa Romeo F1 Team Stake Logo.svg by Alfa Romeo - Sauber Group, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Alfa Romeo F1 Team Stake2023 brand; not used for Racing Orlen2019–2022. Source content unchanged; real mark contained."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "seasons": [
+        2025
+      ],
+      "filename": "constructor-williams-logo-candidate-48.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williams_racing2025logo.jpg",
+      "creator": "Williams racing",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Williams_racing2025logo.jpg#Licensing",
+      "attribution": "File:Williams racing2025logo.jpg by Williams racing, Public domain. Wikimedia thumbnail; source content unmodified.",
+      "portraitDate": "unknown",
+      "cropNotes": "Atlassian Williams Racing2025 logo, verified against official2025 launch; not the F1 Team/Forward W rebrand introducedJanuary2026. Source image content unmodified; contained without cutting the mark."
     }
   ],
   "fallbacks": [
@@ -946,6 +2421,228 @@
       "identity": "alfa",
       "season": 2021,
       "reason": "Stake candidate belongs to later identity; exact Racing candidate is absent. No verified reusable 2021 team mark located. Attempted sources: https://commons.wikimedia.org/wiki/File:AlfaRomeoF1Stake.svg ; https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Racing_logo.svg"
+    },
+    {
+      "kind": "constructor",
+      "identity": "force_india",
+      "season": 2011,
+      "reason": "For 2011, the inspected standalone candidate carries Sahara branding without independently established applicability to this selected season; the alternative2009 asset is a car illustration, not a team logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2011,
+      "reason": "For 2011 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "season": 2011,
+      "reason": "The 2011 Williams slot lacks a verified reusable standalone mark from that era: inspected wordmarks are specifically2014/2016, while the AT&T-named candidate is a2008 race-car photograph. Later wordmarks and a whole-car image cannot establish the 2011 logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2012,
+      "reason": "For 2012 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "season": 2012,
+      "reason": "The 2012 Williams slot lacks a verified reusable standalone mark from that era: inspected wordmarks are specifically2014/2016, while the AT&T-named candidate is a2008 race-car photograph. Later wordmarks and a whole-car image cannot establish the 2012 logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2013,
+      "reason": "For 2013 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2013,
+      "reason": "For 2013 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "williams",
+      "season": 2013,
+      "reason": "The 2013 Williams slot lacks a verified reusable standalone mark from that era: inspected wordmarks are specifically2014/2016, while the AT&T-named candidate is a2008 race-car photograph. Later wordmarks and a whole-car image cannot establish the 2013 logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2014,
+      "reason": "For 2014 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2014,
+      "reason": "For 2014 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2015,
+      "reason": "For 2015 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2015,
+      "reason": "For 2015 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2016,
+      "reason": "For 2016 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2016,
+      "reason": "For 2016 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2017,
+      "reason": "For 2017 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2017,
+      "reason": "For 2017 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2018,
+      "reason": "For 2018 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2018,
+      "reason": "For 2018 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alfa",
+      "season": 2019,
+      "reason": "For 2019 Alfa Romeo, the inspected reusable candidate is the2023 Stake variant, not the2019 Racing identity. The attempted earlier Racing file returned no image metadata; the Orlen candidate has an unclear-license warning. A licensed appropriate earlier mark is still unacquired."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2019,
+      "reason": "For 2019 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "toro_rosso",
+      "season": 2019,
+      "reason": "For 2019 Toro Rosso, the inspected licensed bodywork photograph foregrounds the Red Bull sponsor rather than a standalone Scuderia Toro Rosso team mark; the2009 alternative is a car drawing. The2017 standalone logo candidate has a recorded copyright/deletion notice, so no reusable correct team-logo file was established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alfa",
+      "season": 2020,
+      "reason": "For 2020 Alfa Romeo, the inspected reusable candidate is the2023 Stake variant, not the selected Racing Orlen period. The attempted earlier Racing file returned no image metadata; the Orlen candidate has an unclear-license warning. A licensed appropriate earlier mark is still unacquired."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alphatauri",
+      "season": 2020,
+      "reason": "For 2020 AlphaTauri, the licensed candidate is a full2021 garage photograph, not a usable standalone team-logo image; the attempted standalone SVG returned no metadata, and other logo candidates have copyright/deletion notices. The garage scene is not counted as an acquired logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2020,
+      "reason": "For 2020 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alfa",
+      "season": 2022,
+      "reason": "For 2022 Alfa Romeo, the inspected reusable candidate is the2023 Stake variant, not the selected Racing Orlen period. The attempted earlier Racing file returned no image metadata; the Orlen candidate has an unclear-license warning. A licensed appropriate earlier mark is still unacquired."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alphatauri",
+      "season": 2022,
+      "reason": "For 2022 AlphaTauri, the licensed candidate is a full2021 garage photograph, not a usable standalone team-logo image; the attempted standalone SVG returned no metadata, and other logo candidates have copyright/deletion notices. The garage scene is not counted as an acquired logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "aston_martin",
+      "season": 2022,
+      "reason": "For 2022 Aston Martin, the reusable inspected image is dated2024 and carries Aramco-only sponsor branding, not the selected earlier Cognizant-era team identity. The attempted Cognizant file returned no metadata and another exact candidate has a copyright/deletion notice; earlier appropriate imagery remains unacquired."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2022,
+      "reason": "For 2022 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "alphatauri",
+      "season": 2023,
+      "reason": "For 2023 AlphaTauri, the licensed candidate is a full2021 garage photograph, not a usable standalone team-logo image; the attempted standalone SVG returned no metadata, and other logo candidates have copyright/deletion notices. The garage scene is not counted as an acquired logo."
+    },
+    {
+      "kind": "constructor",
+      "identity": "aston_martin",
+      "season": 2023,
+      "reason": "For 2023 Aston Martin, the reusable inspected image is dated2024 and carries Aramco-only sponsor branding, not the selected earlier Cognizant-era team identity. The attempted Cognizant file returned no metadata and another exact candidate has a copyright/deletion notice; earlier appropriate imagery remains unacquired."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2023,
+      "reason": "For 2023 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "rb",
+      "season": 2024,
+      "reason": "For 2024 canonical RB, the exact standalone Racing Bulls and Visa Cash App candidate requests returned no image metadata. The available prior AlphaTauri garage badge belongs to a different historical identity and cannot substitute for the 2024 RB team. Reuse rights and a usable correct mark are not established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2024,
+      "reason": "For 2024 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "rb",
+      "season": 2025,
+      "reason": "For 2025 canonical RB, the exact standalone Racing Bulls and Visa Cash App candidate requests returned no image metadata. The available prior AlphaTauri garage badge belongs to a different historical identity and cannot substitute for the 2025 Racing Bulls team. Reuse rights and a usable correct mark are not established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2025,
+      "reason": "For 2025 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
+    },
+    {
+      "kind": "constructor",
+      "identity": "rb",
+      "season": 2026,
+      "reason": "For 2026 canonical RB, the exact standalone Racing Bulls and Visa Cash App candidate requests returned no image metadata. The available prior AlphaTauri garage badge belongs to a different historical identity and cannot substitute for the 2026 Racing Bulls team. Reuse rights and a usable correct mark are not established."
+    },
+    {
+      "kind": "constructor",
+      "identity": "red_bull",
+      "season": 2026,
+      "reason": "For 2026 Red Bull, both reusable catalog candidates identify2005–2012 branding, which does not independently establish this later season's identity. The attempted Oracle standalone file returned no image metadata. No later-era reusable team mark was established; the older mark is not silently reused."
     }
   ]
 }

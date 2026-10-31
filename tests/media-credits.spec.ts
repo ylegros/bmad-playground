@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+import {readFile} from 'node:fs/promises';
+test('credits Close and Escape restore the exact trigger; counts stay separate at narrow doubled text size',async({page})=>{
+ const raw=JSON.parse(await readFile('.cache/seasons/2021.json','utf8'));const snapshot=raw.snapshot;
+ await page.route('**/api/v1/seasons',route=>route.fulfill({json:{data:{seasons:[{season:2021,verified:true,lastCheckedRound:22,knownGaps:[]}]}}}));
+ await page.route('**/api/v1/seasons/2021',route=>route.fulfill({json:{data:snapshot}}));
+ await page.goto('/?view=compare&season=2021&a=leclerc&b=russell');
+ const credits=page.locator('#image-credits');const summary=credits.locator(':scope > summary');
+ await summary.focus();await page.keyboard.press('Enter');await expect(credits).toHaveAttribute('open','');
+ await expect(credits.getByRole('table')).toContainText('Actual / total');await expect(credits).toContainText('not counted as investigated exceptions');
+ await credits.getByText(/^Investigated exceptions \(/).click();
+ const evidence=credits.getByRole('link',{name:'Visual review evidence'}).first();
+ expect(await evidence.getAttribute('href')).toMatch(/^\/media\/evidence\//);
+ const visual=await page.request.get((await evidence.getAttribute('href'))!);expect(visual.ok()).toBe(true);expect((await visual.body()).length).toBeGreaterThan(0);
+ await credits.getByRole('button',{name:'Close image credits'}).click();await expect(summary).toBeFocused();await expect(credits).not.toHaveAttribute('open','');
+ const link=page.getByRole('link',{name:'Image details'}).first();await link.focus();await page.keyboard.press('Enter');await expect(summary).toBeFocused();await page.keyboard.press('Escape');await expect(link).toBeFocused();
+ await link.click();await credits.getByRole('button',{name:'Close image credits'}).click();await expect(link).toBeFocused();
+ await page.setViewportSize({width:390,height:844});await page.addStyleTag({content:'html{font-size:200%}'});await summary.click();await expect(credits.getByRole('button',{name:'Close image credits'})).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.keyboard.press('Escape');await expect(summary).toBeFocused();
+});
