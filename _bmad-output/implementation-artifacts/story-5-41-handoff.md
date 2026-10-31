@@ -30,3 +30,7 @@ Final command: set `PREVIEW_DIRECTORY` to the isolated dist, then run `npx.cmd p
 Hosting configuration SHA256 remained `25eeeec12741c2a060e457cc55b942f582d601d6d7e8cff4248159837c6504dc`. No publication, push or hosting audience change was performed. Existing root public release remains the separately usable historical baseline.
 
 All45 iteration-three stories are implemented and ready for human review. Source classifications that cannot independently establish retirement remain unavailable; original-proposal cancellation/revision research remains explicitly partial in the calendar reports. Neither limitation is concealed by a zero, inferred lifecycle or fabricated history.
+
+## Human approval
+
+The user approved the completed iteration on 2026-10-31 after receiving the final verification and handoff. All45 iteration-three stories and Epics4–6 are now marked done. The existing44 logo-exception acceptance remains recorded. This approval closes implementation review; publication remains outside this handoff.

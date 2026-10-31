@@ -29,7 +29,7 @@
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 # - Retrospective appends its action items to action_items; the status view surfaces open ones
 generated: 10-29-2026 15:48
-last_updated: 10-30-2026 17:35
+last_updated: 10-31-2026 11:29
 project: bmad-playground
 project_key: NOKEY
 tracking_system: file-system
@@ -54,56 +54,56 @@ development_status:
   3-4-verify-and-share-the-corrected-dashboard: done
   epic-3-retrospective: optional
 
-  epic-4: in-progress
-  4-1-keep-one-constructor-name-when-its-logo-is-unavailable: review
+  epic-4: done
+  4-1-keep-one-constructor-name-when-its-logo-is-unavailable: done
   epic-4-retrospective: optional
 
-  epic-5: in-progress
-  5-1-validate-versioned-season-evidence-consistently: review
-  5-2-load-audited-historical-and-ongoing-seasons-safely: review
-  5-3-compare-drivers-over-the-same-completed-gp-evidence: review
-  5-4-read-audit-status-and-season-to-date-evidence-on-every-surfa: review
-  5-5-inventory-credited-imagery-against-canonical-season-identiti: review
-  5-6-audit-2010-season-data-and-analysis: review
-  5-7-audit-2011-season-data-and-analysis: review
-  5-8-audit-2012-season-data-and-analysis: review
-  5-9-audit-2013-season-data-and-analysis: review
-  5-10-audit-2014-season-data-and-analysis: review
-  5-11-audit-2015-season-data-and-analysis: review
-  5-12-audit-2016-season-data-and-analysis: review
-  5-13-audit-2017-season-data-and-analysis: review
-  5-14-audit-2018-season-data-and-analysis: review
-  5-15-audit-2019-season-data-and-analysis: review
-  5-16-audit-2020-season-data-and-analysis: review
-  5-17-audit-2021-season-data-and-analysis: review
-  5-18-audit-2022-season-data-and-analysis: review
-  5-19-audit-2023-season-data-and-analysis: review
-  5-20-audit-2024-season-data-and-analysis: review
-  5-21-audit-2025-season-data-and-analysis: review
-  5-22-audit-2026-season-data-and-analysis: review
-  5-23-complete-2010-driver-and-constructor-imagery-inventory: review
-  5-24-complete-2011-driver-and-constructor-imagery-inventory: review
-  5-25-complete-2012-driver-and-constructor-imagery-inventory: review
-  5-26-complete-2013-driver-and-constructor-imagery-inventory: review
-  5-27-complete-2014-driver-and-constructor-imagery-inventory: review
-  5-28-complete-2015-driver-and-constructor-imagery-inventory: review
-  5-29-complete-2016-driver-and-constructor-imagery-inventory: review
-  5-30-complete-2017-driver-and-constructor-imagery-inventory: review
-  5-31-complete-2018-driver-and-constructor-imagery-inventory: review
-  5-32-complete-2019-driver-and-constructor-imagery-inventory: review
-  5-33-complete-2020-driver-and-constructor-imagery-inventory: review
-  5-34-complete-2021-driver-and-constructor-imagery-inventory: review
-  5-35-complete-2022-driver-and-constructor-imagery-inventory: review
-  5-36-complete-2023-driver-and-constructor-imagery-inventory: review
-  5-37-complete-2024-driver-and-constructor-imagery-inventory: review
-  5-38-complete-2025-driver-and-constructor-imagery-inventory: review
-  5-39-complete-2026-driver-and-constructor-imagery-inventory: review
-  5-40-prepare-one-complete-immutable-all-season-bundle: review
-  5-41-verify-the-complete-all-season-exploration-handoff: review
+  epic-5: done
+  5-1-validate-versioned-season-evidence-consistently: done
+  5-2-load-audited-historical-and-ongoing-seasons-safely: done
+  5-3-compare-drivers-over-the-same-completed-gp-evidence: done
+  5-4-read-audit-status-and-season-to-date-evidence-on-every-surfa: done
+  5-5-inventory-credited-imagery-against-canonical-season-identiti: done
+  5-6-audit-2010-season-data-and-analysis: done
+  5-7-audit-2011-season-data-and-analysis: done
+  5-8-audit-2012-season-data-and-analysis: done
+  5-9-audit-2013-season-data-and-analysis: done
+  5-10-audit-2014-season-data-and-analysis: done
+  5-11-audit-2015-season-data-and-analysis: done
+  5-12-audit-2016-season-data-and-analysis: done
+  5-13-audit-2017-season-data-and-analysis: done
+  5-14-audit-2018-season-data-and-analysis: done
+  5-15-audit-2019-season-data-and-analysis: done
+  5-16-audit-2020-season-data-and-analysis: done
+  5-17-audit-2021-season-data-and-analysis: done
+  5-18-audit-2022-season-data-and-analysis: done
+  5-19-audit-2023-season-data-and-analysis: done
+  5-20-audit-2024-season-data-and-analysis: done
+  5-21-audit-2025-season-data-and-analysis: done
+  5-22-audit-2026-season-data-and-analysis: done
+  5-23-complete-2010-driver-and-constructor-imagery-inventory: done
+  5-24-complete-2011-driver-and-constructor-imagery-inventory: done
+  5-25-complete-2012-driver-and-constructor-imagery-inventory: done
+  5-26-complete-2013-driver-and-constructor-imagery-inventory: done
+  5-27-complete-2014-driver-and-constructor-imagery-inventory: done
+  5-28-complete-2015-driver-and-constructor-imagery-inventory: done
+  5-29-complete-2016-driver-and-constructor-imagery-inventory: done
+  5-30-complete-2017-driver-and-constructor-imagery-inventory: done
+  5-31-complete-2018-driver-and-constructor-imagery-inventory: done
+  5-32-complete-2019-driver-and-constructor-imagery-inventory: done
+  5-33-complete-2020-driver-and-constructor-imagery-inventory: done
+  5-34-complete-2021-driver-and-constructor-imagery-inventory: done
+  5-35-complete-2022-driver-and-constructor-imagery-inventory: done
+  5-36-complete-2023-driver-and-constructor-imagery-inventory: done
+  5-37-complete-2024-driver-and-constructor-imagery-inventory: done
+  5-38-complete-2025-driver-and-constructor-imagery-inventory: done
+  5-39-complete-2026-driver-and-constructor-imagery-inventory: done
+  5-40-prepare-one-complete-immutable-all-season-bundle: done
+  5-41-verify-the-complete-all-season-exploration-handoff: done
   epic-5-retrospective: optional
 
-  epic-6: in-progress
-  6-1-add-all-current-search-matches-to-progress: review
-  6-2-restore-matching-selections-through-url-and-navigation: review
-  6-3-inspect-every-selected-series-accessibly: review
+  epic-6: done
+  6-1-add-all-current-search-matches-to-progress: done
+  6-2-restore-matching-selections-through-url-and-navigation: done
+  6-3-inspect-every-selected-series-accessibly: done
   epic-6-retrospective: optional
