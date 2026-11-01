@@ -1,8 +1,8 @@
 # F1 Dashboard — Pit Wall
 
-A Formula 1 dashboard for **2010 and 2021** with comparison verdicts, season evolution graphs and attributed imagery. The local edition supports manual refresh; the shared Site edition reads validated bundled snapshots.
+A Formula 1 dashboard for **2010–2026** with comparison verdicts, season evolution graphs and attributed imagery. The local edition supports manual refresh; the shared Site edition reads validated bundled snapshots.
 
-Requires **Node 24 or newer**. This checkout has both seasons verified and cached from Jolpica. The existing shared Site is https://f1-pit-wall-yannick.navyelf64.chatgpt.site; source changes require a validated publication before they appear there.
+Requires **Node 24 or newer**. The published **v0.4** Site is https://f1-pit-wall-yannick.yannick-legros59.chatgpt.site. It includes 17 audited season snapshots, bottom expandable season information/coverage, and actual metric values on Progress points. Local caches and generated bundles are not included in Git. See the [v0.4 publication record](_bmad-output/implementation-artifacts/iteration-four-publication.md); the older run/export details below describe the original two-season workflow.
 
 ## Run
 
@@ -18,7 +18,7 @@ For development, `npm.cmd run dev` starts the API and Vite together; open **http
 
 ## Explore
 
-1. Select 2010 or 2021 and switch between Drivers and Constructors standings.
+1. Select a verified year from 2010 through 2026 and switch between Drivers and Constructors standings. Ongoing seasons retain honest season-to-date evidence.
 2. Use a row's **Progress** action for qualifying, results, earned points and official championship totals. Constructor tables include round points and official championship positions.
 3. Use **Compare** on a driver for the latest teammate in that season; either driver can be replaced. When first and latest teammates differ, the initial teammate is identified in the ranking.
 4. **Refresh data** updates the selected season. Existing values remain visible while pending; a failure retains the snapshot and its timestamp.
@@ -51,7 +51,7 @@ Unit tests use deterministic fixtures. Browser tests include synthetic data scen
 
 ## Comparison and graphs
 
-Compare uses six fixed categories, with one vote per favorable category. Ties and unavailable categories award no vote; equal scores draw. Best GP qualifying rank uses qualifying classification before grid penalties; it is distinct from qualifying head-to-head. Best finish and DNF counts require authoritative driver records across every scheduled GP, and unmapped retirement statuses leave DNF totals unavailable.
+Compare uses six fixed categories, with one vote per favorable category. Ties and unavailable categories award no vote; equal scores draw. Best GP qualifying rank uses qualifying classification before grid penalties; it is distinct from qualifying head-to-head. Best finish and DNF counts require authoritative driver records across the verified completed-GP analysis window, and unmapped retirement statuses leave DNF totals unavailable.
 
 Progress supports multiple drivers or constructors, metric selection and matching graph/table evidence. Inspect rounds using the focusable control with Left/Right and Home/End, or point to the graph. Missing values create gaps. The **All round measures** disclosure retains the detailed metrics. Graph selections and metrics survive URL and browser Back navigation where compatible.
 
