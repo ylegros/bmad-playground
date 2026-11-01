@@ -24,3 +24,20 @@ describe('standings freshness labels',()=>{
     expect(standingsCaption(s,'constructors')).toContain('Final standings');
   });
 });
+
+
+describe('season disclosures',()=>{
+  it('starts both independent disclosures collapsed and retains snapshot gaps and audit evidence',()=>{
+    const snapshot=evidenceFixture();snapshot.coverage.gaps=['Round 2: source gap'];
+    const html=renderToStaticMarkup(createElement(SeasonEvidence,{snapshot,manifest:{seasons:[]}}));
+    expect(html.match(/<details/g)).toHaveLength(2);expect(html).not.toContain('open=""');
+    expect(html).toContain('Season information \u00b7 2026');expect(html).toContain('Round 2: source gap');
+    expect(html).toContain('Ongoing / Season to date');expect(html).toContain('2010: Unverified');
+    expect(standingsCaption(snapshot,'drivers')).toContain('0 analyzed GPs behind');
+  });
+  it('keeps unavailable and loading content honest without a snapshot',()=>{
+    const html=renderToStaticMarkup(createElement(SeasonEvidence,{season:2021,loading:true}));
+    expect(html).toContain('Season information \u00b7 2021');expect(html).toContain('Loading season 2021');
+    expect(html).not.toContain('Ongoing / Season to date');expect(html).not.toContain('Audited ');
+  });
+});

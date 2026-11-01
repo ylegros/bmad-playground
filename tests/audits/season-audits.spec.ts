@@ -11,6 +11,7 @@ for(const year of years)test(`${year} real audited snapshot supports standings, 
     return route.continue();
   });
   await page.goto(`/?season=${year}`);
+  await page.locator('.season-disclosure').first().locator('summary').click();
   const evidence=page.getByRole('region',{name:'Season evidence'});
   await expect(evidence).toContainText(snapshot.lifecycle==='ongoing'?'Ongoing / Season to date':'Complete season');
   await expect(evidence).toContainText(`Analyzed GP rounds (${snapshot.analysisRounds.length}): ${snapshot.analysisRounds.join(', ')}`);

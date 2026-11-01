@@ -4,12 +4,15 @@ type: architecture-spine
 purpose: build-substrate
 altitude: feature
 paradigm: layered modular monolith
-scope: F1 Pit Wall iteration three, 2010-2026, local and shared bundled-data editions
+scope: F1 Pit Wall iteration four presentation, retaining audited 2010-2026 local and bundled-data editions
 status: final
 created: 2026-10-29
-updated: 2026-10-30
-binds: [SPEC-iteration-three/CAP-1, SPEC-iteration-three/CAP-2, SPEC-iteration-three/CAP-3, FR-1, FR-2, FR-3, FR-4, FR-5, FR-6, FR-7, FR-8, FR-9, FR-10, FR-11, FR-12, FR-13, FR-14, FR-15, FR-16, FR-17, FR-18, FR-19, FR-20, FR-21]
+updated: 2026-11-01
+binds: [SPEC-iteration-four/CAP-1, SPEC-iteration-four/CAP-2, SPEC-iteration-three/CAP-1, SPEC-iteration-three/CAP-2, SPEC-iteration-three/CAP-3, FR-1, FR-2, FR-3, FR-4, FR-5, FR-6, FR-7, FR-8, FR-9, FR-10, FR-11, FR-12, FR-13, FR-14, FR-15, FR-16, FR-17, FR-18, FR-19, FR-20, FR-21]
 sources:
+  - ../../../specs/spec-iteration-four/SPEC.md
+  - ../../../specs/spec-iteration-four/acceptance.md
+  - ../../../implementation-artifacts/iteration-three-verification.md
   - ../../../specs/spec-iteration-three/SPEC.md
   - ../../../specs/spec-iteration-three/season-coverage-and-acceptance.md
   - ../../../specs/spec-iteration-two-feedback/SPEC.md
@@ -25,7 +28,7 @@ sources:
 
 ## Design paradigm
 
-Layered application with shared pure domain logic and two build-selected data adapters. The implemented React/TypeScript/Vite client is retained. Local mode uses the existing Node server and writable snapshot repository; bundled ChatGPT Sites mode serves static browser assets, validated snapshots and media. No Node process, writable cache or runtime F1 provider is required by the hosted edition. Iteration three extends approved release 0.2; AD-13/14 define its lifecycle and selection contracts.
+Layered application with shared pure domain logic and two build-selected data adapters. The implemented React/TypeScript/Vite client is retained. Local mode uses the existing Node server and writable snapshot repository; bundled ChatGPT Sites mode serves static browser assets, validated snapshots and media. No Node process, writable cache or runtime F1 provider is required by the hosted edition. Iteration four changes presentation over approved iteration three; AD-13/14 retain lifecycle and selection contracts.
 
 ```mermaid
 flowchart LR
@@ -44,8 +47,9 @@ flowchart LR
 
 ## Current scope authority
 
-Iteration-three CAP-1..3 and its season-coverage companion govern this update from approved release 0.2. They supersede the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier accepted qualifying-before-grid, favorable-marker, investigated-media and anyone-with-link hosting rules remain binding. Existing code is the baseline, not evidence of new-year support. This pass changes planning documents only.
+Iteration-four CAP-1/2 and acceptance.md govern this update: shared season lifecycle/evidence and coverage disclosures follow active analysis; Progress point labels show actual metric values. DESIGN.md and EXPERIENCE.md own presentation and interaction under AD-1, including ephemeral same-session expansion independent of URL/history. The shared shell and SeasonEvidence own disclosures; Progress and EvolutionChart consume existing shared metric rows. Numeric labels use row.value with existing precision; status-rich row.text remains inspection/evidence text and never supplies an invented numeric rank. Stable entity IDs and named styles remain identity keys.
 
+Iteration three was approved complete on 2026-10-31; its verification record establishes the audited 2010-2026 baseline, accepted media exceptions and prepared static release. Lifecycle/window, constructor identity and selection contracts remain binding. Current/Final, relevant Season-to-date and source-lag captions remain beside affected results; detailed lifecycle evidence moves below analysis. Publication remains unperformed. This update changes preparation documents only.
 ## Invariants & rules
 
 Iteration-two scope clarification: AD-5's upstream staging/refresh and AD-6's HTTP endpoints apply to local mode. AD-9 governs hosted reads. AD-7's Node process and provider queue apply only to the local edition. The local snapshot service remains the sole upstream snapshot writer; the exporter copies validated payloads without becoming another provider adapter.
@@ -166,8 +170,7 @@ Iteration-two scope clarification: AD-5's upstream staging/refresh and AD-6's HT
 
 Retain the installed React **19.3.1**, TypeScript **7.0.2**, Vite **8.3.5** and React plugin **6.1.2** from `package.json`/lockfile; the repository declares Node **>=24.0.0**. This update introduces no dependency or version change. Native CSS and semantic tables remain. Chart implementation must satisfy AD-10 before choosing any additional dependency.
 
-Reality checks for iteration three: `app/shared/contracts.ts` has schema/bundle v1 and three-state availability; `app/server/service.ts` and `jolpica.ts` hardcode two-year candidates/calendars; client/export validators also restrict support. `comparison.ts` uses full-schedule denominators and a historical status allowlist; `Progress.tsx` owns category selections and case-insensitive name search. `package.json` confirms the retained stack. These identify implementation seams, not new-year coverage. Earlier provider/Sites research remains historical context; this update binds no new technology/version and makes no live-provider coverage claim.
-
+Brownfield seed checked 2026-11-01: app/shared/contracts.ts includes snapshot/support/bundle v2 alongside compatibility v1 types; the service uses shared 2010-2026 candidates. progress-model.ts produces numeric value or null plus status-rich text; EvolutionChart.tsx still renders ordinal point/legend labels. App.tsx places SeasonEvidence before active surfaces; that component receives the selected snapshot and manifest. These are presentation seams, not missing ingestion/schema work. Iteration-three verification records approved audits, media exceptions and local/static checks. No new technology/version, live-provider verification or publication is claimed.
 ## Structural seed
 
 ```text
@@ -193,18 +196,20 @@ app/
 | CAP-1 single constructor name | Shared identity renderer, media | AD-11 |
 | CAP-2 all years/current season | Audit, shared window, manifests/export | AD-2/3/5/8/9/10/11/13 |
 | CAP-3 matching Select all | Progress selection, URL, chart/table | AD-6, AD-14 |
+| Iteration-four CAP-1 bottom disclosures | Shared shell, SeasonEvidence; UX owns expansion/focus | AD-1/5/13 |
+| Iteration-four CAP-2 actual metric labels | Progress, EvolutionChart, shared metric rows/evidence | AD-1/2/10/14 |
 
 ## Deferred
 
 - Exact contract fields beyond the invariants: define shared TypeScript types before parallel feature implementation; downstream features must import them rather than invent local shapes.
 - Multi-process writable storage, public writable APIs and telemetry remain deferred. Shared static ChatGPT Sites hosting is adopted by AD-9/12; Sites enforces the existing audience rather than a new application login.
 - Chart/router/test libraries and detailed component tree: implementation chooses within the shared contracts and accessibility requirements.
-- Calendar, sprint, lifecycle, retirement-status and media audits for every 2010-2026 year are implementation gates. Prior 2010/2021 verification is baseline evidence only. Unknown new statuses remain unavailable until individually mapped and fixture-verified; no new-year support is claimed here.
+- New or refreshed source/calendar/status/media evidence remains subject to existing audit contracts. Approved iteration-three audits and accepted media exceptions are the baseline; iteration four does not repeat acquisition or migration. Unknown new statuses remain unavailable until individually mapped and fixture-verified.
 - Cross-season comparison, live timing, automatic updates, sprint qualifying, accounts and Wikipedia fallback: outside MVP; revisit only with a scope change.
 
 
 ## Handoff status
 
-Iteration-three CAP-1..3 are aligned; AD-1..12 retain stable IDs and AD-13/14 extend the contract. No code, assets, data acquisition, build or publication changed. Next adopt/refresh this spine as an iteration-three spec companion, align UX with the window/ongoing labels and selection semantics, then create iteration-three stories and check readiness. Prior UX/stories are historical inputs, not iteration-three readiness evidence.
+Iteration-four CAP-1/2 map to existing AD-1..14 without a new schema, dependency or architecture decision. SPEC and UX reconciliation is recorded in reviews/update-iteration-four-reconciliation.md. Independent update coverage, technology/reality and seam reviews passed on 2026-11-01; deterministic lint has zero findings. Reports are in reviews/review-iteration-four-update-*.md; previous validation reports remain historical.
 
-Freeze shared v2 contracts/validators, audit records and window selectors first; then ingestion/audits, local/bundled loaders/export, media inventory and identity/selection UI. New evidence uses iteration-three filenames and preserves 0.2 evidence. Verify all 17 years, historical regressions, zero completed rounds, unheld/cancelled/unknown versus held source gaps, pre-GP qualifying/sprint, lagging standings, migration/version rejection, refresh retention, unknown statuses, logo-load failures and every selection acceptance example. Verify every hosted year with external/API requests blocked and matching source/release timestamps.
+After the gate, use the spec-adopted companion and iteration-four implementation-handoff.md as the direct two-capability build input. No epic/story/sprint rewrite is required for this narrow spec-led iteration. Implement shared disclosure placement/state and actual-value labels, retaining scoring, lifecycle windows, stable identity/styles, selection/URL behavior and local/bundled boundaries. Verify disclosures across all surfaces, season changes and refresh retention, with essential inline qualification visible. Verify qualifying ranks, fractional/zero/negative values, null gaps, status-rich evidence, coincident labels, named legends, pointer/keyboard inspection, narrow/200% layouts and local/bundled regression. Publication requires separate explicit authorization; no code, build or deployment is performed by this preparation update.

@@ -48,15 +48,46 @@ export function evolutionSeries(snapshot:SeasonSnapshot,category:ProgressCategor
   return ids.map(id=>({id,name:snapshot[category][id].name,rows:progress(snapshot,category,id).map(row=>({round:row.round,name:row.name,...metricCell(row,metric)}))}));
 }
 export type EvolutionSeries = ReturnType<typeof evolutionSeries>;
-export function chartGeometry(series:EvolutionSeries,rank:boolean,width=900,height=300) {
+export function chartGeometry(series:EvolutionSeries,rank:boolean,width=900,height=300,rightPadding=30,leftPadding=60) {
   const values=series.flatMap(item=>item.rows.flatMap(row=>row.value===null?[]:[row.value]));
   const minimum=rank?1:Math.min(0,...values), maximum=Math.max(rank?2:1,...values);
   const count=series[0]?.rows.length||0;
-  const x=(index:number)=>60+(count<=1?(width-90)/2:index*(width-90)/(count-1));
+  const x=(index:number)=>leftPadding+(count<=1?(width-leftPadding-rightPadding)/2:index*(width-leftPadding-rightPadding)/(count-1));
   const y=(value:number)=>24+(rank?(value-minimum):(maximum-value))*(height-70)/(maximum-minimum);
   const paths=series.map(item=>{
     let previous=false;
     return item.rows.map((row,index)=>{if(row.value===null){previous=false;return '';}const point=`${previous?'L':'M'}${x(index)},${y(row.value)}`;previous=true;return point;}).filter(Boolean).join(' ');
   });
-  return {minimum,maximum,x,y,paths};
+  const ticks=[0,.25,.5,.75,1].map(fraction=>{
+    const value=minimum+(maximum-minimum)*fraction;
+    return {value,text:String(Number(value.toFixed(2)))};
+  });
+  return {minimum,maximum,x,y,paths,ticks,leftPadding};
+}
+
+/** Reserve one label column per round; spread collisions without changing data anchors. */
+export function chartValueLayout(series:EvolutionSeries,rank:boolean) {
+  const count=series[0]?.rows.length||0;
+  const labelWidth=Math.max(9,...series.flatMap(item=>item.rows.flatMap(row=>row.value===null?[]:[String(row.value).length*9])));
+  const density=Math.max(0,...Array.from({length:count},(_,round)=>series.filter(item=>item.rows[round]?.value!=null).length));
+  const height=Math.max(300,density*24+70), rightPadding=labelWidth+30;
+  const ticks=chartGeometry(series,rank).ticks;
+  const leftPadding=Math.max(60,...ticks.map(tick=>tick.text.length*8+24));
+  const width=Math.max(900,leftPadding+rightPadding+Math.max(0,count-1)*(labelWidth+44));
+  const geometry=chartGeometry(series,rank,width,height,rightPadding,leftPadding);
+  const labels=series.map(()=>[] as {roundIndex:number;text:string;x:number;y:number;pointX:number;pointY:number;width:number}[]);
+  for(let roundIndex=0;roundIndex<count;roundIndex++) {
+    const points=series.flatMap((item,seriesIndex)=>{
+      const value=item.rows[roundIndex]?.value;
+      return value==null?[]:[{seriesIndex,value,pointY:geometry.y(value)}];
+    }).sort((a,b)=>a.pointY-b.pointY||a.seriesIndex-b.seriesIndex);
+    const positions:number[]=[];
+    points.forEach((point,index)=>positions.push(Math.max(point.pointY,index?positions[index-1]+24:24)));
+    for(let index=positions.length-1;index>=0;index--) positions[index]=Math.min(positions[index],index===positions.length-1?height-46:positions[index+1]-24);
+    points.forEach((point,index)=>{
+      const text=String(point.value),pointX=geometry.x(roundIndex);
+      labels[point.seriesIndex].push({roundIndex,text,x:pointX+12,y:positions[index],pointX,pointY:point.pointY,width:text.length*9});
+    });
+  }
+  return {width,height,rightPadding,geometry,labels};
 }

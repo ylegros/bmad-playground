@@ -1,8 +1,10 @@
 ﻿---
 name: F1 Dashboard
 status: final
-updated: 2026-10-30
+updated: 2026-10-31
 sources:
+  - ../../../specs/spec-iteration-four/SPEC.md
+  - ../../../specs/spec-iteration-four/acceptance.md
   - ../../../specs/spec-iteration-three/SPEC.md
   - ../../../specs/spec-iteration-three/season-coverage-and-acceptance.md
   - ../../../specs/spec-iteration-two-feedback/SPEC.md
@@ -17,7 +19,9 @@ sources:
 
 ## Foundation
 
-Current authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier stories and release checks remain historical; iteration-three implementation and acceptance are pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+Current authority: the [iteration-four spec](../../../specs/spec-iteration-four/SPEC.md) and [acceptance checks](../../../specs/spec-iteration-four/acceptance.md) supersede iteration-three metadata placement and assigned-number point labels only. All other semantics remain in force. This design update is not implementation or publication evidence.
+
+Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier stories and release checks remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
 
 Iteration two: the historical [focused UX handoff](iteration-two-design.md) records the six-category summary, selectable evolution graphs, accessible favorable-value ticks and highlights, season-relative imagery and hosted bundled-data states. Its two-year scope and text-filled constructor fallback yield to this spine. The existing local refresh flow continues only in the local edition. The user's prior optional UX-validation skip and Progress/Compare spine-only preference remain in force; iteration-three states need no new mock.
 
@@ -29,9 +33,9 @@ Personal desktop-first responsive web for Yannick. [DESIGN.md](DESIGN.md) is the
 
 | Surface | Entry | Delivers | Flow |
 |---|---|---|---|
-| Standings | App open / Navigation | Season selection; driver and constructor standings; links to entity progress and comparison | 1 |
-| Progress | Driver or constructor action in Standings / Navigation | Selected entities' chronological metrics, search, additive Select all and source values | 2, 9 |
-| Compare | Driver comparison action / Navigation | Two-driver selection and aligned round analysis | 3 |
+| Standings | App open / Navigation | Season selection; driver and constructor standings; links to entity progress and comparison; bottom season information | 1, 10 |
+| Progress | Driver or constructor action in Standings / Navigation | Selected entities' chronological metrics, search, additive Select all, actual-value labels and source values; bottom season information | 2, 9, 10, 11 |
+| Compare | Driver comparison action / Navigation | Two-driver selection and aligned round analysis; bottom season information | 3, 10 |
 
 Standings uses a Drivers/Constructors toggle; both rankings remain one action apart in the same season context. Desktop uses the selected 185px sidebar and grouped panels. A summary strip derives only from available standings/round data and adds no KPI scope; metric previews link to full analyses. [Selected Standings reference](mockups/standings-pit-wall.html) illustrates composition, with fixtures and schematic charts rather than production data. [ASSUMPTION] Entity selection on Progress offers driver/constructor category and entity. Compare reached directly starts empty; reached from a driver preselects that driver and the latest teammate where available. Local refresh is available on every surface (Flow 4); hosted mode offers only retry loading bundled data. Browser Back restores the preceding surface and selection.
 
@@ -70,9 +74,22 @@ Use direct, factual English. Brand voice lives in DESIGN.md.
 | Comparison highlight | Same shared summary/detail outcomes. Favorable values show tick and highlight without visible Better labels. Tick is aria-hidden; descriptive screen-reader text names driver, metric, value and favorable direction. Ties/unavailable have no favorable tick/highlight. |
 | Identity media | Canonical identity/season mappings resolve verified local photographs and historical logos; no successor branding. Honest photo date/unknown disclosure permits portrait reuse. Redundant images have empty alt text. Missing or failed constructor logos remove the badge, leaving exactly one visible and accessible team-name label; no text placeholder or duplicate accessible name. Driver photograph fallbacks may retain stable named frames. All affiliations remain readable; failures never block analysis or count as images. |
 | Image credits | Keyboard-accessible local provenance disclosure identifies source, creator, reuse terms/license, attribution, seasons, filename, photo date/unknown and crop notes; closing returns focus to trigger. |
+| Season information disclosures | Two independent disclosures below active analysis/tables and before the footer on all surfaces. Retain lifecycle, audit status/time, source freshness, analyzed rounds, standings evidence/notices and per-year verification/known gaps. Summary and content update atomically with the selected snapshot. |
 | Status message | Inline status for pending, empty, unavailable, error and retained data. Loading and success announced politely; actionable errors announced once. Retry uses Action. |
 
 [ASSUMPTION] Progress chart defaults to cumulative points. Compare offers GP qualifying, race results, round points and cumulative points; sprint result is explicitly selectable or shown as a labeled companion measure, never merged with GP finishing position. Rank axes put position 1 at top. Non-finish status appears in table text with a labeled chart annotation; no invented numeric rank. Missing points are gaps, not interpolated values. Do not infer a cumulative total from missing underlying rounds; display a source-provided total or Unavailable.
+
+### Bottom season information (iteration-four CAP-1)
+
+The season lifecycle/evidence and coverage panels move below active analysis on Standings, Progress and Compare; no duplicate panels remain above it. Keep selected season and snapshot time in the header. Honest Current/Final, Season-to-date and source-lag captions stay beside affected data; actionable errors and unavailable notices stay inline.
+
+[ASSUMPTION] Two summaries read "Season information - {season}" and "Season coverage - 2010-2026" and start collapsed on initial page load. Expansion remains as chosen during same-session surface/season changes; no cross-session persistence is required. Native details/summary or equivalent buttons expose expanded state, support Enter/Space and standard Tab order, and retain focus on toggle. Collapsed content leaves the focus order; programmatic collapse from inside returns focus to the summary. Opening/closing changes neither analysis selection nor URL/history. Updates do not scroll or move focus. Even empty/unavailable analysis retains the bottom summaries with honest evidence/loading/unavailable content. Failed refresh retains matching last-good data and evidence.
+
+### Actual-value point labels (iteration-four CAP-2)
+
+Every rendered numeric point in the shared driver/constructor Progress chart shows that entity's selected metric value for that round, matching the evidence table and inspection details with existing precision/formatting. For "2026 - GP qualifying position - position", qualifying position 2 labels the point 2, regardless of driver number, selection order or grid penalty. Season, metric and entity changes update points, labels, inspection and evidence together. Genuine zero shows 0; absence creates a gap without a numeric label. Non-numeric statuses retain existing annotations/evidence without invented ranks.
+
+Remove ordinal numbers from point labels and legend symbols; retain entity names and color/dash samples. Values never become identity keys. Offset coincident labels with leader lines to their true points and use local chart scrolling for full long values; never round, abbreviate, truncate, hide selected series or change numerical meaning to fit. Equal values retain independent named inspection/evidence rows. Preserve pointer inspection and keyboard Left/Right and Home/End inspection, with round, entity, metric and value. The accessible evidence table exposes every value without color or hover dependence. Compare retains its existing named-series behavior; no metric or surface scope is added.
 
 ### Season lifecycle and coverage (CAP-2, AD-13)
 
@@ -89,6 +106,7 @@ Each year exposes actual-image/total and investigated-exception counts separatel
 | Surface/state | Treatment |
 |---|---|
 | All / cold load | Keep header and selected season visible; Status message “Loading {season}”; no fabricated rows. |
+| All / collapsed or expanded season information | Initially collapsed [ASSUMPTION]; summaries remain below analysis even for empty/unavailable states. Expanded content reflects the selected snapshot; collapse preserves usable focus. |
 | All / focus and selection | Visible `{colors.focus}` ring; selected Navigation and Selector state conveyed semantically. |
 | All / season unavailable or empty | Explicit empty message, season selector remains operable; distinguish no completed rounds from failed loading. |
 | All / first-load failure | Inline error and retry; never show another season's snapshot as this season. |
@@ -210,7 +228,7 @@ Failure: offer Retry loading bundled data; never switch to API setup or live ref
 ### 8 — Yannick explores audited ongoing-season evidence (iteration-three CAP-2)
 
 1. Yannick opens Standings and inspects each candidate year's audit status, then chooses verified ongoing 2026.
-2. He reads Ongoing / Season to date, the exact completed-GP window, snapshot freshness, and Current standings source round with any lag.
+2. He reads Current standings and any source-lag caption beside results, then opens bottom Season information for Ongoing / Season to date, exact completed-GP window, snapshot freshness and source evidence.
 3. In Progress and Compare he distinguishes held source gaps from Not held, Cancelled and Not applicable cells; already-held pre-GP sessions are explicitly outside completed-GP comparisons.
 4. He checks per-driver metric coverage and per-year photograph/logo mapped and investigated-exception counts in the existing disclosure.
 5. **Climax:** he explains what the snapshot supports without claiming final standings or future completeness.
@@ -226,6 +244,24 @@ Failure: unverified years expose their audit failure rather than fabricated anal
 5. **Climax:** graph, evidence table, selected controls and URL agree throughout, including an explicitly empty set and many-series narrow/200% inspection.
 
 Failure/no-op: no matches or repeated Select all changes neither selection nor history. A stale action cannot select entities into another season/category/snapshot. Invalid decoded IDs are removed with an announcement; selection never silently defaults or truncates.
+
+### 10 - Yannick consults season information on demand (iteration-four CAP-1)
+
+1. Yannick opens Standings, Progress or Compare and sees analysis before the season disclosures.
+2. He tabs to the bottom Season information summary and activates it with Enter/Space, then opens Season coverage.
+3. He reads existing lifecycle/evidence and per-year verification/gaps, switches to a complete season and checks the updated details.
+4. **Climax:** analysis stays prominent while complete selected-season evidence remains available on demand.
+
+Failure: unavailable evidence is explicit; failed refresh retains matching last-good data/evidence and an inline error. Collapse retains usable focus; narrow/200% layouts preserve summaries and content.
+
+### 11 - Yannick reads actual metric values (iteration-four CAP-2)
+
+1. Yannick selects 2026, Drivers and GP qualifying position in Progress.
+2. He reads each point as qualifying position and verifies it using keyboard round inspection and the evidence table.
+3. He changes metric and category to constructors; labels follow current values/precision while named legends identify entities sharing a value.
+4. **Climax:** he reads performance directly without translating assigned entity numbers.
+
+Failure: absent values remain gaps and zero stays 0; statuses never become invented ranks. Long/coincident labels use spacing, leader lines and scrolling without hiding values or selected series. Left/Right and Home/End inspection remains available.
 
 ## Approved first iteration — 2026-10-29
 

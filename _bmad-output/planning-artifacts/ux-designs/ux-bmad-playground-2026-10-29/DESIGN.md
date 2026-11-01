@@ -2,8 +2,10 @@
 name: F1 Dashboard
 description: Personal season analysis with a restrained racing-inspired visual language.
 status: final
-updated: 2026-10-30
+updated: 2026-10-31
 sources:
+  - ../../../specs/spec-iteration-four/SPEC.md
+  - ../../../specs/spec-iteration-four/acceptance.md
   - ../../../specs/spec-iteration-three/SPEC.md
   - ../../../specs/spec-iteration-three/season-coverage-and-acceptance.md
   - ../../../specs/spec-iteration-two-feedback/SPEC.md
@@ -85,7 +87,9 @@ components:
 
 ## Brand & Style
 
-Current authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier release checks and stories remain historical; iteration-three implementation and evidence are pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+Current authority: the [iteration-four spec](../../../specs/spec-iteration-four/SPEC.md) and [acceptance checks](../../../specs/spec-iteration-four/acceptance.md) supersede iteration-three metadata placement and assigned-number point labels only. All other semantics remain in force. This design update is not implementation or publication evidence.
+
+Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier release checks and stories remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
 
 Iteration two: the historical [summary, graphs, highlights and imagery handoff](iteration-two-design.md) records component details within this identity. Its [responsive layout reference](mockups/iteration-two.html) uses fictional fixtures. This spine governs iteration-three scope and fallback rules when that historical supplement conflicts. The user's earlier optional UX-validation skip and Progress/Compare spine-only preference persist.
 
@@ -133,6 +137,7 @@ Component names match `EXPERIENCE.md`.
 | Comparison highlight | Same summary/detail tick and highlight; tick supplies a non-color cue and is decorative for assistive technology. |
 | Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Missing or failed constructor logos remove the logo badge entirely, leaving one readable team-name label; no text-filled badge, duplicate name or empty logo decoration. Full names and all affiliations remain readable; A stays left/B right on mobile. |
 | Image credits | Readable local provenance disclosure with photo date/unknown and selected season. Driver portrait fallbacks may retain reserved frames; constructor fallback follows Identity media. Fallbacks never count as acquired images. |
+| Season information disclosures | Compact full-width bordered summary rows below analysis, with readable season/range text, chevrons and unclipped focus treatment; expanded evidence uses existing surface/meta tokens. |
 | Status message | Text with outlined container; loading uses a static placeholder or restrained progress indicator; failures include a retry action and retained-snapshot time when present. |
 
 Focus uses a visible 2px `{colors.focus}` outline with 2px offset; reserve room to avoid clipping it. Hover and selected treatments preserve text contrast. Result statuses such as DNF appear as text, never fabricated positions.
@@ -141,12 +146,18 @@ Focus uses a visible 2px `{colors.focus}` outline with 2px offset; reserve room 
 
 | Existing component | Visual delta |
 |---|---|
-| App header / Selector | Show every candidate year 2010–2026 with its individual audit status; distinguish unverified/unavailable years from verified analysis. Keep selected season, snapshot time/timezone and Ongoing or Complete visible. |
+| App header / Selector | Show every candidate year 2010–2026 with its individual audit status; distinguish unverified/unavailable years from verified analysis. Keep selected season and snapshot time/timezone visible; iteration four moves the Ongoing or Complete lifecycle/evidence panel to the bottom disclosure. |
 | Status message / Standings table | Use plain text for Current standings, source round and any lag behind the analysis window. Reserve Final for independently verified season completion. Display analyzed rounds and Season to date on ongoing-season analysis; never imply future completeness. |
 | Progress panel / Data table / Comparison summary | Keep the full calendar visible with distinct Not held, Cancelled, Unavailable and Not applicable text. Season-to-date summaries identify the completed-GP window and coverage counts. Missing values remain gaps, and pre-GP qualifying/sprint results are identified as outside completed-GP comparisons. |
 | Action / Selector | Select all and Clear selection use existing secondary-action styling and visible focus. Show match and selected counts without implying a display limit. No-results and empty-selection guidance remain readable beside the controls. |
 
 Many-series inspection retains every selected name, distinguishable line style/label and matching table evidence. Use intended panel/table scrolling and wrapping at narrow widths and 200% zoom; never hide selected series to fit. No additional fixed palette or arbitrary series cap is introduced. The existing mockups illustrate historical composition; iteration-three states are spine-only under the user's existing preference.
+
+### Iteration-four presentation
+
+Season lifecycle/evidence and coverage appear after all active analysis and evidence tables, before the footer, on Standings, Progress and Compare. No duplicate panels remain above analysis. [ASSUMPTION] Two initially collapsed rows read "Season information - {season}" and "Season coverage - 2010-2026"; summary copy and grouping remain reviewable defaults. Use existing surface, border, meta typography and focus tokens. Keep essential Current/Final, Season-to-date and source-lag captions beside affected results, along with actionable errors and unavailable notices.
+
+The shared driver/constructor Progress chart labels each numeric point with its selected metric value using existing precision and units. Named legend entries retain color and dash samples without ordinal badges. Keep tabular figures at the existing meta type size; reserve plot margins for complete labels. Offset overlapping labels with leader lines to unchanged point coordinates and provide local horizontal scrolling when needed. Never truncate values, change precision, hide selected series or shrink text to illegibility. Equal values remain distinct through named inspection and table evidence. Historical mocks yield to this delta; no new mock is needed under the standing spine-only preference.
 
 ## Do's and Don'ts
 

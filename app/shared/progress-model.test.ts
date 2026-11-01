@@ -2,7 +2,7 @@
 import assert from 'node:assert/strict';
 import { seasonFixture } from '../../tests/fixtures.ts';
 import { progress } from './selectors.ts';
-import { metricCell, evolutionSeries, chartGeometry, selectedEntities, validMetric } from './progress-model.ts';
+import { metricCell, evolutionSeries, chartGeometry, chartValueLayout, selectedEntities, validMetric } from './progress-model.ts';
 test('evolution projects official points, true zero, gaps and source retirement status',()=>{
  const snapshot=seasonFixture();
  assert.deepEqual(evolutionSeries(snapshot,'drivers',['alpha'],'cumulative')[0].rows.map(row=>row.value),[25,50]);
@@ -25,6 +25,30 @@ test('geometry leaves absent classifications as gaps and ranks place 1 at top',(
  assert.equal(geometry.paths[0].split('M').length-1,2);
  assert.ok(geometry.y(1)<geometry.y(4));
  assert.ok(chartGeometry(series,false).y(1)>chartGeometry(series,false).y(4));
+});
+
+test('numeric label layout preserves complete values, gaps, anchors and collision spacing',()=>{
+ const values=[-123456789.12345679,0,12.375,null];
+ const series=Array.from({length:36},(_,index)=>({id:`driver${index}`,name:`Driver ${index}`,rows:values.map((value,round)=>({round:round+1,name:`Round ${round+1}`,value,text:value===null?'Unavailable':`Status ${value}`}))}));
+ const layout=chartValueLayout(series,false);
+ assert.equal(layout.labels.length,36);
+ for(const labels of layout.labels) {
+  assert.deepEqual(labels.map(label=>label.text),values.slice(0,3).map(String));
+  for(const label of labels) {
+   assert.equal(label.pointX,layout.geometry.x(label.roundIndex));
+   assert.equal(label.pointY,layout.geometry.y(values[label.roundIndex]!));
+   assert.ok(label.x+label.width+2<=layout.width);
+   assert.ok(label.y-9>=0&&label.y+9<=layout.height-30);
+  }
+ }
+ for(let round=0;round<3;round++) {
+  const labels=layout.labels.map(labels=>labels[round]).sort((a,b)=>a.y-b.y);
+  for(let index=1;index<labels.length;index++) assert.ok(labels[index].y-labels[index-1].y>=24);
+ }
+ assert.ok(layout.height<=36*24+70);
+ assert.equal(layout.geometry.paths[0].split('L').length,3);
+ assert.ok(layout.geometry.leftPadding>60);
+ for(const tick of layout.geometry.ticks) assert.ok(layout.geometry.leftPadding-12-tick.text.length*8>=0);
 });
 test('retained results do not override unavailable session metadata',()=>{
  const snapshot=seasonFixture();

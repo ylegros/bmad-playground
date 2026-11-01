@@ -27,6 +27,7 @@ test('real immutable release loads all 17 audited seasons and local media withou
  await expect(page.locator('.snapshot-meta')).toContainText('Bundled season data');
  await expect(page.getByRole('combobox',{name:'Season',exact:true}).locator('option')).toHaveCount(17);
  await expect(page.getByRole('button',{name:/Refresh data|Verify season/})).toHaveCount(0);
+ await page.locator('.season-disclosure').first().locator('summary').click();
  for(const entry of manifest.seasons){
   await test.step(String(entry.season),async()=>{
    const snapshot=read(entry.assetPath) as SeasonSnapshotV2;
