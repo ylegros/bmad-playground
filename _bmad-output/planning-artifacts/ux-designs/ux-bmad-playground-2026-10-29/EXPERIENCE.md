@@ -1,8 +1,10 @@
 ﻿---
 name: F1 Dashboard
 status: final
-updated: 2026-10-31
+updated: 2026-11-02
 sources:
+  - ../../../specs/spec-next-iteration-feedback/SPEC.md
+  - ../../../specs/spec-next-iteration-feedback/acceptance.md
   - ../../../specs/spec-iteration-four/SPEC.md
   - ../../../specs/spec-iteration-four/acceptance.md
   - ../../../specs/spec-iteration-three/SPEC.md
@@ -19,9 +21,9 @@ sources:
 
 ## Foundation
 
-Current authority: the [iteration-four spec](../../../specs/spec-iteration-four/SPEC.md) and [acceptance checks](../../../specs/spec-iteration-four/acceptance.md) supersede iteration-three metadata placement and assigned-number point labels only. All other semantics remain in force. This design update is not implementation or publication evidence.
+Current authority: the [next-iteration feedback spec](../../../specs/spec-next-iteration-feedback/SPEC.md) and [acceptance checks](../../../specs/spec-next-iteration-feedback/acceptance.md) govern standings identity, refreshed 2026 evidence, inline grouped options, heading placement, year resets and compact comparison. They supersede conflicting adopted rules, including AD-11 logo-plus-name rendering in Standings and AD-14 cross-year graph retention. Iteration four retains bottom disclosures and actual-value labels. This planning update performs no acquisition, implementation or publication; implementation must verify and refresh 2026 through the latest completed GP.
 
-Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier stories and release checks remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern retained behavior except the explicit next-iteration overrides above. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier stories and release checks remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This planning update performs no acquisition, code, build or publication; the implementation contract requires refreshed 2026 evidence.
 
 Iteration two: the historical [focused UX handoff](iteration-two-design.md) records the six-category summary, selectable evolution graphs, accessible favorable-value ticks and highlights, season-relative imagery and hosted bundled-data states. Its two-year scope and text-filled constructor fallback yield to this spine. The existing local refresh flow continues only in the local edition. The user's prior optional UX-validation skip and Progress/Compare spine-only preference remain in force; iteration-three states need no new mock.
 
@@ -33,9 +35,9 @@ Personal desktop-first responsive web for Yannick. [DESIGN.md](DESIGN.md) is the
 
 | Surface | Entry | Delivers | Flow |
 |---|---|---|---|
-| Standings | App open / Navigation | Season selection; driver and constructor standings; links to entity progress and comparison; bottom season information | 1, 10 |
-| Progress | Driver or constructor action in Standings / Navigation | Selected entities' chronological metrics, search, additive Select all, actual-value labels and source values; bottom season information | 2, 9, 10, 11 |
-| Compare | Driver comparison action / Navigation | Two-driver selection and aligned round analysis; bottom season information | 3, 10 |
+| Standings | App open / Navigation | Season selection; logo-or-name driver affiliations and constructor standings; links to entity progress and comparison; bottom season information | 1, 10, 12 |
+| Progress | Driver or constructor action in Standings / Navigation | Selected entities' chronological metrics, search, additive Select all, actual-value labels and source values; bottom season information | 2, 9, 10, 11, 12 |
+| Compare | Driver comparison action / Navigation | Two-driver selection and aligned round analysis; bottom season information | 3, 10, 12 |
 
 Standings uses a Drivers/Constructors toggle; both rankings remain one action apart in the same season context. Desktop uses the selected 185px sidebar and grouped panels. A summary strip derives only from available standings/round data and adds no KPI scope; metric previews link to full analyses. [Selected Standings reference](mockups/standings-pit-wall.html) illustrates composition, with fixtures and schematic charts rather than production data. [ASSUMPTION] Entity selection on Progress offers driver/constructor category and entity. Compare reached directly starts empty; reached from a driver preselects that driver and the latest teammate where available. Local refresh is available on every surface (Flow 4); hosted mode offers only retry loading bundled data. Browser Back restores the preceding surface and selection.
 
@@ -47,7 +49,9 @@ Use direct, factual English. Brand voice lives in DESIGN.md.
 |---|---|
 | Missing result | “Unavailable” |
 | Real zero | “0” in a points column |
-| Empty comparison | “Choose two drivers from {season}.” |
+| Compare selection | "Choose two drivers from {season}" then "Start with a driver to select their latest teammate automatically." above selectors. |
+| Progress drivers | "Choose your focus" then "Choose at least one driver to explore season evolution." above search, bulk actions and options. |
+| Progress teams | "Choose your focus" then "Choose at least one team to explore season evolution." above search, bulk actions and options [ASSUMPTION]. |
 | No teammate | “No teammate available for this season. Choose another driver.” |
 | Failed refresh with snapshot | “Could not refresh. Showing data last refreshed {date, time, timezone}.” |
 | No successful data | “Could not load this season. Try again or choose another season.” |
@@ -63,16 +67,16 @@ Use direct, factual English. Brand voice lives in DESIGN.md.
 | Component | Behavioral contract |
 |---|---|
 | App header | Carries a single season context and that season's last successful refresh time. Never label old-season data with a newly selected season. |
-| Selector | Labeled native/select-equivalent controls for season, category, entities, drivers and metric. Offer all 17 candidate years with individual audited status; only verified years enable analysis. Latest verified season, including ongoing, is the default. Year changes retain valid category-specific graph IDs, discard invalid IDs with announcement before rendering, and clear legacy single-entity and comparison selections (AD-14). |
+| Selector | Labeled native/select-equivalent controls for season, category, entities, drivers and metric. Offer all 17 candidate years with individual audited status; only verified years enable analysis. Latest verified season, including ongoing, is the default. Explicit year changes atomically clear both graph sets, legacy entity and comparison A/B, including shared valid IDs, in controls, URL and analysis. No automatic selection follows; this supersedes AD-14 retention. |
 | Action | In local mode, explicit “Refresh data” starts one refresh; disable duplicates while pending. Bundled mode has load retry only. Standings row actions have entity-specific accessible names for progress/compare. |
 | Navigation | Standings / Progress / Compare links expose current page; no hover-only entries. Preserve valid selections while moving between surfaces. |
 | Standings table | Championship rank order and PRD columns. Driver rows link to progress and compare; constructor rows to progress. When comparison context has different first/latest teammates, annotate the initial teammate's ranking row “Initial teammate of {driver}”; latest teammate is labeled in Compare. |
-| Progress panel | Driver metrics: GP qualifying, race result, round points, cumulative points. Constructor metrics: round points, cumulative points, championship position. Labeled search, Select all, remove-one and Clear selection operate on one category-specific selected set under AD-14. Metric selection changes chart and table together. Sprint results/points remain explicitly separate from GP; round totals include both. |
-| Comparison panel | Default B to A's latest teammate at the last shared event in the selected season; initial teammate is at first shared event. Any two season drivers allowed. Changing A recomputes default B [ASSUMPTION]; changing B explicitly overrides it until A/season changes. Prevent identical driver pair with inline guidance. No teammate leaves B empty. |
+| Progress panel | Driver metrics: GP qualifying, race result, round points, cumulative points. Constructor metrics: round points, cumulative points, championship position. Labeled search, Select all, remove-one and Clear selection operate on one category-specific selected set under AD-14. Headings/guidance precede search, bulk actions and options. Visible labeled driver checkboxes flow inline within readable team groups and wrap; team mode uses one wrapping inline checkbox field. Metric selection changes chart and table together. Sprint results/points remain explicitly separate from GP; round totals include both. |
+| Comparison panel | Only after explicit A choice or driver-specific Standings entry, default B to A's latest teammate at the last shared event in the selected season; initial teammate is at first shared event. Any two season drivers allowed. Changing A recomputes default B [ASSUMPTION]; changing B explicitly overrides it until A changes or an explicit year change clears both. Year changes alone never select A or a teammate. Prevent identical driver pair with inline guidance. No teammate leaves B empty. |
 | Data table | Same chronological round basis as chart; comparison uses the union of rounds, showing unavailable cells for absent results. Driver tables include GP qualifying, GP race result, Sprint result, GP/Sprint points, round total and cumulative points; constructor tables include total round points, cumulative points and championship position. No-sprint event shows “Not applicable” in Sprint columns. |
-| Comparison summary | Six equal votes: GP race head-to-head, GP qualifying head-to-head, official championship points, best GP finish, best GP qualifying rank, GP DNFs. Higher counts/points and lower ranks/DNFs win; ties/unavailable award none. Comparable includes ties; equal scores draw unless zero comparable (Insufficient data). Qualifying 2/grid 7 uses 2. Best qualifying/finish and DNF totals require conservative driver evidence across the whole completed-GP window (AD-10/13), including held source gaps, absent substitute-driver records and unknown statuses; otherwise show specific reasons and coverage counts. Keep qualifying head-to-head separate. |
+| Comparison summary | One compact central six-row scorecard framed by A/B portraits; each row has one centered label, A value left, B value right and a bar between. Each summary value and any aggregate vote score occur once. Six equal votes: GP race head-to-head, GP qualifying head-to-head, official championship points, best GP finish, best GP qualifying rank, GP DNFs. Higher counts/points and lower ranks/DNFs win; ties/unavailable award none. Comparable includes ties; equal scores draw unless zero comparable (Insufficient data). Qualifying 2/grid 7 uses 2. Best qualifying/finish and DNF totals require conservative driver evidence across the whole completed-GP window (AD-10/13), including held source gaps, absent substitute-driver records and unknown statuses; otherwise show specific reasons and coverage counts. Keep qualifying head-to-head separate. |
 | Comparison highlight | Same shared summary/detail outcomes. Favorable values show tick and highlight without visible Better labels. Tick is aria-hidden; descriptive screen-reader text names driver, metric, value and favorable direction. Ties/unavailable have no favorable tick/highlight. |
-| Identity media | Canonical identity/season mappings resolve verified local photographs and historical logos; no successor branding. Honest photo date/unknown disclosure permits portrait reuse. Redundant images have empty alt text. Missing or failed constructor logos remove the badge, leaving exactly one visible and accessible team-name label; no text placeholder or duplicate accessible name. Driver photograph fallbacks may retain stable named frames. All affiliations remain readable; failures never block analysis or count as images. |
+| Identity media | Canonical identity/season mappings resolve verified local photographs and historical logos; no successor branding. Honest photo date/unknown disclosure permits portrait reuse. Redundant images have empty alt text; Standings logo-only identities expose the team name once to assistive technology. Missing or failed constructor logos remove the badge, leaving exactly one visible and accessible team-name label; no text placeholder or duplicate accessible name. Driver photograph fallbacks may retain stable named frames. In Standings driver affiliations and constructor rankings, valid season-appropriate logos are the sole visible team identity with no adjacent team name; missing/unmapped/failed logos show the name alone. Other affiliations remain readable; failures never block analysis or count as images. |
 | Image credits | Keyboard-accessible local provenance disclosure identifies source, creator, reuse terms/license, attribution, seasons, filename, photo date/unknown and crop notes; closing returns focus to trigger. |
 | Season information disclosures | Two independent disclosures below active analysis/tables and before the footer on all surfaces. Retain lifecycle, audit status/time, source freshness, analyzed rounds, standings evidence/notices and per-year verification/known gaps. Summary and content update atomically with the selected snapshot. |
 | Status message | Inline status for pending, empty, unavailable, error and retained data. Loading and success announced politely; actionable errors announced once. Retry uses Action. |
@@ -91,7 +95,9 @@ Every rendered numeric point in the shared driver/constructor Progress chart sho
 
 Remove ordinal numbers from point labels and legend symbols; retain entity names and color/dash samples. Values never become identity keys. Offset coincident labels with leader lines to their true points and use local chart scrolling for full long values; never round, abbreviate, truncate, hide selected series or change numerical meaning to fit. Equal values retain independent named inspection/evidence rows. Preserve pointer inspection and keyboard Left/Right and Home/End inspection, with round, entity, metric and value. The accessible evidence table exposes every value without color or hover dependence. Compare retains its existing named-series behavior; no metric or surface scope is added.
 
-### Season lifecycle and coverage (CAP-2, AD-13)
+### Season lifecycle, coverage and fresh 2026 evidence (iteration-three CAP-2 / AD-13; next-iteration CAP-2)
+
+Implementation verifies the latest completed 2026 GP from authoritative results, recording event, round, verification timestamp/timezone and source links. Refresh supported race, qualifying, awarded-points and standings inputs through that event and recompute analyses; verify local and bundled snapshots against the same cutoff. This planning pass acquires no data and names no current last round. Preserve Sprint distinctions, lifecycle, completed-GP windows, source lag, honest gaps and last-good snapshot retention. Preparing the bundle does not authorize publication.
 
 Standings exposes per-year audit status and known data gaps for all 17 years, 2010–2026; no silent omission or hardcoded unsupported rejection after successful audit. Verification is an evidenced audit with honest availability, not a promise that every metric exists. Unverified/failed audit states explain why analysis is unavailable. No selection triggers background acquisition of all years.
 
@@ -111,6 +117,7 @@ Each year exposes actual-image/total and investigated-exception counts separatel
 | All / season unavailable or empty | Explicit empty message, season selector remains operable; distinguish no completed rounds from failed loading. |
 | All / first-load failure | Inline error and retry; never show another season's snapshot as this season. |
 | Hosted / bundled load failure | Retry loading bundled data; no live refresh/API setup or mode fallback. Retain verified snapshot context when available. |
+| All / explicit year change | Clear both Progress category sets, legacy entity and Compare A/B atomically; empty guidance remains. No default or stale callback restores selections. |
 | All / image failure | Constructor: one team name, no logo badge. Driver: stable named portrait fallback. Analysis remains available; coverage evidence tracks exceptions separately. |
 | All / audit unavailable | Show individual year/audit failure and gaps; season selector remains usable. Never claim verified support from the dropdown alone. |
 | All / ongoing or no completed GPs | Show Season to date window; retain full calendar lifecycle labels. Zero completed GPs leaves GP summary categories unavailable. |
@@ -134,13 +141,19 @@ Permission-denied is not a separate product flow: no authentication or private d
 
 [ASSUMPTION] Click/tap and standard keyboard controls suffice; no custom shortcuts, drag or gesture dependence. Tab follows reading order, Enter/Space activates, Escape closes a transient selector and returns focus. Chart round inspection works by keyboard as well as pointer; the Data table exposes every value without tooltip dependence. Long tables use local horizontal scrolling when needed, with labeled scroll regions and visible scroll affordances; page content itself reflows.
 
-### Progress selection (CAP-3, AD-14)
+### Progress selection (next-iteration CAP-3/CAP-5; retained AD-14 set semantics)
 
 Search uses the existing case-insensitive name-substring predicate over the full active season/category list, including virtualized entries. Empty search matches all. Search alone never changes selection or hides selected nonmatching series from graph/table. Select all unions all matches with existing selections; repeats are idempotent and no matches changes nothing. Clear selection removes all active-category IDs, including nonmatches; remove-one removes only its ID. Driver and constructor sets stay isolated across category changes.
 
-Graph, evidence table, controls and URL use the same set without independent limits. Existing `graphDrivers` / `graphConstructors` keys own it, serialized once in deterministic order. Explicit graph keys override legacy single-entity links. Empty selection removes the active graph key and legacy `entity` together; absence of both means empty, never an automatic default. Each effective selection action creates one history update; no-ops create none. Browser Back restores all representations together. Decode/season changes retain valid IDs only; announce discarded IDs before rendering. Pending actions cannot commit into a different season/category/snapshot context.
+Graph, evidence table, controls and URL use the same set without independent limits. Existing `graphDrivers` / `graphConstructors` keys own it, serialized once in deterministic order. Explicit graph keys override legacy single-entity links. Empty selection removes the active graph key and legacy `entity` together; absence of both means empty, never an automatic default. Each effective selection action creates one history update; no-ops create none. Browser Back restores all representations together. URL decode validates IDs against the historical season and retains valid IDs, announcing invalid removals. Explicit year selection instead clears both graph sets, legacy entity and Compare A/B in one history update, including shared IDs. Returning through the year selector remains empty. Back/Forward restores historical season and validated selection together. Same-year navigation and refresh retain existing behavior. Pending actions cannot commit into a different season/category/snapshot context.
 
 Native keyboard-operable actions retain focus and announce resulting selection counts politely, including no-change outcomes without rereading results. Match counts and selected states remain programmatically available. Every selected series has a readable name and distinguishable label/style; all values can be inspected by keyboard or in the matching table at narrow widths and 200% zoom.
+
+### Grouping and comparison composition (next-iteration CAP-1, CAP-3, CAP-4, CAP-6)
+
+Checkboxes flow horizontally and wrap naturally with readable labels and accessible group names; no vertical-only entity list or selection cap remains. [ASSUMPTION] Multi-team drivers appear in every applicable team group with one shared ID and synchronized checked state; selected counts, chart series and evidence columns count the ID once. Unassigned drivers remain selectable under a readable fallback group. Filtering still matches driver names over the full list and preserves selected nonmatches in analysis. Headings and guidance from Voice and Tone precede controls both visually and in DOM reading order; Compare uses the selected year.
+
+The attached reference guides composition only. Retain six metrics and equal votes, including best GP qualifying rank rather than starting-grid position. Every row contains one label and one value per driver. Label lower-is-better ranks/DNFs. Bars agree with values without suggesting winners for ties/unavailable data. Ranks or values without a meaningful proportional magnitude use labeled direction/position markers on the track; missing or zero/zero states use a neutral track with explicit text and no invented magnitude. Keep non-color favorable ticks, precise unavailable reasons and coverage. Detail evidence can repeat raw results; redundant summary scores are removed. At narrow widths and 200% zoom adapt portrait framing around one readable scorecard, preserving names, A/B order and all six rows.
 
 ## Accessibility Floor
 
@@ -152,7 +165,7 @@ User requested [formula1.com](https://www.formula1.com/) as a close-feel referen
 
 ## Responsive & Platform
 
-[ASSUMPTION] At 1024px+, the selected 185px sidebar frames grouped panels, and comparison can place panels side by side; 768–1023px uses stacked panels; below 768px header controls and selectors stack with `{spacing.mobile}` margins. Navigation remains visible and wraps. Keep season and local refresh access above analysis; bundled mode exposes load retry only. Tables retain full meaning through local horizontal scrolling and an anchored entity/round column when feasible; do not remove points, statuses or affiliations to fit. Charts may scroll horizontally to preserve round labels; table access remains immediately available. No native application or separate mobile feature set.
+[ASSUMPTION] At 1024px+, the selected 185px sidebar frames grouped panels, and Compare frames one central six-row scorecard with A/B portraits; 768–1023px uses stacked panels; below 768px header controls and selectors stack with `{spacing.mobile}` margins. Navigation remains visible and wraps. Keep season and local refresh access above analysis; bundled mode exposes load retry only. Tables retain full meaning through local horizontal scrolling and an anchored entity/round column when feasible; do not remove points, statuses or affiliations to fit. Charts may scroll horizontally to preserve round labels; table access remains immediately available. No native application or separate mobile feature set.
 
 ## Key Flows
 
@@ -240,7 +253,7 @@ Failure: unverified years expose their audit failure rather than fabricated anal
 1. Yannick selects Drivers in Progress, keeps an existing selection and searches for a name substring.
 2. He uses the keyboard to activate Select all; every match from the full list joins the existing set once, including non-visible matches, while selected nonmatches remain.
 3. He inspects every selected series and matching table values, changes search without changing selection, and removes one entity.
-4. He clears the active category, uses Back to restore the prior set, then changes category/year; valid IDs remain in their isolated sets and discarded IDs are announced.
+4. He clears the active category, uses Back to restore the prior set, then changes category; its isolated set remains. Explicit year selection clears both sets and Compare A/B; Back/Forward restores historical state.
 5. **Climax:** graph, evidence table, selected controls and URL agree throughout, including an explicitly empty set and many-series narrow/200% inspection.
 
 Failure/no-op: no matches or repeated Select all changes neither selection nor history. A stale action cannot select entities into another season/category/snapshot. Invalid decoded IDs are removed with an announcement; selection never silently defaults or truncates.
@@ -262,6 +275,16 @@ Failure: unavailable evidence is explicit; failed refresh retains matching last-
 4. **Climax:** he reads performance directly without translating assigned entity numbers.
 
 Failure: absent values remain gaps and zero stays 0; statuses never become invented ranks. Long/coincident labels use spacing, leader lines and scrolling without hiding values or selected series. Left/Right and Home/End inspection remains available.
+
+### 12 - Yannick starts a fresh year and reads one comparison (next-iteration CAP-1..6)
+
+1. Yannick opens refreshed 2026 Standings, recognizes each logo or fallback name and checks the completed-GP cutoff and standings lag.
+2. In Progress he reads the heading first, selects team-grouped inline driver checkboxes, switches to teams and selects wrapping team options; controls, counts, graph and evidence agree.
+3. He changes year; both Progress sets and Compare A/B clear, including shared IDs. Switching back through the selector stays empty; Back/Forward restores the historical state instead.
+4. In Compare he reads the selected-year heading, explicitly chooses A and receives the existing latest-teammate default for B.
+5. **Climax:** portraits frame one six-row scorecard with each metric/value pair once, at most one aggregate, and unchanged accessible outcomes.
+
+Failure: missing logos show names; unavailable evidence shows reasons and neutral tracks rather than zeroes or invented winners. Stale callbacks cannot restore cleared choices. Failed refresh retains last-good evidence. Narrow/200% reflow preserves every label, identity and row.
 
 ## Approved first iteration — 2026-10-29
 

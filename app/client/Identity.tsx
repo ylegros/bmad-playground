@@ -18,10 +18,15 @@ function MediaFrame({kind,id,name,season}:{kind:'portrait'|'constructor';id:stri
     {asset&&failed!==asset.filename?<img src={mediaUrl(asset.filename)} alt="" width={kind==='portrait'?240:100} height={kind==='portrait'?300:40} loading="lazy" style={id==='russell'?{objectPosition:'42% center'}:undefined} onError={()=>setFailed(asset.filename)}/>:<span aria-hidden="true">{kind==='portrait'?initials:name}</span>}
   </span>;
 }
-export function ConstructorIdentity({snapshot,id}:{snapshot:SeasonSnapshot;id:string}) {
+export function ConstructorIdentity({snapshot,id,presentation='named'}:{snapshot:SeasonSnapshot;id:string;presentation?:'named'|'standings'}) {
   const name=snapshot.constructors[id]?.name||id;
   const asset=mappedMedia('constructor',id,snapshot.season);
+  if(presentation==='standings') return <StandingsConstructorIdentity key={`${id}-${snapshot.season}-${asset?.filename??''}`} name={name} filename={asset?.filename}/>;
   return <span className="constructor-identity"><MediaFrame key={`${id}-${snapshot.season}-${asset?.filename??''}`} kind="constructor" id={id} name={name} season={snapshot.season}/><span>{name}</span></span>;
+}
+function StandingsConstructorIdentity({name,filename}:{name:string;filename?:string}) {
+  const [failed,setFailed]=useState(false);
+  return <span className="constructor-identity">{filename&&!failed?<span className="identity-frame constructor-frame"><img src={mediaUrl(filename)} alt={name} width={100} height={40} loading="lazy" onError={()=>setFailed(true)}/></span>:<span>{name}</span>}</span>;
 }
 export function DriverIdentity({snapshot,id,portrait=false}:{snapshot:SeasonSnapshot;id:string;portrait?:boolean}) {
   const name=snapshot.drivers[id]?.name||id;

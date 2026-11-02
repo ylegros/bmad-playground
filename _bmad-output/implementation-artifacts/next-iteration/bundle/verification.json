@@ -1,0 +1,100 @@
+{
+  "verifiedAt": "2026-11-02T11:56:55.566Z",
+  "releaseId": "04c81966efc563f6ad028783",
+  "exportedAt": "2026-11-02T11:56:47.141Z",
+  "snapshotId": "9f3d2828-fe3b-4782-a84d-17130ad511be",
+  "refreshedAt": "2026-11-02T11:33:27.363Z",
+  "auditId": "791e1b18-369a-42e0-9c26-968f2fc04708",
+  "auditedAt": "2026-11-02T11:34:00.054Z",
+  "analysisRounds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "cutoff": {
+    "round": 19,
+    "name": "Mexico City Grand Prix",
+    "date": "2026-11-01",
+    "gp": "complete",
+    "sprint": "not-applicable",
+    "qualifying": "complete",
+    "sessions": {
+      "gp": {
+        "lifecycle": "held",
+        "applicable": true,
+        "provenance": [
+          {
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1298/mexico/race-result",
+            "observedAt": "2026-11-02T11:33:22.345Z",
+            "note": "Fresh official classified result table independently verified during implementation."
+          }
+        ]
+      },
+      "qualifying": {
+        "lifecycle": "held",
+        "applicable": true,
+        "provenance": [
+          {
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1298/mexico/qualifying",
+            "observedAt": "2026-11-02T11:33:22.345Z",
+            "note": "Fresh official classified result table independently verified during implementation."
+          }
+        ]
+      },
+      "sprint": {
+        "lifecycle": "unheld",
+        "applicable": false,
+        "provenance": [
+          {
+            "sourceUrl": "https://www.formula1.com/en/latest/article/the-beginners-guide-to-the-f1-sprint.55yJBEiF7vYkZEwSV9lZJ9",
+            "observedAt": "2026-10-30T05:45:42.889Z",
+            "note": "Complete six-venue official Sprint calendar excludes this event."
+          }
+        ]
+      }
+    }
+  },
+  "localCacheSha256": "ec7cbee11d16c040c27308ab0b2967219b0a1979b591fdd5bcc15015d1aaf9e0",
+  "verifiedSeasonCount": 17,
+  "payloadsMatchLocal": true,
+  "sourceMetadataMatches": true,
+  "failedExportRetainedManifest": true,
+  "failedExportRetainedLocal": true,
+  "failedExportRetainedReleaseFiles": true,
+  "creditedAssets": 133,
+  "mediaCoverage2026": [
+    {
+      "season": 2026,
+      "kind": "portrait",
+      "total": 24,
+      "actual": 24,
+      "exceptions": 0,
+      "unresolved": 0
+    },
+    {
+      "season": 2026,
+      "kind": "constructor",
+      "total": 11,
+      "actual": 9,
+      "exceptions": 2,
+      "unresolved": 0
+    }
+  ],
+  "publicationPerformed": false
+}

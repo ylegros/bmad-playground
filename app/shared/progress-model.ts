@@ -23,6 +23,28 @@ export const canonicalSelection = (ids:readonly string[]) => [...new Set(ids)].s
 export function matchingEntities(snapshot:SeasonSnapshot,category:ProgressCategory,search:string) {
   return Object.values(snapshot[category]).filter(entity=>entity.name.toLowerCase().includes(search.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
 }
+export interface DriverOptionGroup { id:string; name:string; drivers:{id:string;name:string}[] }
+/** Team membership is season evidence, not the driver's current branding. */
+export function groupedDriverOptions(snapshot:SeasonSnapshot, search:string):DriverOptionGroup[] {
+  const memberships=new Map<string,Set<string>>();
+  const add=(driverId:string,constructorId:string)=>{
+    if(!snapshot.drivers[driverId]||!constructorId)return;
+    const teams=memberships.get(driverId)??new Set<string>();
+    teams.add(constructorId);memberships.set(driverId,teams);
+  };
+  snapshot.driverStandings.forEach(row=>row.constructorIds.forEach(id=>add(row.driverId,id)));
+  snapshot.results.forEach(row=>add(row.driverId,row.constructorId));
+  snapshot.qualifying.forEach(row=>add(row.driverId,row.constructorId));
+  const groups=new Map<string,DriverOptionGroup>();
+  for(const driver of matchingEntities(snapshot,'drivers',search)) {
+    const teams=memberships.get(driver.id);
+    for(const id of teams?.size?teams:['']) {
+      const group=groups.get(id)??{id,name:id?(snapshot.constructors[id]?.name??id):'No team affiliation',drivers:[]};
+      group.drivers.push(driver);groups.set(id,group);
+    }
+  }
+  return [...groups.values()].sort((a,b)=>!a.id?1:!b.id?-1:a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
+}
 export type SelectionAction = {type:'add';ids:readonly string[]}|{type:'remove';id:string}|{type:'clear'};
 export function changeSelection(ids:readonly string[],action:SelectionAction) {
   const next=canonicalSelection(action.type==='clear'?[]:action.type==='remove'?ids.filter(id=>id!==action.id):[...ids,...action.ids]);

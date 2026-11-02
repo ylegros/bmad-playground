@@ -2377,6 +2377,21 @@
       "attribution": "File:Williams racing2025logo.jpg by Williams racing, Public domain. Wikimedia thumbnail; source content unmodified.",
       "portraitDate": "unknown",
       "cropNotes": "Atlassian Williams Racing2025 logo, verified against official2025 launch; not the F1 Team/Forward W rebrand introducedJanuary2026. Source image content unmodified; contained without cutting the mark."
+    },
+    {
+      "kind": "portrait",
+      "identity": "ryo_hirakawa",
+      "seasons": [
+        2026
+      ],
+      "filename": "portrait-ryo_hirakawa.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryo_Hirakawa_2024_WEC_Fuji_1.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Ryo Hirakawa 2024 WEC Fuji 1.jpg by Morio, CC BY-SA 4.0, via Wikimedia Commons.",
+      "portraitDate": "2024-09-14",
+      "cropNotes": "Original photograph retained unchanged. CSS face-safe 4:5 portrait framing; photograph shows 2024 Toyota apparel and does not imply selected-season team affiliation."
     }
   ],
   "fallbacks": [

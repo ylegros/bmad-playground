@@ -59,6 +59,19 @@ test('retained results do not override unavailable session metadata',()=>{
  row.sprint='not-applicable';assert.deepEqual(metricCell(row,'sprint'),{value:null,text:'Not applicable'});
 });
 import { canonicalSelection, matchingEntities, changeSelection } from './progress-model.ts';
+import { groupedDriverOptions } from './progress-model.ts';
+
+test('grouped options merge season affiliations while matching and selection remain unique',()=>{
+ const snapshot=seasonFixture();
+ snapshot.drivers.orphan={id:'orphan',name:'Unassigned Example',code:'UNA',nationality:'Test'};
+ const groups=groupedDriverOptions(snapshot,'');
+ assert.deepEqual(groups.map(group=>group.name),['First Racing','Second Racing','No team affiliation']);
+ assert.deepEqual(groups.filter(group=>group.drivers.some(driver=>driver.id==='beta')).map(group=>group.id),['first','second']);
+ assert.equal(groups.find(group=>group.id==='first')!.drivers.filter(driver=>driver.id==='alpha').length,1);
+ assert.deepEqual(groupedDriverOptions(snapshot,'blair').map(group=>group.drivers.map(driver=>driver.id)),[['beta'],['beta']]);
+ assert.deepEqual(matchingEntities(snapshot,'drivers','blair').map(driver=>driver.id),['beta']);
+ assert.deepEqual(groupedDriverOptions(snapshot,'missing'),[]);
+});
 test('full-list name matching and additive selection are deterministic and idempotent',()=>{
  const snapshot=seasonFixture();
  assert.deepEqual(matchingEntities(snapshot,'drivers','ALEX').map(item=>item.id),['alpha']);

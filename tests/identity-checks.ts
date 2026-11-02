@@ -17,14 +17,14 @@ export async function checkConstructorIdentity(page: Page, mode: 'local' | 'bund
   // Warm both seasons so switching back retains the existing keyed table rows.
   const season = page.getByRole('combobox', { name: 'Season', exact: true });
   await season.selectOption('2010');
-  await expect(page.getByRole('table')).toContainText('Lotus');
+  await expect(page.getByRole('rowheader',{name:'Lotus',exact:true})).toBeVisible();
   await season.selectOption('2021');
-  const loaded = identities.filter({ hasText: /^Ferrari$/ });
-  await loaded.evaluate(element => { element.setAttribute('data-retained-identity', 'yes'); });
-  const name = (await loaded.locator(':scope > span').last().innerText()).trim();
+  const loaded = identities.filter({ has: page.getByRole('img', { name: 'Ferrari', exact: true }) });
+  const name = 'Ferrari';
   const image = loaded.locator('img');
   await expect.poll(() => image.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
-  await expect(image).toHaveAttribute('alt', '');
+  await expect(image).toHaveAttribute('alt', name);
+  await expect(loaded).toHaveText('');
   await image.evaluate(img => img.dispatchEvent(new Event('error')));
   const failed = identities.filter({ hasText: name });
   await expect(failed).toHaveText(name);
@@ -33,8 +33,7 @@ export async function checkConstructorIdentity(page: Page, mode: 'local' | 'bund
 
   // Ferrari reuses the same logo file; the retained identity must reset failure by season.
   await season.selectOption('2010');
-  const recovered = identities.filter({ hasText: /^Ferrari$/ });
-  await expect(recovered).toHaveAttribute('data-retained-identity', 'yes');
+  const recovered = identities.filter({ has: page.getByRole('img', { name: 'Ferrari', exact: true }) });
   await expect.poll(() => recovered.locator('img').evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
 
   // Abort every logo request to exercise real load failures across shared surfaces.

@@ -1,4 +1,4 @@
-﻿import { test, expect, type Page } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 import { seasonFixture } from './fixtures';
 import type { SeasonSnapshot, SeasonSnapshotV2 } from '../app/shared/contracts';
 import { evidenceFixture } from '../app/shared/evidence.fixtures';
@@ -23,13 +23,16 @@ test('six-category verdict exposes complete evidence and pair-relative highlight
   await mock(page);await page.goto('/?view=compare&a=alpha&b=beta');
   const summary=page.getByRole('region',{name:'Six-category comparison summary'});
   await expect(summary.locator('.summary-metric')).toHaveCount(6);
+  await expect(summary.locator('.summary-track')).toHaveCount(6);
+  await expect(summary.locator('.summary-value>strong')).toHaveCount(12);
+  expect((await summary.locator('.summary-track').allTextContents()).every(text=>!/[0-9]/.test(text))).toBe(true);
   await expect(summary).toContainText('Each category has equal weight.');
   await expect(summary).toContainText('5 comparable of 6');
   await expect(summary.getByRole('heading',{name:'Best GP qualifying rank',exact:true})).toBeVisible();
   await expect(summary).toContainText('qualifying records');
   await expect(summary.locator('.better-label').first()).toContainText('Alex Example, GP race head-to-head, higher is better');
   expect(await summary.locator('.better-label').first().evaluate(element=>{const clone=element.cloneNode(true) as HTMLElement;clone.querySelectorAll('.sr-only').forEach(node=>node.remove());return clone.textContent;})).toBe('\u2713');
-  await summary.getByText('Evidence and availability · GP qualifying head-to-head',{exact:true}).click();
+  await summary.getByText(/^Evidence and availability.*GP qualifying head-to-head$/).click();
   await expect(summary).toContainText('Eligible rounds (1): 2 Sprint Grand Prix');
   await expect(summary).toContainText('Excluded rounds (1): 1 Opening Grand Prix');
   await page.getByRole('combobox',{name:'Compare measure',exact:true}).selectOption('gp');
@@ -37,10 +40,26 @@ test('six-category verdict exposes complete evidence and pair-relative highlight
   await expect(row.locator('td').first()).toHaveClass(/comparison-better/);
   await expect(row.locator('td').first().locator('.sr-only')).toHaveText('Alex Example, GP race result, lower is better');
   expect(await row.locator('td').first().locator('.better-label').evaluate(element=>{const clone=element.cloneNode(true) as HTMLElement;clone.querySelectorAll('.sr-only').forEach(node=>node.remove());return clone.textContent;})).toBe('\u2713');
-  await expect(row.locator('td').last()).toContainText('R · Engine');
+  await expect(row.locator('td').last()).toContainText(/R.*Engine/);
   await expect(row.locator('td').last().locator('.better-label')).toHaveCount(0);
   await page.getByRole('combobox',{name:'Driver B',exact:true}).selectOption('alpha');
   await expect(summary).toHaveCount(0);await expect(page.getByRole('table')).toHaveCount(0);
+});
+
+test('points tracks preserve actual proportions and neutral zero or negative magnitudes',async({page})=>{
+  const data=seasonFixture();
+  const setPoints=(a:number,b:number)=>{data.driverStandings.forEach(row=>{if(row.driverId==='alpha'||row.driverId==='beta')row.points={kind:'value',value:row.driverId==='alpha'?a:b};});};
+  setPoints(30,10);await mock(page,data);await page.goto('/?view=compare&a=alpha&b=beta');
+  const points=page.getByRole('article',{name:'Official championship points',exact:true});
+  await expect(points.locator('.summary-value>strong')).toHaveText(['30','10']);
+  await expect(points.locator('.summary-track>span').first()).toHaveAttribute('style','width: 75%;');
+  await expect(points.locator('.summary-track>span').last()).toHaveAttribute('style','width: 25%;');
+  for(const values of [[0,0],[-1,10]] as const){
+    setPoints(values[0],values[1]);await page.reload();
+    await expect(points.locator('.summary-track')).toHaveClass(/is-neutral/);
+    await expect(points.locator('.summary-track>span')).toHaveCount(0);
+    await expect(points.locator('.track-caption')).toContainText(values[0]===0?'Both values are zero':'Negative values');
+  }
 });
 test('no comparable categories says insufficient data; ties receive no markers',async({page})=>{
   const data=auditedComparisonFixture();data.results=[];data.qualifying=[];
@@ -91,14 +110,33 @@ test('qualifying summary ranks, ties and missing coverage keep markers consisten
   await expect(best.locator('.summary-value').first().locator('strong')).toHaveText('2');
   await expect(best.locator('.is-better')).toHaveCount(1);
   await expect(best.locator('.sr-only')).toHaveText('Alex Example, Best GP qualifying rank, lower is better');
+  await expect(best.locator('.summary-track')).toHaveClass(/is-position/);
+  await expect(best.locator('.summary-track')).toHaveAttribute('aria-hidden','true');
+  await expect(best.locator('.position-marker')).toHaveText(['A','B']);
+  await expect(best.locator('.marker-a')).toHaveClass(/favorable/);
+  await expect(best.locator('.marker-b')).not.toHaveClass(/favorable/);
+  expect(await best.locator('.marker-a').evaluate(element=>element.getBoundingClientRect().x)).toBeLessThan(await best.locator('.marker-b').evaluate(element=>element.getBoundingClientRect().x));
   await best.locator('summary').click();
   await expect(best).toContainText('Sample sizes: Alex Example 2; Blair Example 2. Analysis-window GPs: 2.');
+  await page.goto('/?view=compare&a=beta&b=alpha&metric=qualifying');
+  await expect(best.locator('.summary-value>strong')).toHaveText(['3','2']);
+  await expect(best.locator('.is-better')).toHaveCount(1);
+  await expect(best.locator('.sr-only')).toHaveText('Alex Example, Best GP qualifying rank, lower is better');
+  await expect(best.locator('.marker-b')).toHaveClass(/favorable/);
+  await expect(best.locator('.marker-a')).not.toHaveClass(/favorable/);
+  expect(await best.locator('.marker-b').evaluate(element=>element.getBoundingClientRect().x)).toBeLessThan(await best.locator('.marker-a').evaluate(element=>element.getBoundingClientRect().x));
   data.qualifying.forEach(row=>{row.position={kind:'value',value:2};});
   await page.goto('/?view=compare&a=alpha&b=beta&metric=qualifying', {waitUntil:'domcontentloaded'});await expect(best).toContainText('Tied');
   await expect(best.locator('.better-label')).toHaveCount(0);await expect(best.locator('.is-better')).toHaveCount(0);
+  await expect(best.locator('.summary-value>strong')).toHaveText(['2','2']);
+  await expect(best.locator('.summary-track')).toHaveClass(/is-neutral/);
+  await expect(best.locator('.position-marker')).toHaveCount(0);
   await expect(page.locator('.comparison-better')).toHaveCount(0);
   data.schedule[0].qualifying='unavailable';data.coverage.gaps=['Round 1: qualifying authoritative records unavailable'];
   data.qualifying=data.qualifying.filter(row=>row.round!==1);
   await page.goto('/?view=compare&a=alpha&b=beta&metric=qualifying', {waitUntil:'domcontentloaded'});await expect(best).toContainText('cover 1 of 2 analysis-window GPs');
   await expect(best.locator('.better-label')).toHaveCount(0);
+  await expect(best.locator('.is-better')).toHaveCount(0);
+  await expect(best.locator('.summary-track')).toHaveClass(/is-neutral/);
+  await expect(best.locator('.position-marker')).toHaveCount(0);
 });

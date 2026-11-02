@@ -7,24 +7,24 @@ async function mock(page:Page){
 test('multi-select state, metric, category, season and Back remain compatible',async({page})=>{
  await mock(page);await page.goto('/?view=progress&entity=alpha');
  await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).toBeChecked();
- await page.getByRole('checkbox',{name:'Blair Example',exact:true}).check();
+ await page.getByRole('checkbox',{name:'Blair Example',exact:true}).first().check();
  const evidence=page.getByRole('table',{name:/matching graph evidence/});
  await expect(evidence).toContainText('Alex Example');await expect(evidence).toContainText('Blair Example');
  await page.getByRole('combobox',{name:'Progress metric'}).selectOption('gp');
  await expect(evidence).toContainText('Engine');
  await page.getByRole('combobox',{name:'Category',exact:true}).selectOption('constructors');
  await expect(page.getByRole('combobox',{name:'Progress metric'})).toHaveValue('cumulative');
- await expect(page.getByText('Choose at least one constructor',{exact:false})).toBeVisible();
+ await expect(page.getByText('Choose at least one team',{exact:false})).toBeVisible();
  await page.getByRole('checkbox',{name:'First Racing',exact:true}).check();
  await page.getByRole('combobox',{name:'Category',exact:true}).selectOption('drivers');
- await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true})).toBeChecked();
+ await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true}).first()).toBeChecked();
  await expect(page.getByRole('combobox',{name:'Progress metric'})).toHaveValue('gp');
  await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2010');
- await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true})).toBeChecked();
- await page.getByRole('button',{name:'Clear selection',exact:true}).click();
- await expect(page.getByText('Choose at least one driver',{exact:false})).toBeVisible();
+ await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true}).first()).not.toBeChecked();
+ await expect(evidence).toHaveCount(0);
+ await expect(page).not.toHaveURL(/graphDrivers|graphConstructors|entity=/);
  await page.goBack();await expect(evidence).toBeVisible();
- await page.reload();await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true})).toBeChecked();
+ await page.reload();await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true}).first()).toBeChecked();
 });
 test('inspection keys and pointer share matching round evidence and mobile plot scrolls',async({page})=>{
  await mock(page);await page.goto('/?view=progress&graphDrivers=alpha,beta&graphMetric=gp');
@@ -71,21 +71,27 @@ test('rendered points rise upward and rank one stays above larger ranks',async({
  await page.getByRole('combobox',{name:'Progress metric'}).selectOption('rank');
  const alpha=await ys('alpha'),beta=await ys('beta');expect(alpha[0]).toBeLessThan(beta[0]);expect(beta[0]).toBeLessThan(beta[1]);
 });
-test('season changes explain unavailable graph IDs while retaining compatible selections',async({page})=>{
- await mock(page);const data=seasonFixture(2010);delete data.drivers.beta;
- data.results=data.results.filter(row=>row.driverId!=='beta');
- data.qualifying=data.qualifying.filter(row=>row.driverId!=='beta');
- data.driverStandings=data.driverStandings.filter(row=>row.driverId!=='beta');
- await page.route('**/api/v1/seasons/2010',route=>route.fulfill({json:{data}}));
- await page.goto('/?view=progress&graphDrivers=alpha,beta');
- await expect(page.getByRole('checkbox',{name:'Blair Example',exact:true})).toBeChecked();
- await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2010');
- await expect(page.getByRole('status').filter({hasText:'Some previous graph selections'})).toContainText('beta');
+test('explicit year changes clear every selection while history restores prior choices',async({page})=>{
+ await mock(page);
+ await page.goto('/?view=progress&season=2021&graphDrivers=alpha,beta&graphConstructors=first&entity=alpha&a=alpha&b=gamma');
  await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).toBeChecked();
- await expect(page.getByRole('table',{name:/matching graph evidence/})).toContainText('Alex Example');
- await expect(page.getByRole('table',{name:/matching graph evidence/})).not.toContainText('Blair Example');
- await page.getByRole('button',{name:'Select all',exact:true}).click();
- await expect(page.getByRole('status').filter({hasText:'Some previous graph selections'})).toHaveCount(0);
+ const before=await page.evaluate(()=>history.length);
+ await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2010');
+ await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).not.toBeChecked();
+ await expect(page).not.toHaveURL(/graphDrivers|graphConstructors|entity=|[?&][ab]=/);
+ expect(await page.evaluate(()=>history.length)).toBe(before+1);
+ await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2021');
+ await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).not.toBeChecked();
+ await page.goBack();await page.goBack();
+ await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).toBeChecked();
+ await expect(page).toHaveURL(/graphConstructors=first/);
+ await page.getByRole('link',{name:/Compare/}).click();
+ await expect(page.getByRole('combobox',{name:'Driver A',exact:true})).toHaveValue('alpha');
+ await page.getByRole('combobox',{name:'Season',exact:true}).selectOption('2010');
+ await expect(page.getByRole('combobox',{name:'Driver A',exact:true})).toHaveValue('');
+ await expect(page.getByRole('combobox',{name:'Driver B',exact:true})).toHaveValue('');
+ await page.getByRole('combobox',{name:'Driver A',exact:true}).selectOption('alpha');
+ await expect(page.getByRole('combobox',{name:'Driver B',exact:true})).toHaveValue('gamma');
 });
 
 test('Select all unions matches, keeps nonmatches and adds history only for effective actions',async({page})=>{
@@ -226,4 +232,28 @@ test('coincident complete fractional negative labels stay separated and locally 
   const axis=element.getBoundingClientRect(),container=element.closest('.chart-scroll')!.getBoundingClientRect();
   return axis.top>=container.top&&axis.bottom<=container.bottom;
  })).toBe(true);
+});
+
+test('grouped wrapping options share driver selection and guidance precedes controls',async({page})=>{
+ await mock(page);await page.setViewportSize({width:390,height:844});
+ await page.goto('/?view=progress');
+ const groups=page.locator('.driver-option-group');
+ await expect(groups).toHaveCount(2);
+ const beta=page.getByRole('checkbox',{name:'Blair Example',exact:true});
+ await expect(beta).toHaveCount(2);await beta.nth(1).check();
+ await expect(beta.nth(0)).toBeChecked();
+ await expect(page.getByRole('button',{name:'Remove Blair Example',exact:true})).toHaveCount(1);
+ await expect(page.locator('.selection-count')).toHaveText('3 matches / 1 selected');
+ const order=await page.evaluate(()=>{const heading=document.querySelector('.selection-heading')!;return !!(heading.compareDocumentPosition(document.querySelector('.progress-controls')!)&Node.DOCUMENT_POSITION_FOLLOWING);});
+ expect(order).toBe(true);
+ await page.getByRole('searchbox',{name:'Search drivers'}).fill('Alex');
+ await page.getByRole('button',{name:'Select all',exact:true}).click();
+ await expect(page.getByRole('table',{name:/matching graph evidence/})).toContainText('Blair Example');
+ await page.addStyleTag({content:'html{zoom:2}'});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.getByRole('checkbox',{name:'Alex Example',exact:true}).focus();
+ await page.keyboard.press('Space');await expect(page.getByRole('checkbox',{name:'Alex Example',exact:true})).not.toBeChecked();
+ await page.getByRole('combobox',{name:'Category',exact:true}).selectOption('constructors');
+ await expect(page.getByText('Choose at least one team to explore season evolution.',{exact:true})).toBeVisible();
+ await expect(page.locator('.entity-options > .inline-options')).toHaveCount(1);
 });

@@ -2,8 +2,10 @@
 name: F1 Dashboard
 description: Personal season analysis with a restrained racing-inspired visual language.
 status: final
-updated: 2026-10-31
+updated: 2026-11-02
 sources:
+  - ../../../specs/spec-next-iteration-feedback/SPEC.md
+  - ../../../specs/spec-next-iteration-feedback/acceptance.md
   - ../../../specs/spec-iteration-four/SPEC.md
   - ../../../specs/spec-iteration-four/acceptance.md
   - ../../../specs/spec-iteration-three/SPEC.md
@@ -87,9 +89,9 @@ components:
 
 ## Brand & Style
 
-Current authority: the [iteration-four spec](../../../specs/spec-iteration-four/SPEC.md) and [acceptance checks](../../../specs/spec-iteration-four/acceptance.md) supersede iteration-three metadata placement and assigned-number point labels only. All other semantics remain in force. This design update is not implementation or publication evidence.
+Current authority: the [next-iteration feedback spec](../../../specs/spec-next-iteration-feedback/SPEC.md) and [acceptance checks](../../../specs/spec-next-iteration-feedback/acceptance.md) govern standings identity, refreshed 2026 evidence, inline grouped options, heading placement, year resets and compact comparison. They supersede conflicting adopted rules, including AD-11 logo-plus-name rendering in Standings and AD-14 cross-year graph retention. Iteration four retains bottom disclosures and actual-value labels. This planning update performs no acquisition, implementation or publication; implementation must verify and refresh 2026 through the latest completed GP.
 
-Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern this alignment. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier release checks and stories remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This update authorizes no acquisition, code, build or publication.
+Retained authority: the [iteration-three spec](../../../specs/spec-iteration-three/SPEC.md), [season coverage companion](../../../specs/spec-iteration-three/season-coverage-and-acceptance.md) and adopted [architecture spine](../../architecture/architecture-bmad-playground-2026-10-29/ARCHITECTURE-SPINE.md), including AD-11/13/14, govern retained behavior except the explicit next-iteration overrides above. Earlier [accepted corrections](../../../specs/spec-iteration-two-feedback/acceptance-corrections.md) retain scoring, imagery and accessible highlight rules. Iteration three supersedes the two-season limit, duplicate constructor fallback badge and individual-only Progress selection. Earlier release checks and stories remain historical; iteration three was approved complete on 2026-10-31; publication remains pending. Preserve the current anyone-with-link audience. This planning update performs no acquisition, code, build or publication; the implementation contract requires refreshed 2026 evidence.
 
 Iteration two: the historical [summary, graphs, highlights and imagery handoff](iteration-two-design.md) records component details within this identity. Its [responsive layout reference](mockups/iteration-two.html) uses fictional fixtures. This spine governs iteration-three scope and fallback rules when that historical supplement conflicts. The user's earlier optional UX-validation skip and Progress/Compare spine-only preference persist.
 
@@ -99,7 +101,7 @@ User selected **Pit Wall (option 2)**: dark compact desktop sidebar, grouped dat
 
 ## Colors
 
-[ASSUMPTION] `{colors.canvas}` supports dark data surfaces; `{colors.ink}` and `{colors.muted}` carry primary and secondary text. `{colors.accent}` identifies actions and active navigation; refresh errors use explicit text rather than interpreting this brand color as an error signal. `{colors.series-a}` and `{colors.series-b}` distinguish drivers alongside names and solid/dashed lines. Team affiliation remains text; team colors are unnecessary.
+[ASSUMPTION] `{colors.canvas}` supports dark data surfaces; `{colors.ink}` and `{colors.muted}` carry primary and secondary text. `{colors.accent}` identifies actions and active navigation; refresh errors use explicit text rather than interpreting this brand color as an error signal. `{colors.series-a}` and `{colors.series-b}` distinguish drivers alongside names and solid/dashed lines. Team colors are unnecessary; Standings uses a logo or readable team-name fallback, with an accessible team name in either case.
 
 Target WCAG AA: normal text 4.5:1, large text 3:1, essential controls/focus/chart marks 3:1 against adjacent surfaces. Verify implemented combinations, including hover/disabled states. Border and focus colors support these targets; subtle gridlines must not carry essential information alone.
 
@@ -129,13 +131,13 @@ Component names match `EXPERIENCE.md`.
 | Selector | Visible label above bordered dark field; 44px minimum height; selected value never replaced by placeholder alone. |
 | Action | Local refresh uses a red filled primary action with black text; bundled mode has load retry only. Secondary actions use ink text and bordered dark surface; explicit disabled styling. |
 | Navigation | Text links with active underline and weight change; active state does not rely on red alone. |
-| Standings table | Drivers/Constructors toggle, clear header, aligned monospaced numeric columns, full names and text constructor affiliations; initial-teammate annotation sits alongside the driver name when relevant. |
-| Progress panel | Heading with selected entities and season; labeled search and category controls, Select all and Clear selection above chart; visible round axis, units and complete named legend; accessible data table follows. Selected controls wrap without dropping names or series. |
-| Comparison panel | Two labeled driver selectors; named light-blue solid/lilac dashed series; aligned same-round values; season always in heading. |
+| Standings table | Drivers/Constructors toggle, clear header, aligned monospaced numeric columns, full driver names and constructor logos or readable team-name fallbacks; initial-teammate annotation sits alongside the driver name when relevant. |
+| Progress panel | Selection heading and guidance above search, bulk actions and options; labeled driver checkboxes inline under team labels, wrapping as needed; team checkboxes in one wrapping inline field; chart heading identifies entities and season; visible round axis, units and complete named legend; accessible data table follows. Selected controls wrap without dropping names or series. |
+| Comparison panel | Season-aware heading and guidance above two labeled driver selectors; named light-blue solid/lilac dashed series; aligned same-round values; season always in heading. |
 | Data table | Caption identifies entity, season and measure; row/column headers; GP and Sprint columns explicitly labeled; unavailable text remains distinct from numeric 0. |
-| Comparison summary | Portrait / six-row scorecard / portrait; stable A/B identities. Best GP qualifying rank replaces starting grid. Favorable values show tick, bold number and subtle series-colored highlight without visible Better labels; ties/unavailable retain ordinary styling. |
+| Comparison summary | A portrait / one compact central six-row scorecard / B portrait; stable A/B identities. Each row has one centered metric label, A value left, B value right and a comparison bar between. Remove redundant summary cards and value blocks; any aggregate vote score appears once only. Narrow layouts adapt framing around one scorecard. Best GP qualifying rank replaces starting grid. Favorable values show tick, bold number and subtle series-colored highlight without visible Better labels; ties/unavailable retain ordinary styling. |
 | Comparison highlight | Same summary/detail tick and highlight; tick supplies a non-color cue and is decorative for assistive technology. |
-| Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Missing or failed constructor logos remove the logo badge entirely, leaving one readable team-name label; no text-filled badge, duplicate name or empty logo decoration. Full names and all affiliations remain readable; A stays left/B right on mobile. |
+| Identity media | Actual verified photographs in stable 4:5 face-safe frames on {colors.frame}; season-appropriate logos contained in fixed boxes. Missing or failed constructor logos remove the logo badge entirely, leaving one readable team-name label; no text-filled badge, duplicate name or empty logo decoration. In Standings a valid logo is the only visible team identity and exposes the team name to assistive technology; missing/unmapped/failed logos show one readable name without a badge. Other affiliations remain readable; A precedes B at narrow widths. |
 | Image credits | Readable local provenance disclosure with photo date/unknown and selected season. Driver portrait fallbacks may retain reserved frames; constructor fallback follows Identity media. Fallbacks never count as acquired images. |
 | Season information disclosures | Compact full-width bordered summary rows below analysis, with readable season/range text, chevrons and unclipped focus treatment; expanded evidence uses existing surface/meta tokens. |
 | Status message | Text with outlined container; loading uses a static placeholder or restrained progress indicator; failures include a retry action and retained-snapshot time when present. |
@@ -158,6 +160,16 @@ Many-series inspection retains every selected name, distinguishable line style/l
 Season lifecycle/evidence and coverage appear after all active analysis and evidence tables, before the footer, on Standings, Progress and Compare. No duplicate panels remain above analysis. [ASSUMPTION] Two initially collapsed rows read "Season information - {season}" and "Season coverage - 2010-2026"; summary copy and grouping remain reviewable defaults. Use existing surface, border, meta typography and focus tokens. Keep essential Current/Final, Season-to-date and source-lag captions beside affected results, along with actionable errors and unavailable notices.
 
 The shared driver/constructor Progress chart labels each numeric point with its selected metric value using existing precision and units. Named legend entries retain color and dash samples without ordinal badges. Keep tabular figures at the existing meta type size; reserve plot margins for complete labels. Offset overlapping labels with leader lines to unchanged point coordinates and provide local horizontal scrolling when needed. Never truncate values, change precision, hide selected series or shrink text to illegibility. Equal values remain distinct through named inspection and table evidence. Historical mocks yield to this delta; no new mock is needed under the standing spine-only preference.
+
+### Next-iteration presentation (CAP-1..6)
+
+Standings driver affiliations and constructor rankings render a valid season-appropriate logo alone, or one readable team name when the logo is missing, unmapped or fails. Do not place visible team-name text beside a valid logo. Preserve accessible identity once.
+
+Progress displays **Choose your focus** followed by **Choose at least one driver to explore season evolution.** above search, bulk actions and options, visually and in reading order. Team mode uses **Choose at least one team to explore season evolution.** [ASSUMPTION]. Checkbox labels remain legible, wrap naturally and retain visible focus. Driver groups have readable team labels; team mode uses one wrapping field. Multi-team duplicates share checked state and one series; unassigned drivers have a readable fallback group [ASSUMPTION].
+
+Compare displays **Choose two drivers from {season}** followed by **Start with a driver to select their latest teammate automatically.** above selectors. The conversation image supplies portrait / central scorecard / portrait composition only; its branding, numbers and starting-grid metric are not adopted. Keep one readable scorecard, full names, all six metrics, favorable ticks/highlights, coverage and reasons at narrow widths and 200% zoom. Labels identify lower-is-better metrics. Bars/markers agree with values; tied/unavailable rows never imply a winner, and missing values never become zero. A neutral track with explicit text is used where proportional magnitude is undefined. Existing evidence tables may repeat raw results for inspection.
+
+Latest 2026 cutoff/freshness appears using existing header, inline source-lag captions and bottom disclosures. Implementation records authoritative event/round, verification timestamp/timezone and source links and validates both local and bundled snapshots; this planning pass claims no current last round.
 
 ## Do's and Don'ts
 

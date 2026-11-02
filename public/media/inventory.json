@@ -1,6 +1,6 @@
 {
   "inventoryVersion": 2,
-  "checkedAt": "2026-10-31T03:17:11.694Z",
+  "checkedAt": "2026-11-02T11:37:55.842Z",
   "scope": "Inventory evidence; all 44 documented exceptions accepted by user",
   "coverage": [
     {
@@ -262,8 +262,8 @@
     {
       "season": 2026,
       "kind": "portrait",
-      "total": 23,
-      "actual": 23,
+      "total": 24,
+      "actual": 24,
       "exceptions": 0,
       "unresolved": 0
     },
@@ -15798,6 +15798,28 @@
       "bytes": 178960,
       "width": 960,
       "height": 640
+    },
+    {
+      "kind": "portrait",
+      "identity": "ryo_hirakawa",
+      "season": 2026,
+      "status": "mapped",
+      "filename": "portrait-ryo_hirakawa.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryo_Hirakawa_2024_WEC_Fuji_1.jpg",
+      "creator": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Ryo Hirakawa 2024 WEC Fuji 1.jpg by Morio, CC BY-SA 4.0, via Wikimedia Commons.",
+      "applicableSeasons": [
+        2026
+      ],
+      "photographDate": "2024-09-14",
+      "cropNotes": "Original photograph retained unchanged. CSS face-safe 4:5 portrait framing; photograph shows 2024 Toyota apparel and does not imply selected-season team affiliation.",
+      "visualCheck": "Decoded image; human identity/crop review remains separately recorded",
+      "sha256": "c352a973ed485ffafe50cc0fd0a77bc349e6ad6115d12a3ec42af4b428b8eaee",
+      "bytes": 828386,
+      "width": 800,
+      "height": 1200
     },
     {
       "kind": "portrait",

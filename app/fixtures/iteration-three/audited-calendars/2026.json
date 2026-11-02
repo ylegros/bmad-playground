@@ -21,6 +21,11 @@
       "sourceUrl": "https://www.formula1.com/en/latest/article/formula-1-and-fia-confirm-that-malaysia-will-join-the-2026-calendar-as-host-venue-for-the-bahrain-grand-prix.6lL7vjFEM2VVynRHvg1TCf",
       "observedAt": "2026-10-30T09:36:59.101Z",
       "note": "Bahrain relocated to Sepang Malaysia October2–4; official current calendar/results show held round16."
+    },
+    {
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "observedAt": "2026-11-02T11:33:22.345Z",
+      "note": "Fresh official calendar independently confirms Mexico canonical round 19 completed November 1; Brazil round 20 next November 8; season ongoing."
     }
   ],
   "completion": [],
@@ -762,24 +767,24 @@
       "date": "2026-11-01",
       "sessions": {
         "gp": {
-          "lifecycle": "unheld",
+          "lifecycle": "held",
           "applicable": true,
           "provenance": [
             {
-              "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1298/mexico/race-result",
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official classified result table independently verified during implementation."
             }
           ]
         },
         "qualifying": {
-          "lifecycle": "unheld",
+          "lifecycle": "held",
           "applicable": true,
           "provenance": [
             {
-              "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "sourceUrl": "https://www.formula1.com/en/results/2026/races/1298/mexico/qualifying",
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official classified result table independently verified during implementation."
             }
           ]
         },
@@ -806,8 +811,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -817,8 +822,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -845,13 +850,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
-            },
-            {
-              "sourceUrl": "https://www.formula1.com/en/racing/2026/las-vegas",
-              "observedAt": "2026-10-30T09:36:59.101Z",
-              "note": "Official event timetable UTC race day is 2026-11-22; annual result table uses previous local evening. Canonical UTC date retained."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -861,8 +861,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -889,8 +889,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -900,8 +900,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -928,8 +928,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },
@@ -939,8 +939,8 @@
           "provenance": [
             {
               "sourceUrl": "https://www.formula1.com/en/racing/2026",
-              "observedAt": "2026-10-30T05:45:42.889Z",
-              "note": "Official current calendar designates Mexico next and these events upcoming; no completion inferred from endpoint emptiness. Future session status is tied to this observation and requires refresh before promotion."
+              "observedAt": "2026-11-02T11:33:22.345Z",
+              "note": "Fresh official calendar shows Brazil next and remaining events upcoming."
             }
           ]
         },

@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  testIgnore: ['hosted.spec.ts', '**/audits/**', '**/static-release/**'],
+  testIgnore: ['hosted.spec.ts', '**/audits/**', '**/static-release/**', '**/next-iteration/**'],
   fullyParallel: true,
   timeout: 30_000,
   expect: { timeout: 7_000 },
